@@ -68,6 +68,9 @@ def run(args: argparse.Namespace) -> int:
     (out / "figures" / "gi_vs_nl.svg").write_text(figures.gi_vs_nl(entries), encoding="utf-8")
     (out / "figures" / "vendor_champions.svg").write_text(
         figures.vendor_champions(entries, meta["snapshot_date"]), encoding="utf-8")
+    for metric in ("gi", "nl"):
+        (out / "figures" / f"full_{metric}.svg").write_text(
+            figures.full_ranking(entries, metric, meta["snapshot_date"]), encoding="utf-8")
     if not args.no_readme:
         report.update_readme(ROOT / "README.md", entries, meta, census, stats, "en")
         report.update_readme(ROOT / "README.zh-CN.md", entries, meta, census, stats, "zh")

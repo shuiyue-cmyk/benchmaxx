@@ -74,7 +74,7 @@
 | 8 | Qwen3 Next 80B A3B Thinking | Qwen | 27 | `3` |
 | 8 | Qwen3 VL 235B A22B Instruct | Qwen | 27 | `3` |
 
-完整榜单见 [`results/LEADERBOARD.md`](results/LEADERBOARD.md)
+全部模型的完整榜单见 [`results/LEADERBOARD.md`](results/LEADERBOARD.md)
 <!-- BENCHMAXX:END -->
 
 <p align="center">

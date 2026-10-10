@@ -32,8 +32,9 @@ def _table(headers: list[str], rows: list[list[str]], align: str) -> str:
     return "\n".join(lines)
 
 
-def _top(entries: list[Entry], key: str, n: int) -> list[Entry]:
-    ranked = [e for e in entries if getattr(e, key) is not None and getattr(e, key) <= n]
+def _top(entries: list[Entry], key: str, n: int | None = None) -> list[Entry]:
+    """Entries ranked on `key`, best first; all of them when n is None, else ranks <= n (ties included)."""
+    ranked = [e for e in entries if getattr(e, key) is not None and (n is None or getattr(e, key) <= n)]
     return sorted(ranked, key=lambda e: (getattr(e, key), e.canonical_name.lower()))
 
 
@@ -66,13 +67,13 @@ def write_csv(path: Path, entries: list[Entry]) -> None:
 
 
 def leaderboard_markdown(meta: dict, census: dict, stats: dict, vendors: list[dict], entries: list[Entry]) -> str:
-    gi_rows = [[_rank(e.rank_gi), e.canonical_name, e.vendor, _code(e.gi_raw), str(e.nl), e.released]
-               for e in _top(entries, "rank_gi", 25)]
-    nl_rows = [[_rank(e.rank_nl), e.canonical_name, e.vendor, str(e.nl), _code(e.gi_raw) if e.gi_raw else "DNQ"]
-               for e in _top(entries, "rank_nl", 25)]
+    gi_rows = [[_rank(e.rank_gi), e.canonical_name, e.vendor, _code(e.gi_raw), str(e.nl), e.released, _code(e.model_id)]
+               for e in _top(entries, "rank_gi")]
+    nl_rows = [[_rank(e.rank_nl), e.canonical_name, e.vendor, str(e.nl), _code(e.gi_raw) if e.gi_raw else "DNQ",
+                _code(e.model_id)] for e in _top(entries, "rank_nl")]
     brevity_rows = [[e.canonical_name, e.vendor, str(e.nl)] for e in _bottom_nl(entries, 10)]
-    ne_rows = [[_rank(e.rank_ne), e.canonical_name, _code(e.gi_raw), str(e.nl), f"{e.ne:.4f}"]
-               for e in _top(entries, "rank_ne", 15)]
+    ne_rows = [[_rank(e.rank_ne), e.canonical_name, e.vendor, _code(e.gi_raw), str(e.nl), f"{e.ne:.4f}"]
+               for e in _top(entries, "rank_ne")]
     humble = sorted((e for e in entries if e.gi is not None), key=lambda e: (e.gi, e.canonical_name.lower()))[:10]
     humble_rows = [[e.canonical_name, e.vendor, _code(e.gi_raw), e.released] for e in humble]
     vendor_rows = [[v["vendor"], str(v["models"]), f'{v["gi_coverage"]:.0%}',
@@ -108,9 +109,10 @@ def leaderboard_markdown(meta: dict, census: dict, stats: dict, vendors: list[di
 
 ## 1. Track A: Generation Index (GI) ↑
 
-The largest generation number currently being served. Ties share a rank.
+All {len(gi_rows)} GI-qualified models, ranked by the generation number in their name. Ties share a rank.
+Bar chart of every model: [`figures/full_gi.svg`](figures/full_gi.svg).
 
-{_table(["Rank", "Model", "Vendor", "GI", "NL", "Listed"], gi_rows, "rllrrl")}
+{_table(["Rank", "Model", "Vendor", "GI", "NL", "Listed", "Slug"], gi_rows, "rllrrll")}
 
 ### 1.1 Foundational Humility Award (lowest GI)
 
@@ -118,9 +120,10 @@ The largest generation number currently being served. Ties share a rank.
 
 ## 2. Track B: Nomenclature Length (NL) ↑
 
-Character count of the canonical model name.
+All {len(nl_rows)} evaluated models, ranked by the character count of their canonical name. Ties share a rank.
+Bar chart of every model: [`figures/full_nl.svg`](figures/full_nl.svg).
 
-{_table(["Rank", "Model", "Vendor", "NL", "GI"], nl_rows, "rllrr")}
+{_table(["Rank", "Model", "Vendor", "NL", "GI", "Slug"], nl_rows, "rllrrl")}
 
 ### 2.1 Brevity Prize (shortest names)
 
@@ -128,9 +131,9 @@ Character count of the canonical model name.
 
 ## 3. Auxiliary Track: Nomenclatural Efficiency (NE = GI / NL) ↑
 
-Generations delivered per character of name.
+Generations delivered per character of name. All {len(ne_rows)} GI-qualified models.
 
-{_table(["Rank", "Model", "GI", "NL", "NE"], ne_rows, "rlrrr")}
+{_table(["Rank", "Model", "Vendor", "GI", "NL", "NE"], ne_rows, "rllrrr")}
 
 ## 4. Vendor Analysis
 
@@ -147,6 +150,8 @@ These models are served on OpenRouter but carry no generation number in their na
 ## 6. Figures
 
 ![Vendor champions](figures/vendor_champions.svg)
+
+Complete per-model bar charts: [Track A (GI)](figures/full_gi.svg) · [Track B (NL)](figures/full_nl.svg)
 
 ![Figure 1](figures/gi_over_time.svg)
 
@@ -170,13 +175,13 @@ def _summary(entries: list[Entry], meta: dict, census: dict, stats: dict, lang: 
                 f"（{census['gi_qualified']} 个具备代际数字）　·　行业代际膨胀速度 **{stats['velocity']:+.2f} 代/年**")
         gi_h = ["名次", "模型", "厂商", "代际指数 GI", "名称长度 NL"]
         nl_h = ["名次", "模型", "厂商", "名称长度 NL", "代际指数 GI"]
-        t_gi, t_nl, more = "#### 赛道 A：代际指数（GI）Top 10", "#### 赛道 B：名称长度（NL）Top 10", "完整榜单见"
+        t_gi, t_nl, more = "#### 赛道 A：代际指数（GI）Top 10", "#### 赛道 B：名称长度（NL）Top 10", "全部模型的完整榜单见"
     else:
         head = (f"**Snapshot: {meta['snapshot_date']}** · **{census['evaluated_models']}** callable text models evaluated "
                 f"({census['gi_qualified']} GI-qualified) · Industry Generational Velocity **{stats['velocity']:+.2f} generations/year**")
         gi_h = ["Rank", "Model", "Vendor", "GI", "NL"]
         nl_h = ["Rank", "Model", "Vendor", "NL", "GI"]
-        t_gi, t_nl, more = "#### Track A: Generation Index (GI), Top 10", "#### Track B: Nomenclature Length (NL), Top 10", "Full results:"
+        t_gi, t_nl, more = "#### Track A: Generation Index (GI), Top 10", "#### Track B: Nomenclature Length (NL), Top 10", "Complete rankings of all models:"
     gi_rows = [[_rank(e.rank_gi), e.canonical_name, e.vendor, _code(e.gi_raw), str(e.nl)] for e in gi]
     nl_rows = [[_rank(e.rank_nl), e.canonical_name, e.vendor, str(e.nl), _code(e.gi_raw) if e.gi_raw else "DNQ"] for e in nl]
     return "\n\n".join([

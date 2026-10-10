@@ -1,0 +1,1234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 6828" width="1000" height="6828" role="img" aria-label="Track B · Nomenclature Length (NL): all models">
+<style>
+  .bg { fill: #ffffff; }
+  .title { font: 700 26px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .subtitle { font: 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #59636e; }
+  .panel { font: 600 16px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .panel-note { font: 12px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #59636e; }
+  .name { font: 500 13px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .vendor { font: 11px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #59636e; }
+  .value { font: 600 13px ui-monospace, 'Cascadia Mono', Consolas, monospace; fill: #1f2328; }
+  .footer { font: 12px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #818b98; }
+  .bar-a { fill: #0969da; }
+  .bar-b { fill: #bc4c00; }
+  .rule { stroke: #d1d9e0; stroke-width: 1; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0d1117; }
+    .title, .panel, .name, .value { fill: #e6edf3; }
+    .subtitle, .panel-note, .vendor { fill: #9198a1; }
+    .footer { fill: #656c76; }
+    .bar-a { fill: #4493f8; }
+    .bar-b { fill: #f0883e; }
+    .rule { stroke: #2f3742; }
+  }
+
+  .rank { font: 600 11.5px ui-monospace, 'Cascadia Mono', Consolas, monospace; fill: #818b98; }
+  .row-name { font: 500 12px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .row-vendor { font: 11px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #818b98; }
+  .row-value { font: 600 11.5px ui-monospace, 'Cascadia Mono', Consolas, monospace; fill: #1f2328; }
+  .zebra { fill: #f6f8fa; }
+  .break { stroke: #ffffff; stroke-width: 3; }
+  @media (prefers-color-scheme: dark) {
+    .row-name, .row-value { fill: #e6edf3; }
+    .zebra { fill: #151b23; }
+    .break { stroke: #0d1117; }
+  }
+</style>
+<rect class="bg" width="1000" height="6828"/>
+<text class="title" x="40" y="52">BenchMaxx · Track B · Nomenclature Length (NL): all models</text>
+<text class="subtitle" x="40" y="80">332 evaluated models · snapshot 2026-10-10 · protocol v1.0 · ties share a rank</text>
+<line class="rule" x1="40" x2="960" y1="100" y2="100"/>
+<text class="rank" x="74" y="146.0" text-anchor="end">1</text>
+<text x="404" y="146.0" text-anchor="end"><tspan class="row-name">Gemini 3.1 Pro Preview Custom Tools</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="136.0" width="447.1" height="12" rx="2" fill-opacity="1"/>
+<text class="row-value" x="867.1" y="146.0">35</text>
+<rect class="zebra" x="40" y="152" width="920" height="20"/>
+<text class="rank" x="74" y="166.0" text-anchor="end">2</text>
+<text x="404" y="166.0" text-anchor="end"><tspan class="row-name">Gemini 3.1 Flash Lite Preview</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="156.0" width="370.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="790.5" y="166.0">29</text>
+<text x="404" y="186.0" text-anchor="end"><tspan class="row-name">Qwen3 235B A22B Instruct 2507</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="176.0" width="370.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="790.5" y="186.0">29</text>
+<rect class="zebra" x="40" y="192" width="920" height="20"/>
+<text x="404" y="206.0" text-anchor="end"><tspan class="row-name">Qwen3 235B A22B Thinking 2507</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="196.0" width="370.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="790.5" y="206.0">29</text>
+<text class="rank" x="74" y="226.0" text-anchor="end">5</text>
+<text x="404" y="226.0" text-anchor="end"><tspan class="row-name">DeepSeek V4 Flash Vision Exp</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="216.0" width="357.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="777.7" y="226.0">28</text>
+<rect class="zebra" x="40" y="232" width="920" height="20"/>
+<text x="404" y="246.0" text-anchor="end"><tspan class="row-name">Gemini 2.5 Pro Preview 06-05</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="236.0" width="357.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="777.7" y="246.0">28</text>
+<text x="404" y="266.0" text-anchor="end"><tspan class="row-name">Qwen3 Coder 30B A3B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="256.0" width="357.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="777.7" y="266.0">28</text>
+<rect class="zebra" x="40" y="272" width="920" height="20"/>
+<text class="rank" x="74" y="286.0" text-anchor="end">8</text>
+<text x="404" y="286.0" text-anchor="end"><tspan class="row-name">GPT-3.5 Turbo (older v0613)</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="276.0" width="344.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="764.9" y="286.0">27</text>
+<text x="404" y="306.0" text-anchor="end"><tspan class="row-name">Nemotron 3.5 Content Safety</tspan><tspan class="row-vendor" dx="6">NVIDIA</tspan></text>
+<rect class="bar-b" x="414" y="296.0" width="344.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="764.9" y="306.0">27</text>
+<rect class="zebra" x="40" y="312" width="920" height="20"/>
+<text x="404" y="326.0" text-anchor="end"><tspan class="row-name">Qwen3 30B A3B Instruct 2507</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="316.0" width="344.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="764.9" y="326.0">27</text>
+<text x="404" y="346.0" text-anchor="end"><tspan class="row-name">Qwen3 Next 80B A3B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="336.0" width="344.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="764.9" y="346.0">27</text>
+<rect class="zebra" x="40" y="352" width="920" height="20"/>
+<text x="404" y="366.0" text-anchor="end"><tspan class="row-name">Qwen3 Next 80B A3B Thinking</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="356.0" width="344.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="764.9" y="366.0">27</text>
+<text x="404" y="386.0" text-anchor="end"><tspan class="row-name">Qwen3 VL 235B A22B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="376.0" width="344.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="764.9" y="386.0">27</text>
+<rect class="zebra" x="40" y="392" width="920" height="20"/>
+<text class="rank" x="74" y="406.0" text-anchor="end">14</text>
+<text x="404" y="406.0" text-anchor="end"><tspan class="row-name">Llama 3.1 Euryale 70B v2.2</tspan><tspan class="row-vendor" dx="6">Sao10K</tspan></text>
+<rect class="bar-b" x="414" y="396.0" width="332.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="752.1" y="406.0">26</text>
+<text x="404" y="426.0" text-anchor="end"><tspan class="row-name">Muse Spark 1.2 Contributor</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="416.0" width="332.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="752.1" y="426.0">26</text>
+<rect class="zebra" x="40" y="432" width="920" height="20"/>
+<text x="404" y="446.0" text-anchor="end"><tspan class="row-name">Muse Spark 1.3 Contributor</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="436.0" width="332.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="752.1" y="446.0">26</text>
+<text x="404" y="466.0" text-anchor="end"><tspan class="row-name">Qwen2.5 Coder 32B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="456.0" width="332.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="752.1" y="466.0">26</text>
+<rect class="zebra" x="40" y="472" width="920" height="20"/>
+<text class="rank" x="74" y="486.0" text-anchor="end">18</text>
+<text x="404" y="486.0" text-anchor="end"><tspan class="row-name">Qwen3 VL 30B A3B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="476.0" width="319.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="739.4" y="486.0">25</text>
+<text x="404" y="506.0" text-anchor="end"><tspan class="row-name">Qwen3 VL 30B A3B Thinking</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="496.0" width="319.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="739.4" y="506.0">25</text>
+<rect class="zebra" x="40" y="512" width="920" height="20"/>
+<text class="rank" x="74" y="526.0" text-anchor="end">20</text>
+<text x="404" y="526.0" text-anchor="end"><tspan class="row-name">GPT-4o-mini (2024-07-18)</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="516.0" width="306.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="726.6" y="526.0">24</text>
+<text x="404" y="546.0" text-anchor="end"><tspan class="row-name">MiMo-V2.6-Pro-UltraSpeed</tspan><tspan class="row-vendor" dx="6">Xiaomi</tspan></text>
+<rect class="bar-b" x="414" y="536.0" width="306.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="726.6" y="546.0">24</text>
+<rect class="zebra" x="40" y="552" width="920" height="20"/>
+<text class="rank" x="74" y="566.0" text-anchor="end">22</text>
+<text x="404" y="566.0" text-anchor="end"><tspan class="row-name">Nemotron 3 Nano 30B A3B</tspan><tspan class="row-vendor" dx="6">NVIDIA</tspan></text>
+<rect class="bar-b" x="414" y="556.0" width="293.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="713.8" y="566.0">23</text>
+<text x="404" y="586.0" text-anchor="end"><tspan class="row-name">Qwen2.5 VL 72B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="576.0" width="293.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="713.8" y="586.0">23</text>
+<rect class="zebra" x="40" y="592" width="920" height="20"/>
+<text x="404" y="606.0" text-anchor="end"><tspan class="row-name">Qwen3.5 Plus 2026-02-15</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="596.0" width="293.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="713.8" y="606.0">23</text>
+<text x="404" y="626.0" text-anchor="end"><tspan class="row-name">Qwen3.5 Plus 2026-04-20</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="616.0" width="293.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="713.8" y="626.0">23</text>
+<rect class="zebra" x="40" y="632" width="920" height="20"/>
+<text class="rank" x="74" y="646.0" text-anchor="end">26</text>
+<text x="404" y="646.0" text-anchor="end"><tspan class="row-name">DeepSeek V3.1 Terminus</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="636.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="646.0">22</text>
+<text x="404" y="666.0" text-anchor="end"><tspan class="row-name">DeepSeek V4 Flash 0423</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="656.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="666.0">22</text>
+<rect class="zebra" x="40" y="672" width="920" height="20"/>
+<text x="404" y="686.0" text-anchor="end"><tspan class="row-name">DeepSeek V4 Flash 0731</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="676.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="686.0">22</text>
+<text x="404" y="706.0" text-anchor="end"><tspan class="row-name">Gemini 3 Flash Preview</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="696.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="706.0">22</text>
+<rect class="zebra" x="40" y="712" width="920" height="20"/>
+<text x="404" y="726.0" text-anchor="end"><tspan class="row-name">Gemini 3.1 Pro Preview</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="716.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="726.0">22</text>
+<text x="404" y="746.0" text-anchor="end"><tspan class="row-name">GPT-3.5 Turbo Instruct</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="736.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="746.0">22</text>
+<rect class="zebra" x="40" y="752" width="920" height="20"/>
+<text x="404" y="766.0" text-anchor="end"><tspan class="row-name">Hermes 3 405B Instruct</tspan><tspan class="row-vendor" dx="6">Nous</tspan></text>
+<rect class="bar-b" x="414" y="756.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="766.0">22</text>
+<text x="404" y="786.0" text-anchor="end"><tspan class="row-name">Llama 3.1 70B Instruct</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="776.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="786.0">22</text>
+<rect class="zebra" x="40" y="792" width="920" height="20"/>
+<text x="404" y="806.0" text-anchor="end"><tspan class="row-name">Llama 3.3 70B Instruct</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="796.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="806.0">22</text>
+<text x="404" y="826.0" text-anchor="end"><tspan class="row-name">Mixtral 8x22B Instruct</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="816.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="826.0">22</text>
+<rect class="zebra" x="40" y="832" width="920" height="20"/>
+<text x="404" y="846.0" text-anchor="end"><tspan class="row-name">Nemotron 3.5 Lightning</tspan><tspan class="row-vendor" dx="6">NVIDIA</tspan></text>
+<rect class="bar-b" x="414" y="836.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="846.0">22</text>
+<text x="404" y="866.0" text-anchor="end"><tspan class="row-name">Trinity Large Thinking</tspan><tspan class="row-vendor" dx="6">Arcee AI</tspan></text>
+<rect class="bar-b" x="414" y="856.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="866.0">22</text>
+<rect class="zebra" x="40" y="872" width="920" height="20"/>
+<text x="404" y="886.0" text-anchor="end"><tspan class="row-name">Voxtral Small 24B 2507</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="876.0" width="281.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="701.0" y="886.0">22</text>
+<text class="rank" x="74" y="906.0" text-anchor="end">39</text>
+<text x="404" y="906.0" text-anchor="end"><tspan class="row-name">Command R7B (12-2024)</tspan><tspan class="row-vendor" dx="6">Cohere</tspan></text>
+<rect class="bar-b" x="414" y="896.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="906.0">21</text>
+<rect class="zebra" x="40" y="912" width="920" height="20"/>
+<text x="404" y="926.0" text-anchor="end"><tspan class="row-name">Gemini 2.5 Flash Lite</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="916.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="926.0">21</text>
+<text x="404" y="946.0" text-anchor="end"><tspan class="row-name">Gemini 3.1 Flash Lite</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="936.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="946.0">21</text>
+<rect class="zebra" x="40" y="952" width="920" height="20"/>
+<text x="404" y="966.0" text-anchor="end"><tspan class="row-name">Gemini 3.5 Flash Lite</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="956.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="966.0">21</text>
+<text x="404" y="986.0" text-anchor="end"><tspan class="row-name">gpt-oss-safeguard-20b</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="976.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="986.0">21</text>
+<rect class="zebra" x="40" y="992" width="920" height="20"/>
+<text x="404" y="1006.0" text-anchor="end"><tspan class="row-name">Grok 4.20 Multi-Agent</tspan><tspan class="row-vendor" dx="6">SpaceXAI</tspan></text>
+<rect class="bar-b" x="414" y="996.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1006.0">21</text>
+<text x="404" y="1026.0" text-anchor="end"><tspan class="row-name">Hermes 3 70B Instruct</tspan><tspan class="row-vendor" dx="6">Nous</tspan></text>
+<rect class="bar-b" x="414" y="1016.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1026.0">21</text>
+<rect class="zebra" x="40" y="1032" width="920" height="20"/>
+<text x="404" y="1046.0" text-anchor="end"><tspan class="row-name">Hunyuan A13B Instruct</tspan><tspan class="row-vendor" dx="6">Tencent</tspan></text>
+<rect class="bar-b" x="414" y="1036.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1046.0">21</text>
+<text x="404" y="1066.0" text-anchor="end"><tspan class="row-name">Llama 3.1 8B Instruct</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="1056.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1066.0">21</text>
+<rect class="zebra" x="40" y="1072" width="920" height="20"/>
+<text x="404" y="1086.0" text-anchor="end"><tspan class="row-name">Llama 3.2 1B Instruct</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="1076.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1086.0">21</text>
+<text x="404" y="1106.0" text-anchor="end"><tspan class="row-name">Llama 3.2 3B Instruct</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="1096.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1106.0">21</text>
+<rect class="zebra" x="40" y="1112" width="920" height="20"/>
+<text x="404" y="1126.0" text-anchor="end"><tspan class="row-name">Llama 3.3 Euryale 70B</tspan><tspan class="row-vendor" dx="6">Sao10K</tspan></text>
+<rect class="bar-b" x="414" y="1116.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1126.0">21</text>
+<text x="404" y="1146.0" text-anchor="end"><tspan class="row-name">Mistral Small 3.1 24B</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1136.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1146.0">21</text>
+<rect class="zebra" x="40" y="1152" width="920" height="20"/>
+<text x="404" y="1166.0" text-anchor="end"><tspan class="row-name">Mistral Small 3.2 24B</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1156.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1166.0">21</text>
+<text x="404" y="1186.0" text-anchor="end"><tspan class="row-name">Qwen3 Coder 480B A35B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="1176.0" width="268.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="688.3" y="1186.0">21</text>
+<rect class="zebra" x="40" y="1192" width="920" height="20"/>
+<text class="rank" x="74" y="1206.0" text-anchor="end">54</text>
+<text x="404" y="1206.0" text-anchor="end"><tspan class="row-name">Command R+ (08-2024)</tspan><tspan class="row-vendor" dx="6">Cohere</tspan></text>
+<rect class="bar-b" x="414" y="1196.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1206.0">20</text>
+<text x="404" y="1226.0" text-anchor="end"><tspan class="row-name">DeepSeek V4 Pro 0423</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="1216.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1226.0">20</text>
+<rect class="zebra" x="40" y="1232" width="920" height="20"/>
+<text x="404" y="1246.0" text-anchor="end"><tspan class="row-name">DeepSeek V4 Pro 0813</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="1236.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1246.0">20</text>
+<text x="404" y="1266.0" text-anchor="end"><tspan class="row-name">Ling 3.0 Flash Sante</tspan><tspan class="row-vendor" dx="6">inclusionAI</tspan></text>
+<rect class="bar-b" x="414" y="1256.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1266.0">20</text>
+<rect class="zebra" x="40" y="1272" width="920" height="20"/>
+<text x="404" y="1286.0" text-anchor="end"><tspan class="row-name">Ministral 3 14B 2512</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1276.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1286.0">20</text>
+<text x="404" y="1306.0" text-anchor="end"><tspan class="row-name">Mistral Large 3 2512</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1296.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1306.0">20</text>
+<rect class="zebra" x="40" y="1312" width="920" height="20"/>
+<text x="404" y="1326.0" text-anchor="end"><tspan class="row-name">Nemotron 3 Nano Omni</tspan><tspan class="row-vendor" dx="6">NVIDIA</tspan></text>
+<rect class="bar-b" x="414" y="1316.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1326.0">20</text>
+<text x="404" y="1346.0" text-anchor="end"><tspan class="row-name">Pareto 26.10 Preview</tspan><tspan class="row-vendor" dx="6">unbiased</tspan></text>
+<rect class="bar-b" x="414" y="1336.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1346.0">20</text>
+<rect class="zebra" x="40" y="1352" width="920" height="20"/>
+<text x="404" y="1366.0" text-anchor="end"><tspan class="row-name">Qwen2.5 72B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="1356.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1366.0">20</text>
+<text x="404" y="1386.0" text-anchor="end"><tspan class="row-name">Qwen3 VL 8B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="1376.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1386.0">20</text>
+<rect class="zebra" x="40" y="1392" width="920" height="20"/>
+<text x="404" y="1406.0" text-anchor="end"><tspan class="row-name">Ternary Bonsai 2 27B</tspan><tspan class="row-vendor" dx="6">PrismML</tspan></text>
+<rect class="bar-b" x="414" y="1396.0" width="255.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="675.5" y="1406.0">20</text>
+<text class="rank" x="74" y="1426.0" text-anchor="end">65</text>
+<text x="404" y="1426.0" text-anchor="end"><tspan class="row-name">Command R (08-2024)</tspan><tspan class="row-vendor" dx="6">Cohere</tspan></text>
+<rect class="bar-b" x="414" y="1416.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1426.0">19</text>
+<rect class="zebra" x="40" y="1432" width="920" height="20"/>
+<text x="404" y="1446.0" text-anchor="end"><tspan class="row-name">DeepSeek V4.1 Flash</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="1436.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1446.0">19</text>
+<text x="404" y="1466.0" text-anchor="end"><tspan class="row-name">GPT-4o (2024-05-13)</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="1456.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1466.0">19</text>
+<rect class="zebra" x="40" y="1472" width="920" height="20"/>
+<text x="404" y="1486.0" text-anchor="end"><tspan class="row-name">GPT-4o (2024-08-06)</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="1476.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1486.0">19</text>
+<text x="404" y="1506.0" text-anchor="end"><tspan class="row-name">GPT-4o (2024-11-20)</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="1496.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1506.0">19</text>
+<rect class="zebra" x="40" y="1512" width="920" height="20"/>
+<text x="404" y="1526.0" text-anchor="end"><tspan class="row-name">Ministral 3 3B 2512</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1516.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1526.0">19</text>
+<text x="404" y="1546.0" text-anchor="end"><tspan class="row-name">Ministral 3 8B 2512</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1536.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1546.0">19</text>
+<rect class="zebra" x="40" y="1552" width="920" height="20"/>
+<text x="404" y="1566.0" text-anchor="end"><tspan class="row-name">Qwen2.5 7B Instruct</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="1556.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1566.0">19</text>
+<text x="404" y="1586.0" text-anchor="end"><tspan class="row-name">Schematron V2 Small</tspan><tspan class="row-vendor" dx="6">Inference.net</tspan></text>
+<rect class="bar-b" x="414" y="1576.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1586.0">19</text>
+<rect class="zebra" x="40" y="1592" width="920" height="20"/>
+<text x="404" y="1606.0" text-anchor="end"><tspan class="row-name">Schematron V2 Turbo</tspan><tspan class="row-vendor" dx="6">Inference.net</tspan></text>
+<rect class="bar-b" x="414" y="1596.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1606.0">19</text>
+<text x="404" y="1626.0" text-anchor="end"><tspan class="row-name">Sonar Deep Research</tspan><tspan class="row-vendor" dx="6">Perplexity</tspan></text>
+<rect class="bar-b" x="414" y="1616.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1626.0">19</text>
+<rect class="zebra" x="40" y="1632" width="920" height="20"/>
+<text x="404" y="1646.0" text-anchor="end"><tspan class="row-name">Sonar Reasoning Pro</tspan><tspan class="row-vendor" dx="6">Perplexity</tspan></text>
+<rect class="bar-b" x="414" y="1636.0" width="242.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="662.7" y="1646.0">19</text>
+<text class="rank" x="74" y="1666.0" text-anchor="end">77</text>
+<text x="404" y="1666.0" text-anchor="end"><tspan class="row-name">Dots3-Note Preview</tspan><tspan class="row-vendor" dx="6">Dots Studio</tspan></text>
+<rect class="bar-b" x="414" y="1656.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1666.0">18</text>
+<rect class="zebra" x="40" y="1672" width="920" height="20"/>
+<text x="404" y="1686.0" text-anchor="end"><tspan class="row-name">GPT-5.1-Codex-Mini</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="1676.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1686.0">18</text>
+<text x="404" y="1706.0" text-anchor="end"><tspan class="row-name">Ling 3.0 Flash Fin</tspan><tspan class="row-vendor" dx="6">inclusionAI</tspan></text>
+<rect class="bar-b" x="414" y="1696.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1706.0">18</text>
+<rect class="zebra" x="40" y="1712" width="920" height="20"/>
+<text x="404" y="1726.0" text-anchor="end"><tspan class="row-name">Llama 3 8B Lunaris</tspan><tspan class="row-vendor" dx="6">Sao10K</tspan></text>
+<rect class="bar-b" x="414" y="1716.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1726.0">18</text>
+<text x="404" y="1746.0" text-anchor="end"><tspan class="row-name">Mistral Large 2407</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1736.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1746.0">18</text>
+<rect class="zebra" x="40" y="1752" width="920" height="20"/>
+<text x="404" y="1766.0" text-anchor="end"><tspan class="row-name">Mistral Medium 3.1</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1756.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1766.0">18</text>
+<text x="404" y="1786.0" text-anchor="end"><tspan class="row-name">Mistral Medium 3.5</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="1776.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1786.0">18</text>
+<rect class="zebra" x="40" y="1792" width="920" height="20"/>
+<text x="404" y="1806.0" text-anchor="end"><tspan class="row-name">Qwen3.8 Max (0902)</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="1796.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1806.0">18</text>
+<text x="404" y="1826.0" text-anchor="end"><tspan class="row-name">Qwen3.8 Omni Flash</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="1816.0" width="229.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="649.9" y="1826.0">18</text>
+<rect class="zebra" x="40" y="1832" width="920" height="20"/>
+<text class="rank" x="74" y="1846.0" text-anchor="end">86</text>
+<text x="404" y="1846.0" text-anchor="end"><tspan class="row-name">Claude Sonnet 4.5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="1836.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="1846.0">17</text>
+<text x="404" y="1866.0" text-anchor="end"><tspan class="row-name">Claude Sonnet 4.6</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="1856.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="1866.0">17</text>
+<rect class="zebra" x="40" y="1872" width="920" height="20"/>
+<text x="404" y="1886.0" text-anchor="end"><tspan class="row-name">Claude Sonnet 5.5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="1876.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="1886.0">17</text>
+<text x="404" y="1906.0" text-anchor="end"><tspan class="row-name">DeepSeek V3.2 Exp</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="1896.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="1906.0">17</text>
+<rect class="zebra" x="40" y="1912" width="920" height="20"/>
+<text x="404" y="1926.0" text-anchor="end"><tspan class="row-name">GPT-3.5 Turbo 16k</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="1916.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="1926.0">17</text>
+<text x="404" y="1946.0" text-anchor="end"><tspan class="row-name">GPT-5.1-Codex-Max</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="1936.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="1946.0">17</text>
+<rect class="zebra" x="40" y="1952" width="920" height="20"/>
+<text x="404" y="1966.0" text-anchor="end"><tspan class="row-name">GPT-5.6 Terra Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="1956.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="1966.0">17</text>
+<text x="404" y="1986.0" text-anchor="end"><tspan class="row-name">Granite 4.0 Micro</tspan><tspan class="row-vendor" dx="6">IBM</tspan></text>
+<rect class="bar-b" x="414" y="1976.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="1986.0">17</text>
+<rect class="zebra" x="40" y="1992" width="920" height="20"/>
+<text x="404" y="2006.0" text-anchor="end"><tspan class="row-name">Ling 3.0 Flash VL</tspan><tspan class="row-vendor" dx="6">inclusionAI</tspan></text>
+<rect class="bar-b" x="414" y="1996.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="2006.0">17</text>
+<text x="404" y="2026.0" text-anchor="end"><tspan class="row-name">Llama Guard 4 12B</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="2016.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="2026.0">17</text>
+<rect class="zebra" x="40" y="2032" width="920" height="20"/>
+<text x="404" y="2046.0" text-anchor="end"><tspan class="row-name">Qwen3 Coder Flash</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="2036.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="2046.0">17</text>
+<text x="404" y="2066.0" text-anchor="end"><tspan class="row-name">Qwen3.5 397B A17B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="2056.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="2066.0">17</text>
+<rect class="zebra" x="40" y="2072" width="920" height="20"/>
+<text x="404" y="2086.0" text-anchor="end"><tspan class="row-name">Qwen3.5-122B-A10B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="2076.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="2086.0">17</text>
+<text x="404" y="2106.0" text-anchor="end"><tspan class="row-name">Qwen3.8 2.4T A95B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="2096.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="2106.0">17</text>
+<rect class="zebra" x="40" y="2112" width="920" height="20"/>
+<text x="404" y="2126.0" text-anchor="end"><tspan class="row-name">Qwen3.8 Max Prime</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="2116.0" width="217.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="637.2" y="2126.0">17</text>
+<text class="rank" x="74" y="2146.0" text-anchor="end">101</text>
+<text x="404" y="2146.0" text-anchor="end"><tspan class="row-name">Aion-RP 1.0 (8B)</tspan><tspan class="row-vendor" dx="6">AionLabs</tspan></text>
+<rect class="bar-b" x="414" y="2136.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2146.0">16</text>
+<rect class="zebra" x="40" y="2152" width="920" height="20"/>
+<text x="404" y="2166.0" text-anchor="end"><tspan class="row-name">Claude Fable 5.1</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2156.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2166.0">16</text>
+<text x="404" y="2186.0" text-anchor="end"><tspan class="row-name">Claude Haiku 4.5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2176.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2186.0">16</text>
+<rect class="zebra" x="40" y="2192" width="920" height="20"/>
+<text x="404" y="2206.0" text-anchor="end"><tspan class="row-name">Claude Haiku 5.5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2196.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2206.0">16</text>
+<text x="404" y="2226.0" text-anchor="end"><tspan class="row-name">Cydonia 24B V4.1</tspan><tspan class="row-vendor" dx="6">TheDrummer</tspan></text>
+<rect class="bar-b" x="414" y="2216.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2226.0">16</text>
+<rect class="zebra" x="40" y="2232" width="920" height="20"/>
+<text x="404" y="2246.0" text-anchor="end"><tspan class="row-name">DeepSeek V3 0324</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="2236.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2246.0">16</text>
+<text x="404" y="2266.0" text-anchor="end"><tspan class="row-name">Gemini 2.5 Flash</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="2256.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2266.0">16</text>
+<rect class="zebra" x="40" y="2272" width="920" height="20"/>
+<text x="404" y="2286.0" text-anchor="end"><tspan class="row-name">Gemini 3.5 Flash</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="2276.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2286.0">16</text>
+<text x="404" y="2306.0" text-anchor="end"><tspan class="row-name">Gemini 3.6 Flash</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="2296.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2306.0">16</text>
+<rect class="zebra" x="40" y="2312" width="920" height="20"/>
+<text x="404" y="2326.0" text-anchor="end"><tspan class="row-name">Gemini 3.7 Flash</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="2316.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2326.0">16</text>
+<text x="404" y="2346.0" text-anchor="end"><tspan class="row-name">Gemini 3.8 Flash</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="2336.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2346.0">16</text>
+<rect class="zebra" x="40" y="2352" width="920" height="20"/>
+<text x="404" y="2366.0" text-anchor="end"><tspan class="row-name">GPT-5.6 Luna Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="2356.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2366.0">16</text>
+<text x="404" y="2386.0" text-anchor="end"><tspan class="row-name">Kimi K2 Thinking</tspan><tspan class="row-vendor" dx="6">MoonshotAI</tspan></text>
+<rect class="bar-b" x="414" y="2376.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2386.0">16</text>
+<rect class="zebra" x="40" y="2392" width="920" height="20"/>
+<text x="404" y="2406.0" text-anchor="end"><tspan class="row-name">Llama 4 Maverick</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="2396.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2406.0">16</text>
+<text x="404" y="2426.0" text-anchor="end"><tspan class="row-name">Mistral Medium 3</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="2416.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2426.0">16</text>
+<rect class="zebra" x="40" y="2432" width="920" height="20"/>
+<text x="404" y="2446.0" text-anchor="end"><tspan class="row-name">Muse Glimmer 30B</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="2436.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2446.0">16</text>
+<text x="404" y="2466.0" text-anchor="end"><tspan class="row-name">Nemotron 3 Super</tspan><tspan class="row-vendor" dx="6">NVIDIA</tspan></text>
+<rect class="bar-b" x="414" y="2456.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2466.0">16</text>
+<rect class="zebra" x="40" y="2472" width="920" height="20"/>
+<text x="404" y="2486.0" text-anchor="end"><tspan class="row-name">Nemotron 3 Ultra</tspan><tspan class="row-vendor" dx="6">NVIDIA</tspan></text>
+<rect class="bar-b" x="414" y="2476.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2486.0">16</text>
+<text x="404" y="2506.0" text-anchor="end"><tspan class="row-name">Nova Premier 1.0</tspan><tspan class="row-vendor" dx="6">Amazon</tspan></text>
+<rect class="bar-b" x="414" y="2496.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2506.0">16</text>
+<rect class="zebra" x="40" y="2512" width="920" height="20"/>
+<text x="404" y="2526.0" text-anchor="end"><tspan class="row-name">Perceptron Mk1.5</tspan><tspan class="row-vendor" dx="6">Perceptron</tspan></text>
+<rect class="bar-b" x="414" y="2516.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2526.0">16</text>
+<text x="404" y="2546.0" text-anchor="end"><tspan class="row-name">Qwen3 Coder Next</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="2536.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2546.0">16</text>
+<rect class="zebra" x="40" y="2552" width="920" height="20"/>
+<text x="404" y="2566.0" text-anchor="end"><tspan class="row-name">Sonar Pro Search</tspan><tspan class="row-vendor" dx="6">Perplexity</tspan></text>
+<rect class="bar-b" x="414" y="2556.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2566.0">16</text>
+<text x="404" y="2586.0" text-anchor="end"><tspan class="row-name">WizardLM-2 8x22B</tspan><tspan class="row-vendor" dx="6">Microsoft</tspan></text>
+<rect class="bar-b" x="414" y="2576.0" width="204.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="624.4" y="2586.0">16</text>
+<rect class="zebra" x="40" y="2592" width="920" height="20"/>
+<text class="rank" x="74" y="2606.0" text-anchor="end">124</text>
+<text x="404" y="2606.0" text-anchor="end"><tspan class="row-name">Apodex 1.1 Mini</tspan><tspan class="row-vendor" dx="6">Apodex</tspan></text>
+<rect class="bar-b" x="414" y="2596.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2606.0">15</text>
+<text x="404" y="2626.0" text-anchor="end"><tspan class="row-name">Claude Opus 4.1</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2616.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2626.0">15</text>
+<rect class="zebra" x="40" y="2632" width="920" height="20"/>
+<text x="404" y="2646.0" text-anchor="end"><tspan class="row-name">Claude Opus 4.5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2636.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2646.0">15</text>
+<text x="404" y="2666.0" text-anchor="end"><tspan class="row-name">Claude Opus 4.6</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2656.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2666.0">15</text>
+<rect class="zebra" x="40" y="2672" width="920" height="20"/>
+<text x="404" y="2686.0" text-anchor="end"><tspan class="row-name">Claude Opus 4.7</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2676.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2686.0">15</text>
+<text x="404" y="2706.0" text-anchor="end"><tspan class="row-name">Claude Opus 4.8</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2696.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2706.0">15</text>
+<rect class="zebra" x="40" y="2712" width="920" height="20"/>
+<text x="404" y="2726.0" text-anchor="end"><tspan class="row-name">Claude Opus 5.5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2716.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2726.0">15</text>
+<text x="404" y="2746.0" text-anchor="end"><tspan class="row-name">Claude Sonnet 4</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2736.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2746.0">15</text>
+<rect class="zebra" x="40" y="2752" width="920" height="20"/>
+<text x="404" y="2766.0" text-anchor="end"><tspan class="row-name">Claude Sonnet 5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="2756.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2766.0">15</text>
+<text x="404" y="2786.0" text-anchor="end"><tspan class="row-name">Devstral 2 2512</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="2776.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2786.0">15</text>
+<rect class="zebra" x="40" y="2792" width="920" height="20"/>
+<text x="404" y="2806.0" text-anchor="end"><tspan class="row-name">Gemma 4 26B A4B</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="2796.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2806.0">15</text>
+<text x="404" y="2826.0" text-anchor="end"><tspan class="row-name">GPT Chat Latest</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="2816.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2826.0">15</text>
+<rect class="zebra" x="40" y="2832" width="920" height="20"/>
+<text x="404" y="2846.0" text-anchor="end"><tspan class="row-name">GPT-5.6 Sol Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="2836.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2846.0">15</text>
+<text x="404" y="2866.0" text-anchor="end"><tspan class="row-name">GPT-6 Astra Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="2856.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2866.0">15</text>
+<rect class="zebra" x="40" y="2872" width="920" height="20"/>
+<text x="404" y="2886.0" text-anchor="end"><tspan class="row-name">GPT-6.1 Sol Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="2876.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2886.0">15</text>
+<text x="404" y="2906.0" text-anchor="end"><tspan class="row-name">MiMo-V2.6-Flash</tspan><tspan class="row-vendor" dx="6">Xiaomi</tspan></text>
+<rect class="bar-b" x="414" y="2896.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2906.0">15</text>
+<rect class="zebra" x="40" y="2912" width="920" height="20"/>
+<text x="404" y="2926.0" text-anchor="end"><tspan class="row-name">Mistral Large 4</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="2916.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2926.0">15</text>
+<text x="404" y="2946.0" text-anchor="end"><tspan class="row-name">Mistral Small 3</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="2936.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2946.0">15</text>
+<rect class="zebra" x="40" y="2952" width="920" height="20"/>
+<text x="404" y="2966.0" text-anchor="end"><tspan class="row-name">Mistral Small 4</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="2956.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2966.0">15</text>
+<text x="404" y="2986.0" text-anchor="end"><tspan class="row-name">North Mini Code</tspan><tspan class="row-vendor" dx="6">Cohere</tspan></text>
+<rect class="bar-b" x="414" y="2976.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="2986.0">15</text>
+<rect class="zebra" x="40" y="2992" width="920" height="20"/>
+<text x="404" y="3006.0" text-anchor="end"><tspan class="row-name">Qwen3.5-35B-A3B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="2996.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="3006.0">15</text>
+<text x="404" y="3026.0" text-anchor="end"><tspan class="row-name">Qwen3.6 35B A3B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="3016.0" width="191.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="611.6" y="3026.0">15</text>
+<rect class="zebra" x="40" y="3032" width="920" height="20"/>
+<text class="rank" x="74" y="3046.0" text-anchor="end">146</text>
+<text x="404" y="3046.0" text-anchor="end"><tspan class="row-name">Claude Fable 5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="3036.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3046.0">14</text>
+<text x="404" y="3066.0" text-anchor="end"><tspan class="row-name">Codestral 2508</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="3056.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3066.0">14</text>
+<rect class="zebra" x="40" y="3072" width="920" height="20"/>
+<text x="404" y="3086.0" text-anchor="end"><tspan class="row-name">Gemini 2.5 Pro</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="3076.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3086.0">14</text>
+<text x="404" y="3106.0" text-anchor="end"><tspan class="row-name">GLM 5.3 FlashX</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="3096.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3106.0">14</text>
+<rect class="zebra" x="40" y="3112" width="920" height="20"/>
+<text x="404" y="3126.0" text-anchor="end"><tspan class="row-name">GPT-6 Luna Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="3116.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3126.0">14</text>
+<text x="404" y="3146.0" text-anchor="end"><tspan class="row-name">Granite 4.2 8B</tspan><tspan class="row-vendor" dx="6">IBM</tspan></text>
+<rect class="bar-b" x="414" y="3136.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3146.0">14</text>
+<rect class="zebra" x="40" y="3152" width="920" height="20"/>
+<text x="404" y="3166.0" text-anchor="end"><tspan class="row-name">Grok Build 0.1</tspan><tspan class="row-vendor" dx="6">SpaceXAI</tspan></text>
+<rect class="bar-b" x="414" y="3156.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3166.0">14</text>
+<text x="404" y="3186.0" text-anchor="end"><tspan class="row-name">Hy-MT2-30B-A3B</tspan><tspan class="row-vendor" dx="6">Tencent</tspan></text>
+<rect class="bar-b" x="414" y="3176.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3186.0">14</text>
+<rect class="zebra" x="40" y="3192" width="920" height="20"/>
+<text x="404" y="3206.0" text-anchor="end"><tspan class="row-name">Kimi K2.7 Code</tspan><tspan class="row-vendor" dx="6">MoonshotAI</tspan></text>
+<rect class="bar-b" x="414" y="3196.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3206.0">14</text>
+<text x="404" y="3226.0" text-anchor="end"><tspan class="row-name">Ling 3.0 Flash</tspan><tspan class="row-vendor" dx="6">inclusionAI</tspan></text>
+<rect class="bar-b" x="414" y="3216.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3226.0">14</text>
+<rect class="zebra" x="40" y="3232" width="920" height="20"/>
+<text x="404" y="3246.0" text-anchor="end"><tspan class="row-name">Ling 3.1 Flash</tspan><tspan class="row-vendor" dx="6">inclusionAI</tspan></text>
+<rect class="bar-b" x="414" y="3236.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3246.0">14</text>
+<text x="404" y="3266.0" text-anchor="end"><tspan class="row-name">MiniMax M2-her</tspan><tspan class="row-vendor" dx="6">MiniMax</tspan></text>
+<rect class="bar-b" x="414" y="3256.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3266.0">14</text>
+<rect class="zebra" x="40" y="3272" width="920" height="20"/>
+<text x="404" y="3286.0" text-anchor="end"><tspan class="row-name">Morph V3 Large</tspan><tspan class="row-vendor" dx="6">Morph</tspan></text>
+<rect class="bar-b" x="414" y="3276.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3286.0">14</text>
+<text x="404" y="3306.0" text-anchor="end"><tspan class="row-name">Muse Spark 1.1</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="3296.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3306.0">14</text>
+<rect class="zebra" x="40" y="3312" width="920" height="20"/>
+<text x="404" y="3326.0" text-anchor="end"><tspan class="row-name">Muse Spark 1.2</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="3316.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3326.0">14</text>
+<text x="404" y="3346.0" text-anchor="end"><tspan class="row-name">Muse Spark 1.3</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="3336.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3346.0">14</text>
+<rect class="zebra" x="40" y="3352" width="920" height="20"/>
+<text x="404" y="3366.0" text-anchor="end"><tspan class="row-name">Nova Micro 1.0</tspan><tspan class="row-vendor" dx="6">Amazon</tspan></text>
+<rect class="bar-b" x="414" y="3356.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3366.0">14</text>
+<text x="404" y="3386.0" text-anchor="end"><tspan class="row-name">Perceptron Mk1</tspan><tspan class="row-vendor" dx="6">Perceptron</tspan></text>
+<rect class="bar-b" x="414" y="3376.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3386.0">14</text>
+<rect class="zebra" x="40" y="3392" width="920" height="20"/>
+<text x="404" y="3406.0" text-anchor="end"><tspan class="row-name">Relace Apply 3</tspan><tspan class="row-vendor" dx="6">Relace</tspan></text>
+<rect class="bar-b" x="414" y="3396.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3406.0">14</text>
+<text x="404" y="3426.0" text-anchor="end"><tspan class="row-name">ReMM SLERP 13B</tspan><tspan class="row-vendor" dx="6">undi95</tspan></text>
+<rect class="bar-b" x="414" y="3416.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3426.0">14</text>
+<rect class="zebra" x="40" y="3432" width="920" height="20"/>
+<text x="404" y="3446.0" text-anchor="end"><tspan class="row-name">Seed 1.6 Flash</tspan><tspan class="row-vendor" dx="6">ByteDance Seed</tspan></text>
+<rect class="bar-b" x="414" y="3436.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3446.0">14</text>
+<text x="404" y="3466.0" text-anchor="end"><tspan class="row-name">Seed 2.1 Turbo</tspan><tspan class="row-vendor" dx="6">ByteDance Seed</tspan></text>
+<rect class="bar-b" x="414" y="3456.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3466.0">14</text>
+<rect class="zebra" x="40" y="3472" width="920" height="20"/>
+<text x="404" y="3486.0" text-anchor="end"><tspan class="row-name">Skyfall 36B V2</tspan><tspan class="row-vendor" dx="6">TheDrummer</tspan></text>
+<rect class="bar-b" x="414" y="3476.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3486.0">14</text>
+<text x="404" y="3506.0" text-anchor="end"><tspan class="row-name">Step 3.5 Flash</tspan><tspan class="row-vendor" dx="6">StepFun</tspan></text>
+<rect class="bar-b" x="414" y="3496.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3506.0">14</text>
+<rect class="zebra" x="40" y="3512" width="920" height="20"/>
+<text x="404" y="3526.0" text-anchor="end"><tspan class="row-name">Step 3.7 Flash</tspan><tspan class="row-vendor" dx="6">StepFun</tspan></text>
+<rect class="bar-b" x="414" y="3516.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3526.0">14</text>
+<text x="404" y="3546.0" text-anchor="end"><tspan class="row-name">Step 5 Preview</tspan><tspan class="row-vendor" dx="6">StepFun</tspan></text>
+<rect class="bar-b" x="414" y="3536.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3546.0">14</text>
+<rect class="zebra" x="40" y="3552" width="920" height="20"/>
+<text x="404" y="3566.0" text-anchor="end"><tspan class="row-name">UnslopNemo 12B</tspan><tspan class="row-vendor" dx="6">TheDrummer</tspan></text>
+<rect class="bar-b" x="414" y="3556.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3566.0">14</text>
+<text x="404" y="3586.0" text-anchor="end"><tspan class="row-name">Weaver (alpha)</tspan><tspan class="row-vendor" dx="6">Mancer</tspan></text>
+<rect class="bar-b" x="414" y="3576.0" width="178.8" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="598.8" y="3586.0">14</text>
+<rect class="zebra" x="40" y="3592" width="920" height="20"/>
+<text class="rank" x="74" y="3606.0" text-anchor="end">174</text>
+<text x="404" y="3606.0" text-anchor="end"><tspan class="row-name">Aion 3.5 Mini</tspan><tspan class="row-vendor" dx="6">AionLabs</tspan></text>
+<rect class="bar-b" x="414" y="3596.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3606.0">13</text>
+<text x="404" y="3626.0" text-anchor="end"><tspan class="row-name">Aion-3.0-Mini</tspan><tspan class="row-vendor" dx="6">AionLabs</tspan></text>
+<rect class="bar-b" x="414" y="3616.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3626.0">13</text>
+<rect class="zebra" x="40" y="3632" width="920" height="20"/>
+<text x="404" y="3646.0" text-anchor="end"><tspan class="row-name">Claude Opus 5</tspan><tspan class="row-vendor" dx="6">Anthropic</tspan></text>
+<rect class="bar-b" x="414" y="3636.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3646.0">13</text>
+<text x="404" y="3666.0" text-anchor="end"><tspan class="row-name">DeepSeek V3.1</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="3656.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3666.0">13</text>
+<rect class="zebra" x="40" y="3672" width="920" height="20"/>
+<text x="404" y="3686.0" text-anchor="end"><tspan class="row-name">DeepSeek V3.2</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="3676.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3686.0">13</text>
+<text x="404" y="3706.0" text-anchor="end"><tspan class="row-name">Fugu Ultra v2</tspan><tspan class="row-vendor" dx="6">Sakana</tspan></text>
+<rect class="bar-b" x="414" y="3696.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3706.0">13</text>
+<rect class="zebra" x="40" y="3712" width="920" height="20"/>
+<text x="404" y="3726.0" text-anchor="end"><tspan class="row-name">GLM 4.7 Flash</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="3716.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3726.0">13</text>
+<text x="404" y="3746.0" text-anchor="end"><tspan class="row-name">GLM 5.3 Flash</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="3736.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3746.0">13</text>
+<rect class="zebra" x="40" y="3752" width="920" height="20"/>
+<text x="404" y="3766.0" text-anchor="end"><tspan class="row-name">GLM 5.3 Prime</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="3756.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3766.0">13</text>
+<text x="404" y="3786.0" text-anchor="end"><tspan class="row-name">GPT-3.5 Turbo</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="3776.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3786.0">13</text>
+<rect class="zebra" x="40" y="3792" width="920" height="20"/>
+<text x="404" y="3806.0" text-anchor="end"><tspan class="row-name">GPT-5.1-Codex</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="3796.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3806.0">13</text>
+<text x="404" y="3826.0" text-anchor="end"><tspan class="row-name">GPT-5.2-Codex</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="3816.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3826.0">13</text>
+<rect class="zebra" x="40" y="3832" width="920" height="20"/>
+<text x="404" y="3846.0" text-anchor="end"><tspan class="row-name">GPT-5.3-Codex</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="3836.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3846.0">13</text>
+<text x="404" y="3866.0" text-anchor="end"><tspan class="row-name">GPT-5.6 Terra</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="3856.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3866.0">13</text>
+<rect class="zebra" x="40" y="3872" width="920" height="20"/>
+<text x="404" y="3886.0" text-anchor="end"><tspan class="row-name">GPT-6 Sol Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="3876.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3886.0">13</text>
+<text x="404" y="3906.0" text-anchor="end"><tspan class="row-name">Hermes 4 405B</tspan><tspan class="row-vendor" dx="6">Nous</tspan></text>
+<rect class="bar-b" x="414" y="3896.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3906.0">13</text>
+<rect class="zebra" x="40" y="3912" width="920" height="20"/>
+<text x="404" y="3926.0" text-anchor="end"><tspan class="row-name">Inkling Small</tspan><tspan class="row-vendor" dx="6">Thinking Machines</tspan></text>
+<rect class="bar-b" x="414" y="3916.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3926.0">13</text>
+<text x="404" y="3946.0" text-anchor="end"><tspan class="row-name">Laguna XS 2.1</tspan><tspan class="row-vendor" dx="6">Poolside</tspan></text>
+<rect class="bar-b" x="414" y="3936.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3946.0">13</text>
+<rect class="zebra" x="40" y="3952" width="920" height="20"/>
+<text x="404" y="3966.0" text-anchor="end"><tspan class="row-name">Llama 4 Scout</tspan><tspan class="row-vendor" dx="6">Meta</tspan></text>
+<rect class="bar-b" x="414" y="3956.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3966.0">13</text>
+<text x="404" y="3986.0" text-anchor="end"><tspan class="row-name">Magnum v4 72B</tspan><tspan class="row-vendor" dx="6">anthracite-org</tspan></text>
+<rect class="bar-b" x="414" y="3976.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="3986.0">13</text>
+<rect class="zebra" x="40" y="3992" width="920" height="20"/>
+<text x="404" y="4006.0" text-anchor="end"><tspan class="row-name">MiMo-V2.5-Pro</tspan><tspan class="row-vendor" dx="6">Xiaomi</tspan></text>
+<rect class="bar-b" x="414" y="3996.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4006.0">13</text>
+<text x="404" y="4026.0" text-anchor="end"><tspan class="row-name">MiMo-V2.6-Pro</tspan><tspan class="row-vendor" dx="6">Xiaomi</tspan></text>
+<rect class="bar-b" x="414" y="4016.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4026.0">13</text>
+<rect class="zebra" x="40" y="4032" width="920" height="20"/>
+<text x="404" y="4046.0" text-anchor="end"><tspan class="row-name">Mistral Large</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="4036.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4046.0">13</text>
+<text x="404" y="4066.0" text-anchor="end"><tspan class="row-name">Morph V3 Fast</tspan><tspan class="row-vendor" dx="6">Morph</tspan></text>
+<rect class="bar-b" x="414" y="4056.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4066.0">13</text>
+<rect class="zebra" x="40" y="4072" width="920" height="20"/>
+<text x="404" y="4086.0" text-anchor="end"><tspan class="row-name">Nex-N2.5-Mini</tspan><tspan class="row-vendor" dx="6">Nex AGI</tspan></text>
+<rect class="bar-b" x="414" y="4076.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4086.0">13</text>
+<text x="404" y="4106.0" text-anchor="end"><tspan class="row-name">Nova Lite 1.0</tspan><tspan class="row-vendor" dx="6">Amazon</tspan></text>
+<rect class="bar-b" x="414" y="4096.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4106.0">13</text>
+<rect class="zebra" x="40" y="4112" width="920" height="20"/>
+<text x="404" y="4126.0" text-anchor="end"><tspan class="row-name">Qwen3 30B A3B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="4116.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4126.0">13</text>
+<text x="404" y="4146.0" text-anchor="end"><tspan class="row-name">Qwen3.5-Flash</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="4136.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4146.0">13</text>
+<rect class="zebra" x="40" y="4152" width="920" height="20"/>
+<text x="404" y="4166.0" text-anchor="end"><tspan class="row-name">Qwen3.6 Flash</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="4156.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4166.0">13</text>
+<text x="404" y="4186.0" text-anchor="end"><tspan class="row-name">Qwen3.7 Flash</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="4176.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4186.0">13</text>
+<rect class="zebra" x="40" y="4192" width="920" height="20"/>
+<text x="404" y="4206.0" text-anchor="end"><tspan class="row-name">Qwen3.8 Flash</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="4196.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4206.0">13</text>
+<text x="404" y="4226.0" text-anchor="end"><tspan class="row-name">Relace Search</tspan><tspan class="row-vendor" dx="6">Relace</tspan></text>
+<rect class="bar-b" x="414" y="4216.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4226.0">13</text>
+<rect class="zebra" x="40" y="4232" width="920" height="20"/>
+<text x="404" y="4246.0" text-anchor="end"><tspan class="row-name">Sakana Namazu</tspan><tspan class="row-vendor" dx="6">Sakana</tspan></text>
+<rect class="bar-b" x="414" y="4236.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4246.0">13</text>
+<text x="404" y="4266.0" text-anchor="end"><tspan class="row-name">Seed-2.0-Code</tspan><tspan class="row-vendor" dx="6">ByteDance Seed</tspan></text>
+<rect class="bar-b" x="414" y="4256.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4266.0">13</text>
+<rect class="zebra" x="40" y="4272" width="920" height="20"/>
+<text x="404" y="4286.0" text-anchor="end"><tspan class="row-name">Seed-2.0-Lite</tspan><tspan class="row-vendor" dx="6">ByteDance Seed</tspan></text>
+<rect class="bar-b" x="414" y="4276.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4286.0">13</text>
+<text x="404" y="4306.0" text-anchor="end"><tspan class="row-name">Seed-2.0-Mini</tspan><tspan class="row-vendor" dx="6">ByteDance Seed</tspan></text>
+<rect class="bar-b" x="414" y="4296.0" width="166.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="586.1" y="4306.0">13</text>
+<rect class="zebra" x="40" y="4312" width="920" height="20"/>
+<text class="rank" x="74" y="4326.0" text-anchor="end">210</text>
+<text x="404" y="4326.0" text-anchor="end"><tspan class="row-name">GLM 5V Turbo</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="4316.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4326.0">12</text>
+<text x="404" y="4346.0" text-anchor="end"><tspan class="row-name">GPT-4.1 Mini</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4336.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4346.0">12</text>
+<rect class="zebra" x="40" y="4352" width="920" height="20"/>
+<text x="404" y="4366.0" text-anchor="end"><tspan class="row-name">GPT-4.1 Nano</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4356.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4366.0">12</text>
+<text x="404" y="4386.0" text-anchor="end"><tspan class="row-name">GPT-5.2 Chat</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4376.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4386.0">12</text>
+<rect class="zebra" x="40" y="4392" width="920" height="20"/>
+<text x="404" y="4406.0" text-anchor="end"><tspan class="row-name">GPT-5.4 Mini</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4396.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4406.0">12</text>
+<text x="404" y="4426.0" text-anchor="end"><tspan class="row-name">GPT-5.4 Nano</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4416.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4426.0">12</text>
+<rect class="zebra" x="40" y="4432" width="920" height="20"/>
+<text x="404" y="4446.0" text-anchor="end"><tspan class="row-name">GPT-5.6 Luna</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4436.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4446.0">12</text>
+<text x="404" y="4466.0" text-anchor="end"><tspan class="row-name">gpt-oss-120b</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4456.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4466.0">12</text>
+<rect class="zebra" x="40" y="4472" width="920" height="20"/>
+<text x="404" y="4486.0" text-anchor="end"><tspan class="row-name">Kimi K2 0711</tspan><tspan class="row-vendor" dx="6">MoonshotAI</tspan></text>
+<rect class="bar-b" x="414" y="4476.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4486.0">12</text>
+<text x="404" y="4506.0" text-anchor="end"><tspan class="row-name">Kimi K2 0905</tspan><tspan class="row-vendor" dx="6">MoonshotAI</tspan></text>
+<rect class="bar-b" x="414" y="4496.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4506.0">12</text>
+<rect class="zebra" x="40" y="4512" width="920" height="20"/>
+<text x="404" y="4526.0" text-anchor="end"><tspan class="row-name">Laguna S 2.1</tspan><tspan class="row-vendor" dx="6">Poolside</tspan></text>
+<rect class="bar-b" x="414" y="4516.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4526.0">12</text>
+<text x="404" y="4546.0" text-anchor="end"><tspan class="row-name">MiniMax M2.1</tspan><tspan class="row-vendor" dx="6">MiniMax</tspan></text>
+<rect class="bar-b" x="414" y="4536.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4546.0">12</text>
+<rect class="zebra" x="40" y="4552" width="920" height="20"/>
+<text x="404" y="4566.0" text-anchor="end"><tspan class="row-name">MiniMax M2.5</tspan><tspan class="row-vendor" dx="6">MiniMax</tspan></text>
+<rect class="bar-b" x="414" y="4556.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4566.0">12</text>
+<text x="404" y="4586.0" text-anchor="end"><tspan class="row-name">MiniMax M2.7</tspan><tspan class="row-vendor" dx="6">MiniMax</tspan></text>
+<rect class="bar-b" x="414" y="4576.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4586.0">12</text>
+<rect class="zebra" x="40" y="4592" width="920" height="20"/>
+<text x="404" y="4606.0" text-anchor="end"><tspan class="row-name">Mistral Nemo</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="4596.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4606.0">12</text>
+<text x="404" y="4626.0" text-anchor="end"><tspan class="row-name">MythoMax 13B</tspan><tspan class="row-vendor" dx="6">gryphe</tspan></text>
+<rect class="bar-b" x="414" y="4616.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4626.0">12</text>
+<rect class="zebra" x="40" y="4632" width="920" height="20"/>
+<text x="404" y="4646.0" text-anchor="end"><tspan class="row-name">Nex-N2.5-Pro</tspan><tspan class="row-vendor" dx="6">Nex AGI</tspan></text>
+<rect class="bar-b" x="414" y="4636.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4646.0">12</text>
+<text x="404" y="4666.0" text-anchor="end"><tspan class="row-name">Nova Pro 1.0</tspan><tspan class="row-vendor" dx="6">Amazon</tspan></text>
+<rect class="bar-b" x="414" y="4656.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4666.0">12</text>
+<rect class="zebra" x="40" y="4672" width="920" height="20"/>
+<text x="404" y="4686.0" text-anchor="end"><tspan class="row-name">o3 Mini High</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4676.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4686.0">12</text>
+<text x="404" y="4706.0" text-anchor="end"><tspan class="row-name">o4 Mini High</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4696.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4706.0">12</text>
+<rect class="zebra" x="40" y="4712" width="920" height="20"/>
+<text x="404" y="4726.0" text-anchor="end"><tspan class="row-name">Qwen3.6 Plus</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="4716.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4726.0">12</text>
+<text x="404" y="4746.0" text-anchor="end"><tspan class="row-name">Qwen3.7 Plus</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="4736.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4746.0">12</text>
+<rect class="zebra" x="40" y="4752" width="920" height="20"/>
+<text x="404" y="4766.0" text-anchor="end"><tspan class="row-name">Reka Flash 3</tspan><tspan class="row-vendor" dx="6">rekaai</tspan></text>
+<rect class="bar-b" x="414" y="4756.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4766.0">12</text>
+<text x="404" y="4786.0" text-anchor="end"><tspan class="row-name">Solar Mini 4</tspan><tspan class="row-vendor" dx="6">Upstage</tspan></text>
+<rect class="bar-b" x="414" y="4776.0" width="153.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="573.3" y="4786.0">12</text>
+<rect class="zebra" x="40" y="4792" width="920" height="20"/>
+<text class="rank" x="74" y="4806.0" text-anchor="end">234</text>
+<text x="404" y="4806.0" text-anchor="end"><tspan class="row-name">DeepSeek V3</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="4796.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4806.0">11</text>
+<text x="404" y="4826.0" text-anchor="end"><tspan class="row-name">Gemma 2 27B</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="4816.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4826.0">11</text>
+<rect class="zebra" x="40" y="4832" width="920" height="20"/>
+<text x="404" y="4846.0" text-anchor="end"><tspan class="row-name">Gemma 3 12B</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="4836.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4846.0">11</text>
+<text x="404" y="4866.0" text-anchor="end"><tspan class="row-name">Gemma 3 27B</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="4856.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4866.0">11</text>
+<rect class="zebra" x="40" y="4872" width="920" height="20"/>
+<text x="404" y="4886.0" text-anchor="end"><tspan class="row-name">Gemma 4 31B</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="4876.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4886.0">11</text>
+<text x="404" y="4906.0" text-anchor="end"><tspan class="row-name">GLM 4.5 Air</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="4896.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4906.0">11</text>
+<rect class="zebra" x="40" y="4912" width="920" height="20"/>
+<text x="404" y="4926.0" text-anchor="end"><tspan class="row-name">GLM 5 Turbo</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="4916.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4926.0">11</text>
+<text x="404" y="4946.0" text-anchor="end"><tspan class="row-name">GPT-4 Turbo</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4936.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4946.0">11</text>
+<rect class="zebra" x="40" y="4952" width="920" height="20"/>
+<text x="404" y="4966.0" text-anchor="end"><tspan class="row-name">GPT-4o-mini</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4956.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4966.0">11</text>
+<text x="404" y="4986.0" text-anchor="end"><tspan class="row-name">GPT-5.2 Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4976.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="4986.0">11</text>
+<rect class="zebra" x="40" y="4992" width="920" height="20"/>
+<text x="404" y="5006.0" text-anchor="end"><tspan class="row-name">GPT-5.4 Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="4996.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5006.0">11</text>
+<text x="404" y="5026.0" text-anchor="end"><tspan class="row-name">GPT-5.5 Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5016.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5026.0">11</text>
+<rect class="zebra" x="40" y="5032" width="920" height="20"/>
+<text x="404" y="5046.0" text-anchor="end"><tspan class="row-name">GPT-5.6 Sol</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5036.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5046.0">11</text>
+<text x="404" y="5066.0" text-anchor="end"><tspan class="row-name">GPT-6 Astra</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5056.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5066.0">11</text>
+<rect class="zebra" x="40" y="5072" width="920" height="20"/>
+<text x="404" y="5086.0" text-anchor="end"><tspan class="row-name">GPT-6.1 Sol</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5076.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5086.0">11</text>
+<text x="404" y="5106.0" text-anchor="end"><tspan class="row-name">gpt-oss-20b</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5096.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5106.0">11</text>
+<rect class="zebra" x="40" y="5112" width="920" height="20"/>
+<text x="404" y="5126.0" text-anchor="end"><tspan class="row-name">Hy-MT2-1.8B</tspan><tspan class="row-vendor" dx="6">Tencent</tspan></text>
+<rect class="bar-b" x="414" y="5116.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5126.0">11</text>
+<text x="404" y="5146.0" text-anchor="end"><tspan class="row-name">Hy3 preview</tspan><tspan class="row-vendor" dx="6">Tencent</tspan></text>
+<rect class="bar-b" x="414" y="5136.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5146.0">11</text>
+<rect class="zebra" x="40" y="5152" width="920" height="20"/>
+<text x="404" y="5166.0" text-anchor="end"><tspan class="row-name">Hy4 preview</tspan><tspan class="row-vendor" dx="6">Tencent</tspan></text>
+<rect class="bar-b" x="414" y="5156.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5166.0">11</text>
+<text x="404" y="5186.0" text-anchor="end"><tspan class="row-name">LFM2.5-2.6B</tspan><tspan class="row-vendor" dx="6">LiquidAI</tspan></text>
+<rect class="bar-b" x="414" y="5176.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5186.0">11</text>
+<rect class="zebra" x="40" y="5192" width="920" height="20"/>
+<text x="404" y="5206.0" text-anchor="end"><tspan class="row-name">LongCat 2.0</tspan><tspan class="row-vendor" dx="6">Meituan</tspan></text>
+<rect class="bar-b" x="414" y="5196.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5206.0">11</text>
+<text x="404" y="5226.0" text-anchor="end"><tspan class="row-name">Mercury 2.5</tspan><tspan class="row-vendor" dx="6">Inception</tspan></text>
+<rect class="bar-b" x="414" y="5216.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5226.0">11</text>
+<rect class="zebra" x="40" y="5232" width="920" height="20"/>
+<text x="404" y="5246.0" text-anchor="end"><tspan class="row-name">Nova 2 Lite</tspan><tspan class="row-vendor" dx="6">Amazon</tspan></text>
+<rect class="bar-b" x="414" y="5236.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5246.0">11</text>
+<text x="404" y="5266.0" text-anchor="end"><tspan class="row-name">Qwen3.5-27B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="5256.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5266.0">11</text>
+<rect class="zebra" x="40" y="5272" width="920" height="20"/>
+<text x="404" y="5286.0" text-anchor="end"><tspan class="row-name">Qwen3.6 27B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="5276.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5286.0">11</text>
+<text x="404" y="5306.0" text-anchor="end"><tspan class="row-name">Qwen3.7 Max</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="5296.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5306.0">11</text>
+<rect class="zebra" x="40" y="5312" width="920" height="20"/>
+<text x="404" y="5326.0" text-anchor="end"><tspan class="row-name">Qwen3.8 27B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="5316.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5326.0">11</text>
+<text x="404" y="5346.0" text-anchor="end"><tspan class="row-name">Solar Pro 3</tspan><tspan class="row-vendor" dx="6">Upstage</tspan></text>
+<rect class="bar-b" x="414" y="5336.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5346.0">11</text>
+<rect class="zebra" x="40" y="5352" width="920" height="20"/>
+<text x="404" y="5366.0" text-anchor="end"><tspan class="row-name">Solar Pro 4</tspan><tspan class="row-vendor" dx="6">Upstage</tspan></text>
+<rect class="bar-b" x="414" y="5356.0" width="140.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="560.5" y="5366.0">11</text>
+<text class="rank" x="74" y="5386.0" text-anchor="end">263</text>
+<text x="404" y="5386.0" text-anchor="end"><tspan class="row-name">Command A+</tspan><tspan class="row-vendor" dx="6">Cohere</tspan></text>
+<rect class="bar-b" x="414" y="5376.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5386.0">10</text>
+<rect class="zebra" x="40" y="5392" width="920" height="20"/>
+<text x="404" y="5406.0" text-anchor="end"><tspan class="row-name">Fugu Ultra</tspan><tspan class="row-vendor" dx="6">Sakana</tspan></text>
+<rect class="bar-b" x="414" y="5396.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5406.0">10</text>
+<text x="404" y="5426.0" text-anchor="end"><tspan class="row-name">Gemma 3 4B</tspan><tspan class="row-vendor" dx="6">Google</tspan></text>
+<rect class="bar-b" x="414" y="5416.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5426.0">10</text>
+<rect class="zebra" x="40" y="5432" width="920" height="20"/>
+<text x="404" y="5446.0" text-anchor="end"><tspan class="row-name">GPT-5 Mini</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5436.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5446.0">10</text>
+<text x="404" y="5466.0" text-anchor="end"><tspan class="row-name">GPT-5 Nano</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5456.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5466.0">10</text>
+<rect class="zebra" x="40" y="5472" width="920" height="20"/>
+<text x="404" y="5486.0" text-anchor="end"><tspan class="row-name">GPT-6 Luna</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5476.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5486.0">10</text>
+<text x="404" y="5506.0" text-anchor="end"><tspan class="row-name">MiniMax M1</tspan><tspan class="row-vendor" dx="6">MiniMax</tspan></text>
+<rect class="bar-b" x="414" y="5496.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5506.0">10</text>
+<rect class="zebra" x="40" y="5512" width="920" height="20"/>
+<text x="404" y="5526.0" text-anchor="end"><tspan class="row-name">MiniMax M2</tspan><tspan class="row-vendor" dx="6">MiniMax</tspan></text>
+<rect class="bar-b" x="414" y="5516.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5526.0">10</text>
+<text x="404" y="5546.0" text-anchor="end"><tspan class="row-name">MiniMax M3</tspan><tspan class="row-vendor" dx="6">MiniMax</tspan></text>
+<rect class="bar-b" x="414" y="5536.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5546.0">10</text>
+<rect class="zebra" x="40" y="5552" width="920" height="20"/>
+<text x="404" y="5566.0" text-anchor="end"><tspan class="row-name">MiniMax-01</tspan><tspan class="row-vendor" dx="6">MiniMax</tspan></text>
+<rect class="bar-b" x="414" y="5556.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5566.0">10</text>
+<text x="404" y="5586.0" text-anchor="end"><tspan class="row-name">Palmyra X5</tspan><tspan class="row-vendor" dx="6">Writer</tspan></text>
+<rect class="bar-b" x="414" y="5576.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5586.0">10</text>
+<rect class="zebra" x="40" y="5592" width="920" height="20"/>
+<text x="404" y="5606.0" text-anchor="end"><tspan class="row-name">Qwen3.5-9B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="5596.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5606.0">10</text>
+<text x="404" y="5626.0" text-anchor="end"><tspan class="row-name">UI-TARS 7B</tspan><tspan class="row-vendor" dx="6">ByteDance</tspan></text>
+<rect class="bar-b" x="414" y="5616.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5626.0">10</text>
+<rect class="zebra" x="40" y="5632" width="920" height="20"/>
+<text x="404" y="5646.0" text-anchor="end"><tspan class="row-name">Uncensored</tspan><tspan class="row-vendor" dx="6">Venice</tspan></text>
+<rect class="bar-b" x="414" y="5636.0" width="127.7" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="547.7" y="5646.0">10</text>
+<text class="rank" x="74" y="5666.0" text-anchor="end">277</text>
+<text x="404" y="5666.0" text-anchor="end"><tspan class="row-name">Command A</tspan><tspan class="row-vendor" dx="6">Cohere</tspan></text>
+<rect class="bar-b" x="414" y="5656.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5666.0">9</text>
+<rect class="zebra" x="40" y="5672" width="920" height="20"/>
+<text x="404" y="5686.0" text-anchor="end"><tspan class="row-name">GPT-5 Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5676.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5686.0">9</text>
+<text x="404" y="5706.0" text-anchor="end"><tspan class="row-name">GPT-6 Sol</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="5696.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5706.0">9</text>
+<rect class="zebra" x="40" y="5712" width="920" height="20"/>
+<text x="404" y="5726.0" text-anchor="end"><tspan class="row-name">Grok 4.20</tspan><tspan class="row-vendor" dx="6">SpaceXAI</tspan></text>
+<rect class="bar-b" x="414" y="5716.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5726.0">9</text>
+<text x="404" y="5746.0" text-anchor="end"><tspan class="row-name">Hy-MT2-7B</tspan><tspan class="row-vendor" dx="6">Tencent</tspan></text>
+<rect class="bar-b" x="414" y="5736.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5746.0">9</text>
+<rect class="zebra" x="40" y="5752" width="920" height="20"/>
+<text x="404" y="5766.0" text-anchor="end"><tspan class="row-name">Kimi K2.5</tspan><tspan class="row-vendor" dx="6">MoonshotAI</tspan></text>
+<rect class="bar-b" x="414" y="5756.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5766.0">9</text>
+<text x="404" y="5786.0" text-anchor="end"><tspan class="row-name">Kimi K2.6</tspan><tspan class="row-vendor" dx="6">MoonshotAI</tspan></text>
+<rect class="bar-b" x="414" y="5776.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5786.0">9</text>
+<rect class="zebra" x="40" y="5792" width="920" height="20"/>
+<text x="404" y="5806.0" text-anchor="end"><tspan class="row-name">Mercury 2</tspan><tspan class="row-vendor" dx="6">Inception</tspan></text>
+<rect class="bar-b" x="414" y="5796.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5806.0">9</text>
+<text x="404" y="5826.0" text-anchor="end"><tspan class="row-name">MiMo-V2.5</tspan><tspan class="row-vendor" dx="6">Xiaomi</tspan></text>
+<rect class="bar-b" x="414" y="5816.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5826.0">9</text>
+<rect class="zebra" x="40" y="5832" width="920" height="20"/>
+<text x="404" y="5846.0" text-anchor="end"><tspan class="row-name">Qwen-Plus</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="5836.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5846.0">9</text>
+<text x="404" y="5866.0" text-anchor="end"><tspan class="row-name">Qwen3 14B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="5856.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5866.0">9</text>
+<rect class="zebra" x="40" y="5872" width="920" height="20"/>
+<text x="404" y="5886.0" text-anchor="end"><tspan class="row-name">Qwen3 32B</tspan><tspan class="row-vendor" dx="6">Qwen</tspan></text>
+<rect class="bar-b" x="414" y="5876.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5886.0">9</text>
+<text x="404" y="5906.0" text-anchor="end"><tspan class="row-name">Reka Edge</tspan><tspan class="row-vendor" dx="6">rekaai</tspan></text>
+<rect class="bar-b" x="414" y="5896.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5906.0">9</text>
+<rect class="zebra" x="40" y="5912" width="920" height="20"/>
+<text x="404" y="5926.0" text-anchor="end"><tspan class="row-name">Sonar Pro</tspan><tspan class="row-vendor" dx="6">Perplexity</tspan></text>
+<rect class="bar-b" x="414" y="5916.0" width="115.0" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="535.0" y="5926.0">9</text>
+<text class="rank" x="74" y="5946.0" text-anchor="end">291</text>
+<text x="404" y="5946.0" text-anchor="end"><tspan class="row-name">Aion 3.5</tspan><tspan class="row-vendor" dx="6">AionLabs</tspan></text>
+<rect class="bar-b" x="414" y="5936.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="5946.0">8</text>
+<rect class="zebra" x="40" y="5952" width="920" height="20"/>
+<text x="404" y="5966.0" text-anchor="end"><tspan class="row-name">Aion-2.0</tspan><tspan class="row-vendor" dx="6">AionLabs</tspan></text>
+<rect class="bar-b" x="414" y="5956.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="5966.0">8</text>
+<text x="404" y="5986.0" text-anchor="end"><tspan class="row-name">Aion-3.0</tspan><tspan class="row-vendor" dx="6">AionLabs</tspan></text>
+<rect class="bar-b" x="414" y="5976.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="5986.0">8</text>
+<rect class="zebra" x="40" y="5992" width="920" height="20"/>
+<text x="404" y="6006.0" text-anchor="end"><tspan class="row-name">Fugu Max</tspan><tspan class="row-vendor" dx="6">Sakana</tspan></text>
+<rect class="bar-b" x="414" y="5996.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="6006.0">8</text>
+<text x="404" y="6026.0" text-anchor="end"><tspan class="row-name">GLM 4.5V</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6016.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="6026.0">8</text>
+<rect class="zebra" x="40" y="6032" width="920" height="20"/>
+<text x="404" y="6046.0" text-anchor="end"><tspan class="row-name">GLM 4.6V</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6036.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="6046.0">8</text>
+<text x="404" y="6066.0" text-anchor="end"><tspan class="row-name">Grok 4.3</tspan><tspan class="row-vendor" dx="6">SpaceXAI</tspan></text>
+<rect class="bar-b" x="414" y="6056.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="6066.0">8</text>
+<rect class="zebra" x="40" y="6072" width="920" height="20"/>
+<text x="404" y="6086.0" text-anchor="end"><tspan class="row-name">Grok 4.5</tspan><tspan class="row-vendor" dx="6">SpaceXAI</tspan></text>
+<rect class="bar-b" x="414" y="6076.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="6086.0">8</text>
+<text x="404" y="6106.0" text-anchor="end"><tspan class="row-name">Grok 4.6</tspan><tspan class="row-vendor" dx="6">SpaceXAI</tspan></text>
+<rect class="bar-b" x="414" y="6096.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="6106.0">8</text>
+<rect class="zebra" x="40" y="6112" width="920" height="20"/>
+<text x="404" y="6126.0" text-anchor="end"><tspan class="row-name">Grok 4.7</tspan><tspan class="row-vendor" dx="6">SpaceXAI</tspan></text>
+<rect class="bar-b" x="414" y="6116.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="6126.0">8</text>
+<text x="404" y="6146.0" text-anchor="end"><tspan class="row-name">Seed 1.6</tspan><tspan class="row-vendor" dx="6">ByteDance Seed</tspan></text>
+<rect class="bar-b" x="414" y="6136.0" width="102.2" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="522.2" y="6146.0">8</text>
+<rect class="zebra" x="40" y="6152" width="920" height="20"/>
+<text class="rank" x="74" y="6166.0" text-anchor="end">302</text>
+<text x="404" y="6166.0" text-anchor="end"><tspan class="row-name">Ember-1</tspan><tspan class="row-vendor" dx="6">Fireworks</tspan></text>
+<rect class="bar-b" x="414" y="6156.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6166.0">7</text>
+<text x="404" y="6186.0" text-anchor="end"><tspan class="row-name">GLM 4.5</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6176.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6186.0">7</text>
+<rect class="zebra" x="40" y="6192" width="920" height="20"/>
+<text x="404" y="6206.0" text-anchor="end"><tspan class="row-name">GLM 4.6</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6196.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6206.0">7</text>
+<text x="404" y="6226.0" text-anchor="end"><tspan class="row-name">GLM 4.7</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6216.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6226.0">7</text>
+<rect class="zebra" x="40" y="6232" width="920" height="20"/>
+<text x="404" y="6246.0" text-anchor="end"><tspan class="row-name">GLM 5.1</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6236.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6246.0">7</text>
+<text x="404" y="6266.0" text-anchor="end"><tspan class="row-name">GLM 5.2</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6256.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6266.0">7</text>
+<rect class="zebra" x="40" y="6272" width="920" height="20"/>
+<text x="404" y="6286.0" text-anchor="end"><tspan class="row-name">GLM 5.3</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6276.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6286.0">7</text>
+<text x="404" y="6306.0" text-anchor="end"><tspan class="row-name">GPT-4.1</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6296.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6306.0">7</text>
+<rect class="zebra" x="40" y="6312" width="920" height="20"/>
+<text x="404" y="6326.0" text-anchor="end"><tspan class="row-name">GPT-5.1</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6316.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6326.0">7</text>
+<text x="404" y="6346.0" text-anchor="end"><tspan class="row-name">GPT-5.2</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6336.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6346.0">7</text>
+<rect class="zebra" x="40" y="6352" width="920" height="20"/>
+<text x="404" y="6366.0" text-anchor="end"><tspan class="row-name">GPT-5.4</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6356.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6366.0">7</text>
+<text x="404" y="6386.0" text-anchor="end"><tspan class="row-name">GPT-5.5</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6376.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6386.0">7</text>
+<rect class="zebra" x="40" y="6392" width="920" height="20"/>
+<text x="404" y="6406.0" text-anchor="end"><tspan class="row-name">Inkling</tspan><tspan class="row-vendor" dx="6">Thinking Machines</tspan></text>
+<rect class="bar-b" x="414" y="6396.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6406.0">7</text>
+<text x="404" y="6426.0" text-anchor="end"><tspan class="row-name">Kimi K3</tspan><tspan class="row-vendor" dx="6">MoonshotAI</tspan></text>
+<rect class="bar-b" x="414" y="6416.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6426.0">7</text>
+<rect class="zebra" x="40" y="6432" width="920" height="20"/>
+<text x="404" y="6446.0" text-anchor="end"><tspan class="row-name">o3 Mini</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6436.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6446.0">7</text>
+<text x="404" y="6466.0" text-anchor="end"><tspan class="row-name">o4 Mini</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6456.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6466.0">7</text>
+<rect class="zebra" x="40" y="6472" width="920" height="20"/>
+<text x="404" y="6486.0" text-anchor="end"><tspan class="row-name">R1 0528</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="6476.0" width="89.4" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="509.4" y="6486.0">7</text>
+<text class="rank" x="74" y="6506.0" text-anchor="end">319</text>
+<text x="404" y="6506.0" text-anchor="end"><tspan class="row-name">GPT-4o</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6496.0" width="76.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="496.6" y="6506.0">6</text>
+<rect class="zebra" x="40" y="6512" width="920" height="20"/>
+<text x="404" y="6526.0" text-anchor="end"><tspan class="row-name">o1-pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6516.0" width="76.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="496.6" y="6526.0">6</text>
+<text x="404" y="6546.0" text-anchor="end"><tspan class="row-name">o3 Pro</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6536.0" width="76.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="496.6" y="6546.0">6</text>
+<rect class="zebra" x="40" y="6552" width="920" height="20"/>
+<text x="404" y="6566.0" text-anchor="end"><tspan class="row-name">Pareto</tspan><tspan class="row-vendor" dx="6">unbiased</tspan></text>
+<rect class="bar-b" x="414" y="6556.0" width="76.6" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="496.6" y="6566.0">6</text>
+<text class="rank" x="74" y="6586.0" text-anchor="end">323</text>
+<text x="404" y="6586.0" text-anchor="end"><tspan class="row-name">GLM 5</tspan><tspan class="row-vendor" dx="6">Z.ai</tspan></text>
+<rect class="bar-b" x="414" y="6576.0" width="63.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="483.9" y="6586.0">5</text>
+<rect class="zebra" x="40" y="6592" width="920" height="20"/>
+<text x="404" y="6606.0" text-anchor="end"><tspan class="row-name">GPT-4</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6596.0" width="63.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="483.9" y="6606.0">5</text>
+<text x="404" y="6626.0" text-anchor="end"><tspan class="row-name">GPT-5</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6616.0" width="63.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="483.9" y="6626.0">5</text>
+<rect class="zebra" x="40" y="6632" width="920" height="20"/>
+<text x="404" y="6646.0" text-anchor="end"><tspan class="row-name">Phi 4</tspan><tspan class="row-vendor" dx="6">Microsoft</tspan></text>
+<rect class="bar-b" x="414" y="6636.0" width="63.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="483.9" y="6646.0">5</text>
+<text x="404" y="6666.0" text-anchor="end"><tspan class="row-name">Sonar</tspan><tspan class="row-vendor" dx="6">Perplexity</tspan></text>
+<rect class="bar-b" x="414" y="6656.0" width="63.9" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="483.9" y="6666.0">5</text>
+<rect class="zebra" x="40" y="6672" width="920" height="20"/>
+<text class="rank" x="74" y="6686.0" text-anchor="end">328</text>
+<text x="404" y="6686.0" text-anchor="end"><tspan class="row-name">Saba</tspan><tspan class="row-vendor" dx="6">Mistral</tspan></text>
+<rect class="bar-b" x="414" y="6676.0" width="51.1" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="471.1" y="6686.0">4</text>
+<text class="rank" x="74" y="6706.0" text-anchor="end">329</text>
+<text x="404" y="6706.0" text-anchor="end"><tspan class="row-name">Hy3</tspan><tspan class="row-vendor" dx="6">Tencent</tspan></text>
+<rect class="bar-b" x="414" y="6696.0" width="38.3" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="458.3" y="6706.0">3</text>
+<rect class="zebra" x="40" y="6712" width="920" height="20"/>
+<text class="rank" x="74" y="6726.0" text-anchor="end">330</text>
+<text x="404" y="6726.0" text-anchor="end"><tspan class="row-name">o1</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6716.0" width="25.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="445.5" y="6726.0">2</text>
+<text x="404" y="6746.0" text-anchor="end"><tspan class="row-name">o3</tspan><tspan class="row-vendor" dx="6">OpenAI</tspan></text>
+<rect class="bar-b" x="414" y="6736.0" width="25.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="445.5" y="6746.0">2</text>
+<rect class="zebra" x="40" y="6752" width="920" height="20"/>
+<text x="404" y="6766.0" text-anchor="end"><tspan class="row-name">R1</tspan><tspan class="row-vendor" dx="6">DeepSeek</tspan></text>
+<rect class="bar-b" x="414" y="6756.0" width="25.5" height="12" rx="2" fill-opacity="0.75"/>
+<text class="row-value" x="445.5" y="6766.0">2</text>
+<text class="footer" x="40" y="6806">Recreational benchmark. Says nothing about model quality.</text>
+<text class="footer" x="960" y="6806" text-anchor="end">github.com/shuiyue-cmyk/benchmaxx</text>
+</svg>

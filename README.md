@@ -77,7 +77,7 @@ leaderboard below is regenerated on each evaluation run, and every run is archiv
 | 8 | Qwen3 Next 80B A3B Thinking | Qwen | 27 | `3` |
 | 8 | Qwen3 VL 235B A22B Instruct | Qwen | 27 | `3` |
 
-Full results: [`results/LEADERBOARD.md`](results/LEADERBOARD.md)
+Complete rankings of all models: [`results/LEADERBOARD.md`](results/LEADERBOARD.md)
 <!-- BENCHMAXX:END -->
 
 <p align="center">

@@ -226,3 +226,74 @@ def vendor_champions(entries: list[Entry], snapshot_date: str, n: int = 10) -> s
     out.append(f'<text class="footer" x="{w - pad}" y="{h - 22}" text-anchor="end">github.com/shuiyue-cmyk/benchmaxx</text>')
     out.append("</svg>")
     return "\n".join(out)
+
+
+FULL_STYLE = BAR_STYLE + """
+  .rank { font: 600 11.5px ui-monospace, 'Cascadia Mono', Consolas, monospace; fill: #818b98; }
+  .row-name { font: 500 12px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .row-vendor { font: 11px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #818b98; }
+  .row-value { font: 600 11.5px ui-monospace, 'Cascadia Mono', Consolas, monospace; fill: #1f2328; }
+  .zebra { fill: #f6f8fa; }
+  .break { stroke: #ffffff; stroke-width: 3; }
+  @media (prefers-color-scheme: dark) {
+    .row-name, .row-value { fill: #e6edf3; }
+    .zebra { fill: #151b23; }
+    .break { stroke: #0d1117; }
+  }
+"""
+
+
+def full_ranking(entries: list[Entry], metric: str, snapshot_date: str) -> str:
+    """One horizontal bar per model, in rank order, for Track A ("gi") or Track B ("nl")."""
+    is_gi = metric == "gi"
+    rank_field = "rank_gi" if is_gi else "rank_nl"
+    items = sorted((e for e in entries if getattr(e, metric) is not None),
+                   key=lambda e: (getattr(e, rank_field), e.canonical_name.lower()))
+    w, pad, head, row_h, bar_h = 1000, 40, 132, 20, 12
+    rank_w, label_w, value_w = 44, 330, 60
+    h = head + len(items) * row_h + 56
+    bar_x = pad + rank_w + label_w
+    bar_max = w - pad - value_w - bar_x
+    values = [getattr(e, metric) for e in items]
+    ceiling = _y_ceiling(values) if is_gi else max(values)
+    css = "bar-a" if is_gi else "bar-b"
+    title = ("Track A · Generation Index (GI): all models" if is_gi
+             else "Track B · Nomenclature Length (NL): all models")
+    note = (f"{len(items)} GI-qualified models · snapshot {snapshot_date} · protocol v1.0 · ties share a rank"
+            if is_gi else f"{len(items)} evaluated models · snapshot {snapshot_date} · protocol v1.0 · ties share a rank")
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="{escape(title)}">',
+           f"<style>{FULL_STYLE}</style>",
+           f'<rect class="bg" width="{w}" height="{h}"/>',
+           f'<text class="title" x="{pad}" y="52">BenchMaxx · {escape(title)}</text>',
+           f'<text class="subtitle" x="{pad}" y="80">{escape(note)}</text>',
+           f'<line class="rule" x1="{pad}" x2="{w - pad}" y1="100" y2="100"/>']
+    previous_rank = None
+    for i, e in enumerate(items):
+        y = head + i * row_h
+        cy = y + row_h / 2
+        if i % 2:
+            out.append(f'<rect class="zebra" x="{pad}" y="{y}" width="{w - 2 * pad}" height="{row_h}"/>')
+        rank = getattr(e, rank_field)
+        if rank != previous_rank:  # show each rank once; tied rows below it stay blank
+            out.append(f'<text class="rank" x="{pad + rank_w - 10}" y="{cy + 4}" text-anchor="end">{rank}</text>')
+            previous_rank = rank
+        out.append(f'<text x="{bar_x - 10}" y="{cy + 4}" text-anchor="end"><tspan class="row-name">{escape(e.canonical_name)}</tspan>'
+                   f'<tspan class="row-vendor" dx="6">{escape(e.vendor)}</tspan></text>')
+        value = getattr(e, metric)
+        clipped = value > ceiling
+        bw = bar_max if clipped else max(1.5, value / ceiling * bar_max * 0.92)
+        out.append(f'<rect class="{css}" x="{bar_x}" y="{cy - bar_h / 2}" width="{bw:.1f}" height="{bar_h}" rx="2" fill-opacity="{1 if i == 0 else 0.75}"/>')
+        if clipped:  # axis break: this bar is not to scale
+            bx = bar_x + bar_max * 0.8
+            for dx in (0, 6):
+                out.append(f'<line class="break" x1="{bx + dx - 3:.1f}" y1="{cy + bar_h / 2 + 1}" x2="{bx + dx + 3:.1f}" y2="{cy - bar_h / 2 - 1}"/>')
+        text = e.gi_raw if is_gi else str(e.nl)
+        out.append(f'<text class="row-value" x="{bar_x + bw + 6:.1f}" y="{cy + 4}">{escape(text)}</text>')
+    if is_gi and any(v > ceiling for v in values):
+        foot = "Bars marked // are truncated and not drawn to scale."
+    else:
+        foot = "Recreational benchmark. Says nothing about model quality."
+    out.append(f'<text class="footer" x="{pad}" y="{h - 22}">{escape(foot)}</text>')
+    out.append(f'<text class="footer" x="{w - pad}" y="{h - 22}" text-anchor="end">github.com/shuiyue-cmyk/benchmaxx</text>')
+    out.append("</svg>")
+    return "\n".join(out)
