@@ -146,6 +146,8 @@ These models are served on OpenRouter but carry no generation number in their na
 
 ## 6. Figures
 
+![Vendor champions](figures/vendor_champions.svg)
+
 ![Figure 1](figures/gi_over_time.svg)
 
 ![Figure 2](figures/gi_vs_nl.svg)

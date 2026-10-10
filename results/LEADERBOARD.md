@@ -183,6 +183,8 @@ Codestral 2508 (`mistralai/codestral-2508`), Command A (`cohere/command-a`), Com
 
 ## 6. Figures
 
+![Vendor champions](figures/vendor_champions.svg)
+
 ![Figure 1](figures/gi_over_time.svg)
 
 ![Figure 2](figures/gi_vs_nl.svg)

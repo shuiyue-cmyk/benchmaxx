@@ -144,3 +144,85 @@ def gi_vs_nl(entries: list[Entry]) -> str:
                     subtitle=f"n = {len(scored)} models. Highlighted: longest name and highest Nomenclatural Efficiency",
                     x_label="Nomenclature Length (NL, characters)", y_label="Generation Index (GI)",
                     points=points, x_ticks=x_ticks, y_ticks=_nice_ticks(0, ceiling))
+
+
+BAR_STYLE = """
+  .bg { fill: #ffffff; }
+  .title { font: 700 26px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .subtitle { font: 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #59636e; }
+  .panel { font: 600 16px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .panel-note { font: 12px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #59636e; }
+  .name { font: 500 13px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .vendor { font: 11px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #59636e; }
+  .value { font: 600 13px ui-monospace, 'Cascadia Mono', Consolas, monospace; fill: #1f2328; }
+  .footer { font: 12px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #818b98; }
+  .bar-a { fill: #0969da; }
+  .bar-b { fill: #bc4c00; }
+  .rule { stroke: #d1d9e0; stroke-width: 1; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0d1117; }
+    .title, .panel, .name, .value { fill: #e6edf3; }
+    .subtitle, .panel-note, .vendor { fill: #9198a1; }
+    .footer { fill: #656c76; }
+    .bar-a { fill: #4493f8; }
+    .bar-b { fill: #f0883e; }
+    .rule { stroke: #2f3742; }
+  }
+"""
+
+
+def _vendor_champions(entries: list[Entry], metric: str, n: int) -> list[Entry]:
+    """Best model per vendor on a metric; ties go to the most recently listed model."""
+    best: dict[str, Entry] = {}
+    for e in entries:
+        if getattr(e, metric) is None:
+            continue
+        current = best.get(e.vendor)
+        if current is None or (getattr(e, metric), e.released) > (getattr(current, metric), current.released):
+            best[e.vendor] = e
+    return sorted(best.values(), key=lambda e: (-getattr(e, metric), e.canonical_name.lower()))[:n]
+
+
+def _bar_panel(x: float, y: float, width: float, rows: list[tuple[str, str, float, str]], css: str) -> list[str]:
+    label_w, value_w, row_h, bar_h = 250, 56, 44, 20
+    bar_max = width - label_w - value_w
+    top = max(v for _, _, v, _ in rows)
+    out = []
+    for i, (name, vendor, value, text) in enumerate(rows):
+        cy = y + i * row_h + row_h / 2
+        out.append(f'<text class="name" x="{x + label_w - 12}" y="{cy - 2:.1f}" text-anchor="end">{escape(name)}</text>')
+        out.append(f'<text class="vendor" x="{x + label_w - 12}" y="{cy + 13:.1f}" text-anchor="end">{escape(vendor)}</text>')
+        w = max(2.0, value / top * bar_max)
+        opacity = 1 if i == 0 else 0.72
+        out.append(f'<rect class="{css}" x="{x + label_w}" y="{cy - bar_h / 2:.1f}" width="{w:.1f}" height="{bar_h}" rx="3" fill-opacity="{opacity}"/>')
+        out.append(f'<text class="value" x="{x + label_w + w + 8:.1f}" y="{cy + 4.5:.1f}">{escape(text)}</text>')
+    return out
+
+
+def vendor_champions(entries: list[Entry], snapshot_date: str, n: int = 10) -> str:
+    """Two-panel horizontal bar chart: best model per vendor on Track A and Track B."""
+    w, h = 1200, 675
+    pad, gap = 48, 56
+    panel_w = (w - 2 * pad - gap) / 2
+    gi = _vendor_champions(entries, "gi", n)
+    nl = _vendor_champions(entries, "nl", n)
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="BenchMaxx vendor champions">',
+           f"<style>{BAR_STYLE}</style>",
+           f'<rect class="bg" width="{w}" height="{h}"/>',
+           f'<text class="title" x="{pad}" y="56">BenchMaxx · Vendor Champions</text>',
+           f'<text class="subtitle" x="{pad}" y="82">Best model per vendor among {len(entries)} callable OpenRouter text models · snapshot {escape(snapshot_date)} · protocol v1.0</text>',
+           f'<line class="rule" x1="{pad}" x2="{w - pad}" y1="102" y2="102"/>']
+    panels = [
+        (pad, "Track A · Generation Index (GI) ↑", "The generation number in the name", gi, "bar-a",
+         lambda e: (e.canonical_name, e.vendor, e.gi, e.gi_raw)),
+        (pad + panel_w + gap, "Track B · Nomenclature Length (NL) ↑", "Characters in the name", nl, "bar-b",
+         lambda e: (e.canonical_name, e.vendor, e.nl, str(e.nl))),
+    ]
+    for x, title, note, items, css, row in panels:
+        out.append(f'<text class="panel" x="{x}" y="134">{escape(title)}</text>')
+        out.append(f'<text class="panel-note" x="{x}" y="152">{escape(note)}</text>')
+        out += _bar_panel(x, 166, panel_w, [row(e) for e in items], css)
+    out.append(f'<text class="footer" x="{pad}" y="{h - 22}">Recreational benchmark. Says nothing about model quality.</text>')
+    out.append(f'<text class="footer" x="{w - pad}" y="{h - 22}" text-anchor="end">github.com/shuiyue-cmyk/benchmaxx</text>')
+    out.append("</svg>")
+    return "\n".join(out)

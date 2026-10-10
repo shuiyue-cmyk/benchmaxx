@@ -81,6 +81,10 @@ Full results: [`results/LEADERBOARD.md`](results/LEADERBOARD.md)
 <!-- BENCHMAXX:END -->
 
 <p align="center">
+  <img src="results/figures/vendor_champions.svg" alt="Vendor champions on Track A and Track B" width="100%">
+</p>
+
+<p align="center">
   <img src="results/figures/gi_over_time.svg" alt="Figure 1: Generation Index by release date" width="49%">
   <img src="results/figures/gi_vs_nl.svg" alt="Figure 2: Generation Index vs. Nomenclature Length" width="49%">
 </p>

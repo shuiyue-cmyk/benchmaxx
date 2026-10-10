@@ -78,6 +78,10 @@
 <!-- BENCHMAXX:END -->
 
 <p align="center">
+  <img src="results/figures/vendor_champions.svg" alt="各厂商最佳模型：赛道 A 与赛道 B" width="100%">
+</p>
+
+<p align="center">
   <img src="results/figures/gi_over_time.svg" alt="图 1：代际指数随上架时间变化" width="49%">
   <img src="results/figures/gi_vs_nl.svg" alt="图 2：代际指数与名称长度" width="49%">
 </p>
