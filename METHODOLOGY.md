@@ -182,4 +182,4 @@ Results from different protocol versions MUST NOT be compared on the same leader
 - [x] Deterministic scoring (no sampling, no inference, no LLM-as-judge)
 - [x] Zero third-party dependencies (Python ≥ 3.10 standard library only)
 - [x] Conformance test suite
-- [x] Automated weekly re-evaluation (GitHub Actions)
+- [x] Continuous integration: conformance tests plus re-scoring of the latest archived snapshot

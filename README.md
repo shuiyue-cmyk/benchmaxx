@@ -8,7 +8,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-[![Weekly evaluation](https://github.com/shuiyue-cmyk/benchmaxx/actions/workflows/evaluate.yml/badge.svg)](https://github.com/shuiyue-cmyk/benchmaxx/actions/workflows/evaluate.yml)
+[![Conformance tests](https://github.com/shuiyue-cmyk/benchmaxx/actions/workflows/tests.yml/badge.svg)](https://github.com/shuiyue-cmyk/benchmaxx/actions/workflows/tests.yml)
 ![Protocol](https://img.shields.io/badge/protocol-v1.0-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![Contamination](https://img.shields.io/badge/data%20contamination-impossible-success)
@@ -32,7 +32,7 @@ running the models it evaluates. Instead, BenchMaxx scores every callable text m
 - **Track B, Nomenclature Length (NL):** the number of characters in the model's name.
 
 Scoring is deterministic, needs no API key, costs no tokens and finishes in under a minute. The
-leaderboard below is regenerated automatically every week.
+leaderboard below is regenerated on each evaluation run, and every run is archived as a snapshot.
 
 ## Leaderboard
 

@@ -8,7 +8,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-[![Weekly evaluation](https://github.com/shuiyue-cmyk/benchmaxx/actions/workflows/evaluate.yml/badge.svg)](https://github.com/shuiyue-cmyk/benchmaxx/actions/workflows/evaluate.yml)
+[![Conformance tests](https://github.com/shuiyue-cmyk/benchmaxx/actions/workflows/tests.yml/badge.svg)](https://github.com/shuiyue-cmyk/benchmaxx/actions/workflows/tests.yml)
 ![Protocol](https://img.shields.io/badge/protocol-v1.0-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![Contamination](https://img.shields.io/badge/data%20contamination-impossible-success)
@@ -29,7 +29,7 @@
   （`GPT-6.1` → 6.1，`Qwen3.8` → 3.8，`Kimi K3` → 3）。
 - **赛道 B：名称长度（Nomenclature Length, NL）**：模型名称的字符数。
 
-评分过程完全确定，不需要 API Key，不消耗任何 token，一分钟内跑完。下方榜单每周自动更新。
+评分过程完全确定，不需要 API Key，不消耗任何 token，一分钟内跑完。每次评测都会重新生成下方榜单，并存档快照。
 
 ## 排行榜
 
