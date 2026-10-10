@@ -1,0 +1,6741 @@
+{
+  "meta": {
+    "benchmaxx_version": "1.0.0",
+    "protocol_version": "1.0",
+    "snapshot_date": "2026-10-10",
+    "retrieved_at": "2026-10-10T16:28:34+00:00",
+    "callability_verified": true
+  },
+  "census": {
+    "catalogue_size": 458,
+    "excluded": {
+      "alias": 18,
+      "meta-router (variable pricing)": 2,
+      "non-text output": 14,
+      "platform router": 6
+    },
+    "eligible_models": 332,
+    "uncallable": [],
+    "evaluated_models": 332,
+    "gi_qualified": 292,
+    "dnq": 40
+  },
+  "statistics": {
+    "gi_mean": 3.537,
+    "gi_median": 3.4,
+    "nl_mean": 14.54,
+    "nl_median": 14.0,
+    "velocity": 0.451
+  },
+  "vendors": [
+    {
+      "vendor": "OpenAI",
+      "vendor_slugs": [
+        "openai"
+      ],
+      "models": 60,
+      "gi_coverage": 0.933,
+      "gi_max": 6.1,
+      "gi_median": 5.1,
+      "nl_mean": 12.07,
+      "velocity": 0.922
+    },
+    {
+      "vendor": "Anthropic",
+      "vendor_slugs": [
+        "anthropic"
+      ],
+      "models": 16,
+      "gi_coverage": 1.0,
+      "gi_max": 5.5,
+      "gi_median": 4.75,
+      "nl_mean": 15.38,
+      "velocity": 0.995
+    },
+    {
+      "vendor": "Z.ai",
+      "vendor_slugs": [
+        "z-ai"
+      ],
+      "models": 16,
+      "gi_coverage": 1.0,
+      "gi_max": 5.3,
+      "gi_median": 5.0,
+      "nl_mean": 9.38,
+      "velocity": 0.765
+    },
+    {
+      "vendor": "StepFun",
+      "vendor_slugs": [
+        "stepfun"
+      ],
+      "models": 3,
+      "gi_coverage": 1.0,
+      "gi_max": 5.0,
+      "gi_median": 3.7,
+      "nl_mean": 14,
+      "velocity": 2.2
+    },
+    {
+      "vendor": "SpaceXAI",
+      "vendor_slugs": [
+        "x-ai"
+      ],
+      "models": 7,
+      "gi_coverage": 1.0,
+      "gi_max": 4.7,
+      "gi_median": 4.3,
+      "nl_mean": 10.86,
+      "velocity": 2.161
+    },
+    {
+      "vendor": "DeepSeek",
+      "vendor_slugs": [
+        "deepseek"
+      ],
+      "models": 14,
+      "gi_coverage": 1.0,
+      "gi_max": 4.1,
+      "gi_median": 3.2,
+      "nl_mean": 16.57,
+      "velocity": 1.317
+    },
+    {
+      "vendor": "TheDrummer",
+      "vendor_slugs": [
+        "thedrummer"
+      ],
+      "models": 3,
+      "gi_coverage": 0.667,
+      "gi_max": 4.1,
+      "gi_median": 3.05,
+      "nl_mean": 14.67,
+      "velocity": null
+    },
+    {
+      "vendor": "Google",
+      "vendor_slugs": [
+        "google"
+      ],
+      "models": 20,
+      "gi_coverage": 1.0,
+      "gi_max": 4.0,
+      "gi_median": 3.1,
+      "nl_mean": 18.1,
+      "velocity": 0.738
+    },
+    {
+      "vendor": "Mistral",
+      "vendor_slugs": [
+        "mistralai"
+      ],
+      "models": 20,
+      "gi_coverage": 0.65,
+      "gi_max": 4.0,
+      "gi_median": 3.0,
+      "nl_mean": 16.85,
+      "velocity": 0.495
+    },
+    {
+      "vendor": "Meta",
+      "vendor_slugs": [
+        "meta",
+        "meta-llama"
+      ],
+      "models": 14,
+      "gi_coverage": 0.929,
+      "gi_max": 4.0,
+      "gi_median": 3.1,
+      "nl_mean": 18.79,
+      "velocity": -1.131
+    },
+    {
+      "vendor": "Tencent",
+      "vendor_slugs": [
+        "tencent"
+      ],
+      "models": 7,
+      "gi_coverage": 0.857,
+      "gi_max": 4.0,
+      "gi_median": 2.5,
+      "nl_mean": 11.43,
+      "velocity": -1.293
+    },
+    {
+      "vendor": "Nous",
+      "vendor_slugs": [
+        "nousresearch"
+      ],
+      "models": 3,
+      "gi_coverage": 1.0,
+      "gi_max": 4.0,
+      "gi_median": 3.0,
+      "nl_mean": 18.67,
+      "velocity": 0.977
+    },
+    {
+      "vendor": "Upstage",
+      "vendor_slugs": [
+        "upstage"
+      ],
+      "models": 3,
+      "gi_coverage": 1.0,
+      "gi_max": 4.0,
+      "gi_median": 4.0,
+      "nl_mean": 11.33,
+      "velocity": 1.632
+    },
+    {
+      "vendor": "Qwen",
+      "vendor_slugs": [
+        "qwen"
+      ],
+      "models": 42,
+      "gi_coverage": 0.976,
+      "gi_max": 3.8,
+      "gi_median": 3.5,
+      "nl_mean": 18,
+      "velocity": 0.72
+    },
+    {
+      "vendor": "NVIDIA",
+      "vendor_slugs": [
+        "nvidia"
+      ],
+      "models": 6,
+      "gi_coverage": 1.0,
+      "gi_max": 3.5,
+      "gi_median": 3.0,
+      "nl_mean": 20.67,
+      "velocity": 0.763
+    },
+    {
+      "vendor": "AionLabs",
+      "vendor_slugs": [
+        "aion-labs"
+      ],
+      "models": 6,
+      "gi_coverage": 1.0,
+      "gi_max": 3.5,
+      "gi_median": 3.0,
+      "nl_mean": 11,
+      "velocity": 1.535
+    },
+    {
+      "vendor": "Sao10K",
+      "vendor_slugs": [
+        "sao10k"
+      ],
+      "models": 3,
+      "gi_coverage": 1.0,
+      "gi_max": 3.3,
+      "gi_median": 3.1,
+      "nl_mean": 21.67,
+      "velocity": 0.785
+    },
+    {
+      "vendor": "inclusionAI",
+      "vendor_slugs": [
+        "inclusionai"
+      ],
+      "models": 5,
+      "gi_coverage": 1.0,
+      "gi_max": 3.1,
+      "gi_median": 3.0,
+      "nl_mean": 16.6,
+      "velocity": 0.428
+    },
+    {
+      "vendor": "MiniMax",
+      "vendor_slugs": [
+        "minimax"
+      ],
+      "models": 8,
+      "gi_coverage": 1.0,
+      "gi_max": 3.0,
+      "gi_median": 2.05,
+      "nl_mean": 11.25,
+      "velocity": 1.56
+    },
+    {
+      "vendor": "MoonshotAI",
+      "vendor_slugs": [
+        "moonshotai"
+      ],
+      "models": 7,
+      "gi_coverage": 1.0,
+      "gi_max": 3.0,
+      "gi_median": 2.5,
+      "nl_mean": 11.29,
+      "velocity": 0.989
+    },
+    {
+      "vendor": "Xiaomi",
+      "vendor_slugs": [
+        "xiaomi"
+      ],
+      "models": 5,
+      "gi_coverage": 1.0,
+      "gi_max": 2.6,
+      "gi_median": 2.6,
+      "nl_mean": 14.8,
+      "velocity": 0.24
+    },
+    {
+      "vendor": "ByteDance Seed",
+      "vendor_slugs": [
+        "bytedance-seed"
+      ],
+      "models": 6,
+      "gi_coverage": 1.0,
+      "gi_max": 2.1,
+      "gi_median": 2.0,
+      "nl_mean": 12.5,
+      "velocity": 0.606
+    },
+    {
+      "vendor": "Amazon",
+      "vendor_slugs": [
+        "amazon"
+      ],
+      "models": 5,
+      "gi_coverage": 1.0,
+      "gi_max": 2.0,
+      "gi_median": 1.0,
+      "nl_mean": 13.2,
+      "velocity": 0.566
+    },
+    {
+      "vendor": "Sakana",
+      "vendor_slugs": [
+        "sakana"
+      ],
+      "models": 4,
+      "gi_coverage": 0.25,
+      "gi_max": 2.0,
+      "gi_median": 2.0,
+      "nl_mean": 11,
+      "velocity": null
+    },
+    {
+      "vendor": "Cohere",
+      "vendor_slugs": [
+        "cohere"
+      ],
+      "models": 6,
+      "gi_coverage": 0.0,
+      "gi_max": null,
+      "gi_median": null,
+      "nl_mean": 15.67,
+      "velocity": null
+    },
+    {
+      "vendor": "Perplexity",
+      "vendor_slugs": [
+        "perplexity"
+      ],
+      "models": 5,
+      "gi_coverage": 0.0,
+      "gi_max": null,
+      "gi_median": null,
+      "nl_mean": 13.6,
+      "velocity": null
+    }
+  ],
+  "models": [
+    {
+      "model_id": "unbiased/pareto-26.10-preview",
+      "display_name": "Pareto 26.10 Preview",
+      "canonical_name": "Pareto 26.10 Preview",
+      "vendor": "unbiased",
+      "vendor_slug": "unbiased",
+      "released": "2026-10-01",
+      "slugs": [
+        "unbiased/pareto-26.10-preview"
+      ],
+      "endpoints": 1,
+      "gi_raw": "26.10",
+      "gi": 26.1,
+      "nl": 20,
+      "ne": 1.305,
+      "rank_gi": 1,
+      "rank_nl": 54,
+      "rank_ne": 2
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol-pro",
+      "display_name": "OpenAI: GPT-6.1 Sol Pro",
+      "canonical_name": "GPT-6.1 Sol Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-09-29",
+      "slugs": [
+        "openai/gpt-6.1-sol-pro",
+        "openai/gpt-6.1-sol-pro:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "6.1",
+      "gi": 6.1,
+      "nl": 15,
+      "ne": 0.4067,
+      "rank_gi": 2,
+      "rank_nl": 124,
+      "rank_ne": 59
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol",
+      "display_name": "OpenAI: GPT-6.1 Sol",
+      "canonical_name": "GPT-6.1 Sol",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-09-29",
+      "slugs": [
+        "openai/gpt-6.1-sol",
+        "openai/gpt-6.1-sol:batch"
+      ],
+      "endpoints": 9,
+      "gi_raw": "6.1",
+      "gi": 6.1,
+      "nl": 11,
+      "ne": 0.5545,
+      "rank_gi": 2,
+      "rank_nl": 234,
+      "rank_ne": 29
+    },
+    {
+      "model_id": "openai/gpt-6-astra-pro",
+      "display_name": "OpenAI: GPT-6 Astra Pro",
+      "canonical_name": "GPT-6 Astra Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-09-04",
+      "slugs": [
+        "openai/gpt-6-astra-pro",
+        "openai/gpt-6-astra-pro:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "6",
+      "gi": 6.0,
+      "nl": 15,
+      "ne": 0.4,
+      "rank_gi": 4,
+      "rank_nl": 124,
+      "rank_ne": 60
+    },
+    {
+      "model_id": "openai/gpt-6-luna-pro",
+      "display_name": "OpenAI: GPT-6 Luna Pro",
+      "canonical_name": "GPT-6 Luna Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-09-22",
+      "slugs": [
+        "openai/gpt-6-luna-pro",
+        "openai/gpt-6-luna-pro:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "6",
+      "gi": 6.0,
+      "nl": 14,
+      "ne": 0.4286,
+      "rank_gi": 4,
+      "rank_nl": 146,
+      "rank_ne": 51
+    },
+    {
+      "model_id": "openai/gpt-6-sol-pro",
+      "display_name": "OpenAI: GPT-6 Sol Pro",
+      "canonical_name": "GPT-6 Sol Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-09-22",
+      "slugs": [
+        "openai/gpt-6-sol-pro",
+        "openai/gpt-6-sol-pro:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "6",
+      "gi": 6.0,
+      "nl": 13,
+      "ne": 0.4615,
+      "rank_gi": 4,
+      "rank_nl": 174,
+      "rank_ne": 44
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "display_name": "OpenAI: GPT-6 Astra",
+      "canonical_name": "GPT-6 Astra",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-09-04",
+      "slugs": [
+        "openai/gpt-6-astra",
+        "openai/gpt-6-astra:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "6",
+      "gi": 6.0,
+      "nl": 11,
+      "ne": 0.5455,
+      "rank_gi": 4,
+      "rank_nl": 234,
+      "rank_ne": 30
+    },
+    {
+      "model_id": "openai/gpt-6-luna",
+      "display_name": "OpenAI: GPT-6 Luna",
+      "canonical_name": "GPT-6 Luna",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-09-22",
+      "slugs": [
+        "openai/gpt-6-luna",
+        "openai/gpt-6-luna:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "6",
+      "gi": 6.0,
+      "nl": 10,
+      "ne": 0.6,
+      "rank_gi": 4,
+      "rank_nl": 263,
+      "rank_ne": 20
+    },
+    {
+      "model_id": "openai/gpt-6-sol",
+      "display_name": "OpenAI: GPT-6 Sol",
+      "canonical_name": "GPT-6 Sol",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-09-22",
+      "slugs": [
+        "openai/gpt-6-sol",
+        "openai/gpt-6-sol:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "6",
+      "gi": 6.0,
+      "nl": 9,
+      "ne": 0.6667,
+      "rank_gi": 4,
+      "rank_nl": 277,
+      "rank_ne": 16
+    },
+    {
+      "model_id": "openai/gpt-5.6-terra-pro",
+      "display_name": "OpenAI: GPT-5.6 Terra Pro",
+      "canonical_name": "GPT-5.6 Terra Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-07-09",
+      "slugs": [
+        "openai/gpt-5.6-terra-pro",
+        "openai/gpt-5.6-terra-pro:batch"
+      ],
+      "endpoints": 6,
+      "gi_raw": "5.6",
+      "gi": 5.6,
+      "nl": 17,
+      "ne": 0.3294,
+      "rank_gi": 10,
+      "rank_nl": 86,
+      "rank_ne": 88
+    },
+    {
+      "model_id": "openai/gpt-5.6-luna-pro",
+      "display_name": "OpenAI: GPT-5.6 Luna Pro",
+      "canonical_name": "GPT-5.6 Luna Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-07-09",
+      "slugs": [
+        "openai/gpt-5.6-luna-pro",
+        "openai/gpt-5.6-luna-pro:batch"
+      ],
+      "endpoints": 6,
+      "gi_raw": "5.6",
+      "gi": 5.6,
+      "nl": 16,
+      "ne": 0.35,
+      "rank_gi": 10,
+      "rank_nl": 101,
+      "rank_ne": 76
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol-pro",
+      "display_name": "OpenAI: GPT-5.6 Sol Pro",
+      "canonical_name": "GPT-5.6 Sol Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-07-09",
+      "slugs": [
+        "openai/gpt-5.6-sol-pro",
+        "openai/gpt-5.6-sol-pro:batch"
+      ],
+      "endpoints": 6,
+      "gi_raw": "5.6",
+      "gi": 5.6,
+      "nl": 15,
+      "ne": 0.3733,
+      "rank_gi": 10,
+      "rank_nl": 124,
+      "rank_ne": 66
+    },
+    {
+      "model_id": "openai/gpt-5.6-terra",
+      "display_name": "OpenAI: GPT-5.6 Terra",
+      "canonical_name": "GPT-5.6 Terra",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-07-09",
+      "slugs": [
+        "openai/gpt-5.6-terra",
+        "openai/gpt-5.6-terra:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "5.6",
+      "gi": 5.6,
+      "nl": 13,
+      "ne": 0.4308,
+      "rank_gi": 10,
+      "rank_nl": 174,
+      "rank_ne": 50
+    },
+    {
+      "model_id": "openai/gpt-5.6-luna",
+      "display_name": "OpenAI: GPT-5.6 Luna",
+      "canonical_name": "GPT-5.6 Luna",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-07-09",
+      "slugs": [
+        "openai/gpt-5.6-luna",
+        "openai/gpt-5.6-luna:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "5.6",
+      "gi": 5.6,
+      "nl": 12,
+      "ne": 0.4667,
+      "rank_gi": 10,
+      "rank_nl": 210,
+      "rank_ne": 42
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol",
+      "display_name": "OpenAI: GPT-5.6 Sol",
+      "canonical_name": "GPT-5.6 Sol",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-07-09",
+      "slugs": [
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5.6-sol:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "5.6",
+      "gi": 5.6,
+      "nl": 11,
+      "ne": 0.5091,
+      "rank_gi": 10,
+      "rank_nl": 234,
+      "rank_ne": 32
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-5.5",
+      "display_name": "Anthropic: Claude Sonnet 5.5",
+      "canonical_name": "Claude Sonnet 5.5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-09-28",
+      "slugs": [
+        "anthropic/claude-sonnet-5.5",
+        "anthropic/claude-sonnet-5.5:batch"
+      ],
+      "endpoints": 9,
+      "gi_raw": "5.5",
+      "gi": 5.5,
+      "nl": 17,
+      "ne": 0.3235,
+      "rank_gi": 16,
+      "rank_nl": 86,
+      "rank_ne": 90
+    },
+    {
+      "model_id": "anthropic/claude-haiku-5.5",
+      "display_name": "Anthropic: Claude Haiku 5.5",
+      "canonical_name": "Claude Haiku 5.5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-10-07",
+      "slugs": [
+        "anthropic/claude-haiku-5.5",
+        "anthropic/claude-haiku-5.5:batch"
+      ],
+      "endpoints": 11,
+      "gi_raw": "5.5",
+      "gi": 5.5,
+      "nl": 16,
+      "ne": 0.3438,
+      "rank_gi": 16,
+      "rank_nl": 101,
+      "rank_ne": 79
+    },
+    {
+      "model_id": "anthropic/claude-opus-5.5",
+      "display_name": "Anthropic: Claude Opus 5.5",
+      "canonical_name": "Claude Opus 5.5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-09-22",
+      "slugs": [
+        "anthropic/claude-opus-5.5",
+        "anthropic/claude-opus-5.5:batch"
+      ],
+      "endpoints": 12,
+      "gi_raw": "5.5",
+      "gi": 5.5,
+      "nl": 15,
+      "ne": 0.3667,
+      "rank_gi": 16,
+      "rank_nl": 124,
+      "rank_ne": 67
+    },
+    {
+      "model_id": "openai/gpt-5.5-pro",
+      "display_name": "OpenAI: GPT-5.5 Pro",
+      "canonical_name": "GPT-5.5 Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-04-24",
+      "slugs": [
+        "openai/gpt-5.5-pro",
+        "openai/gpt-5.5-pro:batch"
+      ],
+      "endpoints": 3,
+      "gi_raw": "5.5",
+      "gi": 5.5,
+      "nl": 11,
+      "ne": 0.5,
+      "rank_gi": 16,
+      "rank_nl": 234,
+      "rank_ne": 33
+    },
+    {
+      "model_id": "openai/gpt-5.5",
+      "display_name": "OpenAI: GPT-5.5",
+      "canonical_name": "GPT-5.5",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-04-24",
+      "slugs": [
+        "openai/gpt-5.5",
+        "openai/gpt-5.5:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "5.5",
+      "gi": 5.5,
+      "nl": 7,
+      "ne": 0.7857,
+      "rank_gi": 16,
+      "rank_nl": 302,
+      "rank_ne": 8
+    },
+    {
+      "model_id": "openai/gpt-5.4-mini",
+      "display_name": "OpenAI: GPT-5.4 Mini",
+      "canonical_name": "GPT-5.4 Mini",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-03-17",
+      "slugs": [
+        "openai/gpt-5.4-mini",
+        "openai/gpt-5.4-mini:batch"
+      ],
+      "endpoints": 6,
+      "gi_raw": "5.4",
+      "gi": 5.4,
+      "nl": 12,
+      "ne": 0.45,
+      "rank_gi": 21,
+      "rank_nl": 210,
+      "rank_ne": 46
+    },
+    {
+      "model_id": "openai/gpt-5.4-nano",
+      "display_name": "OpenAI: GPT-5.4 Nano",
+      "canonical_name": "GPT-5.4 Nano",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-03-17",
+      "slugs": [
+        "openai/gpt-5.4-nano",
+        "openai/gpt-5.4-nano:batch"
+      ],
+      "endpoints": 5,
+      "gi_raw": "5.4",
+      "gi": 5.4,
+      "nl": 12,
+      "ne": 0.45,
+      "rank_gi": 21,
+      "rank_nl": 210,
+      "rank_ne": 46
+    },
+    {
+      "model_id": "openai/gpt-5.4-pro",
+      "display_name": "OpenAI: GPT-5.4 Pro",
+      "canonical_name": "GPT-5.4 Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-03-05",
+      "slugs": [
+        "openai/gpt-5.4-pro",
+        "openai/gpt-5.4-pro:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "5.4",
+      "gi": 5.4,
+      "nl": 11,
+      "ne": 0.4909,
+      "rank_gi": 21,
+      "rank_nl": 234,
+      "rank_ne": 40
+    },
+    {
+      "model_id": "openai/gpt-5.4",
+      "display_name": "OpenAI: GPT-5.4",
+      "canonical_name": "GPT-5.4",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-03-05",
+      "slugs": [
+        "openai/gpt-5.4",
+        "openai/gpt-5.4:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "5.4",
+      "gi": 5.4,
+      "nl": 7,
+      "ne": 0.7714,
+      "rank_gi": 21,
+      "rank_nl": 302,
+      "rank_ne": 9
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flashx",
+      "display_name": "Z.ai: GLM 5.3 FlashX",
+      "canonical_name": "GLM 5.3 FlashX",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-09-18",
+      "slugs": [
+        "z-ai/glm-5.3-flashx"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5.3",
+      "gi": 5.3,
+      "nl": 14,
+      "ne": 0.3786,
+      "rank_gi": 25,
+      "rank_nl": 146,
+      "rank_ne": 64
+    },
+    {
+      "model_id": "openai/gpt-5.3-codex",
+      "display_name": "OpenAI: GPT-5.3-Codex",
+      "canonical_name": "GPT-5.3-Codex",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-02-24",
+      "slugs": [
+        "openai/gpt-5.3-codex"
+      ],
+      "endpoints": 3,
+      "gi_raw": "5.3",
+      "gi": 5.3,
+      "nl": 13,
+      "ne": 0.4077,
+      "rank_gi": 25,
+      "rank_nl": 174,
+      "rank_ne": 56
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash",
+      "display_name": "Z.ai: GLM 5.3 Flash",
+      "canonical_name": "GLM 5.3 Flash",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-08-26",
+      "slugs": [
+        "z-ai/glm-5.3-flash",
+        "z-ai/glm-5.3-flash:batch"
+      ],
+      "endpoints": 34,
+      "gi_raw": "5.3",
+      "gi": 5.3,
+      "nl": 13,
+      "ne": 0.4077,
+      "rank_gi": 25,
+      "rank_nl": 174,
+      "rank_ne": 56
+    },
+    {
+      "model_id": "z-ai/glm-5.3-prime",
+      "display_name": "Z.ai: GLM 5.3 Prime",
+      "canonical_name": "GLM 5.3 Prime",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-09-23",
+      "slugs": [
+        "z-ai/glm-5.3-prime"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5.3",
+      "gi": 5.3,
+      "nl": 13,
+      "ne": 0.4077,
+      "rank_gi": 25,
+      "rank_nl": 174,
+      "rank_ne": 56
+    },
+    {
+      "model_id": "z-ai/glm-5.3",
+      "display_name": "Z.ai: GLM 5.3",
+      "canonical_name": "GLM 5.3",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-08-18",
+      "slugs": [
+        "z-ai/glm-5.3",
+        "z-ai/glm-5.3:batch"
+      ],
+      "endpoints": 41,
+      "gi_raw": "5.3",
+      "gi": 5.3,
+      "nl": 7,
+      "ne": 0.7571,
+      "rank_gi": 25,
+      "rank_nl": 302,
+      "rank_ne": 10
+    },
+    {
+      "model_id": "openai/gpt-5.2-codex",
+      "display_name": "OpenAI: GPT-5.2-Codex",
+      "canonical_name": "GPT-5.2-Codex",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-01-14",
+      "slugs": [
+        "openai/gpt-5.2-codex"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5.2",
+      "gi": 5.2,
+      "nl": 13,
+      "ne": 0.4,
+      "rank_gi": 30,
+      "rank_nl": 174,
+      "rank_ne": 60
+    },
+    {
+      "model_id": "openai/gpt-5.2-chat",
+      "display_name": "OpenAI: GPT-5.2 Chat",
+      "canonical_name": "GPT-5.2 Chat",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-12-10",
+      "slugs": [
+        "openai/gpt-5.2-chat"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5.2",
+      "gi": 5.2,
+      "nl": 12,
+      "ne": 0.4333,
+      "rank_gi": 30,
+      "rank_nl": 210,
+      "rank_ne": 49
+    },
+    {
+      "model_id": "openai/gpt-5.2-pro",
+      "display_name": "OpenAI: GPT-5.2 Pro",
+      "canonical_name": "GPT-5.2 Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-12-10",
+      "slugs": [
+        "openai/gpt-5.2-pro",
+        "openai/gpt-5.2-pro:batch"
+      ],
+      "endpoints": 2,
+      "gi_raw": "5.2",
+      "gi": 5.2,
+      "nl": 11,
+      "ne": 0.4727,
+      "rank_gi": 30,
+      "rank_nl": 234,
+      "rank_ne": 41
+    },
+    {
+      "model_id": "openai/gpt-5.2",
+      "display_name": "OpenAI: GPT-5.2",
+      "canonical_name": "GPT-5.2",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-12-10",
+      "slugs": [
+        "openai/gpt-5.2",
+        "openai/gpt-5.2:batch"
+      ],
+      "endpoints": 5,
+      "gi_raw": "5.2",
+      "gi": 5.2,
+      "nl": 7,
+      "ne": 0.7429,
+      "rank_gi": 30,
+      "rank_nl": 302,
+      "rank_ne": 11
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "display_name": "Z.ai: GLM 5.2",
+      "canonical_name": "GLM 5.2",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-06-16",
+      "slugs": [
+        "z-ai/glm-5.2"
+      ],
+      "endpoints": 34,
+      "gi_raw": "5.2",
+      "gi": 5.2,
+      "nl": 7,
+      "ne": 0.7429,
+      "rank_gi": 30,
+      "rank_nl": 302,
+      "rank_ne": 11
+    },
+    {
+      "model_id": "openai/gpt-5.1-codex-mini",
+      "display_name": "OpenAI: GPT-5.1-Codex-Mini",
+      "canonical_name": "GPT-5.1-Codex-Mini",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-11-13",
+      "slugs": [
+        "openai/gpt-5.1-codex-mini"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5.1",
+      "gi": 5.1,
+      "nl": 18,
+      "ne": 0.2833,
+      "rank_gi": 35,
+      "rank_nl": 77,
+      "rank_ne": 109
+    },
+    {
+      "model_id": "openai/gpt-5.1-codex-max",
+      "display_name": "OpenAI: GPT-5.1-Codex-Max",
+      "canonical_name": "GPT-5.1-Codex-Max",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-12-04",
+      "slugs": [
+        "openai/gpt-5.1-codex-max"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5.1",
+      "gi": 5.1,
+      "nl": 17,
+      "ne": 0.3,
+      "rank_gi": 35,
+      "rank_nl": 86,
+      "rank_ne": 100
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "display_name": "Anthropic: Claude Fable 5.1",
+      "canonical_name": "Claude Fable 5.1",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-09-01",
+      "slugs": [
+        "anthropic/claude-fable-5.1",
+        "anthropic/claude-fable-5.1:batch"
+      ],
+      "endpoints": 5,
+      "gi_raw": "5.1",
+      "gi": 5.1,
+      "nl": 16,
+      "ne": 0.3187,
+      "rank_gi": 35,
+      "rank_nl": 101,
+      "rank_ne": 92
+    },
+    {
+      "model_id": "openai/gpt-5.1-codex",
+      "display_name": "OpenAI: GPT-5.1-Codex",
+      "canonical_name": "GPT-5.1-Codex",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-11-13",
+      "slugs": [
+        "openai/gpt-5.1-codex"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5.1",
+      "gi": 5.1,
+      "nl": 13,
+      "ne": 0.3923,
+      "rank_gi": 35,
+      "rank_nl": 174,
+      "rank_ne": 62
+    },
+    {
+      "model_id": "openai/gpt-5.1",
+      "display_name": "OpenAI: GPT-5.1",
+      "canonical_name": "GPT-5.1",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-11-13",
+      "slugs": [
+        "openai/gpt-5.1",
+        "openai/gpt-5.1:batch"
+      ],
+      "endpoints": 6,
+      "gi_raw": "5.1",
+      "gi": 5.1,
+      "nl": 7,
+      "ne": 0.7286,
+      "rank_gi": 35,
+      "rank_nl": 302,
+      "rank_ne": 13
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "display_name": "Z.ai: GLM 5.1",
+      "canonical_name": "GLM 5.1",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-04-07",
+      "slugs": [
+        "z-ai/glm-5.1"
+      ],
+      "endpoints": 13,
+      "gi_raw": "5.1",
+      "gi": 5.1,
+      "nl": 7,
+      "ne": 0.7286,
+      "rank_gi": 35,
+      "rank_nl": 302,
+      "rank_ne": 13
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-5",
+      "display_name": "Anthropic: Claude Sonnet 5",
+      "canonical_name": "Claude Sonnet 5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-06-30",
+      "slugs": [
+        "anthropic/claude-sonnet-5",
+        "anthropic/claude-sonnet-5:batch"
+      ],
+      "endpoints": 11,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 15,
+      "ne": 0.3333,
+      "rank_gi": 41,
+      "rank_nl": 124,
+      "rank_ne": 83
+    },
+    {
+      "model_id": "anthropic/claude-fable-5",
+      "display_name": "Anthropic: Claude Fable 5",
+      "canonical_name": "Claude Fable 5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-06-09",
+      "slugs": [
+        "anthropic/claude-fable-5",
+        "anthropic/claude-fable-5:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 14,
+      "ne": 0.3571,
+      "rank_gi": 41,
+      "rank_nl": 146,
+      "rank_ne": 74
+    },
+    {
+      "model_id": "stepfun/step-5-preview",
+      "display_name": "StepFun: Step 5 Preview",
+      "canonical_name": "Step 5 Preview",
+      "vendor": "StepFun",
+      "vendor_slug": "stepfun",
+      "released": "2026-10-08",
+      "slugs": [
+        "stepfun/step-5-preview"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 14,
+      "ne": 0.3571,
+      "rank_gi": 41,
+      "rank_nl": 146,
+      "rank_ne": 74
+    },
+    {
+      "model_id": "anthropic/claude-opus-5",
+      "display_name": "Anthropic: Claude Opus 5",
+      "canonical_name": "Claude Opus 5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-07-24",
+      "slugs": [
+        "anthropic/claude-opus-5",
+        "anthropic/claude-opus-5:batch"
+      ],
+      "endpoints": 12,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 13,
+      "ne": 0.3846,
+      "rank_gi": 41,
+      "rank_nl": 174,
+      "rank_ne": 63
+    },
+    {
+      "model_id": "z-ai/glm-5v-turbo",
+      "display_name": "Z.ai: GLM 5V Turbo",
+      "canonical_name": "GLM 5V Turbo",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-04-01",
+      "slugs": [
+        "z-ai/glm-5v-turbo"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 12,
+      "ne": 0.4167,
+      "rank_gi": 41,
+      "rank_nl": 210,
+      "rank_ne": 54
+    },
+    {
+      "model_id": "z-ai/glm-5-turbo",
+      "display_name": "Z.ai: GLM 5 Turbo",
+      "canonical_name": "GLM 5 Turbo",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-03-15",
+      "slugs": [
+        "z-ai/glm-5-turbo"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 11,
+      "ne": 0.4545,
+      "rank_gi": 41,
+      "rank_nl": 234,
+      "rank_ne": 45
+    },
+    {
+      "model_id": "openai/gpt-5-mini",
+      "display_name": "OpenAI: GPT-5 Mini",
+      "canonical_name": "GPT-5 Mini",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-08-07",
+      "slugs": [
+        "openai/gpt-5-mini",
+        "openai/gpt-5-mini:batch"
+      ],
+      "endpoints": 5,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 10,
+      "ne": 0.5,
+      "rank_gi": 41,
+      "rank_nl": 263,
+      "rank_ne": 33
+    },
+    {
+      "model_id": "openai/gpt-5-nano",
+      "display_name": "OpenAI: GPT-5 Nano",
+      "canonical_name": "GPT-5 Nano",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-08-07",
+      "slugs": [
+        "openai/gpt-5-nano",
+        "openai/gpt-5-nano:batch"
+      ],
+      "endpoints": 5,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 10,
+      "ne": 0.5,
+      "rank_gi": 41,
+      "rank_nl": 263,
+      "rank_ne": 33
+    },
+    {
+      "model_id": "writer/palmyra-x5",
+      "display_name": "Writer: Palmyra X5",
+      "canonical_name": "Palmyra X5",
+      "vendor": "Writer",
+      "vendor_slug": "writer",
+      "released": "2026-01-21",
+      "slugs": [
+        "writer/palmyra-x5"
+      ],
+      "endpoints": 1,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 10,
+      "ne": 0.5,
+      "rank_gi": 41,
+      "rank_nl": 263,
+      "rank_ne": 33
+    },
+    {
+      "model_id": "openai/gpt-5-pro",
+      "display_name": "OpenAI: GPT-5 Pro",
+      "canonical_name": "GPT-5 Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-10-06",
+      "slugs": [
+        "openai/gpt-5-pro",
+        "openai/gpt-5-pro:batch"
+      ],
+      "endpoints": 2,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 9,
+      "ne": 0.5556,
+      "rank_gi": 41,
+      "rank_nl": 277,
+      "rank_ne": 28
+    },
+    {
+      "model_id": "openai/gpt-5",
+      "display_name": "OpenAI: GPT-5",
+      "canonical_name": "GPT-5",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-08-07",
+      "slugs": [
+        "openai/gpt-5",
+        "openai/gpt-5:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 5,
+      "ne": 1.0,
+      "rank_gi": 41,
+      "rank_nl": 323,
+      "rank_ne": 3
+    },
+    {
+      "model_id": "z-ai/glm-5",
+      "display_name": "Z.ai: GLM 5",
+      "canonical_name": "GLM 5",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-02-11",
+      "slugs": [
+        "z-ai/glm-5"
+      ],
+      "endpoints": 8,
+      "gi_raw": "5",
+      "gi": 5.0,
+      "nl": 5,
+      "ne": 1.0,
+      "rank_gi": 41,
+      "rank_nl": 323,
+      "rank_ne": 3
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.8",
+      "display_name": "Anthropic: Claude Opus 4.8",
+      "canonical_name": "Claude Opus 4.8",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-05-27",
+      "slugs": [
+        "anthropic/claude-opus-4.8",
+        "anthropic/claude-opus-4.8:batch"
+      ],
+      "endpoints": 12,
+      "gi_raw": "4.8",
+      "gi": 4.8,
+      "nl": 15,
+      "ne": 0.32,
+      "rank_gi": 53,
+      "rank_nl": 124,
+      "rank_ne": 91
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.7",
+      "display_name": "Anthropic: Claude Opus 4.7",
+      "canonical_name": "Claude Opus 4.7",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-04-16",
+      "slugs": [
+        "anthropic/claude-opus-4.7",
+        "anthropic/claude-opus-4.7:batch"
+      ],
+      "endpoints": 9,
+      "gi_raw": "4.7",
+      "gi": 4.7,
+      "nl": 15,
+      "ne": 0.3133,
+      "rank_gi": 54,
+      "rank_nl": 124,
+      "rank_ne": 94
+    },
+    {
+      "model_id": "z-ai/glm-4.7-flash",
+      "display_name": "Z.ai: GLM 4.7 Flash",
+      "canonical_name": "GLM 4.7 Flash",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2026-01-19",
+      "slugs": [
+        "z-ai/glm-4.7-flash"
+      ],
+      "endpoints": 3,
+      "gi_raw": "4.7",
+      "gi": 4.7,
+      "nl": 13,
+      "ne": 0.3615,
+      "rank_gi": 54,
+      "rank_nl": 174,
+      "rank_ne": 73
+    },
+    {
+      "model_id": "x-ai/grok-4.7",
+      "display_name": "SpaceXAI: Grok 4.7",
+      "canonical_name": "Grok 4.7",
+      "vendor": "SpaceXAI",
+      "vendor_slug": "x-ai",
+      "released": "2026-09-21",
+      "slugs": [
+        "x-ai/grok-4.7"
+      ],
+      "endpoints": 5,
+      "gi_raw": "4.7",
+      "gi": 4.7,
+      "nl": 8,
+      "ne": 0.5875,
+      "rank_gi": 54,
+      "rank_nl": 291,
+      "rank_ne": 21
+    },
+    {
+      "model_id": "z-ai/glm-4.7",
+      "display_name": "Z.ai: GLM 4.7",
+      "canonical_name": "GLM 4.7",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2025-12-22",
+      "slugs": [
+        "z-ai/glm-4.7"
+      ],
+      "endpoints": 6,
+      "gi_raw": "4.7",
+      "gi": 4.7,
+      "nl": 7,
+      "ne": 0.6714,
+      "rank_gi": 54,
+      "rank_nl": 302,
+      "rank_ne": 15
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-4.6",
+      "display_name": "Anthropic: Claude Sonnet 4.6",
+      "canonical_name": "Claude Sonnet 4.6",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-02-17",
+      "slugs": [
+        "anthropic/claude-sonnet-4.6",
+        "anthropic/claude-sonnet-4.6:batch"
+      ],
+      "endpoints": 10,
+      "gi_raw": "4.6",
+      "gi": 4.6,
+      "nl": 17,
+      "ne": 0.2706,
+      "rank_gi": 58,
+      "rank_nl": 86,
+      "rank_ne": 120
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.6",
+      "display_name": "Anthropic: Claude Opus 4.6",
+      "canonical_name": "Claude Opus 4.6",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2026-02-04",
+      "slugs": [
+        "anthropic/claude-opus-4.6",
+        "anthropic/claude-opus-4.6:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "4.6",
+      "gi": 4.6,
+      "nl": 15,
+      "ne": 0.3067,
+      "rank_gi": 58,
+      "rank_nl": 124,
+      "rank_ne": 99
+    },
+    {
+      "model_id": "x-ai/grok-4.6",
+      "display_name": "SpaceXAI: Grok 4.6",
+      "canonical_name": "Grok 4.6",
+      "vendor": "SpaceXAI",
+      "vendor_slug": "x-ai",
+      "released": "2026-08-12",
+      "slugs": [
+        "x-ai/grok-4.6"
+      ],
+      "endpoints": 6,
+      "gi_raw": "4.6",
+      "gi": 4.6,
+      "nl": 8,
+      "ne": 0.575,
+      "rank_gi": 58,
+      "rank_nl": 291,
+      "rank_ne": 23
+    },
+    {
+      "model_id": "z-ai/glm-4.6v",
+      "display_name": "Z.ai: GLM 4.6V",
+      "canonical_name": "GLM 4.6V",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2025-12-08",
+      "slugs": [
+        "z-ai/glm-4.6v"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4.6",
+      "gi": 4.6,
+      "nl": 8,
+      "ne": 0.575,
+      "rank_gi": 58,
+      "rank_nl": 291,
+      "rank_ne": 23
+    },
+    {
+      "model_id": "z-ai/glm-4.6",
+      "display_name": "Z.ai: GLM 4.6",
+      "canonical_name": "GLM 4.6",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2025-09-30",
+      "slugs": [
+        "z-ai/glm-4.6"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4.6",
+      "gi": 4.6,
+      "nl": 7,
+      "ne": 0.6571,
+      "rank_gi": 58,
+      "rank_nl": 302,
+      "rank_ne": 18
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-4.5",
+      "display_name": "Anthropic: Claude Sonnet 4.5",
+      "canonical_name": "Claude Sonnet 4.5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2025-09-29",
+      "slugs": [
+        "anthropic/claude-sonnet-4.5",
+        "anthropic/claude-sonnet-4.5:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "4.5",
+      "gi": 4.5,
+      "nl": 17,
+      "ne": 0.2647,
+      "rank_gi": 63,
+      "rank_nl": 86,
+      "rank_ne": 128
+    },
+    {
+      "model_id": "anthropic/claude-haiku-4.5",
+      "display_name": "Anthropic: Claude Haiku 4.5",
+      "canonical_name": "Claude Haiku 4.5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2025-10-15",
+      "slugs": [
+        "anthropic/claude-haiku-4.5",
+        "anthropic/claude-haiku-4.5:batch"
+      ],
+      "endpoints": 9,
+      "gi_raw": "4.5",
+      "gi": 4.5,
+      "nl": 16,
+      "ne": 0.2812,
+      "rank_gi": 63,
+      "rank_nl": 101,
+      "rank_ne": 110
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.5",
+      "display_name": "Anthropic: Claude Opus 4.5",
+      "canonical_name": "Claude Opus 4.5",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2025-11-24",
+      "slugs": [
+        "anthropic/claude-opus-4.5",
+        "anthropic/claude-opus-4.5:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "4.5",
+      "gi": 4.5,
+      "nl": 15,
+      "ne": 0.3,
+      "rank_gi": 63,
+      "rank_nl": 124,
+      "rank_ne": 100
+    },
+    {
+      "model_id": "z-ai/glm-4.5-air",
+      "display_name": "Z.ai: GLM 4.5 Air",
+      "canonical_name": "GLM 4.5 Air",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2025-07-25",
+      "slugs": [
+        "z-ai/glm-4.5-air"
+      ],
+      "endpoints": 3,
+      "gi_raw": "4.5",
+      "gi": 4.5,
+      "nl": 11,
+      "ne": 0.4091,
+      "rank_gi": 63,
+      "rank_nl": 234,
+      "rank_ne": 55
+    },
+    {
+      "model_id": "x-ai/grok-4.5",
+      "display_name": "SpaceXAI: Grok 4.5",
+      "canonical_name": "Grok 4.5",
+      "vendor": "SpaceXAI",
+      "vendor_slug": "x-ai",
+      "released": "2026-07-08",
+      "slugs": [
+        "x-ai/grok-4.5"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4.5",
+      "gi": 4.5,
+      "nl": 8,
+      "ne": 0.5625,
+      "rank_gi": 63,
+      "rank_nl": 291,
+      "rank_ne": 26
+    },
+    {
+      "model_id": "z-ai/glm-4.5v",
+      "display_name": "Z.ai: GLM 4.5V",
+      "canonical_name": "GLM 4.5V",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2025-08-11",
+      "slugs": [
+        "z-ai/glm-4.5v"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4.5",
+      "gi": 4.5,
+      "nl": 8,
+      "ne": 0.5625,
+      "rank_gi": 63,
+      "rank_nl": 291,
+      "rank_ne": 26
+    },
+    {
+      "model_id": "z-ai/glm-4.5",
+      "display_name": "Z.ai: GLM 4.5",
+      "canonical_name": "GLM 4.5",
+      "vendor": "Z.ai",
+      "vendor_slug": "z-ai",
+      "released": "2025-07-25",
+      "slugs": [
+        "z-ai/glm-4.5"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4.5",
+      "gi": 4.5,
+      "nl": 7,
+      "ne": 0.6429,
+      "rank_gi": 63,
+      "rank_nl": 302,
+      "rank_ne": 19
+    },
+    {
+      "model_id": "x-ai/grok-4.3",
+      "display_name": "SpaceXAI: Grok 4.3",
+      "canonical_name": "Grok 4.3",
+      "vendor": "SpaceXAI",
+      "vendor_slug": "x-ai",
+      "released": "2026-04-30",
+      "slugs": [
+        "x-ai/grok-4.3",
+        "x-ai/grok-4.3:batch"
+      ],
+      "endpoints": 5,
+      "gi_raw": "4.3",
+      "gi": 4.3,
+      "nl": 8,
+      "ne": 0.5375,
+      "rank_gi": 70,
+      "rank_nl": 291,
+      "rank_ne": 31
+    },
+    {
+      "model_id": "x-ai/grok-4.20-multi-agent",
+      "display_name": "SpaceXAI: Grok 4.20 Multi-Agent",
+      "canonical_name": "Grok 4.20 Multi-Agent",
+      "vendor": "SpaceXAI",
+      "vendor_slug": "x-ai",
+      "released": "2026-03-31",
+      "slugs": [
+        "x-ai/grok-4.20-multi-agent"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4.20",
+      "gi": 4.2,
+      "nl": 21,
+      "ne": 0.2,
+      "rank_gi": 71,
+      "rank_nl": 39,
+      "rank_ne": 171
+    },
+    {
+      "model_id": "ibm-granite/granite-4.2-8b",
+      "display_name": "IBM: Granite 4.2 8B",
+      "canonical_name": "Granite 4.2 8B",
+      "vendor": "IBM",
+      "vendor_slug": "ibm-granite",
+      "released": "2026-08-31",
+      "slugs": [
+        "ibm-granite/granite-4.2-8b"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4.2",
+      "gi": 4.2,
+      "nl": 14,
+      "ne": 0.3,
+      "rank_gi": 71,
+      "rank_nl": 146,
+      "rank_ne": 100
+    },
+    {
+      "model_id": "x-ai/grok-4.20",
+      "display_name": "SpaceXAI: Grok 4.20",
+      "canonical_name": "Grok 4.20",
+      "vendor": "SpaceXAI",
+      "vendor_slug": "x-ai",
+      "released": "2026-03-31",
+      "slugs": [
+        "x-ai/grok-4.20"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4.20",
+      "gi": 4.2,
+      "nl": 9,
+      "ne": 0.4667,
+      "rank_gi": 71,
+      "rank_nl": 277,
+      "rank_ne": 42
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "display_name": "DeepSeek: DeepSeek V4.1 Flash",
+      "canonical_name": "DeepSeek V4.1 Flash",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2026-09-10",
+      "slugs": [
+        "deepseek/deepseek-v4.1-flash",
+        "deepseek/deepseek-v4.1-flash:batch"
+      ],
+      "endpoints": 33,
+      "gi_raw": "4.1",
+      "gi": 4.1,
+      "nl": 19,
+      "ne": 0.2158,
+      "rank_gi": 74,
+      "rank_nl": 65,
+      "rank_ne": 157
+    },
+    {
+      "model_id": "thedrummer/cydonia-24b-v4.1",
+      "display_name": "TheDrummer: Cydonia 24B V4.1",
+      "canonical_name": "Cydonia 24B V4.1",
+      "vendor": "TheDrummer",
+      "vendor_slug": "thedrummer",
+      "released": "2025-09-27",
+      "slugs": [
+        "thedrummer/cydonia-24b-v4.1"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4.1",
+      "gi": 4.1,
+      "nl": 16,
+      "ne": 0.2562,
+      "rank_gi": 74,
+      "rank_nl": 101,
+      "rank_ne": 130
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.1",
+      "display_name": "Anthropic: Claude Opus 4.1",
+      "canonical_name": "Claude Opus 4.1",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2025-08-05",
+      "slugs": [
+        "anthropic/claude-opus-4.1",
+        "anthropic/claude-opus-4.1:batch"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4.1",
+      "gi": 4.1,
+      "nl": 15,
+      "ne": 0.2733,
+      "rank_gi": 74,
+      "rank_nl": 124,
+      "rank_ne": 114
+    },
+    {
+      "model_id": "openai/gpt-4.1-mini",
+      "display_name": "OpenAI: GPT-4.1 Mini",
+      "canonical_name": "GPT-4.1 Mini",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-04-14",
+      "slugs": [
+        "openai/gpt-4.1-mini",
+        "openai/gpt-4.1-mini:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4.1",
+      "gi": 4.1,
+      "nl": 12,
+      "ne": 0.3417,
+      "rank_gi": 74,
+      "rank_nl": 210,
+      "rank_ne": 80
+    },
+    {
+      "model_id": "openai/gpt-4.1-nano",
+      "display_name": "OpenAI: GPT-4.1 Nano",
+      "canonical_name": "GPT-4.1 Nano",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-04-14",
+      "slugs": [
+        "openai/gpt-4.1-nano",
+        "openai/gpt-4.1-nano:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4.1",
+      "gi": 4.1,
+      "nl": 12,
+      "ne": 0.3417,
+      "rank_gi": 74,
+      "rank_nl": 210,
+      "rank_ne": 80
+    },
+    {
+      "model_id": "openai/gpt-4.1",
+      "display_name": "OpenAI: GPT-4.1",
+      "canonical_name": "GPT-4.1",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-04-14",
+      "slugs": [
+        "openai/gpt-4.1",
+        "openai/gpt-4.1:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4.1",
+      "gi": 4.1,
+      "nl": 7,
+      "ne": 0.5857,
+      "rank_gi": 74,
+      "rank_nl": 302,
+      "rank_ne": 22
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "display_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "canonical_name": "DeepSeek V4 Flash Vision Exp",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2026-08-21",
+      "slugs": [
+        "deepseek/deepseek-v4-flash-vision-exp"
+      ],
+      "endpoints": 3,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 28,
+      "ne": 0.1429,
+      "rank_gi": 80,
+      "rank_nl": 5,
+      "rank_ne": 235
+    },
+    {
+      "model_id": "openai/gpt-4o-mini-2024-07-18",
+      "display_name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "canonical_name": "GPT-4o-mini (2024-07-18)",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-07-18",
+      "slugs": [
+        "openai/gpt-4o-mini-2024-07-18"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 24,
+      "ne": 0.1667,
+      "rank_gi": 80,
+      "rank_nl": 20,
+      "rank_ne": 201
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "display_name": "DeepSeek: DeepSeek V4 Flash 0423",
+      "canonical_name": "DeepSeek V4 Flash 0423",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2026-04-24",
+      "slugs": [
+        "deepseek/deepseek-v4-flash"
+      ],
+      "endpoints": 16,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 22,
+      "ne": 0.1818,
+      "rank_gi": 80,
+      "rank_nl": 26,
+      "rank_ne": 188
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-0731",
+      "display_name": "DeepSeek: DeepSeek V4 Flash 0731",
+      "canonical_name": "DeepSeek V4 Flash 0731",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2026-07-31",
+      "slugs": [
+        "deepseek/deepseek-v4-flash-0731"
+      ],
+      "endpoints": 27,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 22,
+      "ne": 0.1818,
+      "rank_gi": 80,
+      "rank_nl": 26,
+      "rank_ne": 188
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "display_name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "canonical_name": "DeepSeek V4 Pro 0423",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2026-04-24",
+      "slugs": [
+        "deepseek/deepseek-v4-pro"
+      ],
+      "endpoints": 16,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 20,
+      "ne": 0.2,
+      "rank_gi": 80,
+      "rank_nl": 54,
+      "rank_ne": 171
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro-0813",
+      "display_name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "canonical_name": "DeepSeek V4 Pro 0813",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2026-08-12",
+      "slugs": [
+        "deepseek/deepseek-v4-pro-0813"
+      ],
+      "endpoints": 21,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 20,
+      "ne": 0.2,
+      "rank_gi": 80,
+      "rank_nl": 54,
+      "rank_ne": 171
+    },
+    {
+      "model_id": "openai/gpt-4o-2024-05-13",
+      "display_name": "OpenAI: GPT-4o (2024-05-13)",
+      "canonical_name": "GPT-4o (2024-05-13)",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-05-13",
+      "slugs": [
+        "openai/gpt-4o-2024-05-13"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 19,
+      "ne": 0.2105,
+      "rank_gi": 80,
+      "rank_nl": 65,
+      "rank_ne": 163
+    },
+    {
+      "model_id": "openai/gpt-4o-2024-08-06",
+      "display_name": "OpenAI: GPT-4o (2024-08-06)",
+      "canonical_name": "GPT-4o (2024-08-06)",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-08-06",
+      "slugs": [
+        "openai/gpt-4o-2024-08-06"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 19,
+      "ne": 0.2105,
+      "rank_gi": 80,
+      "rank_nl": 65,
+      "rank_ne": 163
+    },
+    {
+      "model_id": "openai/gpt-4o-2024-11-20",
+      "display_name": "OpenAI: GPT-4o (2024-11-20)",
+      "canonical_name": "GPT-4o (2024-11-20)",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-11-20",
+      "slugs": [
+        "openai/gpt-4o-2024-11-20"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 19,
+      "ne": 0.2105,
+      "rank_gi": 80,
+      "rank_nl": 65,
+      "rank_ne": 163
+    },
+    {
+      "model_id": "ibm-granite/granite-4.0-h-micro",
+      "display_name": "IBM: Granite 4.0 Micro",
+      "canonical_name": "Granite 4.0 Micro",
+      "vendor": "IBM",
+      "vendor_slug": "ibm-granite",
+      "released": "2025-10-20",
+      "slugs": [
+        "ibm-granite/granite-4.0-h-micro"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4.0",
+      "gi": 4.0,
+      "nl": 17,
+      "ne": 0.2353,
+      "rank_gi": 80,
+      "rank_nl": 86,
+      "rank_ne": 140
+    },
+    {
+      "model_id": "meta-llama/llama-guard-4-12b",
+      "display_name": "Meta: Llama Guard 4 12B",
+      "canonical_name": "Llama Guard 4 12B",
+      "vendor": "Meta",
+      "vendor_slug": "meta-llama",
+      "released": "2025-04-30",
+      "slugs": [
+        "meta-llama/llama-guard-4-12b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 17,
+      "ne": 0.2353,
+      "rank_gi": 80,
+      "rank_nl": 86,
+      "rank_ne": 140
+    },
+    {
+      "model_id": "meta-llama/llama-4-maverick",
+      "display_name": "Meta: Llama 4 Maverick",
+      "canonical_name": "Llama 4 Maverick",
+      "vendor": "Meta",
+      "vendor_slug": "meta-llama",
+      "released": "2025-04-05",
+      "slugs": [
+        "meta-llama/llama-4-maverick"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 16,
+      "ne": 0.25,
+      "rank_gi": 80,
+      "rank_nl": 101,
+      "rank_ne": 131
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-4",
+      "display_name": "Anthropic: Claude Sonnet 4",
+      "canonical_name": "Claude Sonnet 4",
+      "vendor": "Anthropic",
+      "vendor_slug": "anthropic",
+      "released": "2025-05-22",
+      "slugs": [
+        "anthropic/claude-sonnet-4"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 15,
+      "ne": 0.2667,
+      "rank_gi": 80,
+      "rank_nl": 124,
+      "rank_ne": 124
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "display_name": "Google: Gemma 4 26B A4B ",
+      "canonical_name": "Gemma 4 26B A4B",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-04-03",
+      "slugs": [
+        "google/gemma-4-26b-a4b-it",
+        "google/gemma-4-26b-a4b-it:free"
+      ],
+      "endpoints": 14,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 15,
+      "ne": 0.2667,
+      "rank_gi": 80,
+      "rank_nl": 124,
+      "rank_ne": 124
+    },
+    {
+      "model_id": "mistralai/mistral-large-4-0",
+      "display_name": "Mistral: Mistral Large 4",
+      "canonical_name": "Mistral Large 4",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2026-10-06",
+      "slugs": [
+        "mistralai/mistral-large-4-0"
+      ],
+      "endpoints": 3,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 15,
+      "ne": 0.2667,
+      "rank_gi": 80,
+      "rank_nl": 124,
+      "rank_ne": 124
+    },
+    {
+      "model_id": "mistralai/mistral-small-2603",
+      "display_name": "Mistral: Mistral Small 4",
+      "canonical_name": "Mistral Small 4",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2026-03-16",
+      "slugs": [
+        "mistralai/mistral-small-2603",
+        "mistralai/mistral-small-2603:batch"
+      ],
+      "endpoints": 5,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 15,
+      "ne": 0.2667,
+      "rank_gi": 80,
+      "rank_nl": 124,
+      "rank_ne": 124
+    },
+    {
+      "model_id": "anthracite-org/magnum-v4-72b",
+      "display_name": "Magnum v4 72B",
+      "canonical_name": "Magnum v4 72B",
+      "vendor": "anthracite-org",
+      "vendor_slug": "anthracite-org",
+      "released": "2024-10-22",
+      "slugs": [
+        "anthracite-org/magnum-v4-72b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 13,
+      "ne": 0.3077,
+      "rank_gi": 80,
+      "rank_nl": 174,
+      "rank_ne": 96
+    },
+    {
+      "model_id": "meta-llama/llama-4-scout",
+      "display_name": "Meta: Llama 4 Scout",
+      "canonical_name": "Llama 4 Scout",
+      "vendor": "Meta",
+      "vendor_slug": "meta-llama",
+      "released": "2025-04-05",
+      "slugs": [
+        "meta-llama/llama-4-scout"
+      ],
+      "endpoints": 3,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 13,
+      "ne": 0.3077,
+      "rank_gi": 80,
+      "rank_nl": 174,
+      "rank_ne": 96
+    },
+    {
+      "model_id": "nousresearch/hermes-4-405b",
+      "display_name": "Nous: Hermes 4 405B",
+      "canonical_name": "Hermes 4 405B",
+      "vendor": "Nous",
+      "vendor_slug": "nousresearch",
+      "released": "2025-08-26",
+      "slugs": [
+        "nousresearch/hermes-4-405b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 13,
+      "ne": 0.3077,
+      "rank_gi": 80,
+      "rank_nl": 174,
+      "rank_ne": 96
+    },
+    {
+      "model_id": "openai/o4-mini-high",
+      "display_name": "OpenAI: o4 Mini High",
+      "canonical_name": "o4 Mini High",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-04-16",
+      "slugs": [
+        "openai/o4-mini-high"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 12,
+      "ne": 0.3333,
+      "rank_gi": 80,
+      "rank_nl": 210,
+      "rank_ne": 83
+    },
+    {
+      "model_id": "upstage/solar-mini4",
+      "display_name": "Upstage: Solar Mini 4",
+      "canonical_name": "Solar Mini 4",
+      "vendor": "Upstage",
+      "vendor_slug": "upstage",
+      "released": "2026-09-23",
+      "slugs": [
+        "upstage/solar-mini4"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 12,
+      "ne": 0.3333,
+      "rank_gi": 80,
+      "rank_nl": 210,
+      "rank_ne": 83
+    },
+    {
+      "model_id": "google/gemma-4-31b-it",
+      "display_name": "Google: Gemma 4 31B",
+      "canonical_name": "Gemma 4 31B",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-04-02",
+      "slugs": [
+        "google/gemma-4-31b-it",
+        "google/gemma-4-31b-it:free"
+      ],
+      "endpoints": 14,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 11,
+      "ne": 0.3636,
+      "rank_gi": 80,
+      "rank_nl": 234,
+      "rank_ne": 68
+    },
+    {
+      "model_id": "openai/gpt-4-turbo",
+      "display_name": "OpenAI: GPT-4 Turbo",
+      "canonical_name": "GPT-4 Turbo",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-04-09",
+      "slugs": [
+        "openai/gpt-4-turbo",
+        "openai/gpt-4-turbo:batch"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 11,
+      "ne": 0.3636,
+      "rank_gi": 80,
+      "rank_nl": 234,
+      "rank_ne": 68
+    },
+    {
+      "model_id": "openai/gpt-4o-mini",
+      "display_name": "OpenAI: GPT-4o-mini",
+      "canonical_name": "GPT-4o-mini",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-07-18",
+      "slugs": [
+        "openai/gpt-4o-mini",
+        "openai/gpt-4o-mini:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 11,
+      "ne": 0.3636,
+      "rank_gi": 80,
+      "rank_nl": 234,
+      "rank_ne": 68
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "display_name": "Tencent: Hy4 preview",
+      "canonical_name": "Hy4 preview",
+      "vendor": "Tencent",
+      "vendor_slug": "tencent",
+      "released": "2026-08-28",
+      "slugs": [
+        "tencent/hy4-preview"
+      ],
+      "endpoints": 4,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 11,
+      "ne": 0.3636,
+      "rank_gi": 80,
+      "rank_nl": 234,
+      "rank_ne": 68
+    },
+    {
+      "model_id": "upstage/solar-pro4",
+      "display_name": "Upstage: Solar Pro 4",
+      "canonical_name": "Solar Pro 4",
+      "vendor": "Upstage",
+      "vendor_slug": "upstage",
+      "released": "2026-08-10",
+      "slugs": [
+        "upstage/solar-pro4"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 11,
+      "ne": 0.3636,
+      "rank_gi": 80,
+      "rank_nl": 234,
+      "rank_ne": 68
+    },
+    {
+      "model_id": "openai/o4-mini",
+      "display_name": "OpenAI: o4 Mini",
+      "canonical_name": "o4 Mini",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-04-16",
+      "slugs": [
+        "openai/o4-mini",
+        "openai/o4-mini:batch"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 7,
+      "ne": 0.5714,
+      "rank_gi": 80,
+      "rank_nl": 302,
+      "rank_ne": 25
+    },
+    {
+      "model_id": "openai/gpt-4o",
+      "display_name": "OpenAI: GPT-4o",
+      "canonical_name": "GPT-4o",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-05-13",
+      "slugs": [
+        "openai/gpt-4o",
+        "openai/gpt-4o:batch"
+      ],
+      "endpoints": 3,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 6,
+      "ne": 0.6667,
+      "rank_gi": 80,
+      "rank_nl": 319,
+      "rank_ne": 16
+    },
+    {
+      "model_id": "microsoft/phi-4",
+      "display_name": "Microsoft: Phi 4",
+      "canonical_name": "Phi 4",
+      "vendor": "Microsoft",
+      "vendor_slug": "microsoft",
+      "released": "2025-01-10",
+      "slugs": [
+        "microsoft/phi-4"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 5,
+      "ne": 0.8,
+      "rank_gi": 80,
+      "rank_nl": 323,
+      "rank_ne": 6
+    },
+    {
+      "model_id": "openai/gpt-4",
+      "display_name": "OpenAI: GPT-4",
+      "canonical_name": "GPT-4",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2023-05-28",
+      "slugs": [
+        "openai/gpt-4"
+      ],
+      "endpoints": 2,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 5,
+      "ne": 0.8,
+      "rank_gi": 80,
+      "rank_nl": 323,
+      "rank_ne": 6
+    },
+    {
+      "model_id": "qwen/qwen3.8-max-0902",
+      "display_name": "Qwen: Qwen3.8 Max (0902)",
+      "canonical_name": "Qwen3.8 Max (0902)",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-09-03",
+      "slugs": [
+        "qwen/qwen3.8-max-0902"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.8",
+      "gi": 3.8,
+      "nl": 18,
+      "ne": 0.2111,
+      "rank_gi": 110,
+      "rank_nl": 77,
+      "rank_ne": 161
+    },
+    {
+      "model_id": "qwen/qwen3.8-omni-flash",
+      "display_name": "Qwen: Qwen3.8 Omni Flash",
+      "canonical_name": "Qwen3.8 Omni Flash",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-09-21",
+      "slugs": [
+        "qwen/qwen3.8-omni-flash"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.8",
+      "gi": 3.8,
+      "nl": 18,
+      "ne": 0.2111,
+      "rank_gi": 110,
+      "rank_nl": 77,
+      "rank_ne": 161
+    },
+    {
+      "model_id": "qwen/qwen3.8-2.4t-a95b",
+      "display_name": "Qwen: Qwen3.8 2.4T A95B",
+      "canonical_name": "Qwen3.8 2.4T A95B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-08-12",
+      "slugs": [
+        "qwen/qwen3.8-2.4t-a95b"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3.8",
+      "gi": 3.8,
+      "nl": 17,
+      "ne": 0.2235,
+      "rank_gi": 110,
+      "rank_nl": 86,
+      "rank_ne": 151
+    },
+    {
+      "model_id": "qwen/qwen3.8-max-prime",
+      "display_name": "Qwen: Qwen3.8 Max Prime",
+      "canonical_name": "Qwen3.8 Max Prime",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-09-23",
+      "slugs": [
+        "qwen/qwen3.8-max-prime"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.8",
+      "gi": 3.8,
+      "nl": 17,
+      "ne": 0.2235,
+      "rank_gi": 110,
+      "rank_nl": 86,
+      "rank_ne": 151
+    },
+    {
+      "model_id": "google/gemini-3.8-flash",
+      "display_name": "Google: Gemini 3.8 Flash",
+      "canonical_name": "Gemini 3.8 Flash",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-09-02",
+      "slugs": [
+        "google/gemini-3.8-flash",
+        "google/gemini-3.8-flash:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3.8",
+      "gi": 3.8,
+      "nl": 16,
+      "ne": 0.2375,
+      "rank_gi": 110,
+      "rank_nl": 101,
+      "rank_ne": 139
+    },
+    {
+      "model_id": "qwen/qwen3.8-flash",
+      "display_name": "Qwen: Qwen3.8 Flash",
+      "canonical_name": "Qwen3.8 Flash",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-08-26",
+      "slugs": [
+        "qwen/qwen3.8-flash"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.8",
+      "gi": 3.8,
+      "nl": 13,
+      "ne": 0.2923,
+      "rank_gi": 110,
+      "rank_nl": 174,
+      "rank_ne": 106
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "display_name": "Qwen: Qwen3.8 27B",
+      "canonical_name": "Qwen3.8 27B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-08-14",
+      "slugs": [
+        "qwen/qwen3.8-27b"
+      ],
+      "endpoints": 19,
+      "gi_raw": "3.8",
+      "gi": 3.8,
+      "nl": 11,
+      "ne": 0.3455,
+      "rank_gi": 110,
+      "rank_nl": 234,
+      "rank_ne": 78
+    },
+    {
+      "model_id": "google/gemini-3.7-flash",
+      "display_name": "Google: Gemini 3.7 Flash",
+      "canonical_name": "Gemini 3.7 Flash",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-08-13",
+      "slugs": [
+        "google/gemini-3.7-flash",
+        "google/gemini-3.7-flash:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3.7",
+      "gi": 3.7,
+      "nl": 16,
+      "ne": 0.2313,
+      "rank_gi": 117,
+      "rank_nl": 101,
+      "rank_ne": 143
+    },
+    {
+      "model_id": "stepfun/step-3.7-flash",
+      "display_name": "StepFun: Step 3.7 Flash",
+      "canonical_name": "Step 3.7 Flash",
+      "vendor": "StepFun",
+      "vendor_slug": "stepfun",
+      "released": "2026-05-28",
+      "slugs": [
+        "stepfun/step-3.7-flash"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.7",
+      "gi": 3.7,
+      "nl": 14,
+      "ne": 0.2643,
+      "rank_gi": 117,
+      "rank_nl": 146,
+      "rank_ne": 129
+    },
+    {
+      "model_id": "qwen/qwen3.7-flash",
+      "display_name": "Qwen: Qwen3.7 Flash",
+      "canonical_name": "Qwen3.7 Flash",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-07-27",
+      "slugs": [
+        "qwen/qwen3.7-flash"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.7",
+      "gi": 3.7,
+      "nl": 13,
+      "ne": 0.2846,
+      "rank_gi": 117,
+      "rank_nl": 174,
+      "rank_ne": 108
+    },
+    {
+      "model_id": "qwen/qwen3.7-plus",
+      "display_name": "Qwen: Qwen3.7 Plus",
+      "canonical_name": "Qwen3.7 Plus",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-06-03",
+      "slugs": [
+        "qwen/qwen3.7-plus"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.7",
+      "gi": 3.7,
+      "nl": 12,
+      "ne": 0.3083,
+      "rank_gi": 117,
+      "rank_nl": 210,
+      "rank_ne": 95
+    },
+    {
+      "model_id": "qwen/qwen3.7-max",
+      "display_name": "Qwen: Qwen3.7 Max",
+      "canonical_name": "Qwen3.7 Max",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-05-21",
+      "slugs": [
+        "qwen/qwen3.7-max"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.7",
+      "gi": 3.7,
+      "nl": 11,
+      "ne": 0.3364,
+      "rank_gi": 117,
+      "rank_nl": 234,
+      "rank_ne": 82
+    },
+    {
+      "model_id": "google/gemini-3.6-flash",
+      "display_name": "Google: Gemini 3.6 Flash",
+      "canonical_name": "Gemini 3.6 Flash",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-07-21",
+      "slugs": [
+        "google/gemini-3.6-flash",
+        "google/gemini-3.6-flash:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "3.6",
+      "gi": 3.6,
+      "nl": 16,
+      "ne": 0.225,
+      "rank_gi": 122,
+      "rank_nl": 101,
+      "rank_ne": 149
+    },
+    {
+      "model_id": "qwen/qwen3.6-35b-a3b",
+      "display_name": "Qwen: Qwen3.6 35B A3B",
+      "canonical_name": "Qwen3.6 35B A3B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-04-27",
+      "slugs": [
+        "qwen/qwen3.6-35b-a3b"
+      ],
+      "endpoints": 10,
+      "gi_raw": "3.6",
+      "gi": 3.6,
+      "nl": 15,
+      "ne": 0.24,
+      "rank_gi": 122,
+      "rank_nl": 124,
+      "rank_ne": 137
+    },
+    {
+      "model_id": "qwen/qwen3.6-flash",
+      "display_name": "Qwen: Qwen3.6 Flash",
+      "canonical_name": "Qwen3.6 Flash",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-04-27",
+      "slugs": [
+        "qwen/qwen3.6-flash"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.6",
+      "gi": 3.6,
+      "nl": 13,
+      "ne": 0.2769,
+      "rank_gi": 122,
+      "rank_nl": 174,
+      "rank_ne": 113
+    },
+    {
+      "model_id": "qwen/qwen3.6-plus",
+      "display_name": "Qwen: Qwen3.6 Plus",
+      "canonical_name": "Qwen3.6 Plus",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-04-02",
+      "slugs": [
+        "qwen/qwen3.6-plus"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.6",
+      "gi": 3.6,
+      "nl": 12,
+      "ne": 0.3,
+      "rank_gi": 122,
+      "rank_nl": 210,
+      "rank_ne": 100
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "display_name": "Qwen: Qwen3.6 27B",
+      "canonical_name": "Qwen3.6 27B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-04-27",
+      "slugs": [
+        "qwen/qwen3.6-27b"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3.6",
+      "gi": 3.6,
+      "nl": 11,
+      "ne": 0.3273,
+      "rank_gi": 122,
+      "rank_nl": 234,
+      "rank_ne": 89
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-content-safety",
+      "display_name": "NVIDIA: Nemotron 3.5 Content Safety",
+      "canonical_name": "Nemotron 3.5 Content Safety",
+      "vendor": "NVIDIA",
+      "vendor_slug": "nvidia",
+      "released": "2026-06-04",
+      "slugs": [
+        "nvidia/nemotron-3.5-content-safety",
+        "nvidia/nemotron-3.5-content-safety:free"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 27,
+      "ne": 0.1296,
+      "rank_gi": 127,
+      "rank_nl": 8,
+      "rank_ne": 251
+    },
+    {
+      "model_id": "openai/gpt-3.5-turbo-0613",
+      "display_name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "canonical_name": "GPT-3.5 Turbo (older v0613)",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-01-25",
+      "slugs": [
+        "openai/gpt-3.5-turbo-0613"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 27,
+      "ne": 0.1296,
+      "rank_gi": 127,
+      "rank_nl": 8,
+      "rank_ne": 251
+    },
+    {
+      "model_id": "qwen/qwen3.5-plus-02-15",
+      "display_name": "Qwen: Qwen3.5 Plus 2026-02-15",
+      "canonical_name": "Qwen3.5 Plus 2026-02-15",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-02-16",
+      "slugs": [
+        "qwen/qwen3.5-plus-02-15"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 23,
+      "ne": 0.1522,
+      "rank_gi": 127,
+      "rank_nl": 22,
+      "rank_ne": 223
+    },
+    {
+      "model_id": "qwen/qwen3.5-plus-20260420",
+      "display_name": "Qwen: Qwen3.5 Plus 2026-04-20",
+      "canonical_name": "Qwen3.5 Plus 2026-04-20",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-04-27",
+      "slugs": [
+        "qwen/qwen3.5-plus-20260420"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 23,
+      "ne": 0.1522,
+      "rank_gi": 127,
+      "rank_nl": 22,
+      "rank_ne": 223
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning",
+      "display_name": "NVIDIA: Nemotron 3.5 Lightning",
+      "canonical_name": "Nemotron 3.5 Lightning",
+      "vendor": "NVIDIA",
+      "vendor_slug": "nvidia",
+      "released": "2026-08-11",
+      "slugs": [
+        "nvidia/nemotron-3.5-lightning",
+        "nvidia/nemotron-3.5-lightning:free"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 22,
+      "ne": 0.1591,
+      "rank_gi": 127,
+      "rank_nl": 26,
+      "rank_ne": 210
+    },
+    {
+      "model_id": "openai/gpt-3.5-turbo-instruct",
+      "display_name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "canonical_name": "GPT-3.5 Turbo Instruct",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2023-09-28",
+      "slugs": [
+        "openai/gpt-3.5-turbo-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 22,
+      "ne": 0.1591,
+      "rank_gi": 127,
+      "rank_nl": 26,
+      "rank_ne": 210
+    },
+    {
+      "model_id": "google/gemini-3.5-flash-lite",
+      "display_name": "Google: Gemini 3.5 Flash Lite",
+      "canonical_name": "Gemini 3.5 Flash Lite",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-07-21",
+      "slugs": [
+        "google/gemini-3.5-flash-lite",
+        "google/gemini-3.5-flash-lite:batch"
+      ],
+      "endpoints": 9,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 21,
+      "ne": 0.1667,
+      "rank_gi": 127,
+      "rank_nl": 39,
+      "rank_ne": 201
+    },
+    {
+      "model_id": "mistralai/mistral-medium-3-5",
+      "display_name": "Mistral: Mistral Medium 3.5",
+      "canonical_name": "Mistral Medium 3.5",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2026-04-30",
+      "slugs": [
+        "mistralai/mistral-medium-3-5",
+        "mistralai/mistral-medium-3-5:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 18,
+      "ne": 0.1944,
+      "rank_gi": 127,
+      "rank_nl": 77,
+      "rank_ne": 178
+    },
+    {
+      "model_id": "openai/gpt-3.5-turbo-16k",
+      "display_name": "OpenAI: GPT-3.5 Turbo 16k",
+      "canonical_name": "GPT-3.5 Turbo 16k",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2023-08-28",
+      "slugs": [
+        "openai/gpt-3.5-turbo-16k"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 17,
+      "ne": 0.2059,
+      "rank_gi": 127,
+      "rank_nl": 86,
+      "rank_ne": 168
+    },
+    {
+      "model_id": "qwen/qwen3.5-122b-a10b",
+      "display_name": "Qwen: Qwen3.5-122B-A10B",
+      "canonical_name": "Qwen3.5-122B-A10B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-02-25",
+      "slugs": [
+        "qwen/qwen3.5-122b-a10b"
+      ],
+      "endpoints": 4,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 17,
+      "ne": 0.2059,
+      "rank_gi": 127,
+      "rank_nl": 86,
+      "rank_ne": 168
+    },
+    {
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "display_name": "Qwen: Qwen3.5 397B A17B",
+      "canonical_name": "Qwen3.5 397B A17B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-02-16",
+      "slugs": [
+        "qwen/qwen3.5-397b-a17b"
+      ],
+      "endpoints": 10,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 17,
+      "ne": 0.2059,
+      "rank_gi": 127,
+      "rank_nl": 86,
+      "rank_ne": 168
+    },
+    {
+      "model_id": "google/gemini-3.5-flash",
+      "display_name": "Google: Gemini 3.5 Flash",
+      "canonical_name": "Gemini 3.5 Flash",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-05-19",
+      "slugs": [
+        "google/gemini-3.5-flash",
+        "google/gemini-3.5-flash:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 16,
+      "ne": 0.2188,
+      "rank_gi": 127,
+      "rank_nl": 101,
+      "rank_ne": 156
+    },
+    {
+      "model_id": "qwen/qwen3.5-35b-a3b",
+      "display_name": "Qwen: Qwen3.5-35B-A3B",
+      "canonical_name": "Qwen3.5-35B-A3B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-02-25",
+      "slugs": [
+        "qwen/qwen3.5-35b-a3b"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 15,
+      "ne": 0.2333,
+      "rank_gi": 127,
+      "rank_nl": 124,
+      "rank_ne": 142
+    },
+    {
+      "model_id": "stepfun/step-3.5-flash",
+      "display_name": "StepFun: Step 3.5 Flash",
+      "canonical_name": "Step 3.5 Flash",
+      "vendor": "StepFun",
+      "vendor_slug": "stepfun",
+      "released": "2026-01-29",
+      "slugs": [
+        "stepfun/step-3.5-flash"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 14,
+      "ne": 0.25,
+      "rank_gi": 127,
+      "rank_nl": 146,
+      "rank_ne": 131
+    },
+    {
+      "model_id": "aion-labs/aion-3.5-mini",
+      "display_name": "AionLabs: Aion 3.5 Mini",
+      "canonical_name": "Aion 3.5 Mini",
+      "vendor": "AionLabs",
+      "vendor_slug": "aion-labs",
+      "released": "2026-09-23",
+      "slugs": [
+        "aion-labs/aion-3.5-mini"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 13,
+      "ne": 0.2692,
+      "rank_gi": 127,
+      "rank_nl": 174,
+      "rank_ne": 121
+    },
+    {
+      "model_id": "openai/gpt-3.5-turbo",
+      "display_name": "OpenAI: GPT-3.5 Turbo",
+      "canonical_name": "GPT-3.5 Turbo",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2023-05-28",
+      "slugs": [
+        "openai/gpt-3.5-turbo",
+        "openai/gpt-3.5-turbo:batch"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 13,
+      "ne": 0.2692,
+      "rank_gi": 127,
+      "rank_nl": 174,
+      "rank_ne": 121
+    },
+    {
+      "model_id": "qwen/qwen3.5-flash-02-23",
+      "display_name": "Qwen: Qwen3.5-Flash",
+      "canonical_name": "Qwen3.5-Flash",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-02-25",
+      "slugs": [
+        "qwen/qwen3.5-flash-02-23"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 13,
+      "ne": 0.2692,
+      "rank_gi": 127,
+      "rank_nl": 174,
+      "rank_ne": 121
+    },
+    {
+      "model_id": "qwen/qwen3.5-27b",
+      "display_name": "Qwen: Qwen3.5-27B",
+      "canonical_name": "Qwen3.5-27B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-02-25",
+      "slugs": [
+        "qwen/qwen3.5-27b"
+      ],
+      "endpoints": 6,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 11,
+      "ne": 0.3182,
+      "rank_gi": 127,
+      "rank_nl": 234,
+      "rank_ne": 93
+    },
+    {
+      "model_id": "qwen/qwen3.5-9b",
+      "display_name": "Qwen: Qwen3.5-9B",
+      "canonical_name": "Qwen3.5-9B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-03-10",
+      "slugs": [
+        "qwen/qwen3.5-9b"
+      ],
+      "endpoints": 6,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 10,
+      "ne": 0.35,
+      "rank_gi": 127,
+      "rank_nl": 263,
+      "rank_ne": 76
+    },
+    {
+      "model_id": "aion-labs/aion-3.5",
+      "display_name": "AionLabs: Aion 3.5",
+      "canonical_name": "Aion 3.5",
+      "vendor": "AionLabs",
+      "vendor_slug": "aion-labs",
+      "released": "2026-09-23",
+      "slugs": [
+        "aion-labs/aion-3.5"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 8,
+      "ne": 0.4375,
+      "rank_gi": 127,
+      "rank_nl": 291,
+      "rank_ne": 48
+    },
+    {
+      "model_id": "meta-llama/llama-3.3-70b-instruct",
+      "display_name": "Meta: Llama 3.3 70B Instruct",
+      "canonical_name": "Llama 3.3 70B Instruct",
+      "vendor": "Meta",
+      "vendor_slug": "meta-llama",
+      "released": "2024-12-06",
+      "slugs": [
+        "meta-llama/llama-3.3-70b-instruct"
+      ],
+      "endpoints": 11,
+      "gi_raw": "3.3",
+      "gi": 3.3,
+      "nl": 22,
+      "ne": 0.15,
+      "rank_gi": 147,
+      "rank_nl": 26,
+      "rank_ne": 225
+    },
+    {
+      "model_id": "sao10k/l3.3-euryale-70b",
+      "display_name": "Sao10K: Llama 3.3 Euryale 70B",
+      "canonical_name": "Llama 3.3 Euryale 70B",
+      "vendor": "Sao10K",
+      "vendor_slug": "sao10k",
+      "released": "2024-12-18",
+      "slugs": [
+        "sao10k/l3.3-euryale-70b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.3",
+      "gi": 3.3,
+      "nl": 21,
+      "ne": 0.1571,
+      "rank_gi": 147,
+      "rank_nl": 39,
+      "rank_ne": 214
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-1b-instruct",
+      "display_name": "Meta: Llama 3.2 1B Instruct",
+      "canonical_name": "Llama 3.2 1B Instruct",
+      "vendor": "Meta",
+      "vendor_slug": "meta-llama",
+      "released": "2024-09-25",
+      "slugs": [
+        "meta-llama/llama-3.2-1b-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.2",
+      "gi": 3.2,
+      "nl": 21,
+      "ne": 0.1524,
+      "rank_gi": 149,
+      "rank_nl": 39,
+      "rank_ne": 220
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-3b-instruct",
+      "display_name": "Meta: Llama 3.2 3B Instruct",
+      "canonical_name": "Llama 3.2 3B Instruct",
+      "vendor": "Meta",
+      "vendor_slug": "meta-llama",
+      "released": "2024-09-25",
+      "slugs": [
+        "meta-llama/llama-3.2-3b-instruct"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.2",
+      "gi": 3.2,
+      "nl": 21,
+      "ne": 0.1524,
+      "rank_gi": 149,
+      "rank_nl": 39,
+      "rank_ne": 220
+    },
+    {
+      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "display_name": "Mistral: Mistral Small 3.2 24B",
+      "canonical_name": "Mistral Small 3.2 24B",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-06-20",
+      "slugs": [
+        "mistralai/mistral-small-3.2-24b-instruct"
+      ],
+      "endpoints": 4,
+      "gi_raw": "3.2",
+      "gi": 3.2,
+      "nl": 21,
+      "ne": 0.1524,
+      "rank_gi": 149,
+      "rank_nl": 39,
+      "rank_ne": 220
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.2-exp",
+      "display_name": "DeepSeek: DeepSeek V3.2 Exp",
+      "canonical_name": "DeepSeek V3.2 Exp",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2025-09-29",
+      "slugs": [
+        "deepseek/deepseek-v3.2-exp"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.2",
+      "gi": 3.2,
+      "nl": 17,
+      "ne": 0.1882,
+      "rank_gi": 149,
+      "rank_nl": 86,
+      "rank_ne": 182
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.2",
+      "display_name": "DeepSeek: DeepSeek V3.2",
+      "canonical_name": "DeepSeek V3.2",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2025-12-01",
+      "slugs": [
+        "deepseek/deepseek-v3.2"
+      ],
+      "endpoints": 12,
+      "gi_raw": "3.2",
+      "gi": 3.2,
+      "nl": 13,
+      "ne": 0.2462,
+      "rank_gi": 149,
+      "rank_nl": 174,
+      "rank_ne": 136
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview-customtools",
+      "display_name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+      "canonical_name": "Gemini 3.1 Pro Preview Custom Tools",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-02-25",
+      "slugs": [
+        "google/gemini-3.1-pro-preview-customtools"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 35,
+      "ne": 0.0886,
+      "rank_gi": 154,
+      "rank_nl": 1,
+      "rank_ne": 280
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite-preview",
+      "display_name": "Google: Gemini 3.1 Flash Lite Preview",
+      "canonical_name": "Gemini 3.1 Flash Lite Preview",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-03-03",
+      "slugs": [
+        "google/gemini-3.1-flash-lite-preview"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 29,
+      "ne": 0.1069,
+      "rank_gi": 154,
+      "rank_nl": 2,
+      "rank_ne": 268
+    },
+    {
+      "model_id": "sao10k/l3.1-euryale-70b",
+      "display_name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+      "canonical_name": "Llama 3.1 Euryale 70B v2.2",
+      "vendor": "Sao10K",
+      "vendor_slug": "sao10k",
+      "released": "2024-08-28",
+      "slugs": [
+        "sao10k/l3.1-euryale-70b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 26,
+      "ne": 0.1192,
+      "rank_gi": 154,
+      "rank_nl": 14,
+      "rank_ne": 258
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.1-terminus",
+      "display_name": "DeepSeek: DeepSeek V3.1 Terminus",
+      "canonical_name": "DeepSeek V3.1 Terminus",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2025-09-22",
+      "slugs": [
+        "deepseek/deepseek-v3.1-terminus"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 22,
+      "ne": 0.1409,
+      "rank_gi": 154,
+      "rank_nl": 26,
+      "rank_ne": 243
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview",
+      "display_name": "Google: Gemini 3.1 Pro Preview",
+      "canonical_name": "Gemini 3.1 Pro Preview",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-02-19",
+      "slugs": [
+        "google/gemini-3.1-pro-preview",
+        "google/gemini-3.1-pro-preview:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 22,
+      "ne": 0.1409,
+      "rank_gi": 154,
+      "rank_nl": 26,
+      "rank_ne": 243
+    },
+    {
+      "model_id": "meta-llama/llama-3.1-70b-instruct",
+      "display_name": "Meta: Llama 3.1 70B Instruct",
+      "canonical_name": "Llama 3.1 70B Instruct",
+      "vendor": "Meta",
+      "vendor_slug": "meta-llama",
+      "released": "2024-07-23",
+      "slugs": [
+        "meta-llama/llama-3.1-70b-instruct"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 22,
+      "ne": 0.1409,
+      "rank_gi": 154,
+      "rank_nl": 26,
+      "rank_ne": 243
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite",
+      "display_name": "Google: Gemini 3.1 Flash Lite",
+      "canonical_name": "Gemini 3.1 Flash Lite",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-05-07",
+      "slugs": [
+        "google/gemini-3.1-flash-lite",
+        "google/gemini-3.1-flash-lite:batch"
+      ],
+      "endpoints": 9,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 21,
+      "ne": 0.1476,
+      "rank_gi": 154,
+      "rank_nl": 39,
+      "rank_ne": 232
+    },
+    {
+      "model_id": "meta-llama/llama-3.1-8b-instruct",
+      "display_name": "Meta: Llama 3.1 8B Instruct",
+      "canonical_name": "Llama 3.1 8B Instruct",
+      "vendor": "Meta",
+      "vendor_slug": "meta-llama",
+      "released": "2024-07-23",
+      "slugs": [
+        "meta-llama/llama-3.1-8b-instruct"
+      ],
+      "endpoints": 5,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 21,
+      "ne": 0.1476,
+      "rank_gi": 154,
+      "rank_nl": 39,
+      "rank_ne": 232
+    },
+    {
+      "model_id": "mistralai/mistral-small-3.1-24b-instruct",
+      "display_name": "Mistral: Mistral Small 3.1 24B",
+      "canonical_name": "Mistral Small 3.1 24B",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-03-17",
+      "slugs": [
+        "mistralai/mistral-small-3.1-24b-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 21,
+      "ne": 0.1476,
+      "rank_gi": 154,
+      "rank_nl": 39,
+      "rank_ne": 232
+    },
+    {
+      "model_id": "mistralai/mistral-medium-3.1",
+      "display_name": "Mistral: Mistral Medium 3.1",
+      "canonical_name": "Mistral Medium 3.1",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-08-13",
+      "slugs": [
+        "mistralai/mistral-medium-3.1",
+        "mistralai/mistral-medium-3.1:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 18,
+      "ne": 0.1722,
+      "rank_gi": 154,
+      "rank_nl": 77,
+      "rank_ne": 200
+    },
+    {
+      "model_id": "inclusionai/ling-3.1-flash",
+      "display_name": "inclusionAI: Ling 3.1 Flash",
+      "canonical_name": "Ling 3.1 Flash",
+      "vendor": "inclusionAI",
+      "vendor_slug": "inclusionai",
+      "released": "2026-10-02",
+      "slugs": [
+        "inclusionai/ling-3.1-flash"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 14,
+      "ne": 0.2214,
+      "rank_gi": 154,
+      "rank_nl": 146,
+      "rank_ne": 155
+    },
+    {
+      "model_id": "deepseek/deepseek-chat-v3.1",
+      "display_name": "DeepSeek: DeepSeek V3.1",
+      "canonical_name": "DeepSeek V3.1",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2025-08-21",
+      "slugs": [
+        "deepseek/deepseek-chat-v3.1"
+      ],
+      "endpoints": 5,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 13,
+      "ne": 0.2385,
+      "rank_gi": 154,
+      "rank_nl": 174,
+      "rank_ne": 138
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-2507",
+      "display_name": "Qwen: Qwen3 235B A22B Instruct 2507",
+      "canonical_name": "Qwen3 235B A22B Instruct 2507",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-07-21",
+      "slugs": [
+        "qwen/qwen3-235b-a22b-2507"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 29,
+      "ne": 0.1034,
+      "rank_gi": 166,
+      "rank_nl": 2,
+      "rank_ne": 271
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "display_name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "canonical_name": "Qwen3 235B A22B Thinking 2507",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-07-25",
+      "slugs": [
+        "qwen/qwen3-235b-a22b-thinking-2507"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 29,
+      "ne": 0.1034,
+      "rank_gi": 166,
+      "rank_nl": 2,
+      "rank_ne": 271
+    },
+    {
+      "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "display_name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+      "canonical_name": "Qwen3 Coder 30B A3B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-07-31",
+      "slugs": [
+        "qwen/qwen3-coder-30b-a3b-instruct"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 28,
+      "ne": 0.1071,
+      "rank_gi": 166,
+      "rank_nl": 5,
+      "rank_ne": 267
+    },
+    {
+      "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "display_name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "canonical_name": "Qwen3 30B A3B Instruct 2507",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-07-29",
+      "slugs": [
+        "qwen/qwen3-30b-a3b-instruct-2507"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 27,
+      "ne": 0.1111,
+      "rank_gi": 166,
+      "rank_nl": 8,
+      "rank_ne": 261
+    },
+    {
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "display_name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "canonical_name": "Qwen3 Next 80B A3B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-09-11",
+      "slugs": [
+        "qwen/qwen3-next-80b-a3b-instruct"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 27,
+      "ne": 0.1111,
+      "rank_gi": 166,
+      "rank_nl": 8,
+      "rank_ne": 261
+    },
+    {
+      "model_id": "qwen/qwen3-next-80b-a3b-thinking",
+      "display_name": "Qwen: Qwen3 Next 80B A3B Thinking",
+      "canonical_name": "Qwen3 Next 80B A3B Thinking",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-09-11",
+      "slugs": [
+        "qwen/qwen3-next-80b-a3b-thinking"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 27,
+      "ne": 0.1111,
+      "rank_gi": 166,
+      "rank_nl": 8,
+      "rank_ne": 261
+    },
+    {
+      "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "display_name": "Qwen: Qwen3 VL 235B A22B Instruct",
+      "canonical_name": "Qwen3 VL 235B A22B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-09-23",
+      "slugs": [
+        "qwen/qwen3-vl-235b-a22b-instruct"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 27,
+      "ne": 0.1111,
+      "rank_gi": 166,
+      "rank_nl": 8,
+      "rank_ne": 261
+    },
+    {
+      "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "display_name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "canonical_name": "Qwen3 VL 30B A3B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-10-06",
+      "slugs": [
+        "qwen/qwen3-vl-30b-a3b-instruct"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 25,
+      "ne": 0.12,
+      "rank_gi": 166,
+      "rank_nl": 18,
+      "rank_ne": 256
+    },
+    {
+      "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "display_name": "Qwen: Qwen3 VL 30B A3B Thinking",
+      "canonical_name": "Qwen3 VL 30B A3B Thinking",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-10-06",
+      "slugs": [
+        "qwen/qwen3-vl-30b-a3b-thinking"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 25,
+      "ne": 0.12,
+      "rank_gi": 166,
+      "rank_nl": 18,
+      "rank_ne": 256
+    },
+    {
+      "model_id": "nvidia/nemotron-3-nano-30b-a3b",
+      "display_name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+      "canonical_name": "Nemotron 3 Nano 30B A3B",
+      "vendor": "NVIDIA",
+      "vendor_slug": "nvidia",
+      "released": "2025-12-14",
+      "slugs": [
+        "nvidia/nemotron-3-nano-30b-a3b"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 23,
+      "ne": 0.1304,
+      "rank_gi": 166,
+      "rank_nl": 22,
+      "rank_ne": 250
+    },
+    {
+      "model_id": "google/gemini-3-flash-preview",
+      "display_name": "Google: Gemini 3 Flash Preview",
+      "canonical_name": "Gemini 3 Flash Preview",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2025-12-17",
+      "slugs": [
+        "google/gemini-3-flash-preview",
+        "google/gemini-3-flash-preview:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 22,
+      "ne": 0.1364,
+      "rank_gi": 166,
+      "rank_nl": 26,
+      "rank_ne": 246
+    },
+    {
+      "model_id": "nousresearch/hermes-3-llama-3.1-405b",
+      "display_name": "Nous: Hermes 3 405B Instruct",
+      "canonical_name": "Hermes 3 405B Instruct",
+      "vendor": "Nous",
+      "vendor_slug": "nousresearch",
+      "released": "2024-08-16",
+      "slugs": [
+        "nousresearch/hermes-3-llama-3.1-405b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 22,
+      "ne": 0.1364,
+      "rank_gi": 166,
+      "rank_nl": 26,
+      "rank_ne": 246
+    },
+    {
+      "model_id": "nousresearch/hermes-3-llama-3.1-70b",
+      "display_name": "Nous: Hermes 3 70B Instruct",
+      "canonical_name": "Hermes 3 70B Instruct",
+      "vendor": "Nous",
+      "vendor_slug": "nousresearch",
+      "released": "2024-08-18",
+      "slugs": [
+        "nousresearch/hermes-3-llama-3.1-70b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 21,
+      "ne": 0.1429,
+      "rank_gi": 166,
+      "rank_nl": 39,
+      "rank_ne": 235
+    },
+    {
+      "model_id": "qwen/qwen3-coder",
+      "display_name": "Qwen: Qwen3 Coder 480B A35B",
+      "canonical_name": "Qwen3 Coder 480B A35B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-07-23",
+      "slugs": [
+        "qwen/qwen3-coder"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 21,
+      "ne": 0.1429,
+      "rank_gi": 166,
+      "rank_nl": 39,
+      "rank_ne": 235
+    },
+    {
+      "model_id": "inclusionai/ling-3.0-flash-sante",
+      "display_name": "inclusionAI: Ling 3.0 Flash Sante",
+      "canonical_name": "Ling 3.0 Flash Sante",
+      "vendor": "inclusionAI",
+      "vendor_slug": "inclusionai",
+      "released": "2026-09-04",
+      "slugs": [
+        "inclusionai/ling-3.0-flash-sante"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.0",
+      "gi": 3.0,
+      "nl": 20,
+      "ne": 0.15,
+      "rank_gi": 166,
+      "rank_nl": 54,
+      "rank_ne": 225
+    },
+    {
+      "model_id": "mistralai/ministral-14b-2512",
+      "display_name": "Mistral: Ministral 3 14B 2512",
+      "canonical_name": "Ministral 3 14B 2512",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-12-02",
+      "slugs": [
+        "mistralai/ministral-14b-2512"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 20,
+      "ne": 0.15,
+      "rank_gi": 166,
+      "rank_nl": 54,
+      "rank_ne": 225
+    },
+    {
+      "model_id": "mistralai/mistral-large-2512",
+      "display_name": "Mistral: Mistral Large 3 2512",
+      "canonical_name": "Mistral Large 3 2512",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-12-01",
+      "slugs": [
+        "mistralai/mistral-large-2512",
+        "mistralai/mistral-large-2512:batch"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 20,
+      "ne": 0.15,
+      "rank_gi": 166,
+      "rank_nl": 54,
+      "rank_ne": 225
+    },
+    {
+      "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "display_name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "canonical_name": "Nemotron 3 Nano Omni",
+      "vendor": "NVIDIA",
+      "vendor_slug": "nvidia",
+      "released": "2026-04-28",
+      "slugs": [
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 20,
+      "ne": 0.15,
+      "rank_gi": 166,
+      "rank_nl": 54,
+      "rank_ne": 225
+    },
+    {
+      "model_id": "qwen/qwen3-vl-8b-instruct",
+      "display_name": "Qwen: Qwen3 VL 8B Instruct",
+      "canonical_name": "Qwen3 VL 8B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-10-14",
+      "slugs": [
+        "qwen/qwen3-vl-8b-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 20,
+      "ne": 0.15,
+      "rank_gi": 166,
+      "rank_nl": 54,
+      "rank_ne": 225
+    },
+    {
+      "model_id": "mistralai/ministral-3b-2512",
+      "display_name": "Mistral: Ministral 3 3B 2512",
+      "canonical_name": "Ministral 3 3B 2512",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-12-02",
+      "slugs": [
+        "mistralai/ministral-3b-2512"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 19,
+      "ne": 0.1579,
+      "rank_gi": 166,
+      "rank_nl": 65,
+      "rank_ne": 212
+    },
+    {
+      "model_id": "mistralai/ministral-8b-2512",
+      "display_name": "Mistral: Ministral 3 8B 2512",
+      "canonical_name": "Ministral 3 8B 2512",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-12-02",
+      "slugs": [
+        "mistralai/ministral-8b-2512",
+        "mistralai/ministral-8b-2512:batch"
+      ],
+      "endpoints": 4,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 19,
+      "ne": 0.1579,
+      "rank_gi": 166,
+      "rank_nl": 65,
+      "rank_ne": 212
+    },
+    {
+      "model_id": "dots-studio/dots-3-note-preview",
+      "display_name": "Dots Studio: Dots3-Note Preview (free)",
+      "canonical_name": "Dots3-Note Preview",
+      "vendor": "Dots Studio",
+      "vendor_slug": "dots-studio",
+      "released": "2026-08-14",
+      "slugs": [
+        "dots-studio/dots-3-note-preview:free"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 18,
+      "ne": 0.1667,
+      "rank_gi": 166,
+      "rank_nl": 77,
+      "rank_ne": 201
+    },
+    {
+      "model_id": "inclusionai/ling-3.0-flash-fin",
+      "display_name": "inclusionAI: Ling 3.0 Flash Fin",
+      "canonical_name": "Ling 3.0 Flash Fin",
+      "vendor": "inclusionAI",
+      "vendor_slug": "inclusionai",
+      "released": "2026-08-27",
+      "slugs": [
+        "inclusionai/ling-3.0-flash-fin"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.0",
+      "gi": 3.0,
+      "nl": 18,
+      "ne": 0.1667,
+      "rank_gi": 166,
+      "rank_nl": 77,
+      "rank_ne": 201
+    },
+    {
+      "model_id": "sao10k/l3-lunaris-8b",
+      "display_name": "Sao10K: Llama 3 8B Lunaris",
+      "canonical_name": "Llama 3 8B Lunaris",
+      "vendor": "Sao10K",
+      "vendor_slug": "sao10k",
+      "released": "2024-08-13",
+      "slugs": [
+        "sao10k/l3-lunaris-8b"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 18,
+      "ne": 0.1667,
+      "rank_gi": 166,
+      "rank_nl": 77,
+      "rank_ne": 201
+    },
+    {
+      "model_id": "inclusionai/ling-3.0-flash-vl",
+      "display_name": "inclusionAI: Ling 3.0 Flash VL",
+      "canonical_name": "Ling 3.0 Flash VL",
+      "vendor": "inclusionAI",
+      "vendor_slug": "inclusionai",
+      "released": "2026-09-10",
+      "slugs": [
+        "inclusionai/ling-3.0-flash-vl"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.0",
+      "gi": 3.0,
+      "nl": 17,
+      "ne": 0.1765,
+      "rank_gi": 166,
+      "rank_nl": 86,
+      "rank_ne": 195
+    },
+    {
+      "model_id": "qwen/qwen3-coder-flash",
+      "display_name": "Qwen: Qwen3 Coder Flash",
+      "canonical_name": "Qwen3 Coder Flash",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-09-17",
+      "slugs": [
+        "qwen/qwen3-coder-flash"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 17,
+      "ne": 0.1765,
+      "rank_gi": 166,
+      "rank_nl": 86,
+      "rank_ne": 195
+    },
+    {
+      "model_id": "deepseek/deepseek-chat-v3-0324",
+      "display_name": "DeepSeek: DeepSeek V3 0324",
+      "canonical_name": "DeepSeek V3 0324",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2025-03-24",
+      "slugs": [
+        "deepseek/deepseek-chat-v3-0324"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 16,
+      "ne": 0.1875,
+      "rank_gi": 166,
+      "rank_nl": 101,
+      "rank_ne": 183
+    },
+    {
+      "model_id": "mistralai/mistral-medium-3",
+      "display_name": "Mistral: Mistral Medium 3",
+      "canonical_name": "Mistral Medium 3",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-05-07",
+      "slugs": [
+        "mistralai/mistral-medium-3"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 16,
+      "ne": 0.1875,
+      "rank_gi": 166,
+      "rank_nl": 101,
+      "rank_ne": 183
+    },
+    {
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
+      "display_name": "NVIDIA: Nemotron 3 Super",
+      "canonical_name": "Nemotron 3 Super",
+      "vendor": "NVIDIA",
+      "vendor_slug": "nvidia",
+      "released": "2026-03-11",
+      "slugs": [
+        "nvidia/nemotron-3-super-120b-a12b",
+        "nvidia/nemotron-3-super-120b-a12b:free"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 16,
+      "ne": 0.1875,
+      "rank_gi": 166,
+      "rank_nl": 101,
+      "rank_ne": 183
+    },
+    {
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "display_name": "NVIDIA: Nemotron 3 Ultra",
+      "canonical_name": "Nemotron 3 Ultra",
+      "vendor": "NVIDIA",
+      "vendor_slug": "nvidia",
+      "released": "2026-06-04",
+      "slugs": [
+        "nvidia/nemotron-3-ultra-550b-a55b",
+        "nvidia/nemotron-3-ultra-550b-a55b:free"
+      ],
+      "endpoints": 5,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 16,
+      "ne": 0.1875,
+      "rank_gi": 166,
+      "rank_nl": 101,
+      "rank_ne": 183
+    },
+    {
+      "model_id": "qwen/qwen3-coder-next",
+      "display_name": "Qwen: Qwen3 Coder Next",
+      "canonical_name": "Qwen3 Coder Next",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2026-02-04",
+      "slugs": [
+        "qwen/qwen3-coder-next"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 16,
+      "ne": 0.1875,
+      "rank_gi": 166,
+      "rank_nl": 101,
+      "rank_ne": 183
+    },
+    {
+      "model_id": "mistralai/mistral-small-24b-instruct-2501",
+      "display_name": "Mistral: Mistral Small 3",
+      "canonical_name": "Mistral Small 3",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-01-30",
+      "slugs": [
+        "mistralai/mistral-small-24b-instruct-2501"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 15,
+      "ne": 0.2,
+      "rank_gi": 166,
+      "rank_nl": 124,
+      "rank_ne": 171
+    },
+    {
+      "model_id": "inclusionai/ling-3.0-flash",
+      "display_name": "inclusionAI: Ling 3.0 Flash",
+      "canonical_name": "Ling 3.0 Flash",
+      "vendor": "inclusionAI",
+      "vendor_slug": "inclusionai",
+      "released": "2026-07-23",
+      "slugs": [
+        "inclusionai/ling-3.0-flash"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3.0",
+      "gi": 3.0,
+      "nl": 14,
+      "ne": 0.2143,
+      "rank_gi": 166,
+      "rank_nl": 146,
+      "rank_ne": 158
+    },
+    {
+      "model_id": "morph/morph-v3-large",
+      "display_name": "Morph: Morph V3 Large",
+      "canonical_name": "Morph V3 Large",
+      "vendor": "Morph",
+      "vendor_slug": "morph",
+      "released": "2025-07-07",
+      "slugs": [
+        "morph/morph-v3-large"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 14,
+      "ne": 0.2143,
+      "rank_gi": 166,
+      "rank_nl": 146,
+      "rank_ne": 158
+    },
+    {
+      "model_id": "relace/relace-apply-3",
+      "display_name": "Relace: Relace Apply 3",
+      "canonical_name": "Relace Apply 3",
+      "vendor": "Relace",
+      "vendor_slug": "relace",
+      "released": "2025-09-26",
+      "slugs": [
+        "relace/relace-apply-3"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 14,
+      "ne": 0.2143,
+      "rank_gi": 166,
+      "rank_nl": 146,
+      "rank_ne": 158
+    },
+    {
+      "model_id": "aion-labs/aion-3.0-mini",
+      "display_name": "AionLabs: Aion-3.0-Mini",
+      "canonical_name": "Aion-3.0-Mini",
+      "vendor": "AionLabs",
+      "vendor_slug": "aion-labs",
+      "released": "2026-07-07",
+      "slugs": [
+        "aion-labs/aion-3.0-mini"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.0",
+      "gi": 3.0,
+      "nl": 13,
+      "ne": 0.2308,
+      "rank_gi": 166,
+      "rank_nl": 174,
+      "rank_ne": 144
+    },
+    {
+      "model_id": "morph/morph-v3-fast",
+      "display_name": "Morph: Morph V3 Fast",
+      "canonical_name": "Morph V3 Fast",
+      "vendor": "Morph",
+      "vendor_slug": "morph",
+      "released": "2025-07-07",
+      "slugs": [
+        "morph/morph-v3-fast"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 13,
+      "ne": 0.2308,
+      "rank_gi": 166,
+      "rank_nl": 174,
+      "rank_ne": 144
+    },
+    {
+      "model_id": "qwen/qwen3-30b-a3b",
+      "display_name": "Qwen: Qwen3 30B A3B",
+      "canonical_name": "Qwen3 30B A3B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-04-28",
+      "slugs": [
+        "qwen/qwen3-30b-a3b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 13,
+      "ne": 0.2308,
+      "rank_gi": 166,
+      "rank_nl": 174,
+      "rank_ne": 144
+    },
+    {
+      "model_id": "openai/o3-mini-high",
+      "display_name": "OpenAI: o3 Mini High",
+      "canonical_name": "o3 Mini High",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-02-12",
+      "slugs": [
+        "openai/o3-mini-high"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 12,
+      "ne": 0.25,
+      "rank_gi": 166,
+      "rank_nl": 210,
+      "rank_ne": 131
+    },
+    {
+      "model_id": "rekaai/reka-flash-3",
+      "display_name": "Reka Flash 3",
+      "canonical_name": "Reka Flash 3",
+      "vendor": "rekaai",
+      "vendor_slug": "rekaai",
+      "released": "2025-03-12",
+      "slugs": [
+        "rekaai/reka-flash-3"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 12,
+      "ne": 0.25,
+      "rank_gi": 166,
+      "rank_nl": 210,
+      "rank_ne": 131
+    },
+    {
+      "model_id": "deepseek/deepseek-chat",
+      "display_name": "DeepSeek: DeepSeek V3",
+      "canonical_name": "DeepSeek V3",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2024-12-26",
+      "slugs": [
+        "deepseek/deepseek-chat"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 11,
+      "ne": 0.2727,
+      "rank_gi": 166,
+      "rank_nl": 234,
+      "rank_ne": 115
+    },
+    {
+      "model_id": "google/gemma-3-12b-it",
+      "display_name": "Google: Gemma 3 12B",
+      "canonical_name": "Gemma 3 12B",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2025-03-13",
+      "slugs": [
+        "google/gemma-3-12b-it"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 11,
+      "ne": 0.2727,
+      "rank_gi": 166,
+      "rank_nl": 234,
+      "rank_ne": 115
+    },
+    {
+      "model_id": "google/gemma-3-27b-it",
+      "display_name": "Google: Gemma 3 27B",
+      "canonical_name": "Gemma 3 27B",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2025-03-12",
+      "slugs": [
+        "google/gemma-3-27b-it"
+      ],
+      "endpoints": 5,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 11,
+      "ne": 0.2727,
+      "rank_gi": 166,
+      "rank_nl": 234,
+      "rank_ne": 115
+    },
+    {
+      "model_id": "tencent/hy3-preview",
+      "display_name": "Tencent: Hy3 preview",
+      "canonical_name": "Hy3 preview",
+      "vendor": "Tencent",
+      "vendor_slug": "tencent",
+      "released": "2026-04-22",
+      "slugs": [
+        "tencent/hy3-preview"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 11,
+      "ne": 0.2727,
+      "rank_gi": 166,
+      "rank_nl": 234,
+      "rank_ne": 115
+    },
+    {
+      "model_id": "upstage/solar-pro-3",
+      "display_name": "Upstage: Solar Pro 3",
+      "canonical_name": "Solar Pro 3",
+      "vendor": "Upstage",
+      "vendor_slug": "upstage",
+      "released": "2026-01-27",
+      "slugs": [
+        "upstage/solar-pro-3"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 11,
+      "ne": 0.2727,
+      "rank_gi": 166,
+      "rank_nl": 234,
+      "rank_ne": 115
+    },
+    {
+      "model_id": "google/gemma-3-4b-it",
+      "display_name": "Google: Gemma 3 4B",
+      "canonical_name": "Gemma 3 4B",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2025-03-13",
+      "slugs": [
+        "google/gemma-3-4b-it"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 10,
+      "ne": 0.3,
+      "rank_gi": 166,
+      "rank_nl": 263,
+      "rank_ne": 100
+    },
+    {
+      "model_id": "minimax/minimax-m3",
+      "display_name": "MiniMax: MiniMax M3",
+      "canonical_name": "MiniMax M3",
+      "vendor": "MiniMax",
+      "vendor_slug": "minimax",
+      "released": "2026-05-31",
+      "slugs": [
+        "minimax/minimax-m3"
+      ],
+      "endpoints": 13,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 10,
+      "ne": 0.3,
+      "rank_gi": 166,
+      "rank_nl": 263,
+      "rank_ne": 100
+    },
+    {
+      "model_id": "qwen/qwen3-14b",
+      "display_name": "Qwen: Qwen3 14B",
+      "canonical_name": "Qwen3 14B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-04-28",
+      "slugs": [
+        "qwen/qwen3-14b"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 9,
+      "ne": 0.3333,
+      "rank_gi": 166,
+      "rank_nl": 277,
+      "rank_ne": 83
+    },
+    {
+      "model_id": "qwen/qwen3-32b",
+      "display_name": "Qwen: Qwen3 32B",
+      "canonical_name": "Qwen3 32B",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-04-28",
+      "slugs": [
+        "qwen/qwen3-32b"
+      ],
+      "endpoints": 3,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 9,
+      "ne": 0.3333,
+      "rank_gi": 166,
+      "rank_nl": 277,
+      "rank_ne": 83
+    },
+    {
+      "model_id": "aion-labs/aion-3.0",
+      "display_name": "AionLabs: Aion-3.0",
+      "canonical_name": "Aion-3.0",
+      "vendor": "AionLabs",
+      "vendor_slug": "aion-labs",
+      "released": "2026-07-07",
+      "slugs": [
+        "aion-labs/aion-3.0"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.0",
+      "gi": 3.0,
+      "nl": 8,
+      "ne": 0.375,
+      "rank_gi": 166,
+      "rank_nl": 291,
+      "rank_ne": 65
+    },
+    {
+      "model_id": "moonshotai/kimi-k3",
+      "display_name": "MoonshotAI: Kimi K3",
+      "canonical_name": "Kimi K3",
+      "vendor": "MoonshotAI",
+      "vendor_slug": "moonshotai",
+      "released": "2026-07-16",
+      "slugs": [
+        "moonshotai/kimi-k3",
+        "moonshotai/kimi-k3:batch"
+      ],
+      "endpoints": 26,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 7,
+      "ne": 0.4286,
+      "rank_gi": 166,
+      "rank_nl": 302,
+      "rank_ne": 51
+    },
+    {
+      "model_id": "openai/o3-mini",
+      "display_name": "OpenAI: o3 Mini",
+      "canonical_name": "o3 Mini",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-01-31",
+      "slugs": [
+        "openai/o3-mini",
+        "openai/o3-mini:batch"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 7,
+      "ne": 0.4286,
+      "rank_gi": 166,
+      "rank_nl": 302,
+      "rank_ne": 51
+    },
+    {
+      "model_id": "openai/o3-pro",
+      "display_name": "OpenAI: o3 Pro",
+      "canonical_name": "o3 Pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-06-10",
+      "slugs": [
+        "openai/o3-pro"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 6,
+      "ne": 0.5,
+      "rank_gi": 166,
+      "rank_nl": 319,
+      "rank_ne": 33
+    },
+    {
+      "model_id": "tencent/hy3",
+      "display_name": "Tencent: Hy3",
+      "canonical_name": "Hy3",
+      "vendor": "Tencent",
+      "vendor_slug": "tencent",
+      "released": "2026-07-06",
+      "slugs": [
+        "tencent/hy3"
+      ],
+      "endpoints": 5,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 3,
+      "ne": 1.0,
+      "rank_gi": 166,
+      "rank_nl": 329,
+      "rank_ne": 3
+    },
+    {
+      "model_id": "openai/o3",
+      "display_name": "OpenAI: o3",
+      "canonical_name": "o3",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-04-16",
+      "slugs": [
+        "openai/o3",
+        "openai/o3:batch"
+      ],
+      "endpoints": 2,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 2,
+      "ne": 1.5,
+      "rank_gi": 166,
+      "rank_nl": 330,
+      "rank_ne": 1
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "display_name": "MoonshotAI: Kimi K2.7 Code",
+      "canonical_name": "Kimi K2.7 Code",
+      "vendor": "MoonshotAI",
+      "vendor_slug": "moonshotai",
+      "released": "2026-06-12",
+      "slugs": [
+        "moonshotai/kimi-k2.7-code"
+      ],
+      "endpoints": 12,
+      "gi_raw": "2.7",
+      "gi": 2.7,
+      "nl": 14,
+      "ne": 0.1929,
+      "rank_gi": 221,
+      "rank_nl": 146,
+      "rank_ne": 179
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "display_name": "MiniMax: MiniMax M2.7",
+      "canonical_name": "MiniMax M2.7",
+      "vendor": "MiniMax",
+      "vendor_slug": "minimax",
+      "released": "2026-03-18",
+      "slugs": [
+        "minimax/minimax-m2.7"
+      ],
+      "endpoints": 6,
+      "gi_raw": "2.7",
+      "gi": 2.7,
+      "nl": 12,
+      "ne": 0.225,
+      "rank_gi": 221,
+      "rank_nl": 210,
+      "rank_ne": 149
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "display_name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+      "canonical_name": "MiMo-V2.6-Pro-UltraSpeed",
+      "vendor": "Xiaomi",
+      "vendor_slug": "xiaomi",
+      "released": "2026-09-21",
+      "slugs": [
+        "xiaomi/mimo-v2.6-pro-ultraspeed"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.6",
+      "gi": 2.6,
+      "nl": 24,
+      "ne": 0.1083,
+      "rank_gi": 223,
+      "rank_nl": 20,
+      "rank_ne": 266
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-flash",
+      "display_name": "Xiaomi: MiMo-V2.6-Flash",
+      "canonical_name": "MiMo-V2.6-Flash",
+      "vendor": "Xiaomi",
+      "vendor_slug": "xiaomi",
+      "released": "2026-09-21",
+      "slugs": [
+        "xiaomi/mimo-v2.6-flash"
+      ],
+      "endpoints": 8,
+      "gi_raw": "2.6",
+      "gi": 2.6,
+      "nl": 15,
+      "ne": 0.1733,
+      "rank_gi": 223,
+      "rank_nl": 124,
+      "rank_ne": 199
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-pro",
+      "display_name": "Xiaomi: MiMo-V2.6-Pro",
+      "canonical_name": "MiMo-V2.6-Pro",
+      "vendor": "Xiaomi",
+      "vendor_slug": "xiaomi",
+      "released": "2026-09-21",
+      "slugs": [
+        "xiaomi/mimo-v2.6-pro"
+      ],
+      "endpoints": 4,
+      "gi_raw": "2.6",
+      "gi": 2.6,
+      "nl": 13,
+      "ne": 0.2,
+      "rank_gi": 223,
+      "rank_nl": 174,
+      "rank_ne": 171
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "display_name": "MoonshotAI: Kimi K2.6",
+      "canonical_name": "Kimi K2.6",
+      "vendor": "MoonshotAI",
+      "vendor_slug": "moonshotai",
+      "released": "2026-04-20",
+      "slugs": [
+        "moonshotai/kimi-k2.6"
+      ],
+      "endpoints": 17,
+      "gi_raw": "2.6",
+      "gi": 2.6,
+      "nl": 9,
+      "ne": 0.2889,
+      "rank_gi": 223,
+      "rank_nl": 277,
+      "rank_ne": 107
+    },
+    {
+      "model_id": "google/gemini-2.5-pro-preview",
+      "display_name": "Google: Gemini 2.5 Pro Preview 06-05",
+      "canonical_name": "Gemini 2.5 Pro Preview 06-05",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2025-06-05",
+      "slugs": [
+        "google/gemini-2.5-pro-preview"
+      ],
+      "endpoints": 7,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 28,
+      "ne": 0.0893,
+      "rank_gi": 227,
+      "rank_nl": 5,
+      "rank_ne": 279
+    },
+    {
+      "model_id": "qwen/qwen-2.5-coder-32b-instruct",
+      "display_name": "Qwen2.5 Coder 32B Instruct",
+      "canonical_name": "Qwen2.5 Coder 32B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2024-11-11",
+      "slugs": [
+        "qwen/qwen-2.5-coder-32b-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 26,
+      "ne": 0.0962,
+      "rank_gi": 227,
+      "rank_nl": 14,
+      "rank_ne": 276
+    },
+    {
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "display_name": "Qwen: Qwen2.5 VL 72B Instruct",
+      "canonical_name": "Qwen2.5 VL 72B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-02-01",
+      "slugs": [
+        "qwen/qwen2.5-vl-72b-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 23,
+      "ne": 0.1087,
+      "rank_gi": 227,
+      "rank_nl": 22,
+      "rank_ne": 265
+    },
+    {
+      "model_id": "google/gemini-2.5-flash-lite",
+      "display_name": "Google: Gemini 2.5 Flash Lite",
+      "canonical_name": "Gemini 2.5 Flash Lite",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2025-07-22",
+      "slugs": [
+        "google/gemini-2.5-flash-lite",
+        "google/gemini-2.5-flash-lite:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 21,
+      "ne": 0.119,
+      "rank_gi": 227,
+      "rank_nl": 39,
+      "rank_ne": 259
+    },
+    {
+      "model_id": "qwen/qwen-2.5-72b-instruct",
+      "display_name": "Qwen2.5 72B Instruct",
+      "canonical_name": "Qwen2.5 72B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2024-09-19",
+      "slugs": [
+        "qwen/qwen-2.5-72b-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 20,
+      "ne": 0.125,
+      "rank_gi": 227,
+      "rank_nl": 54,
+      "rank_ne": 253
+    },
+    {
+      "model_id": "qwen/qwen-2.5-7b-instruct",
+      "display_name": "Qwen: Qwen2.5 7B Instruct",
+      "canonical_name": "Qwen2.5 7B Instruct",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2024-10-16",
+      "slugs": [
+        "qwen/qwen-2.5-7b-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 19,
+      "ne": 0.1316,
+      "rank_gi": 227,
+      "rank_nl": 65,
+      "rank_ne": 249
+    },
+    {
+      "model_id": "google/gemini-2.5-flash",
+      "display_name": "Google: Gemini 2.5 Flash",
+      "canonical_name": "Gemini 2.5 Flash",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2025-06-17",
+      "slugs": [
+        "google/gemini-2.5-flash",
+        "google/gemini-2.5-flash:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 16,
+      "ne": 0.1562,
+      "rank_gi": 227,
+      "rank_nl": 101,
+      "rank_ne": 215
+    },
+    {
+      "model_id": "google/gemini-2.5-pro",
+      "display_name": "Google: Gemini 2.5 Pro",
+      "canonical_name": "Gemini 2.5 Pro",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2025-06-17",
+      "slugs": [
+        "google/gemini-2.5-pro",
+        "google/gemini-2.5-pro:batch"
+      ],
+      "endpoints": 8,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 14,
+      "ne": 0.1786,
+      "rank_gi": 227,
+      "rank_nl": 146,
+      "rank_ne": 194
+    },
+    {
+      "model_id": "nex-agi/nex-n2.5-mini",
+      "display_name": "Nex AGI: Nex-N2.5-Mini",
+      "canonical_name": "Nex-N2.5-Mini",
+      "vendor": "Nex AGI",
+      "vendor_slug": "nex-agi",
+      "released": "2026-09-08",
+      "slugs": [
+        "nex-agi/nex-n2.5-mini"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 13,
+      "ne": 0.1923,
+      "rank_gi": 227,
+      "rank_nl": 174,
+      "rank_ne": 180
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5-pro",
+      "display_name": "Xiaomi: MiMo-V2.5-Pro",
+      "canonical_name": "MiMo-V2.5-Pro",
+      "vendor": "Xiaomi",
+      "vendor_slug": "xiaomi",
+      "released": "2026-04-22",
+      "slugs": [
+        "xiaomi/mimo-v2.5-pro"
+      ],
+      "endpoints": 6,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 13,
+      "ne": 0.1923,
+      "rank_gi": 227,
+      "rank_nl": 174,
+      "rank_ne": 180
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "display_name": "MiniMax: MiniMax M2.5",
+      "canonical_name": "MiniMax M2.5",
+      "vendor": "MiniMax",
+      "vendor_slug": "minimax",
+      "released": "2026-02-12",
+      "slugs": [
+        "minimax/minimax-m2.5"
+      ],
+      "endpoints": 9,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 12,
+      "ne": 0.2083,
+      "rank_gi": 227,
+      "rank_nl": 210,
+      "rank_ne": 166
+    },
+    {
+      "model_id": "nex-agi/nex-n2.5-pro",
+      "display_name": "Nex AGI: Nex-N2.5-Pro",
+      "canonical_name": "Nex-N2.5-Pro",
+      "vendor": "Nex AGI",
+      "vendor_slug": "nex-agi",
+      "released": "2026-09-08",
+      "slugs": [
+        "nex-agi/nex-n2.5-pro"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 12,
+      "ne": 0.2083,
+      "rank_gi": 227,
+      "rank_nl": 210,
+      "rank_ne": 166
+    },
+    {
+      "model_id": "inception/mercury-2.5",
+      "display_name": "Inception: Mercury 2.5",
+      "canonical_name": "Mercury 2.5",
+      "vendor": "Inception",
+      "vendor_slug": "inception",
+      "released": "2026-09-08",
+      "slugs": [
+        "inception/mercury-2.5"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 11,
+      "ne": 0.2273,
+      "rank_gi": 227,
+      "rank_nl": 234,
+      "rank_ne": 147
+    },
+    {
+      "model_id": "liquid/lfm-2.5-2.6b",
+      "display_name": "LiquidAI: LFM2.5-2.6B (free)",
+      "canonical_name": "LFM2.5-2.6B",
+      "vendor": "LiquidAI",
+      "vendor_slug": "liquid",
+      "released": "2026-08-11",
+      "slugs": [
+        "liquid/lfm-2.5-2.6b:free"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 11,
+      "ne": 0.2273,
+      "rank_gi": 227,
+      "rank_nl": 234,
+      "rank_ne": 147
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.5",
+      "display_name": "MoonshotAI: Kimi K2.5",
+      "canonical_name": "Kimi K2.5",
+      "vendor": "MoonshotAI",
+      "vendor_slug": "moonshotai",
+      "released": "2026-01-27",
+      "slugs": [
+        "moonshotai/kimi-k2.5"
+      ],
+      "endpoints": 5,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 9,
+      "ne": 0.2778,
+      "rank_gi": 227,
+      "rank_nl": 277,
+      "rank_ne": 111
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5",
+      "display_name": "Xiaomi: MiMo-V2.5",
+      "canonical_name": "MiMo-V2.5",
+      "vendor": "Xiaomi",
+      "vendor_slug": "xiaomi",
+      "released": "2026-04-22",
+      "slugs": [
+        "xiaomi/mimo-v2.5"
+      ],
+      "endpoints": 5,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 9,
+      "ne": 0.2778,
+      "rank_gi": 227,
+      "rank_nl": 277,
+      "rank_ne": 111
+    },
+    {
+      "model_id": "bytedance-seed/seed-2-1-turbo",
+      "display_name": "ByteDance Seed: Seed 2.1 Turbo",
+      "canonical_name": "Seed 2.1 Turbo",
+      "vendor": "ByteDance Seed",
+      "vendor_slug": "bytedance-seed",
+      "released": "2026-08-12",
+      "slugs": [
+        "bytedance-seed/seed-2-1-turbo"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.1",
+      "gi": 2.1,
+      "nl": 14,
+      "ne": 0.15,
+      "rank_gi": 243,
+      "rank_nl": 146,
+      "rank_ne": 225
+    },
+    {
+      "model_id": "poolside/laguna-xs-2.1",
+      "display_name": "Poolside: Laguna XS 2.1",
+      "canonical_name": "Laguna XS 2.1",
+      "vendor": "Poolside",
+      "vendor_slug": "poolside",
+      "released": "2026-07-02",
+      "slugs": [
+        "poolside/laguna-xs-2.1",
+        "poolside/laguna-xs-2.1:free"
+      ],
+      "endpoints": 2,
+      "gi_raw": "2.1",
+      "gi": 2.1,
+      "nl": 13,
+      "ne": 0.1615,
+      "rank_gi": 243,
+      "rank_nl": 174,
+      "rank_ne": 209
+    },
+    {
+      "model_id": "minimax/minimax-m2.1",
+      "display_name": "MiniMax: MiniMax M2.1",
+      "canonical_name": "MiniMax M2.1",
+      "vendor": "MiniMax",
+      "vendor_slug": "minimax",
+      "released": "2025-12-23",
+      "slugs": [
+        "minimax/minimax-m2.1"
+      ],
+      "endpoints": 2,
+      "gi_raw": "2.1",
+      "gi": 2.1,
+      "nl": 12,
+      "ne": 0.175,
+      "rank_gi": 243,
+      "rank_nl": 210,
+      "rank_ne": 197
+    },
+    {
+      "model_id": "poolside/laguna-s-2.1",
+      "display_name": "Poolside: Laguna S 2.1",
+      "canonical_name": "Laguna S 2.1",
+      "vendor": "Poolside",
+      "vendor_slug": "poolside",
+      "released": "2026-07-21",
+      "slugs": [
+        "poolside/laguna-s-2.1",
+        "poolside/laguna-s-2.1:free"
+      ],
+      "endpoints": 2,
+      "gi_raw": "2.1",
+      "gi": 2.1,
+      "nl": 12,
+      "ne": 0.175,
+      "rank_gi": 243,
+      "rank_nl": 210,
+      "rank_ne": 197
+    },
+    {
+      "model_id": "prism-ml/ternary-bonsai-2-27b",
+      "display_name": "PrismML: Ternary Bonsai 2 27B",
+      "canonical_name": "Ternary Bonsai 2 27B",
+      "vendor": "PrismML",
+      "vendor_slug": "prism-ml",
+      "released": "2026-09-18",
+      "slugs": [
+        "prism-ml/ternary-bonsai-2-27b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 20,
+      "ne": 0.1,
+      "rank_gi": 247,
+      "rank_nl": 54,
+      "rank_ne": 273
+    },
+    {
+      "model_id": "inference-net/schematron-v2-small",
+      "display_name": "Inference.net: Schematron V2 Small",
+      "canonical_name": "Schematron V2 Small",
+      "vendor": "Inference.net",
+      "vendor_slug": "inference-net",
+      "released": "2026-09-12",
+      "slugs": [
+        "inference-net/schematron-v2-small"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 19,
+      "ne": 0.1053,
+      "rank_gi": 247,
+      "rank_nl": 65,
+      "rank_ne": 269
+    },
+    {
+      "model_id": "inference-net/schematron-v2-turbo",
+      "display_name": "Inference.net: Schematron V2 Turbo",
+      "canonical_name": "Schematron V2 Turbo",
+      "vendor": "Inference.net",
+      "vendor_slug": "inference-net",
+      "released": "2026-09-12",
+      "slugs": [
+        "inference-net/schematron-v2-turbo"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 19,
+      "ne": 0.1053,
+      "rank_gi": 247,
+      "rank_nl": 65,
+      "rank_ne": 269
+    },
+    {
+      "model_id": "microsoft/wizardlm-2-8x22b",
+      "display_name": "WizardLM-2 8x22B",
+      "canonical_name": "WizardLM-2 8x22B",
+      "vendor": "Microsoft",
+      "vendor_slug": "microsoft",
+      "released": "2024-04-16",
+      "slugs": [
+        "microsoft/wizardlm-2-8x22b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 16,
+      "ne": 0.125,
+      "rank_gi": 247,
+      "rank_nl": 101,
+      "rank_ne": 253
+    },
+    {
+      "model_id": "moonshotai/kimi-k2-thinking",
+      "display_name": "MoonshotAI: Kimi K2 Thinking",
+      "canonical_name": "Kimi K2 Thinking",
+      "vendor": "MoonshotAI",
+      "vendor_slug": "moonshotai",
+      "released": "2025-11-06",
+      "slugs": [
+        "moonshotai/kimi-k2-thinking"
+      ],
+      "endpoints": 2,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 16,
+      "ne": 0.125,
+      "rank_gi": 247,
+      "rank_nl": 101,
+      "rank_ne": 253
+    },
+    {
+      "model_id": "mistralai/devstral-2512",
+      "display_name": "Mistral: Devstral 2 2512",
+      "canonical_name": "Devstral 2 2512",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-12-09",
+      "slugs": [
+        "mistralai/devstral-2512"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 15,
+      "ne": 0.1333,
+      "rank_gi": 247,
+      "rank_nl": 124,
+      "rank_ne": 248
+    },
+    {
+      "model_id": "minimax/minimax-m2-her",
+      "display_name": "MiniMax: MiniMax M2-her",
+      "canonical_name": "MiniMax M2-her",
+      "vendor": "MiniMax",
+      "vendor_slug": "minimax",
+      "released": "2026-01-23",
+      "slugs": [
+        "minimax/minimax-m2-her"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 14,
+      "ne": 0.1429,
+      "rank_gi": 247,
+      "rank_nl": 146,
+      "rank_ne": 235
+    },
+    {
+      "model_id": "tencent/hy-mt2-30b-a3b",
+      "display_name": "Tencent: Hy-MT2-30B-A3B",
+      "canonical_name": "Hy-MT2-30B-A3B",
+      "vendor": "Tencent",
+      "vendor_slug": "tencent",
+      "released": "2026-08-20",
+      "slugs": [
+        "tencent/hy-mt2-30b-a3b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 14,
+      "ne": 0.1429,
+      "rank_gi": 247,
+      "rank_nl": 146,
+      "rank_ne": 235
+    },
+    {
+      "model_id": "thedrummer/skyfall-36b-v2",
+      "display_name": "TheDrummer: Skyfall 36B V2",
+      "canonical_name": "Skyfall 36B V2",
+      "vendor": "TheDrummer",
+      "vendor_slug": "thedrummer",
+      "released": "2025-03-10",
+      "slugs": [
+        "thedrummer/skyfall-36b-v2"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 14,
+      "ne": 0.1429,
+      "rank_gi": 247,
+      "rank_nl": 146,
+      "rank_ne": 235
+    },
+    {
+      "model_id": "bytedance-seed/seed-2.0-code",
+      "display_name": "ByteDance Seed: Seed-2.0-Code",
+      "canonical_name": "Seed-2.0-Code",
+      "vendor": "ByteDance Seed",
+      "vendor_slug": "bytedance-seed",
+      "released": "2026-08-12",
+      "slugs": [
+        "bytedance-seed/seed-2.0-code"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.0",
+      "gi": 2.0,
+      "nl": 13,
+      "ne": 0.1538,
+      "rank_gi": 247,
+      "rank_nl": 174,
+      "rank_ne": 216
+    },
+    {
+      "model_id": "bytedance-seed/seed-2.0-lite",
+      "display_name": "ByteDance Seed: Seed-2.0-Lite",
+      "canonical_name": "Seed-2.0-Lite",
+      "vendor": "ByteDance Seed",
+      "vendor_slug": "bytedance-seed",
+      "released": "2026-03-10",
+      "slugs": [
+        "bytedance-seed/seed-2.0-lite"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.0",
+      "gi": 2.0,
+      "nl": 13,
+      "ne": 0.1538,
+      "rank_gi": 247,
+      "rank_nl": 174,
+      "rank_ne": 216
+    },
+    {
+      "model_id": "bytedance-seed/seed-2.0-mini",
+      "display_name": "ByteDance Seed: Seed-2.0-Mini",
+      "canonical_name": "Seed-2.0-Mini",
+      "vendor": "ByteDance Seed",
+      "vendor_slug": "bytedance-seed",
+      "released": "2026-02-26",
+      "slugs": [
+        "bytedance-seed/seed-2.0-mini"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.0",
+      "gi": 2.0,
+      "nl": 13,
+      "ne": 0.1538,
+      "rank_gi": 247,
+      "rank_nl": 174,
+      "rank_ne": 216
+    },
+    {
+      "model_id": "sakana/fugu-ultra-v2",
+      "display_name": "Sakana: Fugu Ultra v2",
+      "canonical_name": "Fugu Ultra v2",
+      "vendor": "Sakana",
+      "vendor_slug": "sakana",
+      "released": "2026-09-11",
+      "slugs": [
+        "sakana/fugu-ultra-v2"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 13,
+      "ne": 0.1538,
+      "rank_gi": 247,
+      "rank_nl": 174,
+      "rank_ne": 216
+    },
+    {
+      "model_id": "moonshotai/kimi-k2",
+      "display_name": "MoonshotAI: Kimi K2 0711",
+      "canonical_name": "Kimi K2 0711",
+      "vendor": "MoonshotAI",
+      "vendor_slug": "moonshotai",
+      "released": "2025-07-11",
+      "slugs": [
+        "moonshotai/kimi-k2"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 12,
+      "ne": 0.1667,
+      "rank_gi": 247,
+      "rank_nl": 210,
+      "rank_ne": 201
+    },
+    {
+      "model_id": "moonshotai/kimi-k2-0905",
+      "display_name": "MoonshotAI: Kimi K2 0905",
+      "canonical_name": "Kimi K2 0905",
+      "vendor": "MoonshotAI",
+      "vendor_slug": "moonshotai",
+      "released": "2025-09-04",
+      "slugs": [
+        "moonshotai/kimi-k2-0905"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 12,
+      "ne": 0.1667,
+      "rank_gi": 247,
+      "rank_nl": 210,
+      "rank_ne": 201
+    },
+    {
+      "model_id": "amazon/nova-2-lite-v1",
+      "display_name": "Amazon: Nova 2 Lite",
+      "canonical_name": "Nova 2 Lite",
+      "vendor": "Amazon",
+      "vendor_slug": "amazon",
+      "released": "2025-12-02",
+      "slugs": [
+        "amazon/nova-2-lite-v1"
+      ],
+      "endpoints": 2,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 11,
+      "ne": 0.1818,
+      "rank_gi": 247,
+      "rank_nl": 234,
+      "rank_ne": 188
+    },
+    {
+      "model_id": "google/gemma-2-27b-it",
+      "display_name": "Google: Gemma 2 27B",
+      "canonical_name": "Gemma 2 27B",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2024-07-13",
+      "slugs": [
+        "google/gemma-2-27b-it"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 11,
+      "ne": 0.1818,
+      "rank_gi": 247,
+      "rank_nl": 234,
+      "rank_ne": 188
+    },
+    {
+      "model_id": "meituan/longcat-2.0",
+      "display_name": "Meituan: LongCat 2.0",
+      "canonical_name": "LongCat 2.0",
+      "vendor": "Meituan",
+      "vendor_slug": "meituan",
+      "released": "2026-07-20",
+      "slugs": [
+        "meituan/longcat-2.0"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.0",
+      "gi": 2.0,
+      "nl": 11,
+      "ne": 0.1818,
+      "rank_gi": 247,
+      "rank_nl": 234,
+      "rank_ne": 188
+    },
+    {
+      "model_id": "tencent/hy-mt2-1.8b",
+      "display_name": "Tencent: Hy-MT2-1.8B",
+      "canonical_name": "Hy-MT2-1.8B",
+      "vendor": "Tencent",
+      "vendor_slug": "tencent",
+      "released": "2026-08-20",
+      "slugs": [
+        "tencent/hy-mt2-1.8b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 11,
+      "ne": 0.1818,
+      "rank_gi": 247,
+      "rank_nl": 234,
+      "rank_ne": 188
+    },
+    {
+      "model_id": "minimax/minimax-m2",
+      "display_name": "MiniMax: MiniMax M2",
+      "canonical_name": "MiniMax M2",
+      "vendor": "MiniMax",
+      "vendor_slug": "minimax",
+      "released": "2025-10-23",
+      "slugs": [
+        "minimax/minimax-m2"
+      ],
+      "endpoints": 2,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 10,
+      "ne": 0.2,
+      "rank_gi": 247,
+      "rank_nl": 263,
+      "rank_ne": 171
+    },
+    {
+      "model_id": "inception/mercury-2",
+      "display_name": "Inception: Mercury 2",
+      "canonical_name": "Mercury 2",
+      "vendor": "Inception",
+      "vendor_slug": "inception",
+      "released": "2026-03-04",
+      "slugs": [
+        "inception/mercury-2"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 9,
+      "ne": 0.2222,
+      "rank_gi": 247,
+      "rank_nl": 277,
+      "rank_ne": 153
+    },
+    {
+      "model_id": "tencent/hy-mt2-7b",
+      "display_name": "Tencent: Hy-MT2-7B",
+      "canonical_name": "Hy-MT2-7B",
+      "vendor": "Tencent",
+      "vendor_slug": "tencent",
+      "released": "2026-08-19",
+      "slugs": [
+        "tencent/hy-mt2-7b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2",
+      "gi": 2.0,
+      "nl": 9,
+      "ne": 0.2222,
+      "rank_gi": 247,
+      "rank_nl": 277,
+      "rank_ne": 153
+    },
+    {
+      "model_id": "aion-labs/aion-2.0",
+      "display_name": "AionLabs: Aion-2.0",
+      "canonical_name": "Aion-2.0",
+      "vendor": "AionLabs",
+      "vendor_slug": "aion-labs",
+      "released": "2026-02-23",
+      "slugs": [
+        "aion-labs/aion-2.0"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.0",
+      "gi": 2.0,
+      "nl": 8,
+      "ne": 0.25,
+      "rank_gi": 247,
+      "rank_nl": 291,
+      "rank_ne": 131
+    },
+    {
+      "model_id": "bytedance-seed/seed-1.6-flash",
+      "display_name": "ByteDance Seed: Seed 1.6 Flash",
+      "canonical_name": "Seed 1.6 Flash",
+      "vendor": "ByteDance Seed",
+      "vendor_slug": "bytedance-seed",
+      "released": "2025-12-23",
+      "slugs": [
+        "bytedance-seed/seed-1.6-flash"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.6",
+      "gi": 1.6,
+      "nl": 14,
+      "ne": 0.1143,
+      "rank_gi": 270,
+      "rank_nl": 146,
+      "rank_ne": 260
+    },
+    {
+      "model_id": "bytedance-seed/seed-1.6",
+      "display_name": "ByteDance Seed: Seed 1.6",
+      "canonical_name": "Seed 1.6",
+      "vendor": "ByteDance Seed",
+      "vendor_slug": "bytedance-seed",
+      "released": "2025-12-23",
+      "slugs": [
+        "bytedance-seed/seed-1.6"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.6",
+      "gi": 1.6,
+      "nl": 8,
+      "ne": 0.2,
+      "rank_gi": 270,
+      "rank_nl": 291,
+      "rank_ne": 171
+    },
+    {
+      "model_id": "perceptron/perceptron-mk1.5",
+      "display_name": "Perceptron: Perceptron Mk1.5",
+      "canonical_name": "Perceptron Mk1.5",
+      "vendor": "Perceptron",
+      "vendor_slug": "perceptron",
+      "released": "2026-09-25",
+      "slugs": [
+        "perceptron/perceptron-mk1.5"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.5",
+      "gi": 1.5,
+      "nl": 16,
+      "ne": 0.0938,
+      "rank_gi": 272,
+      "rank_nl": 101,
+      "rank_ne": 277
+    },
+    {
+      "model_id": "meta/muse-spark-1.3-contributor",
+      "display_name": "Meta: Muse Spark 1.3 Contributor",
+      "canonical_name": "Muse Spark 1.3 Contributor",
+      "vendor": "Meta",
+      "vendor_slug": "meta",
+      "released": "2026-09-02",
+      "slugs": [
+        "meta/muse-spark-1.3-contributor"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.3",
+      "gi": 1.3,
+      "nl": 26,
+      "ne": 0.05,
+      "rank_gi": 273,
+      "rank_nl": 14,
+      "rank_ne": 290
+    },
+    {
+      "model_id": "meta/muse-spark-1.3",
+      "display_name": "Meta: Muse Spark 1.3",
+      "canonical_name": "Muse Spark 1.3",
+      "vendor": "Meta",
+      "vendor_slug": "meta",
+      "released": "2026-09-02",
+      "slugs": [
+        "meta/muse-spark-1.3"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.3",
+      "gi": 1.3,
+      "nl": 14,
+      "ne": 0.0929,
+      "rank_gi": 273,
+      "rank_nl": 146,
+      "rank_ne": 278
+    },
+    {
+      "model_id": "meta/muse-spark-1.2-contributor",
+      "display_name": "Meta: Muse Spark 1.2 Contributor",
+      "canonical_name": "Muse Spark 1.2 Contributor",
+      "vendor": "Meta",
+      "vendor_slug": "meta",
+      "released": "2026-08-21",
+      "slugs": [
+        "meta/muse-spark-1.2-contributor"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.2",
+      "gi": 1.2,
+      "nl": 26,
+      "ne": 0.0462,
+      "rank_gi": 275,
+      "rank_nl": 14,
+      "rank_ne": 291
+    },
+    {
+      "model_id": "meta/muse-spark-1.2",
+      "display_name": "Meta: Muse Spark 1.2",
+      "canonical_name": "Muse Spark 1.2",
+      "vendor": "Meta",
+      "vendor_slug": "meta",
+      "released": "2026-08-05",
+      "slugs": [
+        "meta/muse-spark-1.2"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.2",
+      "gi": 1.2,
+      "nl": 14,
+      "ne": 0.0857,
+      "rank_gi": 275,
+      "rank_nl": 146,
+      "rank_ne": 281
+    },
+    {
+      "model_id": "apodex/apodex-1.1-mini",
+      "display_name": "Apodex: Apodex 1.1 Mini (free)",
+      "canonical_name": "Apodex 1.1 Mini",
+      "vendor": "Apodex",
+      "vendor_slug": "apodex",
+      "released": "2026-10-01",
+      "slugs": [
+        "apodex/apodex-1.1-mini:free"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.1",
+      "gi": 1.1,
+      "nl": 15,
+      "ne": 0.0733,
+      "rank_gi": 277,
+      "rank_nl": 124,
+      "rank_ne": 285
+    },
+    {
+      "model_id": "meta/muse-spark-1.1",
+      "display_name": "Meta: Muse Spark 1.1",
+      "canonical_name": "Muse Spark 1.1",
+      "vendor": "Meta",
+      "vendor_slug": "meta",
+      "released": "2026-07-16",
+      "slugs": [
+        "meta/muse-spark-1.1"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.1",
+      "gi": 1.1,
+      "nl": 14,
+      "ne": 0.0786,
+      "rank_gi": 277,
+      "rank_nl": 146,
+      "rank_ne": 283
+    },
+    {
+      "model_id": "aion-labs/aion-rp-llama-3.1-8b",
+      "display_name": "AionLabs: Aion-RP 1.0 (8B)",
+      "canonical_name": "Aion-RP 1.0 (8B)",
+      "vendor": "AionLabs",
+      "vendor_slug": "aion-labs",
+      "released": "2025-02-04",
+      "slugs": [
+        "aion-labs/aion-rp-llama-3.1-8b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.0",
+      "gi": 1.0,
+      "nl": 16,
+      "ne": 0.0625,
+      "rank_gi": 279,
+      "rank_nl": 101,
+      "rank_ne": 288
+    },
+    {
+      "model_id": "amazon/nova-premier-v1",
+      "display_name": "Amazon: Nova Premier 1.0",
+      "canonical_name": "Nova Premier 1.0",
+      "vendor": "Amazon",
+      "vendor_slug": "amazon",
+      "released": "2025-10-31",
+      "slugs": [
+        "amazon/nova-premier-v1"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1.0",
+      "gi": 1.0,
+      "nl": 16,
+      "ne": 0.0625,
+      "rank_gi": 279,
+      "rank_nl": 101,
+      "rank_ne": 288
+    },
+    {
+      "model_id": "amazon/nova-micro-v1",
+      "display_name": "Amazon: Nova Micro 1.0",
+      "canonical_name": "Nova Micro 1.0",
+      "vendor": "Amazon",
+      "vendor_slug": "amazon",
+      "released": "2024-12-05",
+      "slugs": [
+        "amazon/nova-micro-v1"
+      ],
+      "endpoints": 2,
+      "gi_raw": "1.0",
+      "gi": 1.0,
+      "nl": 14,
+      "ne": 0.0714,
+      "rank_gi": 279,
+      "rank_nl": 146,
+      "rank_ne": 286
+    },
+    {
+      "model_id": "perceptron/perceptron-mk1",
+      "display_name": "Perceptron: Perceptron Mk1",
+      "canonical_name": "Perceptron Mk1",
+      "vendor": "Perceptron",
+      "vendor_slug": "perceptron",
+      "released": "2026-05-12",
+      "slugs": [
+        "perceptron/perceptron-mk1"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1",
+      "gi": 1.0,
+      "nl": 14,
+      "ne": 0.0714,
+      "rank_gi": 279,
+      "rank_nl": 146,
+      "rank_ne": 286
+    },
+    {
+      "model_id": "amazon/nova-lite-v1",
+      "display_name": "Amazon: Nova Lite 1.0",
+      "canonical_name": "Nova Lite 1.0",
+      "vendor": "Amazon",
+      "vendor_slug": "amazon",
+      "released": "2024-12-05",
+      "slugs": [
+        "amazon/nova-lite-v1"
+      ],
+      "endpoints": 2,
+      "gi_raw": "1.0",
+      "gi": 1.0,
+      "nl": 13,
+      "ne": 0.0769,
+      "rank_gi": 279,
+      "rank_nl": 174,
+      "rank_ne": 284
+    },
+    {
+      "model_id": "amazon/nova-pro-v1",
+      "display_name": "Amazon: Nova Pro 1.0",
+      "canonical_name": "Nova Pro 1.0",
+      "vendor": "Amazon",
+      "vendor_slug": "amazon",
+      "released": "2024-12-05",
+      "slugs": [
+        "amazon/nova-pro-v1"
+      ],
+      "endpoints": 2,
+      "gi_raw": "1.0",
+      "gi": 1.0,
+      "nl": 12,
+      "ne": 0.0833,
+      "rank_gi": 279,
+      "rank_nl": 210,
+      "rank_ne": 282
+    },
+    {
+      "model_id": "minimax/minimax-01",
+      "display_name": "MiniMax: MiniMax-01",
+      "canonical_name": "MiniMax-01",
+      "vendor": "MiniMax",
+      "vendor_slug": "minimax",
+      "released": "2025-01-15",
+      "slugs": [
+        "minimax/minimax-01"
+      ],
+      "endpoints": 1,
+      "gi_raw": "01",
+      "gi": 1.0,
+      "nl": 10,
+      "ne": 0.1,
+      "rank_gi": 279,
+      "rank_nl": 263,
+      "rank_ne": 273
+    },
+    {
+      "model_id": "minimax/minimax-m1",
+      "display_name": "MiniMax: MiniMax M1",
+      "canonical_name": "MiniMax M1",
+      "vendor": "MiniMax",
+      "vendor_slug": "minimax",
+      "released": "2025-06-17",
+      "slugs": [
+        "minimax/minimax-m1"
+      ],
+      "endpoints": 2,
+      "gi_raw": "1",
+      "gi": 1.0,
+      "nl": 10,
+      "ne": 0.1,
+      "rank_gi": 279,
+      "rank_nl": 263,
+      "rank_ne": 273
+    },
+    {
+      "model_id": "deepseek/deepseek-r1-0528",
+      "display_name": "DeepSeek: R1 0528",
+      "canonical_name": "R1 0528",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2025-05-28",
+      "slugs": [
+        "deepseek/deepseek-r1-0528"
+      ],
+      "endpoints": 4,
+      "gi_raw": "1",
+      "gi": 1.0,
+      "nl": 7,
+      "ne": 0.1429,
+      "rank_gi": 279,
+      "rank_nl": 302,
+      "rank_ne": 235
+    },
+    {
+      "model_id": "fireworks/ember-1",
+      "display_name": "Fireworks: Ember-1",
+      "canonical_name": "Ember-1",
+      "vendor": "Fireworks",
+      "vendor_slug": "fireworks",
+      "released": "2026-09-24",
+      "slugs": [
+        "fireworks/ember-1"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1",
+      "gi": 1.0,
+      "nl": 7,
+      "ne": 0.1429,
+      "rank_gi": 279,
+      "rank_nl": 302,
+      "rank_ne": 235
+    },
+    {
+      "model_id": "openai/o1-pro",
+      "display_name": "OpenAI: o1-pro",
+      "canonical_name": "o1-pro",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-03-19",
+      "slugs": [
+        "openai/o1-pro"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1",
+      "gi": 1.0,
+      "nl": 6,
+      "ne": 0.1667,
+      "rank_gi": 279,
+      "rank_nl": 319,
+      "rank_ne": 201
+    },
+    {
+      "model_id": "deepseek/deepseek-r1",
+      "display_name": "DeepSeek: R1",
+      "canonical_name": "R1",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2025-01-20",
+      "slugs": [
+        "deepseek/deepseek-r1"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1",
+      "gi": 1.0,
+      "nl": 2,
+      "ne": 0.5,
+      "rank_gi": 279,
+      "rank_nl": 330,
+      "rank_ne": 33
+    },
+    {
+      "model_id": "openai/o1",
+      "display_name": "OpenAI: o1",
+      "canonical_name": "o1",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2024-12-17",
+      "slugs": [
+        "openai/o1"
+      ],
+      "endpoints": 1,
+      "gi_raw": "1",
+      "gi": 1.0,
+      "nl": 2,
+      "ne": 0.5,
+      "rank_gi": 279,
+      "rank_nl": 330,
+      "rank_ne": 33
+    },
+    {
+      "model_id": "x-ai/grok-build-0.1",
+      "display_name": "SpaceXAI: Grok Build 0.1",
+      "canonical_name": "Grok Build 0.1",
+      "vendor": "SpaceXAI",
+      "vendor_slug": "x-ai",
+      "released": "2026-05-20",
+      "slugs": [
+        "x-ai/grok-build-0.1"
+      ],
+      "endpoints": 4,
+      "gi_raw": "0.1",
+      "gi": 0.1,
+      "nl": 14,
+      "ne": 0.0071,
+      "rank_gi": 292,
+      "rank_nl": 146,
+      "rank_ne": 292
+    },
+    {
+      "model_id": "arcee-ai/trinity-large-thinking",
+      "display_name": "Arcee AI: Trinity Large Thinking",
+      "canonical_name": "Trinity Large Thinking",
+      "vendor": "Arcee AI",
+      "vendor_slug": "arcee-ai",
+      "released": "2026-04-01",
+      "slugs": [
+        "arcee-ai/trinity-large-thinking"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 22,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 26,
+      "rank_ne": null
+    },
+    {
+      "model_id": "mistralai/mixtral-8x22b-instruct",
+      "display_name": "Mistral: Mixtral 8x22B Instruct",
+      "canonical_name": "Mixtral 8x22B Instruct",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2024-04-17",
+      "slugs": [
+        "mistralai/mixtral-8x22b-instruct"
+      ],
+      "endpoints": 3,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 22,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 26,
+      "rank_ne": null
+    },
+    {
+      "model_id": "mistralai/voxtral-small-24b-2507",
+      "display_name": "Mistral: Voxtral Small 24B 2507",
+      "canonical_name": "Voxtral Small 24B 2507",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-10-30",
+      "slugs": [
+        "mistralai/voxtral-small-24b-2507"
+      ],
+      "endpoints": 3,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 22,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 26,
+      "rank_ne": null
+    },
+    {
+      "model_id": "cohere/command-r7b-12-2024",
+      "display_name": "Cohere: Command R7B (12-2024)",
+      "canonical_name": "Command R7B (12-2024)",
+      "vendor": "Cohere",
+      "vendor_slug": "cohere",
+      "released": "2024-12-14",
+      "slugs": [
+        "cohere/command-r7b-12-2024"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 21,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 39,
+      "rank_ne": null
+    },
+    {
+      "model_id": "openai/gpt-oss-safeguard-20b",
+      "display_name": "OpenAI: gpt-oss-safeguard-20b",
+      "canonical_name": "gpt-oss-safeguard-20b",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-10-29",
+      "slugs": [
+        "openai/gpt-oss-safeguard-20b"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 21,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 39,
+      "rank_ne": null
+    },
+    {
+      "model_id": "tencent/hunyuan-a13b-instruct",
+      "display_name": "Tencent: Hunyuan A13B Instruct",
+      "canonical_name": "Hunyuan A13B Instruct",
+      "vendor": "Tencent",
+      "vendor_slug": "tencent",
+      "released": "2025-07-08",
+      "slugs": [
+        "tencent/hunyuan-a13b-instruct"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 21,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 39,
+      "rank_ne": null
+    },
+    {
+      "model_id": "cohere/command-r-plus-08-2024",
+      "display_name": "Cohere: Command R+ (08-2024)",
+      "canonical_name": "Command R+ (08-2024)",
+      "vendor": "Cohere",
+      "vendor_slug": "cohere",
+      "released": "2024-08-30",
+      "slugs": [
+        "cohere/command-r-plus-08-2024"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 20,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 54,
+      "rank_ne": null
+    },
+    {
+      "model_id": "cohere/command-r-08-2024",
+      "display_name": "Cohere: Command R (08-2024)",
+      "canonical_name": "Command R (08-2024)",
+      "vendor": "Cohere",
+      "vendor_slug": "cohere",
+      "released": "2024-08-30",
+      "slugs": [
+        "cohere/command-r-08-2024"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 19,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 65,
+      "rank_ne": null
+    },
+    {
+      "model_id": "perplexity/sonar-deep-research",
+      "display_name": "Perplexity: Sonar Deep Research",
+      "canonical_name": "Sonar Deep Research",
+      "vendor": "Perplexity",
+      "vendor_slug": "perplexity",
+      "released": "2025-03-07",
+      "slugs": [
+        "perplexity/sonar-deep-research"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 19,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 65,
+      "rank_ne": null
+    },
+    {
+      "model_id": "perplexity/sonar-reasoning-pro",
+      "display_name": "Perplexity: Sonar Reasoning Pro",
+      "canonical_name": "Sonar Reasoning Pro",
+      "vendor": "Perplexity",
+      "vendor_slug": "perplexity",
+      "released": "2025-03-07",
+      "slugs": [
+        "perplexity/sonar-reasoning-pro"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 19,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 65,
+      "rank_ne": null
+    },
+    {
+      "model_id": "mistralai/mistral-large-2407",
+      "display_name": "Mistral Large 2407",
+      "canonical_name": "Mistral Large 2407",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2024-11-19",
+      "slugs": [
+        "mistralai/mistral-large-2407"
+      ],
+      "endpoints": 3,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 18,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 77,
+      "rank_ne": null
+    },
+    {
+      "model_id": "meta/muse-glimmer-30b",
+      "display_name": "Meta: Muse Glimmer 30B",
+      "canonical_name": "Muse Glimmer 30B",
+      "vendor": "Meta",
+      "vendor_slug": "meta",
+      "released": "2026-08-09",
+      "slugs": [
+        "meta/muse-glimmer-30b"
+      ],
+      "endpoints": 3,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 16,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 101,
+      "rank_ne": null
+    },
+    {
+      "model_id": "perplexity/sonar-pro-search",
+      "display_name": "Perplexity: Sonar Pro Search",
+      "canonical_name": "Sonar Pro Search",
+      "vendor": "Perplexity",
+      "vendor_slug": "perplexity",
+      "released": "2025-10-30",
+      "slugs": [
+        "perplexity/sonar-pro-search"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 16,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 101,
+      "rank_ne": null
+    },
+    {
+      "model_id": "cohere/north-mini-code",
+      "display_name": "Cohere: North Mini Code (free)",
+      "canonical_name": "North Mini Code",
+      "vendor": "Cohere",
+      "vendor_slug": "cohere",
+      "released": "2026-06-17",
+      "slugs": [
+        "cohere/north-mini-code:free"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 15,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 124,
+      "rank_ne": null
+    },
+    {
+      "model_id": "openai/gpt-chat-latest",
+      "display_name": "OpenAI: GPT Chat Latest",
+      "canonical_name": "GPT Chat Latest",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2026-05-05",
+      "slugs": [
+        "openai/gpt-chat-latest"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 15,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 124,
+      "rank_ne": null
+    },
+    {
+      "model_id": "mancer/weaver",
+      "display_name": "Mancer: Weaver (alpha)",
+      "canonical_name": "Weaver (alpha)",
+      "vendor": "Mancer",
+      "vendor_slug": "mancer",
+      "released": "2023-08-02",
+      "slugs": [
+        "mancer/weaver"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 14,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 146,
+      "rank_ne": null
+    },
+    {
+      "model_id": "mistralai/codestral-2508",
+      "display_name": "Mistral: Codestral 2508",
+      "canonical_name": "Codestral 2508",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-08-01",
+      "slugs": [
+        "mistralai/codestral-2508",
+        "mistralai/codestral-2508:batch"
+      ],
+      "endpoints": 3,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 14,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 146,
+      "rank_ne": null
+    },
+    {
+      "model_id": "thedrummer/unslopnemo-12b",
+      "display_name": "TheDrummer: UnslopNemo 12B",
+      "canonical_name": "UnslopNemo 12B",
+      "vendor": "TheDrummer",
+      "vendor_slug": "thedrummer",
+      "released": "2024-11-08",
+      "slugs": [
+        "thedrummer/unslopnemo-12b"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 14,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 146,
+      "rank_ne": null
+    },
+    {
+      "model_id": "undi95/remm-slerp-l2-13b",
+      "display_name": "ReMM SLERP 13B",
+      "canonical_name": "ReMM SLERP 13B",
+      "vendor": "undi95",
+      "vendor_slug": "undi95",
+      "released": "2023-07-22",
+      "slugs": [
+        "undi95/remm-slerp-l2-13b"
+      ],
+      "endpoints": 2,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 14,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 146,
+      "rank_ne": null
+    },
+    {
+      "model_id": "mistralai/mistral-large",
+      "display_name": "Mistral Large",
+      "canonical_name": "Mistral Large",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2024-02-26",
+      "slugs": [
+        "mistralai/mistral-large"
+      ],
+      "endpoints": 2,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 13,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 174,
+      "rank_ne": null
+    },
+    {
+      "model_id": "relace/relace-search",
+      "display_name": "Relace: Relace Search",
+      "canonical_name": "Relace Search",
+      "vendor": "Relace",
+      "vendor_slug": "relace",
+      "released": "2025-12-08",
+      "slugs": [
+        "relace/relace-search"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 13,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 174,
+      "rank_ne": null
+    },
+    {
+      "model_id": "sakana/sakana-namazu",
+      "display_name": "Sakana: Sakana Namazu",
+      "canonical_name": "Sakana Namazu",
+      "vendor": "Sakana",
+      "vendor_slug": "sakana",
+      "released": "2026-08-11",
+      "slugs": [
+        "sakana/sakana-namazu"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 13,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 174,
+      "rank_ne": null
+    },
+    {
+      "model_id": "thinkingmachines/inkling-small",
+      "display_name": "Thinking Machines: Inkling Small",
+      "canonical_name": "Inkling Small",
+      "vendor": "Thinking Machines",
+      "vendor_slug": "thinkingmachines",
+      "released": "2026-07-30",
+      "slugs": [
+        "thinkingmachines/inkling-small",
+        "thinkingmachines/inkling-small:free"
+      ],
+      "endpoints": 2,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 13,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 174,
+      "rank_ne": null
+    },
+    {
+      "model_id": "gryphe/mythomax-l2-13b",
+      "display_name": "MythoMax 13B",
+      "canonical_name": "MythoMax 13B",
+      "vendor": "gryphe",
+      "vendor_slug": "gryphe",
+      "released": "2023-07-02",
+      "slugs": [
+        "gryphe/mythomax-l2-13b"
+      ],
+      "endpoints": 3,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 12,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 210,
+      "rank_ne": null
+    },
+    {
+      "model_id": "mistralai/mistral-nemo",
+      "display_name": "Mistral: Mistral Nemo",
+      "canonical_name": "Mistral Nemo",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2024-07-19",
+      "slugs": [
+        "mistralai/mistral-nemo"
+      ],
+      "endpoints": 5,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 12,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 210,
+      "rank_ne": null
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "display_name": "OpenAI: gpt-oss-120b",
+      "canonical_name": "gpt-oss-120b",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-08-05",
+      "slugs": [
+        "openai/gpt-oss-120b",
+        "openai/gpt-oss-120b:batch"
+      ],
+      "endpoints": 25,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 12,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 210,
+      "rank_ne": null
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "display_name": "OpenAI: gpt-oss-20b",
+      "canonical_name": "gpt-oss-20b",
+      "vendor": "OpenAI",
+      "vendor_slug": "openai",
+      "released": "2025-08-05",
+      "slugs": [
+        "openai/gpt-oss-20b",
+        "openai/gpt-oss-20b:batch"
+      ],
+      "endpoints": 12,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 11,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 234,
+      "rank_ne": null
+    },
+    {
+      "model_id": "bytedance/ui-tars-1.5-7b",
+      "display_name": "ByteDance: UI-TARS 7B ",
+      "canonical_name": "UI-TARS 7B",
+      "vendor": "ByteDance",
+      "vendor_slug": "bytedance",
+      "released": "2025-07-22",
+      "slugs": [
+        "bytedance/ui-tars-1.5-7b"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 10,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 263,
+      "rank_ne": null
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "display_name": "Venice: Uncensored",
+      "canonical_name": "Uncensored",
+      "vendor": "Venice",
+      "vendor_slug": "cognitivecomputations",
+      "released": "2025-07-09",
+      "slugs": [
+        "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 10,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 263,
+      "rank_ne": null
+    },
+    {
+      "model_id": "cohere/command-a-plus",
+      "display_name": "Cohere: Command A+",
+      "canonical_name": "Command A+",
+      "vendor": "Cohere",
+      "vendor_slug": "cohere",
+      "released": "2026-09-22",
+      "slugs": [
+        "cohere/command-a-plus"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 10,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 263,
+      "rank_ne": null
+    },
+    {
+      "model_id": "sakana/fugu-ultra",
+      "display_name": "Sakana: Fugu Ultra",
+      "canonical_name": "Fugu Ultra",
+      "vendor": "Sakana",
+      "vendor_slug": "sakana",
+      "released": "2026-06-24",
+      "slugs": [
+        "sakana/fugu-ultra"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 10,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 263,
+      "rank_ne": null
+    },
+    {
+      "model_id": "cohere/command-a",
+      "display_name": "Cohere: Command A",
+      "canonical_name": "Command A",
+      "vendor": "Cohere",
+      "vendor_slug": "cohere",
+      "released": "2025-03-13",
+      "slugs": [
+        "cohere/command-a"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 9,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 277,
+      "rank_ne": null
+    },
+    {
+      "model_id": "perplexity/sonar-pro",
+      "display_name": "Perplexity: Sonar Pro",
+      "canonical_name": "Sonar Pro",
+      "vendor": "Perplexity",
+      "vendor_slug": "perplexity",
+      "released": "2025-03-07",
+      "slugs": [
+        "perplexity/sonar-pro"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 9,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 277,
+      "rank_ne": null
+    },
+    {
+      "model_id": "qwen/qwen-plus",
+      "display_name": "Qwen: Qwen-Plus",
+      "canonical_name": "Qwen-Plus",
+      "vendor": "Qwen",
+      "vendor_slug": "qwen",
+      "released": "2025-02-01",
+      "slugs": [
+        "qwen/qwen-plus"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 9,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 277,
+      "rank_ne": null
+    },
+    {
+      "model_id": "rekaai/reka-edge",
+      "display_name": "Reka Edge",
+      "canonical_name": "Reka Edge",
+      "vendor": "rekaai",
+      "vendor_slug": "rekaai",
+      "released": "2026-03-20",
+      "slugs": [
+        "rekaai/reka-edge"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 9,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 277,
+      "rank_ne": null
+    },
+    {
+      "model_id": "sakana/fugu-max",
+      "display_name": "Sakana: Fugu Max",
+      "canonical_name": "Fugu Max",
+      "vendor": "Sakana",
+      "vendor_slug": "sakana",
+      "released": "2026-09-11",
+      "slugs": [
+        "sakana/fugu-max"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 8,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 291,
+      "rank_ne": null
+    },
+    {
+      "model_id": "thinkingmachines/inkling",
+      "display_name": "Thinking Machines: Inkling",
+      "canonical_name": "Inkling",
+      "vendor": "Thinking Machines",
+      "vendor_slug": "thinkingmachines",
+      "released": "2026-07-17",
+      "slugs": [
+        "thinkingmachines/inkling",
+        "thinkingmachines/inkling:free"
+      ],
+      "endpoints": 3,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 7,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 302,
+      "rank_ne": null
+    },
+    {
+      "model_id": "unbiased/pareto",
+      "display_name": "Pareto",
+      "canonical_name": "Pareto",
+      "vendor": "unbiased",
+      "vendor_slug": "unbiased",
+      "released": "2026-09-17",
+      "slugs": [
+        "unbiased/pareto"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 6,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 319,
+      "rank_ne": null
+    },
+    {
+      "model_id": "perplexity/sonar",
+      "display_name": "Perplexity: Sonar",
+      "canonical_name": "Sonar",
+      "vendor": "Perplexity",
+      "vendor_slug": "perplexity",
+      "released": "2025-01-27",
+      "slugs": [
+        "perplexity/sonar"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 5,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 323,
+      "rank_ne": null
+    },
+    {
+      "model_id": "mistralai/mistral-saba",
+      "display_name": "Mistral: Saba",
+      "canonical_name": "Saba",
+      "vendor": "Mistral",
+      "vendor_slug": "mistralai",
+      "released": "2025-02-17",
+      "slugs": [
+        "mistralai/mistral-saba"
+      ],
+      "endpoints": 3,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 4,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 328,
+      "rank_ne": null
+    }
+  ]
+}

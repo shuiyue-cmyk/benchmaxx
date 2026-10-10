@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" role="img" aria-label="Figure 1. Generation Index by release date">
+<style>
+  .bg { fill: #ffffff; }
+  .title { font: 600 15px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; }
+  .subtitle, .tick, .axis-label { font: 11px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #59636e; }
+  .axis-label { font-size: 12px; }
+  .grid { stroke: #d1d9e0; stroke-width: 1; }
+  .axis { stroke: #818b98; stroke-width: 1; }
+  .pt { fill: #0969da; fill-opacity: 0.55; stroke: #0969da; stroke-width: 0.8; }
+  .pt-hi { fill: #cf222e; fill-opacity: 0.9; stroke: #cf222e; }
+  .trend { stroke: #bf8700; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .label { font: 500 10.5px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #1f2328; paint-order: stroke; stroke: #ffffff; stroke-width: 3px; stroke-linejoin: round; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0d1117; }
+    .title, .label { fill: #e6edf3; }
+    .label { stroke: #0d1117; }
+    .subtitle, .tick, .axis-label { fill: #9198a1; }
+    .grid { stroke: #2f3742; }
+    .axis { stroke: #656c76; }
+    .pt { fill: #4493f8; stroke: #4493f8; }
+    .pt-hi { fill: #ff7b72; stroke: #ff7b72; }
+    .trend { stroke: #d29922; }
+  }
+</style>
+<rect class="bg" width="760" height="440" rx="6"/>
+<text class="title" x="64" y="24">Figure 1. Generation Index by release date</text>
+<text class="subtitle" x="64" y="40">n = 292 models. Dashed line: OLS fit, Generational Velocity = +0.45 generations/year</text>
+<line class="grid" x1="64" x2="736" y1="384.0" y2="384.0"/>
+<text class="tick" x="56" y="388.0" text-anchor="end">0</text>
+<line class="grid" x1="64" x2="736" y1="301.0" y2="301.0"/>
+<text class="tick" x="56" y="305.0" text-anchor="end">2</text>
+<line class="grid" x1="64" x2="736" y1="218.0" y2="218.0"/>
+<text class="tick" x="56" y="222.0" text-anchor="end">4</text>
+<line class="grid" x1="64" x2="736" y1="135.0" y2="135.0"/>
+<text class="tick" x="56" y="139.0" text-anchor="end">6</text>
+<line class="grid" x1="64" x2="736" y1="52.0" y2="52.0"/>
+<text class="tick" x="56" y="56.0" text-anchor="end">8</text>
+<line class="axis" x1="64.0" x2="64.0" y1="384" y2="388"/>
+<text class="tick" x="64.0" y="402" text-anchor="middle">2023</text>
+<line class="axis" x1="148.0" x2="148.0" y1="384" y2="388"/>
+<text class="tick" x="148.0" y="402" text-anchor="middle">2023 H2</text>
+<line class="axis" x1="232.0" x2="232.0" y1="384" y2="388"/>
+<text class="tick" x="232.0" y="402" text-anchor="middle">2024</text>
+<line class="axis" x1="316.0" x2="316.0" y1="384" y2="388"/>
+<text class="tick" x="316.0" y="402" text-anchor="middle">2024 H2</text>
+<line class="axis" x1="400.0" x2="400.0" y1="384" y2="388"/>
+<text class="tick" x="400.0" y="402" text-anchor="middle">2025</text>
+<line class="axis" x1="484.0" x2="484.0" y1="384" y2="388"/>
+<text class="tick" x="484.0" y="402" text-anchor="middle">2025 H2</text>
+<line class="axis" x1="568.0" x2="568.0" y1="384" y2="388"/>
+<text class="tick" x="568.0" y="402" text-anchor="middle">2026</text>
+<line class="axis" x1="652.0" x2="652.0" y1="384" y2="388"/>
+<text class="tick" x="652.0" y="402" text-anchor="middle">2026 H2</text>
+<line class="axis" x1="736.0" x2="736.0" y1="384" y2="388"/>
+<text class="tick" x="736.0" y="402" text-anchor="middle">2027</text>
+<line class="axis" x1="64" x2="736" y1="384" y2="384"/>
+<text class="axis-label" x="400.0" y="428" text-anchor="middle">Date first listed on OpenRouter</text>
+<text class="axis-label" transform="translate(16 218.0) rotate(-90)" text-anchor="middle">Generation Index (GI)</text>
+<line class="trend" x1="64.0" y1="292.3" x2="736.0" y2="217.5"/>
+<path class="pt pt-hi" d="M693.7 52.0 L698.7 61.0 L688.7 61.0 Z"><title>Pareto 26.10 Preview (26.10)</title></path>
+<text class="label" x="684.7" y="61.0" text-anchor="end">Pareto 26.10 Preview (26.10), off scale</text>
+<circle class="pt" cx="692.7" cy="130.9" r="3.2"><title>GPT-6.1 Sol Pro (6.1)</title></circle>
+<circle class="pt" cx="681.2" cy="135.0" r="3.2"><title>GPT-6 Astra Pro (6)</title></circle>
+<circle class="pt" cx="689.5" cy="135.0" r="3.2"><title>GPT-6 Luna Pro (6)</title></circle>
+<circle class="pt" cx="689.5" cy="135.0" r="3.2"><title>GPT-6 Sol Pro (6)</title></circle>
+<circle class="pt" cx="681.2" cy="135.0" r="3.2"><title>GPT-6 Astra (6)</title></circle>
+<circle class="pt" cx="689.5" cy="135.0" r="3.2"><title>GPT-6 Luna (6)</title></circle>
+<circle class="pt" cx="689.5" cy="135.0" r="3.2"><title>GPT-6 Sol (6)</title></circle>
+<circle class="pt" cx="655.0" cy="151.6" r="3.2"><title>GPT-5.6 Terra Pro (5.6)</title></circle>
+<circle class="pt" cx="655.0" cy="151.6" r="3.2"><title>GPT-5.6 Luna Pro (5.6)</title></circle>
+<circle class="pt" cx="655.0" cy="151.6" r="3.2"><title>GPT-5.6 Sol Pro (5.6)</title></circle>
+<circle class="pt" cx="655.0" cy="151.6" r="3.2"><title>GPT-5.6 Terra (5.6)</title></circle>
+<circle class="pt" cx="655.0" cy="151.6" r="3.2"><title>GPT-5.6 Luna (5.6)</title></circle>
+<circle class="pt" cx="655.0" cy="151.6" r="3.2"><title>GPT-5.6 Sol (5.6)</title></circle>
+<circle class="pt" cx="692.3" cy="155.8" r="3.2"><title>Claude Sonnet 5.5 (5.5)</title></circle>
+<circle class="pt" cx="696.4" cy="155.8" r="3.2"><title>Claude Haiku 5.5 (5.5)</title></circle>
+<circle class="pt" cx="689.5" cy="155.8" r="3.2"><title>Claude Opus 5.5 (5.5)</title></circle>
+<circle class="pt" cx="620.0" cy="155.8" r="3.2"><title>GPT-5.5 Pro (5.5)</title></circle>
+<circle class="pt" cx="620.0" cy="155.8" r="3.2"><title>GPT-5.5 (5.5)</title></circle>
+<circle class="pt" cx="602.5" cy="159.9" r="3.2"><title>GPT-5.4 Mini (5.4)</title></circle>
+<circle class="pt" cx="602.5" cy="159.9" r="3.2"><title>GPT-5.4 Nano (5.4)</title></circle>
+<circle class="pt" cx="597.0" cy="159.9" r="3.2"><title>GPT-5.4 Pro (5.4)</title></circle>
+<circle class="pt" cx="597.0" cy="159.9" r="3.2"><title>GPT-5.4 (5.4)</title></circle>
+<circle class="pt" cx="687.7" cy="164.1" r="3.2"><title>GLM 5.3 FlashX (5.3)</title></circle>
+<circle class="pt" cx="592.9" cy="164.1" r="3.2"><title>GPT-5.3-Codex (5.3)</title></circle>
+<circle class="pt" cx="677.1" cy="164.1" r="3.2"><title>GLM 5.3 Flash (5.3)</title></circle>
+<circle class="pt" cx="690.0" cy="164.1" r="3.2"><title>GLM 5.3 Prime (5.3)</title></circle>
+<circle class="pt" cx="673.4" cy="164.1" r="3.2"><title>GLM 5.3 (5.3)</title></circle>
+<circle class="pt" cx="574.0" cy="168.2" r="3.2"><title>GPT-5.2-Codex (5.2)</title></circle>
+<circle class="pt" cx="557.9" cy="168.2" r="3.2"><title>GPT-5.2 Chat (5.2)</title></circle>
+<circle class="pt" cx="557.9" cy="168.2" r="3.2"><title>GPT-5.2 Pro (5.2)</title></circle>
+<circle class="pt" cx="557.9" cy="168.2" r="3.2"><title>GPT-5.2 (5.2)</title></circle>
+<circle class="pt" cx="644.4" cy="168.2" r="3.2"><title>GLM 5.2 (5.2)</title></circle>
+<circle class="pt" cx="545.4" cy="172.4" r="3.2"><title>GPT-5.1-Codex-Mini (5.1)</title></circle>
+<circle class="pt" cx="555.1" cy="172.4" r="3.2"><title>GPT-5.1-Codex-Max (5.1)</title></circle>
+<circle class="pt" cx="679.8" cy="172.4" r="3.2"><title>Claude Fable 5.1 (5.1)</title></circle>
+<circle class="pt" cx="545.4" cy="172.4" r="3.2"><title>GPT-5.1-Codex (5.1)</title></circle>
+<circle class="pt" cx="545.4" cy="172.4" r="3.2"><title>GPT-5.1 (5.1)</title></circle>
+<circle class="pt" cx="612.2" cy="172.4" r="3.2"><title>GLM 5.1 (5.1)</title></circle>
+<circle class="pt" cx="650.8" cy="176.5" r="3.2"><title>Claude Sonnet 5 (5)</title></circle>
+<circle class="pt" cx="641.2" cy="176.5" r="3.2"><title>Claude Fable 5 (5)</title></circle>
+<circle class="pt" cx="696.9" cy="176.5" r="3.2"><title>Step 5 Preview (5)</title></circle>
+<circle class="pt" cx="661.9" cy="176.5" r="3.2"><title>Claude Opus 5 (5)</title></circle>
+<circle class="pt" cx="609.4" cy="176.5" r="3.2"><title>GLM 5V Turbo (5)</title></circle>
+<circle class="pt" cx="601.6" cy="176.5" r="3.2"><title>GLM 5 Turbo (5)</title></circle>
+<circle class="pt" cx="500.3" cy="176.5" r="3.2"><title>GPT-5 Mini (5)</title></circle>
+<circle class="pt" cx="500.3" cy="176.5" r="3.2"><title>GPT-5 Nano (5)</title></circle>
+<circle class="pt" cx="577.2" cy="176.5" r="3.2"><title>Palmyra X5 (5)</title></circle>
+<circle class="pt" cx="528.0" cy="176.5" r="3.2"><title>GPT-5 Pro (5)</title></circle>
+<circle class="pt" cx="500.3" cy="176.5" r="3.2"><title>GPT-5 (5)</title></circle>
+<circle class="pt" cx="586.9" cy="176.5" r="3.2"><title>GLM 5 (5)</title></circle>
+<circle class="pt" cx="635.2" cy="184.8" r="3.2"><title>Claude Opus 4.8 (4.8)</title></circle>
+<circle class="pt" cx="616.3" cy="188.9" r="3.2"><title>Claude Opus 4.7 (4.7)</title></circle>
+<circle class="pt" cx="576.3" cy="188.9" r="3.2"><title>GLM 4.7 Flash (4.7)</title></circle>
+<circle class="pt" cx="689.1" cy="188.9" r="3.2"><title>Grok 4.7 (4.7)</title></circle>
+<circle class="pt" cx="563.4" cy="188.9" r="3.2"><title>GLM 4.7 (4.7)</title></circle>
+<circle class="pt" cx="589.6" cy="193.1" r="3.2"><title>Claude Sonnet 4.6 (4.6)</title></circle>
+<circle class="pt" cx="583.6" cy="193.1" r="3.2"><title>Claude Opus 4.6 (4.6)</title></circle>
+<circle class="pt" cx="670.6" cy="193.1" r="3.2"><title>Grok 4.6 (4.6)</title></circle>
+<circle class="pt" cx="557.0" cy="193.1" r="3.2"><title>GLM 4.6V (4.6)</title></circle>
+<circle class="pt" cx="525.2" cy="193.1" r="3.2"><title>GLM 4.6 (4.6)</title></circle>
+<circle class="pt" cx="524.7" cy="197.2" r="3.2"><title>Claude Sonnet 4.5 (4.5)</title></circle>
+<circle class="pt" cx="532.1" cy="197.2" r="3.2"><title>Claude Haiku 4.5 (4.5)</title></circle>
+<circle class="pt" cx="550.5" cy="197.2" r="3.2"><title>Claude Opus 4.5 (4.5)</title></circle>
+<circle class="pt" cx="494.4" cy="197.2" r="3.2"><title>GLM 4.5 Air (4.5)</title></circle>
+<circle class="pt" cx="654.5" cy="197.2" r="3.2"><title>Grok 4.5 (4.5)</title></circle>
+<circle class="pt" cx="502.2" cy="197.2" r="3.2"><title>GLM 4.5V (4.5)</title></circle>
+<circle class="pt" cx="494.4" cy="197.2" r="3.2"><title>GLM 4.5 (4.5)</title></circle>
+<circle class="pt" cx="622.8" cy="205.6" r="3.2"><title>Grok 4.3 (4.3)</title></circle>
+<circle class="pt" cx="609.0" cy="209.7" r="3.2"><title>Grok 4.20 Multi-Agent (4.20)</title></circle>
+<circle class="pt" cx="679.4" cy="209.7" r="3.2"><title>Granite 4.2 8B (4.2)</title></circle>
+<circle class="pt" cx="609.0" cy="209.7" r="3.2"><title>Grok 4.20 (4.20)</title></circle>
+<circle class="pt" cx="684.0" cy="213.9" r="3.2"><title>DeepSeek V4.1 Flash (4.1)</title></circle>
+<circle class="pt" cx="523.8" cy="213.9" r="3.2"><title>Cydonia 24B V4.1 (4.1)</title></circle>
+<circle class="pt" cx="499.4" cy="213.9" r="3.2"><title>Claude Opus 4.1 (4.1)</title></circle>
+<circle class="pt" cx="447.4" cy="213.9" r="3.2"><title>GPT-4.1 Mini (4.1)</title></circle>
+<circle class="pt" cx="447.4" cy="213.9" r="3.2"><title>GPT-4.1 Nano (4.1)</title></circle>
+<circle class="pt" cx="447.4" cy="213.9" r="3.2"><title>GPT-4.1 (4.1)</title></circle>
+<circle class="pt" cx="674.8" cy="218.0" r="3.2"><title>DeepSeek V4 Flash Vision Exp (4)</title></circle>
+<circle class="pt" cx="323.3" cy="218.0" r="3.2"><title>GPT-4o-mini (2024-07-18) (4)</title></circle>
+<circle class="pt" cx="620.0" cy="218.0" r="3.2"><title>DeepSeek V4 Flash 0423 (4)</title></circle>
+<circle class="pt" cx="665.1" cy="218.0" r="3.2"><title>DeepSeek V4 Flash 0731 (4)</title></circle>
+<circle class="pt" cx="620.0" cy="218.0" r="3.2"><title>DeepSeek V4 Pro 0423 (4)</title></circle>
+<circle class="pt" cx="670.6" cy="218.0" r="3.2"><title>DeepSeek V4 Pro 0813 (4)</title></circle>
+<circle class="pt" cx="293.0" cy="218.0" r="3.2"><title>GPT-4o (2024-05-13) (4)</title></circle>
+<circle class="pt" cx="332.1" cy="218.0" r="3.2"><title>GPT-4o (2024-08-06) (4)</title></circle>
+<circle class="pt" cx="380.7" cy="218.0" r="3.2"><title>GPT-4o (2024-11-20) (4)</title></circle>
+<circle class="pt" cx="534.4" cy="218.0" r="3.2"><title>Granite 4.0 Micro (4.0)</title></circle>
+<circle class="pt" cx="454.8" cy="218.0" r="3.2"><title>Llama Guard 4 12B (4)</title></circle>
+<circle class="pt" cx="443.3" cy="218.0" r="3.2"><title>Llama 4 Maverick (4)</title></circle>
+<circle class="pt" cx="464.9" cy="218.0" r="3.2"><title>Claude Sonnet 4 (4)</title></circle>
+<circle class="pt" cx="610.3" cy="218.0" r="3.2"><title>Gemma 4 26B A4B (4)</title></circle>
+<circle class="pt" cx="696.0" cy="218.0" r="3.2"><title>Mistral Large 4 (4)</title></circle>
+<circle class="pt" cx="602.1" cy="218.0" r="3.2"><title>Mistral Small 4 (4)</title></circle>
+<circle class="pt" cx="367.4" cy="218.0" r="3.2"><title>Magnum v4 72B (4)</title></circle>
+<circle class="pt" cx="443.3" cy="218.0" r="3.2"><title>Llama 4 Scout (4)</title></circle>
+<circle class="pt" cx="509.1" cy="218.0" r="3.2"><title>Hermes 4 405B (4)</title></circle>
+<circle class="pt" cx="448.3" cy="218.0" r="3.2"><title>o4 Mini High (4)</title></circle>
+<circle class="pt" cx="690.0" cy="218.0" r="3.2"><title>Solar Mini 4 (4)</title></circle>
+<circle class="pt" cx="609.9" cy="218.0" r="3.2"><title>Gemma 4 31B (4)</title></circle>
+<circle class="pt" cx="277.4" cy="218.0" r="3.2"><title>GPT-4 Turbo (4)</title></circle>
+<circle class="pt" cx="323.3" cy="218.0" r="3.2"><title>GPT-4o-mini (4)</title></circle>
+<circle class="pt" cx="678.0" cy="218.0" r="3.2"><title>Hy4 preview (4)</title></circle>
+<circle class="pt" cx="669.7" cy="218.0" r="3.2"><title>Solar Pro 4 (4)</title></circle>
+<circle class="pt" cx="448.3" cy="218.0" r="3.2"><title>o4 Mini (4)</title></circle>
+<circle class="pt" cx="293.0" cy="218.0" r="3.2"><title>GPT-4o (4)</title></circle>
+<circle class="pt" cx="404.1" cy="218.0" r="3.2"><title>Phi 4 (4)</title></circle>
+<circle class="pt" cx="131.7" cy="218.0" r="3.2"><title>GPT-4 (4)</title></circle>
+<circle class="pt" cx="680.8" cy="226.3" r="3.2"><title>Qwen3.8 Max (0902) (3.8)</title></circle>
+<circle class="pt" cx="689.1" cy="226.3" r="3.2"><title>Qwen3.8 Omni Flash (3.8)</title></circle>
+<circle class="pt" cx="670.6" cy="226.3" r="3.2"><title>Qwen3.8 2.4T A95B (3.8)</title></circle>
+<circle class="pt" cx="690.0" cy="226.3" r="3.2"><title>Qwen3.8 Max Prime (3.8)</title></circle>
+<circle class="pt" cx="680.3" cy="226.3" r="3.2"><title>Gemini 3.8 Flash (3.8)</title></circle>
+<circle class="pt" cx="677.1" cy="226.3" r="3.2"><title>Qwen3.8 Flash (3.8)</title></circle>
+<circle class="pt" cx="671.6" cy="226.3" r="3.2"><title>Qwen3.8 27B (3.8)</title></circle>
+<circle class="pt" cx="671.1" cy="230.4" r="3.2"><title>Gemini 3.7 Flash (3.7)</title></circle>
+<circle class="pt" cx="635.7" cy="230.4" r="3.2"><title>Step 3.7 Flash (3.7)</title></circle>
+<circle class="pt" cx="663.3" cy="230.4" r="3.2"><title>Qwen3.7 Flash (3.7)</title></circle>
+<circle class="pt" cx="638.4" cy="230.4" r="3.2"><title>Qwen3.7 Plus (3.7)</title></circle>
+<circle class="pt" cx="632.4" cy="230.4" r="3.2"><title>Qwen3.7 Max (3.7)</title></circle>
+<circle class="pt" cx="660.5" cy="234.6" r="3.2"><title>Gemini 3.6 Flash (3.6)</title></circle>
+<circle class="pt" cx="621.4" cy="234.6" r="3.2"><title>Qwen3.6 35B A3B (3.6)</title></circle>
+<circle class="pt" cx="621.4" cy="234.6" r="3.2"><title>Qwen3.6 Flash (3.6)</title></circle>
+<circle class="pt" cx="609.9" cy="234.6" r="3.2"><title>Qwen3.6 Plus (3.6)</title></circle>
+<circle class="pt" cx="621.4" cy="234.6" r="3.2"><title>Qwen3.6 27B (3.6)</title></circle>
+<circle class="pt" cx="638.9" cy="238.8" r="3.2"><title>Nemotron 3.5 Content Safety (3.5)</title></circle>
+<circle class="pt" cx="243.0" cy="238.8" r="3.2"><title>GPT-3.5 Turbo (older v0613) (3.5)</title></circle>
+<circle class="pt" cx="589.2" cy="238.8" r="3.2"><title>Qwen3.5 Plus 2026-02-15 (3.5)</title></circle>
+<circle class="pt" cx="621.4" cy="238.8" r="3.2"><title>Qwen3.5 Plus 2026-04-20 (3.5)</title></circle>
+<circle class="pt" cx="670.2" cy="238.8" r="3.2"><title>Nemotron 3.5 Lightning (3.5)</title></circle>
+<circle class="pt" cx="188.3" cy="238.8" r="3.2"><title>GPT-3.5 Turbo Instruct (3.5)</title></circle>
+<circle class="pt" cx="660.5" cy="238.8" r="3.2"><title>Gemini 3.5 Flash Lite (3.5)</title></circle>
+<circle class="pt" cx="622.8" cy="238.8" r="3.2"><title>Mistral Medium 3.5 (3.5)</title></circle>
+<circle class="pt" cx="174.0" cy="238.8" r="3.2"><title>GPT-3.5 Turbo 16k (3.5)</title></circle>
+<circle class="pt" cx="593.3" cy="238.8" r="3.2"><title>Qwen3.5-122B-A10B (3.5)</title></circle>
+<circle class="pt" cx="589.2" cy="238.8" r="3.2"><title>Qwen3.5 397B A17B (3.5)</title></circle>
+<circle class="pt" cx="631.5" cy="238.8" r="3.2"><title>Gemini 3.5 Flash (3.5)</title></circle>
+<circle class="pt" cx="593.3" cy="238.8" r="3.2"><title>Qwen3.5-35B-A3B (3.5)</title></circle>
+<circle class="pt" cx="580.9" cy="238.8" r="3.2"><title>Step 3.5 Flash (3.5)</title></circle>
+<circle class="pt" cx="690.0" cy="238.8" r="3.2"><title>Aion 3.5 Mini (3.5)</title></circle>
+<circle class="pt" cx="131.7" cy="238.8" r="3.2"><title>GPT-3.5 Turbo (3.5)</title></circle>
+<circle class="pt" cx="593.3" cy="238.8" r="3.2"><title>Qwen3.5-Flash (3.5)</title></circle>
+<circle class="pt" cx="593.3" cy="238.8" r="3.2"><title>Qwen3.5-27B (3.5)</title></circle>
+<circle class="pt" cx="599.3" cy="238.8" r="3.2"><title>Qwen3.5-9B (3.5)</title></circle>
+<circle class="pt" cx="690.0" cy="238.8" r="3.2"><title>Aion 3.5 (3.5)</title></circle>
+<circle class="pt" cx="388.1" cy="247.1" r="3.2"><title>Llama 3.3 70B Instruct (3.3)</title></circle>
+<circle class="pt" cx="393.6" cy="247.1" r="3.2"><title>Llama 3.3 Euryale 70B (3.3)</title></circle>
+<circle class="pt" cx="355.0" cy="251.2" r="3.2"><title>Llama 3.2 1B Instruct (3.2)</title></circle>
+<circle class="pt" cx="355.0" cy="251.2" r="3.2"><title>Llama 3.2 3B Instruct (3.2)</title></circle>
+<circle class="pt" cx="478.2" cy="251.2" r="3.2"><title>Mistral Small 3.2 24B (3.2)</title></circle>
+<circle class="pt" cx="524.7" cy="251.2" r="3.2"><title>DeepSeek V3.2 Exp (3.2)</title></circle>
+<circle class="pt" cx="553.7" cy="251.2" r="3.2"><title>DeepSeek V3.2 (3.2)</title></circle>
+<circle class="pt" cx="593.3" cy="255.3" r="3.2"><title>Gemini 3.1 Pro Preview Custom Tools (3.1)</title></circle>
+<circle class="pt" cx="596.1" cy="255.3" r="3.2"><title>Gemini 3.1 Flash Lite Preview (3.1)</title></circle>
+<circle class="pt" cx="342.2" cy="255.3" r="3.2"><title>Llama 3.1 Euryale 70B v2.2 (3.1)</title></circle>
+<circle class="pt" cx="521.5" cy="255.3" r="3.2"><title>DeepSeek V3.1 Terminus (3.1)</title></circle>
+<circle class="pt" cx="590.6" cy="255.3" r="3.2"><title>Gemini 3.1 Pro Preview (3.1)</title></circle>
+<circle class="pt" cx="325.6" cy="255.3" r="3.2"><title>Llama 3.1 70B Instruct (3.1)</title></circle>
+<circle class="pt" cx="626.0" cy="255.3" r="3.2"><title>Gemini 3.1 Flash Lite (3.1)</title></circle>
+<circle class="pt" cx="325.6" cy="255.3" r="3.2"><title>Llama 3.1 8B Instruct (3.1)</title></circle>
+<circle class="pt" cx="434.5" cy="255.3" r="3.2"><title>Mistral Small 3.1 24B (3.1)</title></circle>
+<circle class="pt" cx="503.1" cy="255.3" r="3.2"><title>Mistral Medium 3.1 (3.1)</title></circle>
+<circle class="pt" cx="694.1" cy="255.3" r="3.2"><title>Ling 3.1 Flash (3.1)</title></circle>
+<circle class="pt" cx="506.8" cy="255.3" r="3.2"><title>DeepSeek V3.1 (3.1)</title></circle>
+<circle class="pt" cx="492.5" cy="259.5" r="3.2"><title>Qwen3 235B A22B Instruct 2507 (3)</title></circle>
+<circle class="pt" cx="494.4" cy="259.5" r="3.2"><title>Qwen3 235B A22B Thinking 2507 (3)</title></circle>
+<circle class="pt" cx="497.1" cy="259.5" r="3.2"><title>Qwen3 Coder 30B A3B Instruct (3)</title></circle>
+<circle class="pt" cx="496.2" cy="259.5" r="3.2"><title>Qwen3 30B A3B Instruct 2507 (3)</title></circle>
+<circle class="pt" cx="516.4" cy="259.5" r="3.2"><title>Qwen3 Next 80B A3B Instruct (3)</title></circle>
+<circle class="pt" cx="516.4" cy="259.5" r="3.2"><title>Qwen3 Next 80B A3B Thinking (3)</title></circle>
+<circle class="pt" cx="522.0" cy="259.5" r="3.2"><title>Qwen3 VL 235B A22B Instruct (3)</title></circle>
+<circle class="pt" cx="528.0" cy="259.5" r="3.2"><title>Qwen3 VL 30B A3B Instruct (3)</title></circle>
+<circle class="pt" cx="528.0" cy="259.5" r="3.2"><title>Qwen3 VL 30B A3B Thinking (3)</title></circle>
+<circle class="pt" cx="559.7" cy="259.5" r="3.2"><title>Nemotron 3 Nano 30B A3B (3)</title></circle>
+<circle class="pt" cx="561.1" cy="259.5" r="3.2"><title>Gemini 3 Flash Preview (3)</title></circle>
+<circle class="pt" cx="336.7" cy="259.5" r="3.2"><title>Hermes 3 405B Instruct (3)</title></circle>
+<circle class="pt" cx="337.6" cy="259.5" r="3.2"><title>Hermes 3 70B Instruct (3)</title></circle>
+<circle class="pt" cx="493.4" cy="259.5" r="3.2"><title>Qwen3 Coder 480B A35B (3)</title></circle>
+<circle class="pt" cx="681.2" cy="259.5" r="3.2"><title>Ling 3.0 Flash Sante (3.0)</title></circle>
+<circle class="pt" cx="554.2" cy="259.5" r="3.2"><title>Ministral 3 14B 2512 (3)</title></circle>
+<circle class="pt" cx="553.7" cy="259.5" r="3.2"><title>Mistral Large 3 2512 (3)</title></circle>
+<circle class="pt" cx="621.9" cy="259.5" r="3.2"><title>Nemotron 3 Nano Omni (3)</title></circle>
+<circle class="pt" cx="531.6" cy="259.5" r="3.2"><title>Qwen3 VL 8B Instruct (3)</title></circle>
+<circle class="pt" cx="554.2" cy="259.5" r="3.2"><title>Ministral 3 3B 2512 (3)</title></circle>
+<circle class="pt" cx="554.2" cy="259.5" r="3.2"><title>Ministral 3 8B 2512 (3)</title></circle>
+<circle class="pt" cx="671.6" cy="259.5" r="3.2"><title>Dots3-Note Preview (3)</title></circle>
+<circle class="pt" cx="677.5" cy="259.5" r="3.2"><title>Ling 3.0 Flash Fin (3.0)</title></circle>
+<circle class="pt" cx="335.3" cy="259.5" r="3.2"><title>Llama 3 8B Lunaris (3)</title></circle>
+<circle class="pt" cx="684.0" cy="259.5" r="3.2"><title>Ling 3.0 Flash VL (3.0)</title></circle>
+<circle class="pt" cx="519.2" cy="259.5" r="3.2"><title>Qwen3 Coder Flash (3)</title></circle>
+<circle class="pt" cx="437.7" cy="259.5" r="3.2"><title>DeepSeek V3 0324 (3)</title></circle>
+<circle class="pt" cx="458.0" cy="259.5" r="3.2"><title>Mistral Medium 3 (3)</title></circle>
+<circle class="pt" cx="599.8" cy="259.5" r="3.2"><title>Nemotron 3 Super (3)</title></circle>
+<circle class="pt" cx="638.9" cy="259.5" r="3.2"><title>Nemotron 3 Ultra (3)</title></circle>
+<circle class="pt" cx="583.6" cy="259.5" r="3.2"><title>Qwen3 Coder Next (3)</title></circle>
+<circle class="pt" cx="413.3" cy="259.5" r="3.2"><title>Mistral Small 3 (3)</title></circle>
+<circle class="pt" cx="661.4" cy="259.5" r="3.2"><title>Ling 3.0 Flash (3.0)</title></circle>
+<circle class="pt" cx="486.1" cy="259.5" r="3.2"><title>Morph V3 Large (3)</title></circle>
+<circle class="pt" cx="523.4" cy="259.5" r="3.2"><title>Relace Apply 3 (3)</title></circle>
+<circle class="pt" cx="654.1" cy="259.5" r="3.2"><title>Aion-3.0-Mini (3.0)</title></circle>
+<circle class="pt" cx="486.1" cy="259.5" r="3.2"><title>Morph V3 Fast (3)</title></circle>
+<circle class="pt" cx="453.9" cy="259.5" r="3.2"><title>Qwen3 30B A3B (3)</title></circle>
+<circle class="pt" cx="419.3" cy="259.5" r="3.2"><title>o3 Mini High (3)</title></circle>
+<circle class="pt" cx="432.2" cy="259.5" r="3.2"><title>Reka Flash 3 (3)</title></circle>
+<circle class="pt" cx="397.2" cy="259.5" r="3.2"><title>DeepSeek V3 (3)</title></circle>
+<circle class="pt" cx="432.7" cy="259.5" r="3.2"><title>Gemma 3 12B (3)</title></circle>
+<circle class="pt" cx="432.2" cy="259.5" r="3.2"><title>Gemma 3 27B (3)</title></circle>
+<circle class="pt" cx="619.1" cy="259.5" r="3.2"><title>Hy3 preview (3)</title></circle>
+<circle class="pt" cx="580.0" cy="259.5" r="3.2"><title>Solar Pro 3 (3)</title></circle>
+<circle class="pt" cx="432.7" cy="259.5" r="3.2"><title>Gemma 3 4B (3)</title></circle>
+<circle class="pt" cx="637.0" cy="259.5" r="3.2"><title>MiniMax M3 (3)</title></circle>
+<circle class="pt" cx="453.9" cy="259.5" r="3.2"><title>Qwen3 14B (3)</title></circle>
+<circle class="pt" cx="453.9" cy="259.5" r="3.2"><title>Qwen3 32B (3)</title></circle>
+<circle class="pt" cx="654.1" cy="259.5" r="3.2"><title>Aion-3.0 (3.0)</title></circle>
+<circle class="pt" cx="658.2" cy="259.5" r="3.2"><title>Kimi K3 (3)</title></circle>
+<circle class="pt" cx="413.8" cy="259.5" r="3.2"><title>o3 Mini (3)</title></circle>
+<circle class="pt" cx="473.6" cy="259.5" r="3.2"><title>o3 Pro (3)</title></circle>
+<circle class="pt" cx="653.6" cy="259.5" r="3.2"><title>Hy3 (3)</title></circle>
+<circle class="pt" cx="448.3" cy="259.5" r="3.2"><title>o3 (3)</title></circle>
+<circle class="pt" cx="642.6" cy="271.9" r="3.2"><title>Kimi K2.7 Code (2.7)</title></circle>
+<circle class="pt" cx="603.0" cy="271.9" r="3.2"><title>MiniMax M2.7 (2.7)</title></circle>
+<circle class="pt" cx="689.1" cy="276.1" r="3.2"><title>MiMo-V2.6-Pro-UltraSpeed (2.6)</title></circle>
+<circle class="pt" cx="689.1" cy="276.1" r="3.2"><title>MiMo-V2.6-Flash (2.6)</title></circle>
+<circle class="pt" cx="689.1" cy="276.1" r="3.2"><title>MiMo-V2.6-Pro (2.6)</title></circle>
+<circle class="pt" cx="618.2" cy="276.1" r="3.2"><title>Kimi K2.6 (2.6)</title></circle>
+<circle class="pt" cx="471.3" cy="280.2" r="3.2"><title>Gemini 2.5 Pro Preview 06-05 (2.5)</title></circle>
+<circle class="pt" cx="376.6" cy="280.2" r="3.2"><title>Qwen2.5 Coder 32B Instruct (2.5)</title></circle>
+<circle class="pt" cx="414.3" cy="280.2" r="3.2"><title>Qwen2.5 VL 72B Instruct (2.5)</title></circle>
+<circle class="pt" cx="493.0" cy="280.2" r="3.2"><title>Gemini 2.5 Flash Lite (2.5)</title></circle>
+<circle class="pt" cx="352.3" cy="280.2" r="3.2"><title>Qwen2.5 72B Instruct (2.5)</title></circle>
+<circle class="pt" cx="364.7" cy="280.2" r="3.2"><title>Qwen2.5 7B Instruct (2.5)</title></circle>
+<circle class="pt" cx="476.9" cy="280.2" r="3.2"><title>Gemini 2.5 Flash (2.5)</title></circle>
+<circle class="pt" cx="476.9" cy="280.2" r="3.2"><title>Gemini 2.5 Pro (2.5)</title></circle>
+<circle class="pt" cx="683.1" cy="280.2" r="3.2"><title>Nex-N2.5-Mini (2.5)</title></circle>
+<circle class="pt" cx="619.1" cy="280.2" r="3.2"><title>MiMo-V2.5-Pro (2.5)</title></circle>
+<circle class="pt" cx="587.3" cy="280.2" r="3.2"><title>MiniMax M2.5 (2.5)</title></circle>
+<circle class="pt" cx="683.1" cy="280.2" r="3.2"><title>Nex-N2.5-Pro (2.5)</title></circle>
+<circle class="pt" cx="683.1" cy="280.2" r="3.2"><title>Mercury 2.5 (2.5)</title></circle>
+<circle class="pt" cx="670.2" cy="280.2" r="3.2"><title>LFM2.5-2.6B (2.5)</title></circle>
+<circle class="pt" cx="580.0" cy="280.2" r="3.2"><title>Kimi K2.5 (2.5)</title></circle>
+<circle class="pt" cx="619.1" cy="280.2" r="3.2"><title>MiMo-V2.5 (2.5)</title></circle>
+<circle class="pt" cx="670.6" cy="296.9" r="3.2"><title>Seed 2.1 Turbo (2.1)</title></circle>
+<circle class="pt" cx="651.8" cy="296.9" r="3.2"><title>Laguna XS 2.1 (2.1)</title></circle>
+<circle class="pt" cx="563.9" cy="296.9" r="3.2"><title>MiniMax M2.1 (2.1)</title></circle>
+<circle class="pt" cx="660.5" cy="296.9" r="3.2"><title>Laguna S 2.1 (2.1)</title></circle>
+<circle class="pt" cx="687.7" cy="301.0" r="3.2"><title>Ternary Bonsai 2 27B (2)</title></circle>
+<circle class="pt" cx="684.9" cy="301.0" r="3.2"><title>Schematron V2 Small (2)</title></circle>
+<circle class="pt" cx="684.9" cy="301.0" r="3.2"><title>Schematron V2 Turbo (2)</title></circle>
+<circle class="pt" cx="280.7" cy="301.0" r="3.2"><title>WizardLM-2 8x22B (2)</title></circle>
+<circle class="pt" cx="542.2" cy="301.0" r="3.2"><title>Kimi K2 Thinking (2)</title></circle>
+<circle class="pt" cx="557.4" cy="301.0" r="3.2"><title>Devstral 2 2512 (2)</title></circle>
+<circle class="pt" cx="578.1" cy="301.0" r="3.2"><title>MiniMax M2-her (2)</title></circle>
+<circle class="pt" cx="674.3" cy="301.0" r="3.2"><title>Hy-MT2-30B-A3B (2)</title></circle>
+<circle class="pt" cx="431.3" cy="301.0" r="3.2"><title>Skyfall 36B V2 (2)</title></circle>
+<circle class="pt" cx="670.6" cy="301.0" r="3.2"><title>Seed-2.0-Code (2.0)</title></circle>
+<circle class="pt" cx="599.3" cy="301.0" r="3.2"><title>Seed-2.0-Lite (2.0)</title></circle>
+<circle class="pt" cx="593.8" cy="301.0" r="3.2"><title>Seed-2.0-Mini (2.0)</title></circle>
+<circle class="pt" cx="684.4" cy="301.0" r="3.2"><title>Fugu Ultra v2 (2)</title></circle>
+<circle class="pt" cx="487.9" cy="301.0" r="3.2"><title>Kimi K2 0711 (2)</title></circle>
+<circle class="pt" cx="513.2" cy="301.0" r="3.2"><title>Kimi K2 0905 (2)</title></circle>
+<circle class="pt" cx="554.2" cy="301.0" r="3.2"><title>Nova 2 Lite (2)</title></circle>
+<circle class="pt" cx="321.0" cy="301.0" r="3.2"><title>Gemma 2 27B (2)</title></circle>
+<circle class="pt" cx="660.1" cy="301.0" r="3.2"><title>LongCat 2.0 (2.0)</title></circle>
+<circle class="pt" cx="674.3" cy="301.0" r="3.2"><title>Hy-MT2-1.8B (2)</title></circle>
+<circle class="pt" cx="535.8" cy="301.0" r="3.2"><title>MiniMax M2 (2)</title></circle>
+<circle class="pt" cx="596.5" cy="301.0" r="3.2"><title>Mercury 2 (2)</title></circle>
+<circle class="pt" cx="673.9" cy="301.0" r="3.2"><title>Hy-MT2-7B (2)</title></circle>
+<circle class="pt" cx="592.4" cy="301.0" r="3.2"><title>Aion-2.0 (2.0)</title></circle>
+<circle class="pt" cx="563.9" cy="317.6" r="3.2"><title>Seed 1.6 Flash (1.6)</title></circle>
+<circle class="pt" cx="563.9" cy="317.6" r="3.2"><title>Seed 1.6 (1.6)</title></circle>
+<circle class="pt" cx="690.9" cy="321.8" r="3.2"><title>Perceptron Mk1.5 (1.5)</title></circle>
+<circle class="pt" cx="680.3" cy="330.1" r="3.2"><title>Muse Spark 1.3 Contributor (1.3)</title></circle>
+<circle class="pt" cx="680.3" cy="330.1" r="3.2"><title>Muse Spark 1.3 (1.3)</title></circle>
+<circle class="pt" cx="674.8" cy="334.2" r="3.2"><title>Muse Spark 1.2 Contributor (1.2)</title></circle>
+<circle class="pt" cx="667.4" cy="334.2" r="3.2"><title>Muse Spark 1.2 (1.2)</title></circle>
+<circle class="pt" cx="693.7" cy="338.4" r="3.2"><title>Apodex 1.1 Mini (1.1)</title></circle>
+<circle class="pt" cx="658.2" cy="338.4" r="3.2"><title>Muse Spark 1.1 (1.1)</title></circle>
+<circle class="pt" cx="415.6" cy="342.5" r="3.2"><title>Aion-RP 1.0 (8B) (1.0)</title></circle>
+<circle class="pt" cx="539.5" cy="342.5" r="3.2"><title>Nova Premier 1.0 (1.0)</title></circle>
+<circle class="pt" cx="387.6" cy="342.5" r="3.2"><title>Nova Micro 1.0 (1.0)</title></circle>
+<circle class="pt" cx="628.3" cy="342.5" r="3.2"><title>Perceptron Mk1 (1)</title></circle>
+<circle class="pt" cx="387.6" cy="342.5" r="3.2"><title>Nova Lite 1.0 (1.0)</title></circle>
+<circle class="pt" cx="387.6" cy="342.5" r="3.2"><title>Nova Pro 1.0 (1.0)</title></circle>
+<circle class="pt" cx="406.4" cy="342.5" r="3.2"><title>MiniMax-01 (01)</title></circle>
+<circle class="pt" cx="476.9" cy="342.5" r="3.2"><title>MiniMax M1 (1)</title></circle>
+<circle class="pt" cx="467.7" cy="342.5" r="3.2"><title>R1 0528 (1)</title></circle>
+<circle class="pt" cx="690.4" cy="342.5" r="3.2"><title>Ember-1 (1)</title></circle>
+<circle class="pt" cx="435.4" cy="342.5" r="3.2"><title>o1-pro (1)</title></circle>
+<circle class="pt" cx="408.7" cy="342.5" r="3.2"><title>R1 (1)</title></circle>
+<circle class="pt" cx="393.1" cy="342.5" r="3.2"><title>o1 (1)</title></circle>
+<circle class="pt pt-hi" cx="692.7" cy="130.9" r="4"><title>GPT-6.1 Sol (6.1)</title></circle>
+<text class="label" x="685.7" y="134.4" text-anchor="end">GPT-6.1 Sol (6.1)</text>
+<circle class="pt pt-hi" cx="632.0" cy="379.9" r="4"><title>Grok Build 0.1 (0.1)</title></circle>
+<text class="label" x="625.0" y="383.4" text-anchor="end">Grok Build 0.1 (0.1)</text>
+</svg>

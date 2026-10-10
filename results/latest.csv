@@ -1,0 +1,333 @@
+rank_gi,rank_nl,rank_ne,model_id,canonical_name,vendor,released,gi_raw,gi,nl,ne,endpoints,slugs,display_name
+1,54,2,unbiased/pareto-26.10-preview,Pareto 26.10 Preview,unbiased,2026-10-01,26.10,26.1,20,1.305,1,unbiased/pareto-26.10-preview,Pareto 26.10 Preview
+2,124,59,openai/gpt-6.1-sol-pro,GPT-6.1 Sol Pro,OpenAI,2026-09-29,6.1,6.1,15,0.4067,8,openai/gpt-6.1-sol-pro openai/gpt-6.1-sol-pro:batch,OpenAI: GPT-6.1 Sol Pro
+2,234,29,openai/gpt-6.1-sol,GPT-6.1 Sol,OpenAI,2026-09-29,6.1,6.1,11,0.5545,9,openai/gpt-6.1-sol openai/gpt-6.1-sol:batch,OpenAI: GPT-6.1 Sol
+4,124,60,openai/gpt-6-astra-pro,GPT-6 Astra Pro,OpenAI,2026-09-04,6,6.0,15,0.4,7,openai/gpt-6-astra-pro openai/gpt-6-astra-pro:batch,OpenAI: GPT-6 Astra Pro
+4,146,51,openai/gpt-6-luna-pro,GPT-6 Luna Pro,OpenAI,2026-09-22,6,6.0,14,0.4286,7,openai/gpt-6-luna-pro openai/gpt-6-luna-pro:batch,OpenAI: GPT-6 Luna Pro
+4,174,44,openai/gpt-6-sol-pro,GPT-6 Sol Pro,OpenAI,2026-09-22,6,6.0,13,0.4615,7,openai/gpt-6-sol-pro openai/gpt-6-sol-pro:batch,OpenAI: GPT-6 Sol Pro
+4,234,30,openai/gpt-6-astra,GPT-6 Astra,OpenAI,2026-09-04,6,6.0,11,0.5455,8,openai/gpt-6-astra openai/gpt-6-astra:batch,OpenAI: GPT-6 Astra
+4,263,20,openai/gpt-6-luna,GPT-6 Luna,OpenAI,2026-09-22,6,6.0,10,0.6,8,openai/gpt-6-luna openai/gpt-6-luna:batch,OpenAI: GPT-6 Luna
+4,277,16,openai/gpt-6-sol,GPT-6 Sol,OpenAI,2026-09-22,6,6.0,9,0.6667,8,openai/gpt-6-sol openai/gpt-6-sol:batch,OpenAI: GPT-6 Sol
+10,86,88,openai/gpt-5.6-terra-pro,GPT-5.6 Terra Pro,OpenAI,2026-07-09,5.6,5.6,17,0.3294,6,openai/gpt-5.6-terra-pro openai/gpt-5.6-terra-pro:batch,OpenAI: GPT-5.6 Terra Pro
+10,101,76,openai/gpt-5.6-luna-pro,GPT-5.6 Luna Pro,OpenAI,2026-07-09,5.6,5.6,16,0.35,6,openai/gpt-5.6-luna-pro openai/gpt-5.6-luna-pro:batch,OpenAI: GPT-5.6 Luna Pro
+10,124,66,openai/gpt-5.6-sol-pro,GPT-5.6 Sol Pro,OpenAI,2026-07-09,5.6,5.6,15,0.3733,6,openai/gpt-5.6-sol-pro openai/gpt-5.6-sol-pro:batch,OpenAI: GPT-5.6 Sol Pro
+10,174,50,openai/gpt-5.6-terra,GPT-5.6 Terra,OpenAI,2026-07-09,5.6,5.6,13,0.4308,8,openai/gpt-5.6-terra openai/gpt-5.6-terra:batch,OpenAI: GPT-5.6 Terra
+10,210,42,openai/gpt-5.6-luna,GPT-5.6 Luna,OpenAI,2026-07-09,5.6,5.6,12,0.4667,8,openai/gpt-5.6-luna openai/gpt-5.6-luna:batch,OpenAI: GPT-5.6 Luna
+10,234,32,openai/gpt-5.6-sol,GPT-5.6 Sol,OpenAI,2026-07-09,5.6,5.6,11,0.5091,8,openai/gpt-5.6-sol openai/gpt-5.6-sol:batch,OpenAI: GPT-5.6 Sol
+16,86,90,anthropic/claude-sonnet-5.5,Claude Sonnet 5.5,Anthropic,2026-09-28,5.5,5.5,17,0.3235,9,anthropic/claude-sonnet-5.5 anthropic/claude-sonnet-5.5:batch,Anthropic: Claude Sonnet 5.5
+16,101,79,anthropic/claude-haiku-5.5,Claude Haiku 5.5,Anthropic,2026-10-07,5.5,5.5,16,0.3438,11,anthropic/claude-haiku-5.5 anthropic/claude-haiku-5.5:batch,Anthropic: Claude Haiku 5.5
+16,124,67,anthropic/claude-opus-5.5,Claude Opus 5.5,Anthropic,2026-09-22,5.5,5.5,15,0.3667,12,anthropic/claude-opus-5.5 anthropic/claude-opus-5.5:batch,Anthropic: Claude Opus 5.5
+16,234,33,openai/gpt-5.5-pro,GPT-5.5 Pro,OpenAI,2026-04-24,5.5,5.5,11,0.5,3,openai/gpt-5.5-pro openai/gpt-5.5-pro:batch,OpenAI: GPT-5.5 Pro
+16,302,8,openai/gpt-5.5,GPT-5.5,OpenAI,2026-04-24,5.5,5.5,7,0.7857,8,openai/gpt-5.5 openai/gpt-5.5:batch,OpenAI: GPT-5.5
+21,210,46,openai/gpt-5.4-mini,GPT-5.4 Mini,OpenAI,2026-03-17,5.4,5.4,12,0.45,6,openai/gpt-5.4-mini openai/gpt-5.4-mini:batch,OpenAI: GPT-5.4 Mini
+21,210,46,openai/gpt-5.4-nano,GPT-5.4 Nano,OpenAI,2026-03-17,5.4,5.4,12,0.45,5,openai/gpt-5.4-nano openai/gpt-5.4-nano:batch,OpenAI: GPT-5.4 Nano
+21,234,40,openai/gpt-5.4-pro,GPT-5.4 Pro,OpenAI,2026-03-05,5.4,5.4,11,0.4909,4,openai/gpt-5.4-pro openai/gpt-5.4-pro:batch,OpenAI: GPT-5.4 Pro
+21,302,9,openai/gpt-5.4,GPT-5.4,OpenAI,2026-03-05,5.4,5.4,7,0.7714,8,openai/gpt-5.4 openai/gpt-5.4:batch,OpenAI: GPT-5.4
+25,146,64,z-ai/glm-5.3-flashx,GLM 5.3 FlashX,Z.ai,2026-09-18,5.3,5.3,14,0.3786,1,z-ai/glm-5.3-flashx,Z.ai: GLM 5.3 FlashX
+25,174,56,openai/gpt-5.3-codex,GPT-5.3-Codex,OpenAI,2026-02-24,5.3,5.3,13,0.4077,3,openai/gpt-5.3-codex,OpenAI: GPT-5.3-Codex
+25,174,56,z-ai/glm-5.3-flash,GLM 5.3 Flash,Z.ai,2026-08-26,5.3,5.3,13,0.4077,34,z-ai/glm-5.3-flash z-ai/glm-5.3-flash:batch,Z.ai: GLM 5.3 Flash
+25,174,56,z-ai/glm-5.3-prime,GLM 5.3 Prime,Z.ai,2026-09-23,5.3,5.3,13,0.4077,1,z-ai/glm-5.3-prime,Z.ai: GLM 5.3 Prime
+25,302,10,z-ai/glm-5.3,GLM 5.3,Z.ai,2026-08-18,5.3,5.3,7,0.7571,41,z-ai/glm-5.3 z-ai/glm-5.3:batch,Z.ai: GLM 5.3
+30,174,60,openai/gpt-5.2-codex,GPT-5.2-Codex,OpenAI,2026-01-14,5.2,5.2,13,0.4,1,openai/gpt-5.2-codex,OpenAI: GPT-5.2-Codex
+30,210,49,openai/gpt-5.2-chat,GPT-5.2 Chat,OpenAI,2025-12-10,5.2,5.2,12,0.4333,1,openai/gpt-5.2-chat,OpenAI: GPT-5.2 Chat
+30,234,41,openai/gpt-5.2-pro,GPT-5.2 Pro,OpenAI,2025-12-10,5.2,5.2,11,0.4727,2,openai/gpt-5.2-pro openai/gpt-5.2-pro:batch,OpenAI: GPT-5.2 Pro
+30,302,11,openai/gpt-5.2,GPT-5.2,OpenAI,2025-12-10,5.2,5.2,7,0.7429,5,openai/gpt-5.2 openai/gpt-5.2:batch,OpenAI: GPT-5.2
+30,302,11,z-ai/glm-5.2,GLM 5.2,Z.ai,2026-06-16,5.2,5.2,7,0.7429,34,z-ai/glm-5.2,Z.ai: GLM 5.2
+35,77,109,openai/gpt-5.1-codex-mini,GPT-5.1-Codex-Mini,OpenAI,2025-11-13,5.1,5.1,18,0.2833,1,openai/gpt-5.1-codex-mini,OpenAI: GPT-5.1-Codex-Mini
+35,86,100,openai/gpt-5.1-codex-max,GPT-5.1-Codex-Max,OpenAI,2025-12-04,5.1,5.1,17,0.3,1,openai/gpt-5.1-codex-max,OpenAI: GPT-5.1-Codex-Max
+35,101,92,anthropic/claude-fable-5.1,Claude Fable 5.1,Anthropic,2026-09-01,5.1,5.1,16,0.3187,5,anthropic/claude-fable-5.1 anthropic/claude-fable-5.1:batch,Anthropic: Claude Fable 5.1
+35,174,62,openai/gpt-5.1-codex,GPT-5.1-Codex,OpenAI,2025-11-13,5.1,5.1,13,0.3923,1,openai/gpt-5.1-codex,OpenAI: GPT-5.1-Codex
+35,302,13,openai/gpt-5.1,GPT-5.1,OpenAI,2025-11-13,5.1,5.1,7,0.7286,6,openai/gpt-5.1 openai/gpt-5.1:batch,OpenAI: GPT-5.1
+35,302,13,z-ai/glm-5.1,GLM 5.1,Z.ai,2026-04-07,5.1,5.1,7,0.7286,13,z-ai/glm-5.1,Z.ai: GLM 5.1
+41,124,83,anthropic/claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-06-30,5,5.0,15,0.3333,11,anthropic/claude-sonnet-5 anthropic/claude-sonnet-5:batch,Anthropic: Claude Sonnet 5
+41,146,74,anthropic/claude-fable-5,Claude Fable 5,Anthropic,2026-06-09,5,5.0,14,0.3571,7,anthropic/claude-fable-5 anthropic/claude-fable-5:batch,Anthropic: Claude Fable 5
+41,146,74,stepfun/step-5-preview,Step 5 Preview,StepFun,2026-10-08,5,5.0,14,0.3571,1,stepfun/step-5-preview,StepFun: Step 5 Preview
+41,174,63,anthropic/claude-opus-5,Claude Opus 5,Anthropic,2026-07-24,5,5.0,13,0.3846,12,anthropic/claude-opus-5 anthropic/claude-opus-5:batch,Anthropic: Claude Opus 5
+41,210,54,z-ai/glm-5v-turbo,GLM 5V Turbo,Z.ai,2026-04-01,5,5.0,12,0.4167,1,z-ai/glm-5v-turbo,Z.ai: GLM 5V Turbo
+41,234,45,z-ai/glm-5-turbo,GLM 5 Turbo,Z.ai,2026-03-15,5,5.0,11,0.4545,1,z-ai/glm-5-turbo,Z.ai: GLM 5 Turbo
+41,263,33,openai/gpt-5-mini,GPT-5 Mini,OpenAI,2025-08-07,5,5.0,10,0.5,5,openai/gpt-5-mini openai/gpt-5-mini:batch,OpenAI: GPT-5 Mini
+41,263,33,openai/gpt-5-nano,GPT-5 Nano,OpenAI,2025-08-07,5,5.0,10,0.5,5,openai/gpt-5-nano openai/gpt-5-nano:batch,OpenAI: GPT-5 Nano
+41,263,33,writer/palmyra-x5,Palmyra X5,Writer,2026-01-21,5,5.0,10,0.5,1,writer/palmyra-x5,Writer: Palmyra X5
+41,277,28,openai/gpt-5-pro,GPT-5 Pro,OpenAI,2025-10-06,5,5.0,9,0.5556,2,openai/gpt-5-pro openai/gpt-5-pro:batch,OpenAI: GPT-5 Pro
+41,323,3,openai/gpt-5,GPT-5,OpenAI,2025-08-07,5,5.0,5,1.0,4,openai/gpt-5 openai/gpt-5:batch,OpenAI: GPT-5
+41,323,3,z-ai/glm-5,GLM 5,Z.ai,2026-02-11,5,5.0,5,1.0,8,z-ai/glm-5,Z.ai: GLM 5
+53,124,91,anthropic/claude-opus-4.8,Claude Opus 4.8,Anthropic,2026-05-27,4.8,4.8,15,0.32,12,anthropic/claude-opus-4.8 anthropic/claude-opus-4.8:batch,Anthropic: Claude Opus 4.8
+54,124,94,anthropic/claude-opus-4.7,Claude Opus 4.7,Anthropic,2026-04-16,4.7,4.7,15,0.3133,9,anthropic/claude-opus-4.7 anthropic/claude-opus-4.7:batch,Anthropic: Claude Opus 4.7
+54,174,73,z-ai/glm-4.7-flash,GLM 4.7 Flash,Z.ai,2026-01-19,4.7,4.7,13,0.3615,3,z-ai/glm-4.7-flash,Z.ai: GLM 4.7 Flash
+54,291,21,x-ai/grok-4.7,Grok 4.7,SpaceXAI,2026-09-21,4.7,4.7,8,0.5875,5,x-ai/grok-4.7,SpaceXAI: Grok 4.7
+54,302,15,z-ai/glm-4.7,GLM 4.7,Z.ai,2025-12-22,4.7,4.7,7,0.6714,6,z-ai/glm-4.7,Z.ai: GLM 4.7
+58,86,120,anthropic/claude-sonnet-4.6,Claude Sonnet 4.6,Anthropic,2026-02-17,4.6,4.6,17,0.2706,10,anthropic/claude-sonnet-4.6 anthropic/claude-sonnet-4.6:batch,Anthropic: Claude Sonnet 4.6
+58,124,99,anthropic/claude-opus-4.6,Claude Opus 4.6,Anthropic,2026-02-04,4.6,4.6,15,0.3067,7,anthropic/claude-opus-4.6 anthropic/claude-opus-4.6:batch,Anthropic: Claude Opus 4.6
+58,291,23,x-ai/grok-4.6,Grok 4.6,SpaceXAI,2026-08-12,4.6,4.6,8,0.575,6,x-ai/grok-4.6,SpaceXAI: Grok 4.6
+58,291,23,z-ai/glm-4.6v,GLM 4.6V,Z.ai,2025-12-08,4.6,4.6,8,0.575,2,z-ai/glm-4.6v,Z.ai: GLM 4.6V
+58,302,18,z-ai/glm-4.6,GLM 4.6,Z.ai,2025-09-30,4.6,4.6,7,0.6571,4,z-ai/glm-4.6,Z.ai: GLM 4.6
+63,86,128,anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,Anthropic,2025-09-29,4.5,4.5,17,0.2647,8,anthropic/claude-sonnet-4.5 anthropic/claude-sonnet-4.5:batch,Anthropic: Claude Sonnet 4.5
+63,101,110,anthropic/claude-haiku-4.5,Claude Haiku 4.5,Anthropic,2025-10-15,4.5,4.5,16,0.2812,9,anthropic/claude-haiku-4.5 anthropic/claude-haiku-4.5:batch,Anthropic: Claude Haiku 4.5
+63,124,100,anthropic/claude-opus-4.5,Claude Opus 4.5,Anthropic,2025-11-24,4.5,4.5,15,0.3,7,anthropic/claude-opus-4.5 anthropic/claude-opus-4.5:batch,Anthropic: Claude Opus 4.5
+63,234,55,z-ai/glm-4.5-air,GLM 4.5 Air,Z.ai,2025-07-25,4.5,4.5,11,0.4091,3,z-ai/glm-4.5-air,Z.ai: GLM 4.5 Air
+63,291,26,x-ai/grok-4.5,Grok 4.5,SpaceXAI,2026-07-08,4.5,4.5,8,0.5625,4,x-ai/grok-4.5,SpaceXAI: Grok 4.5
+63,291,26,z-ai/glm-4.5v,GLM 4.5V,Z.ai,2025-08-11,4.5,4.5,8,0.5625,2,z-ai/glm-4.5v,Z.ai: GLM 4.5V
+63,302,19,z-ai/glm-4.5,GLM 4.5,Z.ai,2025-07-25,4.5,4.5,7,0.6429,1,z-ai/glm-4.5,Z.ai: GLM 4.5
+70,291,31,x-ai/grok-4.3,Grok 4.3,SpaceXAI,2026-04-30,4.3,4.3,8,0.5375,5,x-ai/grok-4.3 x-ai/grok-4.3:batch,SpaceXAI: Grok 4.3
+71,39,171,x-ai/grok-4.20-multi-agent,Grok 4.20 Multi-Agent,SpaceXAI,2026-03-31,4.20,4.2,21,0.2,4,x-ai/grok-4.20-multi-agent,SpaceXAI: Grok 4.20 Multi-Agent
+71,146,100,ibm-granite/granite-4.2-8b,Granite 4.2 8B,IBM,2026-08-31,4.2,4.2,14,0.3,2,ibm-granite/granite-4.2-8b,IBM: Granite 4.2 8B
+71,277,42,x-ai/grok-4.20,Grok 4.20,SpaceXAI,2026-03-31,4.20,4.2,9,0.4667,4,x-ai/grok-4.20,SpaceXAI: Grok 4.20
+74,65,157,deepseek/deepseek-v4.1-flash,DeepSeek V4.1 Flash,DeepSeek,2026-09-10,4.1,4.1,19,0.2158,33,deepseek/deepseek-v4.1-flash deepseek/deepseek-v4.1-flash:batch,DeepSeek: DeepSeek V4.1 Flash
+74,101,130,thedrummer/cydonia-24b-v4.1,Cydonia 24B V4.1,TheDrummer,2025-09-27,4.1,4.1,16,0.2562,1,thedrummer/cydonia-24b-v4.1,TheDrummer: Cydonia 24B V4.1
+74,124,114,anthropic/claude-opus-4.1,Claude Opus 4.1,Anthropic,2025-08-05,4.1,4.1,15,0.2733,2,anthropic/claude-opus-4.1 anthropic/claude-opus-4.1:batch,Anthropic: Claude Opus 4.1
+74,210,80,openai/gpt-4.1-mini,GPT-4.1 Mini,OpenAI,2025-04-14,4.1,4.1,12,0.3417,4,openai/gpt-4.1-mini openai/gpt-4.1-mini:batch,OpenAI: GPT-4.1 Mini
+74,210,80,openai/gpt-4.1-nano,GPT-4.1 Nano,OpenAI,2025-04-14,4.1,4.1,12,0.3417,4,openai/gpt-4.1-nano openai/gpt-4.1-nano:batch,OpenAI: GPT-4.1 Nano
+74,302,22,openai/gpt-4.1,GPT-4.1,OpenAI,2025-04-14,4.1,4.1,7,0.5857,4,openai/gpt-4.1 openai/gpt-4.1:batch,OpenAI: GPT-4.1
+80,5,235,deepseek/deepseek-v4-flash-vision-exp,DeepSeek V4 Flash Vision Exp,DeepSeek,2026-08-21,4,4.0,28,0.1429,3,deepseek/deepseek-v4-flash-vision-exp,DeepSeek: DeepSeek V4 Flash Vision Exp
+80,20,201,openai/gpt-4o-mini-2024-07-18,GPT-4o-mini (2024-07-18),OpenAI,2024-07-18,4,4.0,24,0.1667,1,openai/gpt-4o-mini-2024-07-18,OpenAI: GPT-4o-mini (2024-07-18)
+80,26,188,deepseek/deepseek-v4-flash,DeepSeek V4 Flash 0423,DeepSeek,2026-04-24,4,4.0,22,0.1818,16,deepseek/deepseek-v4-flash,DeepSeek: DeepSeek V4 Flash 0423
+80,26,188,deepseek/deepseek-v4-flash-0731,DeepSeek V4 Flash 0731,DeepSeek,2026-07-31,4,4.0,22,0.1818,27,deepseek/deepseek-v4-flash-0731,DeepSeek: DeepSeek V4 Flash 0731
+80,54,171,deepseek/deepseek-v4-pro,DeepSeek V4 Pro 0423,DeepSeek,2026-04-24,4,4.0,20,0.2,16,deepseek/deepseek-v4-pro,DeepSeek: DeepSeek V4 Pro 0423
+80,54,171,deepseek/deepseek-v4-pro-0813,DeepSeek V4 Pro 0813,DeepSeek,2026-08-12,4,4.0,20,0.2,21,deepseek/deepseek-v4-pro-0813,DeepSeek: DeepSeek V4 Pro 0813
+80,65,163,openai/gpt-4o-2024-05-13,GPT-4o (2024-05-13),OpenAI,2024-05-13,4,4.0,19,0.2105,2,openai/gpt-4o-2024-05-13,OpenAI: GPT-4o (2024-05-13)
+80,65,163,openai/gpt-4o-2024-08-06,GPT-4o (2024-08-06),OpenAI,2024-08-06,4,4.0,19,0.2105,2,openai/gpt-4o-2024-08-06,OpenAI: GPT-4o (2024-08-06)
+80,65,163,openai/gpt-4o-2024-11-20,GPT-4o (2024-11-20),OpenAI,2024-11-20,4,4.0,19,0.2105,1,openai/gpt-4o-2024-11-20,OpenAI: GPT-4o (2024-11-20)
+80,86,140,ibm-granite/granite-4.0-h-micro,Granite 4.0 Micro,IBM,2025-10-20,4.0,4.0,17,0.2353,1,ibm-granite/granite-4.0-h-micro,IBM: Granite 4.0 Micro
+80,86,140,meta-llama/llama-guard-4-12b,Llama Guard 4 12B,Meta,2025-04-30,4,4.0,17,0.2353,1,meta-llama/llama-guard-4-12b,Meta: Llama Guard 4 12B
+80,101,131,meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,2025-04-05,4,4.0,16,0.25,4,meta-llama/llama-4-maverick,Meta: Llama 4 Maverick
+80,124,124,anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,2025-05-22,4,4.0,15,0.2667,2,anthropic/claude-sonnet-4,Anthropic: Claude Sonnet 4
+80,124,124,google/gemma-4-26b-a4b-it,Gemma 4 26B A4B,Google,2026-04-03,4,4.0,15,0.2667,14,google/gemma-4-26b-a4b-it google/gemma-4-26b-a4b-it:free,Google: Gemma 4 26B A4B 
+80,124,124,mistralai/mistral-large-4-0,Mistral Large 4,Mistral,2026-10-06,4,4.0,15,0.2667,3,mistralai/mistral-large-4-0,Mistral: Mistral Large 4
+80,124,124,mistralai/mistral-small-2603,Mistral Small 4,Mistral,2026-03-16,4,4.0,15,0.2667,5,mistralai/mistral-small-2603 mistralai/mistral-small-2603:batch,Mistral: Mistral Small 4
+80,174,96,anthracite-org/magnum-v4-72b,Magnum v4 72B,anthracite-org,2024-10-22,4,4.0,13,0.3077,1,anthracite-org/magnum-v4-72b,Magnum v4 72B
+80,174,96,meta-llama/llama-4-scout,Llama 4 Scout,Meta,2025-04-05,4,4.0,13,0.3077,3,meta-llama/llama-4-scout,Meta: Llama 4 Scout
+80,174,96,nousresearch/hermes-4-405b,Hermes 4 405B,Nous,2025-08-26,4,4.0,13,0.3077,1,nousresearch/hermes-4-405b,Nous: Hermes 4 405B
+80,210,83,openai/o4-mini-high,o4 Mini High,OpenAI,2025-04-16,4,4.0,12,0.3333,1,openai/o4-mini-high,OpenAI: o4 Mini High
+80,210,83,upstage/solar-mini4,Solar Mini 4,Upstage,2026-09-23,4,4.0,12,0.3333,2,upstage/solar-mini4,Upstage: Solar Mini 4
+80,234,68,google/gemma-4-31b-it,Gemma 4 31B,Google,2026-04-02,4,4.0,11,0.3636,14,google/gemma-4-31b-it google/gemma-4-31b-it:free,Google: Gemma 4 31B
+80,234,68,openai/gpt-4-turbo,GPT-4 Turbo,OpenAI,2024-04-09,4,4.0,11,0.3636,2,openai/gpt-4-turbo openai/gpt-4-turbo:batch,OpenAI: GPT-4 Turbo
+80,234,68,openai/gpt-4o-mini,GPT-4o-mini,OpenAI,2024-07-18,4,4.0,11,0.3636,4,openai/gpt-4o-mini openai/gpt-4o-mini:batch,OpenAI: GPT-4o-mini
+80,234,68,tencent/hy4-preview,Hy4 preview,Tencent,2026-08-28,4,4.0,11,0.3636,4,tencent/hy4-preview,Tencent: Hy4 preview
+80,234,68,upstage/solar-pro4,Solar Pro 4,Upstage,2026-08-10,4,4.0,11,0.3636,2,upstage/solar-pro4,Upstage: Solar Pro 4
+80,302,25,openai/o4-mini,o4 Mini,OpenAI,2025-04-16,4,4.0,7,0.5714,2,openai/o4-mini openai/o4-mini:batch,OpenAI: o4 Mini
+80,319,16,openai/gpt-4o,GPT-4o,OpenAI,2024-05-13,4,4.0,6,0.6667,3,openai/gpt-4o openai/gpt-4o:batch,OpenAI: GPT-4o
+80,323,6,microsoft/phi-4,Phi 4,Microsoft,2025-01-10,4,4.0,5,0.8,1,microsoft/phi-4,Microsoft: Phi 4
+80,323,6,openai/gpt-4,GPT-4,OpenAI,2023-05-28,4,4.0,5,0.8,2,openai/gpt-4,OpenAI: GPT-4
+110,77,161,qwen/qwen3.8-max-0902,Qwen3.8 Max (0902),Qwen,2026-09-03,3.8,3.8,18,0.2111,2,qwen/qwen3.8-max-0902,Qwen: Qwen3.8 Max (0902)
+110,77,161,qwen/qwen3.8-omni-flash,Qwen3.8 Omni Flash,Qwen,2026-09-21,3.8,3.8,18,0.2111,1,qwen/qwen3.8-omni-flash,Qwen: Qwen3.8 Omni Flash
+110,86,151,qwen/qwen3.8-2.4t-a95b,Qwen3.8 2.4T A95B,Qwen,2026-08-12,3.8,3.8,17,0.2235,7,qwen/qwen3.8-2.4t-a95b,Qwen: Qwen3.8 2.4T A95B
+110,86,151,qwen/qwen3.8-max-prime,Qwen3.8 Max Prime,Qwen,2026-09-23,3.8,3.8,17,0.2235,1,qwen/qwen3.8-max-prime,Qwen: Qwen3.8 Max Prime
+110,101,139,google/gemini-3.8-flash,Gemini 3.8 Flash,Google,2026-09-02,3.8,3.8,16,0.2375,7,google/gemini-3.8-flash google/gemini-3.8-flash:batch,Google: Gemini 3.8 Flash
+110,174,106,qwen/qwen3.8-flash,Qwen3.8 Flash,Qwen,2026-08-26,3.8,3.8,13,0.2923,2,qwen/qwen3.8-flash,Qwen: Qwen3.8 Flash
+110,234,78,qwen/qwen3.8-27b,Qwen3.8 27B,Qwen,2026-08-14,3.8,3.8,11,0.3455,19,qwen/qwen3.8-27b,Qwen: Qwen3.8 27B
+117,101,143,google/gemini-3.7-flash,Gemini 3.7 Flash,Google,2026-08-13,3.7,3.7,16,0.2313,7,google/gemini-3.7-flash google/gemini-3.7-flash:batch,Google: Gemini 3.7 Flash
+117,146,129,stepfun/step-3.7-flash,Step 3.7 Flash,StepFun,2026-05-28,3.7,3.7,14,0.2643,2,stepfun/step-3.7-flash,StepFun: Step 3.7 Flash
+117,174,108,qwen/qwen3.7-flash,Qwen3.7 Flash,Qwen,2026-07-27,3.7,3.7,13,0.2846,2,qwen/qwen3.7-flash,Qwen: Qwen3.7 Flash
+117,210,95,qwen/qwen3.7-plus,Qwen3.7 Plus,Qwen,2026-06-03,3.7,3.7,12,0.3083,2,qwen/qwen3.7-plus,Qwen: Qwen3.7 Plus
+117,234,82,qwen/qwen3.7-max,Qwen3.7 Max,Qwen,2026-05-21,3.7,3.7,11,0.3364,2,qwen/qwen3.7-max,Qwen: Qwen3.7 Max
+122,101,149,google/gemini-3.6-flash,Gemini 3.6 Flash,Google,2026-07-21,3.6,3.6,16,0.225,8,google/gemini-3.6-flash google/gemini-3.6-flash:batch,Google: Gemini 3.6 Flash
+122,124,137,qwen/qwen3.6-35b-a3b,Qwen3.6 35B A3B,Qwen,2026-04-27,3.6,3.6,15,0.24,10,qwen/qwen3.6-35b-a3b,Qwen: Qwen3.6 35B A3B
+122,174,113,qwen/qwen3.6-flash,Qwen3.6 Flash,Qwen,2026-04-27,3.6,3.6,13,0.2769,1,qwen/qwen3.6-flash,Qwen: Qwen3.6 Flash
+122,210,100,qwen/qwen3.6-plus,Qwen3.6 Plus,Qwen,2026-04-02,3.6,3.6,12,0.3,1,qwen/qwen3.6-plus,Qwen: Qwen3.6 Plus
+122,234,89,qwen/qwen3.6-27b,Qwen3.6 27B,Qwen,2026-04-27,3.6,3.6,11,0.3273,7,qwen/qwen3.6-27b,Qwen: Qwen3.6 27B
+127,8,251,nvidia/nemotron-3.5-content-safety,Nemotron 3.5 Content Safety,NVIDIA,2026-06-04,3.5,3.5,27,0.1296,2,nvidia/nemotron-3.5-content-safety nvidia/nemotron-3.5-content-safety:free,NVIDIA: Nemotron 3.5 Content Safety
+127,8,251,openai/gpt-3.5-turbo-0613,GPT-3.5 Turbo (older v0613),OpenAI,2024-01-25,3.5,3.5,27,0.1296,1,openai/gpt-3.5-turbo-0613,OpenAI: GPT-3.5 Turbo (older v0613)
+127,22,223,qwen/qwen3.5-plus-02-15,Qwen3.5 Plus 2026-02-15,Qwen,2026-02-16,3.5,3.5,23,0.1522,1,qwen/qwen3.5-plus-02-15,Qwen: Qwen3.5 Plus 2026-02-15
+127,22,223,qwen/qwen3.5-plus-20260420,Qwen3.5 Plus 2026-04-20,Qwen,2026-04-27,3.5,3.5,23,0.1522,1,qwen/qwen3.5-plus-20260420,Qwen: Qwen3.5 Plus 2026-04-20
+127,26,210,nvidia/nemotron-3.5-lightning,Nemotron 3.5 Lightning,NVIDIA,2026-08-11,3.5,3.5,22,0.1591,7,nvidia/nemotron-3.5-lightning nvidia/nemotron-3.5-lightning:free,NVIDIA: Nemotron 3.5 Lightning
+127,26,210,openai/gpt-3.5-turbo-instruct,GPT-3.5 Turbo Instruct,OpenAI,2023-09-28,3.5,3.5,22,0.1591,1,openai/gpt-3.5-turbo-instruct,OpenAI: GPT-3.5 Turbo Instruct
+127,39,201,google/gemini-3.5-flash-lite,Gemini 3.5 Flash Lite,Google,2026-07-21,3.5,3.5,21,0.1667,9,google/gemini-3.5-flash-lite google/gemini-3.5-flash-lite:batch,Google: Gemini 3.5 Flash Lite
+127,77,178,mistralai/mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-04-30,3.5,3.5,18,0.1944,4,mistralai/mistral-medium-3-5 mistralai/mistral-medium-3-5:batch,Mistral: Mistral Medium 3.5
+127,86,168,openai/gpt-3.5-turbo-16k,GPT-3.5 Turbo 16k,OpenAI,2023-08-28,3.5,3.5,17,0.2059,2,openai/gpt-3.5-turbo-16k,OpenAI: GPT-3.5 Turbo 16k
+127,86,168,qwen/qwen3.5-122b-a10b,Qwen3.5-122B-A10B,Qwen,2026-02-25,3.5,3.5,17,0.2059,4,qwen/qwen3.5-122b-a10b,Qwen: Qwen3.5-122B-A10B
+127,86,168,qwen/qwen3.5-397b-a17b,Qwen3.5 397B A17B,Qwen,2026-02-16,3.5,3.5,17,0.2059,10,qwen/qwen3.5-397b-a17b,Qwen: Qwen3.5 397B A17B
+127,101,156,google/gemini-3.5-flash,Gemini 3.5 Flash,Google,2026-05-19,3.5,3.5,16,0.2188,8,google/gemini-3.5-flash google/gemini-3.5-flash:batch,Google: Gemini 3.5 Flash
+127,124,142,qwen/qwen3.5-35b-a3b,Qwen3.5-35B-A3B,Qwen,2026-02-25,3.5,3.5,15,0.2333,7,qwen/qwen3.5-35b-a3b,Qwen: Qwen3.5-35B-A3B
+127,146,131,stepfun/step-3.5-flash,Step 3.5 Flash,StepFun,2026-01-29,3.5,3.5,14,0.25,1,stepfun/step-3.5-flash,StepFun: Step 3.5 Flash
+127,174,121,aion-labs/aion-3.5-mini,Aion 3.5 Mini,AionLabs,2026-09-23,3.5,3.5,13,0.2692,1,aion-labs/aion-3.5-mini,AionLabs: Aion 3.5 Mini
+127,174,121,openai/gpt-3.5-turbo,GPT-3.5 Turbo,OpenAI,2023-05-28,3.5,3.5,13,0.2692,2,openai/gpt-3.5-turbo openai/gpt-3.5-turbo:batch,OpenAI: GPT-3.5 Turbo
+127,174,121,qwen/qwen3.5-flash-02-23,Qwen3.5-Flash,Qwen,2026-02-25,3.5,3.5,13,0.2692,1,qwen/qwen3.5-flash-02-23,Qwen: Qwen3.5-Flash
+127,234,93,qwen/qwen3.5-27b,Qwen3.5-27B,Qwen,2026-02-25,3.5,3.5,11,0.3182,6,qwen/qwen3.5-27b,Qwen: Qwen3.5-27B
+127,263,76,qwen/qwen3.5-9b,Qwen3.5-9B,Qwen,2026-03-10,3.5,3.5,10,0.35,6,qwen/qwen3.5-9b,Qwen: Qwen3.5-9B
+127,291,48,aion-labs/aion-3.5,Aion 3.5,AionLabs,2026-09-23,3.5,3.5,8,0.4375,1,aion-labs/aion-3.5,AionLabs: Aion 3.5
+147,26,225,meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B Instruct,Meta,2024-12-06,3.3,3.3,22,0.15,11,meta-llama/llama-3.3-70b-instruct,Meta: Llama 3.3 70B Instruct
+147,39,214,sao10k/l3.3-euryale-70b,Llama 3.3 Euryale 70B,Sao10K,2024-12-18,3.3,3.3,21,0.1571,1,sao10k/l3.3-euryale-70b,Sao10K: Llama 3.3 Euryale 70B
+149,39,220,meta-llama/llama-3.2-1b-instruct,Llama 3.2 1B Instruct,Meta,2024-09-25,3.2,3.2,21,0.1524,1,meta-llama/llama-3.2-1b-instruct,Meta: Llama 3.2 1B Instruct
+149,39,220,meta-llama/llama-3.2-3b-instruct,Llama 3.2 3B Instruct,Meta,2024-09-25,3.2,3.2,21,0.1524,2,meta-llama/llama-3.2-3b-instruct,Meta: Llama 3.2 3B Instruct
+149,39,220,mistralai/mistral-small-3.2-24b-instruct,Mistral Small 3.2 24B,Mistral,2025-06-20,3.2,3.2,21,0.1524,4,mistralai/mistral-small-3.2-24b-instruct,Mistral: Mistral Small 3.2 24B
+149,86,182,deepseek/deepseek-v3.2-exp,DeepSeek V3.2 Exp,DeepSeek,2025-09-29,3.2,3.2,17,0.1882,1,deepseek/deepseek-v3.2-exp,DeepSeek: DeepSeek V3.2 Exp
+149,174,136,deepseek/deepseek-v3.2,DeepSeek V3.2,DeepSeek,2025-12-01,3.2,3.2,13,0.2462,12,deepseek/deepseek-v3.2,DeepSeek: DeepSeek V3.2
+154,1,280,google/gemini-3.1-pro-preview-customtools,Gemini 3.1 Pro Preview Custom Tools,Google,2026-02-25,3.1,3.1,35,0.0886,1,google/gemini-3.1-pro-preview-customtools,Google: Gemini 3.1 Pro Preview Custom Tools
+154,2,268,google/gemini-3.1-flash-lite-preview,Gemini 3.1 Flash Lite Preview,Google,2026-03-03,3.1,3.1,29,0.1069,3,google/gemini-3.1-flash-lite-preview,Google: Gemini 3.1 Flash Lite Preview
+154,14,258,sao10k/l3.1-euryale-70b,Llama 3.1 Euryale 70B v2.2,Sao10K,2024-08-28,3.1,3.1,26,0.1192,1,sao10k/l3.1-euryale-70b,Sao10K: Llama 3.1 Euryale 70B v2.2
+154,26,243,deepseek/deepseek-v3.1-terminus,DeepSeek V3.1 Terminus,DeepSeek,2025-09-22,3.1,3.1,22,0.1409,2,deepseek/deepseek-v3.1-terminus,DeepSeek: DeepSeek V3.1 Terminus
+154,26,243,google/gemini-3.1-pro-preview,Gemini 3.1 Pro Preview,Google,2026-02-19,3.1,3.1,22,0.1409,7,google/gemini-3.1-pro-preview google/gemini-3.1-pro-preview:batch,Google: Gemini 3.1 Pro Preview
+154,26,243,meta-llama/llama-3.1-70b-instruct,Llama 3.1 70B Instruct,Meta,2024-07-23,3.1,3.1,22,0.1409,2,meta-llama/llama-3.1-70b-instruct,Meta: Llama 3.1 70B Instruct
+154,39,232,google/gemini-3.1-flash-lite,Gemini 3.1 Flash Lite,Google,2026-05-07,3.1,3.1,21,0.1476,9,google/gemini-3.1-flash-lite google/gemini-3.1-flash-lite:batch,Google: Gemini 3.1 Flash Lite
+154,39,232,meta-llama/llama-3.1-8b-instruct,Llama 3.1 8B Instruct,Meta,2024-07-23,3.1,3.1,21,0.1476,5,meta-llama/llama-3.1-8b-instruct,Meta: Llama 3.1 8B Instruct
+154,39,232,mistralai/mistral-small-3.1-24b-instruct,Mistral Small 3.1 24B,Mistral,2025-03-17,3.1,3.1,21,0.1476,1,mistralai/mistral-small-3.1-24b-instruct,Mistral: Mistral Small 3.1 24B
+154,77,200,mistralai/mistral-medium-3.1,Mistral Medium 3.1,Mistral,2025-08-13,3.1,3.1,18,0.1722,4,mistralai/mistral-medium-3.1 mistralai/mistral-medium-3.1:batch,Mistral: Mistral Medium 3.1
+154,146,155,inclusionai/ling-3.1-flash,Ling 3.1 Flash,inclusionAI,2026-10-02,3.1,3.1,14,0.2214,1,inclusionai/ling-3.1-flash,inclusionAI: Ling 3.1 Flash
+154,174,138,deepseek/deepseek-chat-v3.1,DeepSeek V3.1,DeepSeek,2025-08-21,3.1,3.1,13,0.2385,5,deepseek/deepseek-chat-v3.1,DeepSeek: DeepSeek V3.1
+166,2,271,qwen/qwen3-235b-a22b-2507,Qwen3 235B A22B Instruct 2507,Qwen,2025-07-21,3,3.0,29,0.1034,7,qwen/qwen3-235b-a22b-2507,Qwen: Qwen3 235B A22B Instruct 2507
+166,2,271,qwen/qwen3-235b-a22b-thinking-2507,Qwen3 235B A22B Thinking 2507,Qwen,2025-07-25,3,3.0,29,0.1034,1,qwen/qwen3-235b-a22b-thinking-2507,Qwen: Qwen3 235B A22B Thinking 2507
+166,5,267,qwen/qwen3-coder-30b-a3b-instruct,Qwen3 Coder 30B A3B Instruct,Qwen,2025-07-31,3,3.0,28,0.1071,2,qwen/qwen3-coder-30b-a3b-instruct,Qwen: Qwen3 Coder 30B A3B Instruct
+166,8,261,qwen/qwen3-30b-a3b-instruct-2507,Qwen3 30B A3B Instruct 2507,Qwen,2025-07-29,3,3.0,27,0.1111,3,qwen/qwen3-30b-a3b-instruct-2507,Qwen: Qwen3 30B A3B Instruct 2507
+166,8,261,qwen/qwen3-next-80b-a3b-instruct,Qwen3 Next 80B A3B Instruct,Qwen,2025-09-11,3,3.0,27,0.1111,3,qwen/qwen3-next-80b-a3b-instruct,Qwen: Qwen3 Next 80B A3B Instruct
+166,8,261,qwen/qwen3-next-80b-a3b-thinking,Qwen3 Next 80B A3B Thinking,Qwen,2025-09-11,3,3.0,27,0.1111,1,qwen/qwen3-next-80b-a3b-thinking,Qwen: Qwen3 Next 80B A3B Thinking
+166,8,261,qwen/qwen3-vl-235b-a22b-instruct,Qwen3 VL 235B A22B Instruct,Qwen,2025-09-23,3,3.0,27,0.1111,3,qwen/qwen3-vl-235b-a22b-instruct,Qwen: Qwen3 VL 235B A22B Instruct
+166,18,256,qwen/qwen3-vl-30b-a3b-instruct,Qwen3 VL 30B A3B Instruct,Qwen,2025-10-06,3,3.0,25,0.12,3,qwen/qwen3-vl-30b-a3b-instruct,Qwen: Qwen3 VL 30B A3B Instruct
+166,18,256,qwen/qwen3-vl-30b-a3b-thinking,Qwen3 VL 30B A3B Thinking,Qwen,2025-10-06,3,3.0,25,0.12,1,qwen/qwen3-vl-30b-a3b-thinking,Qwen: Qwen3 VL 30B A3B Thinking
+166,22,250,nvidia/nemotron-3-nano-30b-a3b,Nemotron 3 Nano 30B A3B,NVIDIA,2025-12-14,3,3.0,23,0.1304,2,nvidia/nemotron-3-nano-30b-a3b,NVIDIA: Nemotron 3 Nano 30B A3B
+166,26,246,google/gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2025-12-17,3,3.0,22,0.1364,7,google/gemini-3-flash-preview google/gemini-3-flash-preview:batch,Google: Gemini 3 Flash Preview
+166,26,246,nousresearch/hermes-3-llama-3.1-405b,Hermes 3 405B Instruct,Nous,2024-08-16,3,3.0,22,0.1364,1,nousresearch/hermes-3-llama-3.1-405b,Nous: Hermes 3 405B Instruct
+166,39,235,nousresearch/hermes-3-llama-3.1-70b,Hermes 3 70B Instruct,Nous,2024-08-18,3,3.0,21,0.1429,1,nousresearch/hermes-3-llama-3.1-70b,Nous: Hermes 3 70B Instruct
+166,39,235,qwen/qwen3-coder,Qwen3 Coder 480B A35B,Qwen,2025-07-23,3,3.0,21,0.1429,3,qwen/qwen3-coder,Qwen: Qwen3 Coder 480B A35B
+166,54,225,inclusionai/ling-3.0-flash-sante,Ling 3.0 Flash Sante,inclusionAI,2026-09-04,3.0,3.0,20,0.15,1,inclusionai/ling-3.0-flash-sante,inclusionAI: Ling 3.0 Flash Sante
+166,54,225,mistralai/ministral-14b-2512,Ministral 3 14B 2512,Mistral,2025-12-02,3,3.0,20,0.15,3,mistralai/ministral-14b-2512,Mistral: Ministral 3 14B 2512
+166,54,225,mistralai/mistral-large-2512,Mistral Large 3 2512,Mistral,2025-12-01,3,3.0,20,0.15,3,mistralai/mistral-large-2512 mistralai/mistral-large-2512:batch,Mistral: Mistral Large 3 2512
+166,54,225,nvidia/nemotron-3-nano-omni-30b-a3b-reasoning,Nemotron 3 Nano Omni,NVIDIA,2026-04-28,3,3.0,20,0.15,1,nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,NVIDIA: Nemotron 3 Nano Omni (free)
+166,54,225,qwen/qwen3-vl-8b-instruct,Qwen3 VL 8B Instruct,Qwen,2025-10-14,3,3.0,20,0.15,1,qwen/qwen3-vl-8b-instruct,Qwen: Qwen3 VL 8B Instruct
+166,65,212,mistralai/ministral-3b-2512,Ministral 3 3B 2512,Mistral,2025-12-02,3,3.0,19,0.1579,3,mistralai/ministral-3b-2512,Mistral: Ministral 3 3B 2512
+166,65,212,mistralai/ministral-8b-2512,Ministral 3 8B 2512,Mistral,2025-12-02,3,3.0,19,0.1579,4,mistralai/ministral-8b-2512 mistralai/ministral-8b-2512:batch,Mistral: Ministral 3 8B 2512
+166,77,201,dots-studio/dots-3-note-preview,Dots3-Note Preview,Dots Studio,2026-08-14,3,3.0,18,0.1667,1,dots-studio/dots-3-note-preview:free,Dots Studio: Dots3-Note Preview (free)
+166,77,201,inclusionai/ling-3.0-flash-fin,Ling 3.0 Flash Fin,inclusionAI,2026-08-27,3.0,3.0,18,0.1667,1,inclusionai/ling-3.0-flash-fin,inclusionAI: Ling 3.0 Flash Fin
+166,77,201,sao10k/l3-lunaris-8b,Llama 3 8B Lunaris,Sao10K,2024-08-13,3,3.0,18,0.1667,2,sao10k/l3-lunaris-8b,Sao10K: Llama 3 8B Lunaris
+166,86,195,inclusionai/ling-3.0-flash-vl,Ling 3.0 Flash VL,inclusionAI,2026-09-10,3.0,3.0,17,0.1765,2,inclusionai/ling-3.0-flash-vl,inclusionAI: Ling 3.0 Flash VL
+166,86,195,qwen/qwen3-coder-flash,Qwen3 Coder Flash,Qwen,2025-09-17,3,3.0,17,0.1765,1,qwen/qwen3-coder-flash,Qwen: Qwen3 Coder Flash
+166,101,183,deepseek/deepseek-chat-v3-0324,DeepSeek V3 0324,DeepSeek,2025-03-24,3,3.0,16,0.1875,2,deepseek/deepseek-chat-v3-0324,DeepSeek: DeepSeek V3 0324
+166,101,183,mistralai/mistral-medium-3,Mistral Medium 3,Mistral,2025-05-07,3,3.0,16,0.1875,3,mistralai/mistral-medium-3,Mistral: Mistral Medium 3
+166,101,183,nvidia/nemotron-3-super-120b-a12b,Nemotron 3 Super,NVIDIA,2026-03-11,3,3.0,16,0.1875,3,nvidia/nemotron-3-super-120b-a12b nvidia/nemotron-3-super-120b-a12b:free,NVIDIA: Nemotron 3 Super
+166,101,183,nvidia/nemotron-3-ultra-550b-a55b,Nemotron 3 Ultra,NVIDIA,2026-06-04,3,3.0,16,0.1875,5,nvidia/nemotron-3-ultra-550b-a55b nvidia/nemotron-3-ultra-550b-a55b:free,NVIDIA: Nemotron 3 Ultra
+166,101,183,qwen/qwen3-coder-next,Qwen3 Coder Next,Qwen,2026-02-04,3,3.0,16,0.1875,1,qwen/qwen3-coder-next,Qwen: Qwen3 Coder Next
+166,124,171,mistralai/mistral-small-24b-instruct-2501,Mistral Small 3,Mistral,2025-01-30,3,3.0,15,0.2,1,mistralai/mistral-small-24b-instruct-2501,Mistral: Mistral Small 3
+166,146,158,inclusionai/ling-3.0-flash,Ling 3.0 Flash,inclusionAI,2026-07-23,3.0,3.0,14,0.2143,2,inclusionai/ling-3.0-flash,inclusionAI: Ling 3.0 Flash
+166,146,158,morph/morph-v3-large,Morph V3 Large,Morph,2025-07-07,3,3.0,14,0.2143,1,morph/morph-v3-large,Morph: Morph V3 Large
+166,146,158,relace/relace-apply-3,Relace Apply 3,Relace,2025-09-26,3,3.0,14,0.2143,1,relace/relace-apply-3,Relace: Relace Apply 3
+166,174,144,aion-labs/aion-3.0-mini,Aion-3.0-Mini,AionLabs,2026-07-07,3.0,3.0,13,0.2308,1,aion-labs/aion-3.0-mini,AionLabs: Aion-3.0-Mini
+166,174,144,morph/morph-v3-fast,Morph V3 Fast,Morph,2025-07-07,3,3.0,13,0.2308,1,morph/morph-v3-fast,Morph: Morph V3 Fast
+166,174,144,qwen/qwen3-30b-a3b,Qwen3 30B A3B,Qwen,2025-04-28,3,3.0,13,0.2308,1,qwen/qwen3-30b-a3b,Qwen: Qwen3 30B A3B
+166,210,131,openai/o3-mini-high,o3 Mini High,OpenAI,2025-02-12,3,3.0,12,0.25,1,openai/o3-mini-high,OpenAI: o3 Mini High
+166,210,131,rekaai/reka-flash-3,Reka Flash 3,rekaai,2025-03-12,3,3.0,12,0.25,1,rekaai/reka-flash-3,Reka Flash 3
+166,234,115,deepseek/deepseek-chat,DeepSeek V3,DeepSeek,2024-12-26,3,3.0,11,0.2727,2,deepseek/deepseek-chat,DeepSeek: DeepSeek V3
+166,234,115,google/gemma-3-12b-it,Gemma 3 12B,Google,2025-03-13,3,3.0,11,0.2727,2,google/gemma-3-12b-it,Google: Gemma 3 12B
+166,234,115,google/gemma-3-27b-it,Gemma 3 27B,Google,2025-03-12,3,3.0,11,0.2727,5,google/gemma-3-27b-it,Google: Gemma 3 27B
+166,234,115,tencent/hy3-preview,Hy3 preview,Tencent,2026-04-22,3,3.0,11,0.2727,1,tencent/hy3-preview,Tencent: Hy3 preview
+166,234,115,upstage/solar-pro-3,Solar Pro 3,Upstage,2026-01-27,3,3.0,11,0.2727,1,upstage/solar-pro-3,Upstage: Solar Pro 3
+166,263,100,google/gemma-3-4b-it,Gemma 3 4B,Google,2025-03-13,3,3.0,10,0.3,1,google/gemma-3-4b-it,Google: Gemma 3 4B
+166,263,100,minimax/minimax-m3,MiniMax M3,MiniMax,2026-05-31,3,3.0,10,0.3,13,minimax/minimax-m3,MiniMax: MiniMax M3
+166,277,83,qwen/qwen3-14b,Qwen3 14B,Qwen,2025-04-28,3,3.0,9,0.3333,2,qwen/qwen3-14b,Qwen: Qwen3 14B
+166,277,83,qwen/qwen3-32b,Qwen3 32B,Qwen,2025-04-28,3,3.0,9,0.3333,3,qwen/qwen3-32b,Qwen: Qwen3 32B
+166,291,65,aion-labs/aion-3.0,Aion-3.0,AionLabs,2026-07-07,3.0,3.0,8,0.375,1,aion-labs/aion-3.0,AionLabs: Aion-3.0
+166,302,51,moonshotai/kimi-k3,Kimi K3,MoonshotAI,2026-07-16,3,3.0,7,0.4286,26,moonshotai/kimi-k3 moonshotai/kimi-k3:batch,MoonshotAI: Kimi K3
+166,302,51,openai/o3-mini,o3 Mini,OpenAI,2025-01-31,3,3.0,7,0.4286,2,openai/o3-mini openai/o3-mini:batch,OpenAI: o3 Mini
+166,319,33,openai/o3-pro,o3 Pro,OpenAI,2025-06-10,3,3.0,6,0.5,1,openai/o3-pro,OpenAI: o3 Pro
+166,329,3,tencent/hy3,Hy3,Tencent,2026-07-06,3,3.0,3,1.0,5,tencent/hy3,Tencent: Hy3
+166,330,1,openai/o3,o3,OpenAI,2025-04-16,3,3.0,2,1.5,2,openai/o3 openai/o3:batch,OpenAI: o3
+221,146,179,moonshotai/kimi-k2.7-code,Kimi K2.7 Code,MoonshotAI,2026-06-12,2.7,2.7,14,0.1929,12,moonshotai/kimi-k2.7-code,MoonshotAI: Kimi K2.7 Code
+221,210,149,minimax/minimax-m2.7,MiniMax M2.7,MiniMax,2026-03-18,2.7,2.7,12,0.225,6,minimax/minimax-m2.7,MiniMax: MiniMax M2.7
+223,20,266,xiaomi/mimo-v2.6-pro-ultraspeed,MiMo-V2.6-Pro-UltraSpeed,Xiaomi,2026-09-21,2.6,2.6,24,0.1083,1,xiaomi/mimo-v2.6-pro-ultraspeed,Xiaomi: MiMo-V2.6-Pro-UltraSpeed
+223,124,199,xiaomi/mimo-v2.6-flash,MiMo-V2.6-Flash,Xiaomi,2026-09-21,2.6,2.6,15,0.1733,8,xiaomi/mimo-v2.6-flash,Xiaomi: MiMo-V2.6-Flash
+223,174,171,xiaomi/mimo-v2.6-pro,MiMo-V2.6-Pro,Xiaomi,2026-09-21,2.6,2.6,13,0.2,4,xiaomi/mimo-v2.6-pro,Xiaomi: MiMo-V2.6-Pro
+223,277,107,moonshotai/kimi-k2.6,Kimi K2.6,MoonshotAI,2026-04-20,2.6,2.6,9,0.2889,17,moonshotai/kimi-k2.6,MoonshotAI: Kimi K2.6
+227,5,279,google/gemini-2.5-pro-preview,Gemini 2.5 Pro Preview 06-05,Google,2025-06-05,2.5,2.5,28,0.0893,7,google/gemini-2.5-pro-preview,Google: Gemini 2.5 Pro Preview 06-05
+227,14,276,qwen/qwen-2.5-coder-32b-instruct,Qwen2.5 Coder 32B Instruct,Qwen,2024-11-11,2.5,2.5,26,0.0962,1,qwen/qwen-2.5-coder-32b-instruct,Qwen2.5 Coder 32B Instruct
+227,22,265,qwen/qwen2.5-vl-72b-instruct,Qwen2.5 VL 72B Instruct,Qwen,2025-02-01,2.5,2.5,23,0.1087,1,qwen/qwen2.5-vl-72b-instruct,Qwen: Qwen2.5 VL 72B Instruct
+227,39,259,google/gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,Google,2025-07-22,2.5,2.5,21,0.119,7,google/gemini-2.5-flash-lite google/gemini-2.5-flash-lite:batch,Google: Gemini 2.5 Flash Lite
+227,54,253,qwen/qwen-2.5-72b-instruct,Qwen2.5 72B Instruct,Qwen,2024-09-19,2.5,2.5,20,0.125,1,qwen/qwen-2.5-72b-instruct,Qwen2.5 72B Instruct
+227,65,249,qwen/qwen-2.5-7b-instruct,Qwen2.5 7B Instruct,Qwen,2024-10-16,2.5,2.5,19,0.1316,1,qwen/qwen-2.5-7b-instruct,Qwen: Qwen2.5 7B Instruct
+227,101,215,google/gemini-2.5-flash,Gemini 2.5 Flash,Google,2025-06-17,2.5,2.5,16,0.1562,8,google/gemini-2.5-flash google/gemini-2.5-flash:batch,Google: Gemini 2.5 Flash
+227,146,194,google/gemini-2.5-pro,Gemini 2.5 Pro,Google,2025-06-17,2.5,2.5,14,0.1786,8,google/gemini-2.5-pro google/gemini-2.5-pro:batch,Google: Gemini 2.5 Pro
+227,174,180,nex-agi/nex-n2.5-mini,Nex-N2.5-Mini,Nex AGI,2026-09-08,2.5,2.5,13,0.1923,1,nex-agi/nex-n2.5-mini,Nex AGI: Nex-N2.5-Mini
+227,174,180,xiaomi/mimo-v2.5-pro,MiMo-V2.5-Pro,Xiaomi,2026-04-22,2.5,2.5,13,0.1923,6,xiaomi/mimo-v2.5-pro,Xiaomi: MiMo-V2.5-Pro
+227,210,166,minimax/minimax-m2.5,MiniMax M2.5,MiniMax,2026-02-12,2.5,2.5,12,0.2083,9,minimax/minimax-m2.5,MiniMax: MiniMax M2.5
+227,210,166,nex-agi/nex-n2.5-pro,Nex-N2.5-Pro,Nex AGI,2026-09-08,2.5,2.5,12,0.2083,1,nex-agi/nex-n2.5-pro,Nex AGI: Nex-N2.5-Pro
+227,234,147,inception/mercury-2.5,Mercury 2.5,Inception,2026-09-08,2.5,2.5,11,0.2273,1,inception/mercury-2.5,Inception: Mercury 2.5
+227,234,147,liquid/lfm-2.5-2.6b,LFM2.5-2.6B,LiquidAI,2026-08-11,2.5,2.5,11,0.2273,1,liquid/lfm-2.5-2.6b:free,LiquidAI: LFM2.5-2.6B (free)
+227,277,111,moonshotai/kimi-k2.5,Kimi K2.5,MoonshotAI,2026-01-27,2.5,2.5,9,0.2778,5,moonshotai/kimi-k2.5,MoonshotAI: Kimi K2.5
+227,277,111,xiaomi/mimo-v2.5,MiMo-V2.5,Xiaomi,2026-04-22,2.5,2.5,9,0.2778,5,xiaomi/mimo-v2.5,Xiaomi: MiMo-V2.5
+243,146,225,bytedance-seed/seed-2-1-turbo,Seed 2.1 Turbo,ByteDance Seed,2026-08-12,2.1,2.1,14,0.15,1,bytedance-seed/seed-2-1-turbo,ByteDance Seed: Seed 2.1 Turbo
+243,174,209,poolside/laguna-xs-2.1,Laguna XS 2.1,Poolside,2026-07-02,2.1,2.1,13,0.1615,2,poolside/laguna-xs-2.1 poolside/laguna-xs-2.1:free,Poolside: Laguna XS 2.1
+243,210,197,minimax/minimax-m2.1,MiniMax M2.1,MiniMax,2025-12-23,2.1,2.1,12,0.175,2,minimax/minimax-m2.1,MiniMax: MiniMax M2.1
+243,210,197,poolside/laguna-s-2.1,Laguna S 2.1,Poolside,2026-07-21,2.1,2.1,12,0.175,2,poolside/laguna-s-2.1 poolside/laguna-s-2.1:free,Poolside: Laguna S 2.1
+247,54,273,prism-ml/ternary-bonsai-2-27b,Ternary Bonsai 2 27B,PrismML,2026-09-18,2,2.0,20,0.1,1,prism-ml/ternary-bonsai-2-27b,PrismML: Ternary Bonsai 2 27B
+247,65,269,inference-net/schematron-v2-small,Schematron V2 Small,Inference.net,2026-09-12,2,2.0,19,0.1053,1,inference-net/schematron-v2-small,Inference.net: Schematron V2 Small
+247,65,269,inference-net/schematron-v2-turbo,Schematron V2 Turbo,Inference.net,2026-09-12,2,2.0,19,0.1053,1,inference-net/schematron-v2-turbo,Inference.net: Schematron V2 Turbo
+247,101,253,microsoft/wizardlm-2-8x22b,WizardLM-2 8x22B,Microsoft,2024-04-16,2,2.0,16,0.125,1,microsoft/wizardlm-2-8x22b,WizardLM-2 8x22B
+247,101,253,moonshotai/kimi-k2-thinking,Kimi K2 Thinking,MoonshotAI,2025-11-06,2,2.0,16,0.125,2,moonshotai/kimi-k2-thinking,MoonshotAI: Kimi K2 Thinking
+247,124,248,mistralai/devstral-2512,Devstral 2 2512,Mistral,2025-12-09,2,2.0,15,0.1333,1,mistralai/devstral-2512,Mistral: Devstral 2 2512
+247,146,235,minimax/minimax-m2-her,MiniMax M2-her,MiniMax,2026-01-23,2,2.0,14,0.1429,1,minimax/minimax-m2-her,MiniMax: MiniMax M2-her
+247,146,235,tencent/hy-mt2-30b-a3b,Hy-MT2-30B-A3B,Tencent,2026-08-20,2,2.0,14,0.1429,1,tencent/hy-mt2-30b-a3b,Tencent: Hy-MT2-30B-A3B
+247,146,235,thedrummer/skyfall-36b-v2,Skyfall 36B V2,TheDrummer,2025-03-10,2,2.0,14,0.1429,1,thedrummer/skyfall-36b-v2,TheDrummer: Skyfall 36B V2
+247,174,216,bytedance-seed/seed-2.0-code,Seed-2.0-Code,ByteDance Seed,2026-08-12,2.0,2.0,13,0.1538,1,bytedance-seed/seed-2.0-code,ByteDance Seed: Seed-2.0-Code
+247,174,216,bytedance-seed/seed-2.0-lite,Seed-2.0-Lite,ByteDance Seed,2026-03-10,2.0,2.0,13,0.1538,1,bytedance-seed/seed-2.0-lite,ByteDance Seed: Seed-2.0-Lite
+247,174,216,bytedance-seed/seed-2.0-mini,Seed-2.0-Mini,ByteDance Seed,2026-02-26,2.0,2.0,13,0.1538,1,bytedance-seed/seed-2.0-mini,ByteDance Seed: Seed-2.0-Mini
+247,174,216,sakana/fugu-ultra-v2,Fugu Ultra v2,Sakana,2026-09-11,2,2.0,13,0.1538,1,sakana/fugu-ultra-v2,Sakana: Fugu Ultra v2
+247,210,201,moonshotai/kimi-k2,Kimi K2 0711,MoonshotAI,2025-07-11,2,2.0,12,0.1667,1,moonshotai/kimi-k2,MoonshotAI: Kimi K2 0711
+247,210,201,moonshotai/kimi-k2-0905,Kimi K2 0905,MoonshotAI,2025-09-04,2,2.0,12,0.1667,1,moonshotai/kimi-k2-0905,MoonshotAI: Kimi K2 0905
+247,234,188,amazon/nova-2-lite-v1,Nova 2 Lite,Amazon,2025-12-02,2,2.0,11,0.1818,2,amazon/nova-2-lite-v1,Amazon: Nova 2 Lite
+247,234,188,google/gemma-2-27b-it,Gemma 2 27B,Google,2024-07-13,2,2.0,11,0.1818,1,google/gemma-2-27b-it,Google: Gemma 2 27B
+247,234,188,meituan/longcat-2.0,LongCat 2.0,Meituan,2026-07-20,2.0,2.0,11,0.1818,1,meituan/longcat-2.0,Meituan: LongCat 2.0
+247,234,188,tencent/hy-mt2-1.8b,Hy-MT2-1.8B,Tencent,2026-08-20,2,2.0,11,0.1818,1,tencent/hy-mt2-1.8b,Tencent: Hy-MT2-1.8B
+247,263,171,minimax/minimax-m2,MiniMax M2,MiniMax,2025-10-23,2,2.0,10,0.2,2,minimax/minimax-m2,MiniMax: MiniMax M2
+247,277,153,inception/mercury-2,Mercury 2,Inception,2026-03-04,2,2.0,9,0.2222,1,inception/mercury-2,Inception: Mercury 2
+247,277,153,tencent/hy-mt2-7b,Hy-MT2-7B,Tencent,2026-08-19,2,2.0,9,0.2222,1,tencent/hy-mt2-7b,Tencent: Hy-MT2-7B
+247,291,131,aion-labs/aion-2.0,Aion-2.0,AionLabs,2026-02-23,2.0,2.0,8,0.25,1,aion-labs/aion-2.0,AionLabs: Aion-2.0
+270,146,260,bytedance-seed/seed-1.6-flash,Seed 1.6 Flash,ByteDance Seed,2025-12-23,1.6,1.6,14,0.1143,1,bytedance-seed/seed-1.6-flash,ByteDance Seed: Seed 1.6 Flash
+270,291,171,bytedance-seed/seed-1.6,Seed 1.6,ByteDance Seed,2025-12-23,1.6,1.6,8,0.2,1,bytedance-seed/seed-1.6,ByteDance Seed: Seed 1.6
+272,101,277,perceptron/perceptron-mk1.5,Perceptron Mk1.5,Perceptron,2026-09-25,1.5,1.5,16,0.0938,1,perceptron/perceptron-mk1.5,Perceptron: Perceptron Mk1.5
+273,14,290,meta/muse-spark-1.3-contributor,Muse Spark 1.3 Contributor,Meta,2026-09-02,1.3,1.3,26,0.05,1,meta/muse-spark-1.3-contributor,Meta: Muse Spark 1.3 Contributor
+273,146,278,meta/muse-spark-1.3,Muse Spark 1.3,Meta,2026-09-02,1.3,1.3,14,0.0929,1,meta/muse-spark-1.3,Meta: Muse Spark 1.3
+275,14,291,meta/muse-spark-1.2-contributor,Muse Spark 1.2 Contributor,Meta,2026-08-21,1.2,1.2,26,0.0462,1,meta/muse-spark-1.2-contributor,Meta: Muse Spark 1.2 Contributor
+275,146,281,meta/muse-spark-1.2,Muse Spark 1.2,Meta,2026-08-05,1.2,1.2,14,0.0857,1,meta/muse-spark-1.2,Meta: Muse Spark 1.2
+277,124,285,apodex/apodex-1.1-mini,Apodex 1.1 Mini,Apodex,2026-10-01,1.1,1.1,15,0.0733,1,apodex/apodex-1.1-mini:free,Apodex: Apodex 1.1 Mini (free)
+277,146,283,meta/muse-spark-1.1,Muse Spark 1.1,Meta,2026-07-16,1.1,1.1,14,0.0786,1,meta/muse-spark-1.1,Meta: Muse Spark 1.1
+279,101,288,aion-labs/aion-rp-llama-3.1-8b,Aion-RP 1.0 (8B),AionLabs,2025-02-04,1.0,1.0,16,0.0625,1,aion-labs/aion-rp-llama-3.1-8b,AionLabs: Aion-RP 1.0 (8B)
+279,101,288,amazon/nova-premier-v1,Nova Premier 1.0,Amazon,2025-10-31,1.0,1.0,16,0.0625,1,amazon/nova-premier-v1,Amazon: Nova Premier 1.0
+279,146,286,amazon/nova-micro-v1,Nova Micro 1.0,Amazon,2024-12-05,1.0,1.0,14,0.0714,2,amazon/nova-micro-v1,Amazon: Nova Micro 1.0
+279,146,286,perceptron/perceptron-mk1,Perceptron Mk1,Perceptron,2026-05-12,1,1.0,14,0.0714,1,perceptron/perceptron-mk1,Perceptron: Perceptron Mk1
+279,174,284,amazon/nova-lite-v1,Nova Lite 1.0,Amazon,2024-12-05,1.0,1.0,13,0.0769,2,amazon/nova-lite-v1,Amazon: Nova Lite 1.0
+279,210,282,amazon/nova-pro-v1,Nova Pro 1.0,Amazon,2024-12-05,1.0,1.0,12,0.0833,2,amazon/nova-pro-v1,Amazon: Nova Pro 1.0
+279,263,273,minimax/minimax-01,MiniMax-01,MiniMax,2025-01-15,01,1.0,10,0.1,1,minimax/minimax-01,MiniMax: MiniMax-01
+279,263,273,minimax/minimax-m1,MiniMax M1,MiniMax,2025-06-17,1,1.0,10,0.1,2,minimax/minimax-m1,MiniMax: MiniMax M1
+279,302,235,deepseek/deepseek-r1-0528,R1 0528,DeepSeek,2025-05-28,1,1.0,7,0.1429,4,deepseek/deepseek-r1-0528,DeepSeek: R1 0528
+279,302,235,fireworks/ember-1,Ember-1,Fireworks,2026-09-24,1,1.0,7,0.1429,1,fireworks/ember-1,Fireworks: Ember-1
+279,319,201,openai/o1-pro,o1-pro,OpenAI,2025-03-19,1,1.0,6,0.1667,1,openai/o1-pro,OpenAI: o1-pro
+279,330,33,deepseek/deepseek-r1,R1,DeepSeek,2025-01-20,1,1.0,2,0.5,1,deepseek/deepseek-r1,DeepSeek: R1
+279,330,33,openai/o1,o1,OpenAI,2024-12-17,1,1.0,2,0.5,1,openai/o1,OpenAI: o1
+292,146,292,x-ai/grok-build-0.1,Grok Build 0.1,SpaceXAI,2026-05-20,0.1,0.1,14,0.0071,4,x-ai/grok-build-0.1,SpaceXAI: Grok Build 0.1
+,26,,arcee-ai/trinity-large-thinking,Trinity Large Thinking,Arcee AI,2026-04-01,,,22,,1,arcee-ai/trinity-large-thinking,Arcee AI: Trinity Large Thinking
+,26,,mistralai/mixtral-8x22b-instruct,Mixtral 8x22B Instruct,Mistral,2024-04-17,,,22,,3,mistralai/mixtral-8x22b-instruct,Mistral: Mixtral 8x22B Instruct
+,26,,mistralai/voxtral-small-24b-2507,Voxtral Small 24B 2507,Mistral,2025-10-30,,,22,,3,mistralai/voxtral-small-24b-2507,Mistral: Voxtral Small 24B 2507
+,39,,cohere/command-r7b-12-2024,Command R7B (12-2024),Cohere,2024-12-14,,,21,,1,cohere/command-r7b-12-2024,Cohere: Command R7B (12-2024)
+,39,,openai/gpt-oss-safeguard-20b,gpt-oss-safeguard-20b,OpenAI,2025-10-29,,,21,,1,openai/gpt-oss-safeguard-20b,OpenAI: gpt-oss-safeguard-20b
+,39,,tencent/hunyuan-a13b-instruct,Hunyuan A13B Instruct,Tencent,2025-07-08,,,21,,1,tencent/hunyuan-a13b-instruct,Tencent: Hunyuan A13B Instruct
+,54,,cohere/command-r-plus-08-2024,Command R+ (08-2024),Cohere,2024-08-30,,,20,,1,cohere/command-r-plus-08-2024,Cohere: Command R+ (08-2024)
+,65,,cohere/command-r-08-2024,Command R (08-2024),Cohere,2024-08-30,,,19,,1,cohere/command-r-08-2024,Cohere: Command R (08-2024)
+,65,,perplexity/sonar-deep-research,Sonar Deep Research,Perplexity,2025-03-07,,,19,,1,perplexity/sonar-deep-research,Perplexity: Sonar Deep Research
+,65,,perplexity/sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2025-03-07,,,19,,1,perplexity/sonar-reasoning-pro,Perplexity: Sonar Reasoning Pro
+,77,,mistralai/mistral-large-2407,Mistral Large 2407,Mistral,2024-11-19,,,18,,3,mistralai/mistral-large-2407,Mistral Large 2407
+,101,,meta/muse-glimmer-30b,Muse Glimmer 30B,Meta,2026-08-09,,,16,,3,meta/muse-glimmer-30b,Meta: Muse Glimmer 30B
+,101,,perplexity/sonar-pro-search,Sonar Pro Search,Perplexity,2025-10-30,,,16,,1,perplexity/sonar-pro-search,Perplexity: Sonar Pro Search
+,124,,cohere/north-mini-code,North Mini Code,Cohere,2026-06-17,,,15,,1,cohere/north-mini-code:free,Cohere: North Mini Code (free)
+,124,,openai/gpt-chat-latest,GPT Chat Latest,OpenAI,2026-05-05,,,15,,1,openai/gpt-chat-latest,OpenAI: GPT Chat Latest
+,146,,mancer/weaver,Weaver (alpha),Mancer,2023-08-02,,,14,,1,mancer/weaver,Mancer: Weaver (alpha)
+,146,,mistralai/codestral-2508,Codestral 2508,Mistral,2025-08-01,,,14,,3,mistralai/codestral-2508 mistralai/codestral-2508:batch,Mistral: Codestral 2508
+,146,,thedrummer/unslopnemo-12b,UnslopNemo 12B,TheDrummer,2024-11-08,,,14,,1,thedrummer/unslopnemo-12b,TheDrummer: UnslopNemo 12B
+,146,,undi95/remm-slerp-l2-13b,ReMM SLERP 13B,undi95,2023-07-22,,,14,,2,undi95/remm-slerp-l2-13b,ReMM SLERP 13B
+,174,,mistralai/mistral-large,Mistral Large,Mistral,2024-02-26,,,13,,2,mistralai/mistral-large,Mistral Large
+,174,,relace/relace-search,Relace Search,Relace,2025-12-08,,,13,,1,relace/relace-search,Relace: Relace Search
+,174,,sakana/sakana-namazu,Sakana Namazu,Sakana,2026-08-11,,,13,,1,sakana/sakana-namazu,Sakana: Sakana Namazu
+,174,,thinkingmachines/inkling-small,Inkling Small,Thinking Machines,2026-07-30,,,13,,2,thinkingmachines/inkling-small thinkingmachines/inkling-small:free,Thinking Machines: Inkling Small
+,210,,gryphe/mythomax-l2-13b,MythoMax 13B,gryphe,2023-07-02,,,12,,3,gryphe/mythomax-l2-13b,MythoMax 13B
+,210,,mistralai/mistral-nemo,Mistral Nemo,Mistral,2024-07-19,,,12,,5,mistralai/mistral-nemo,Mistral: Mistral Nemo
+,210,,openai/gpt-oss-120b,gpt-oss-120b,OpenAI,2025-08-05,,,12,,25,openai/gpt-oss-120b openai/gpt-oss-120b:batch,OpenAI: gpt-oss-120b
+,234,,openai/gpt-oss-20b,gpt-oss-20b,OpenAI,2025-08-05,,,11,,12,openai/gpt-oss-20b openai/gpt-oss-20b:batch,OpenAI: gpt-oss-20b
+,263,,bytedance/ui-tars-1.5-7b,UI-TARS 7B,ByteDance,2025-07-22,,,10,,1,bytedance/ui-tars-1.5-7b,ByteDance: UI-TARS 7B 
+,263,,cognitivecomputations/dolphin-mistral-24b-venice-edition,Uncensored,Venice,2025-07-09,,,10,,1,cognitivecomputations/dolphin-mistral-24b-venice-edition,Venice: Uncensored
+,263,,cohere/command-a-plus,Command A+,Cohere,2026-09-22,,,10,,1,cohere/command-a-plus,Cohere: Command A+
+,263,,sakana/fugu-ultra,Fugu Ultra,Sakana,2026-06-24,,,10,,1,sakana/fugu-ultra,Sakana: Fugu Ultra
+,277,,cohere/command-a,Command A,Cohere,2025-03-13,,,9,,1,cohere/command-a,Cohere: Command A
+,277,,perplexity/sonar-pro,Sonar Pro,Perplexity,2025-03-07,,,9,,1,perplexity/sonar-pro,Perplexity: Sonar Pro
+,277,,qwen/qwen-plus,Qwen-Plus,Qwen,2025-02-01,,,9,,1,qwen/qwen-plus,Qwen: Qwen-Plus
+,277,,rekaai/reka-edge,Reka Edge,rekaai,2026-03-20,,,9,,1,rekaai/reka-edge,Reka Edge
+,291,,sakana/fugu-max,Fugu Max,Sakana,2026-09-11,,,8,,1,sakana/fugu-max,Sakana: Fugu Max
+,302,,thinkingmachines/inkling,Inkling,Thinking Machines,2026-07-17,,,7,,3,thinkingmachines/inkling thinkingmachines/inkling:free,Thinking Machines: Inkling
+,319,,unbiased/pareto,Pareto,unbiased,2026-09-17,,,6,,1,unbiased/pareto,Pareto
+,323,,perplexity/sonar,Sonar,Perplexity,2025-01-27,,,5,,1,perplexity/sonar,Perplexity: Sonar
+,328,,mistralai/mistral-saba,Saba,Mistral,2025-02-17,,,4,,3,mistralai/mistral-saba,Mistral: Saba

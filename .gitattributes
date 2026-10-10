@@ -1,0 +1,3 @@
+* text=auto eol=lf
+data/snapshots/*.json linguist-generated
+results/** linguist-generated

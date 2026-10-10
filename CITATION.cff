@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use BenchMaxx in your research, please cite it as below."
+title: "BenchMaxx: A Nomenclature-Centric Evaluation of Large Language Models"
+authors:
+  - name: "BenchMaxx Contributors"
+version: "1.0.0"
+date-released: "2026-10-11"
+license: MIT
+repository-code: "https://github.com/shuiyue-cmyk/benchmaxx"
+keywords:
+  - benchmark
+  - large language models
+  - nomenclature
+  - openrouter

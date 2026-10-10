@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "benchmaxx"
+version = "1.0.0"
+description = "A nomenclature-centric evaluation of large language models."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+benchmaxx = "benchmaxx.cli:main"
+
+[tool.setuptools]
+packages = ["benchmaxx"]
