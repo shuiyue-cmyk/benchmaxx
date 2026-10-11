@@ -1,0 +1,11 @@
+{
+  "name": "benchmaxx-video",
+  "private": true,
+  "description": "Renders the BenchMaxx introduction video (deterministic canvas frames -> ffmpeg).",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "24.10.0"
+  }
+}

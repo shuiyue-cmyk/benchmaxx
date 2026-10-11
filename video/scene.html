@@ -1,0 +1,522 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BenchMaxx Introduction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&family=Inter:wght@400;500;600&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #F4EFE6; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script>
+// Every frame is a pure function of time t (seconds): renderAt(t). No wall-clock animation.
+const W = 1920, H = 1080;
+const ctx = document.getElementById('c').getContext('2d');
+
+const C = {
+  paper: '#F4EFE6', paperDeep: '#ECE5D8', ink: '#1C1A17', ink2: '#5E5A52', ink3: '#9A948A',
+  rule: '#D9D1C3', accent: '#C2583A', accentSoft: 'rgba(194,88,58,0.14)', blue: '#3F5B73',
+};
+const F = {
+  serif: '"Instrument Serif", Georgia, serif',
+  mono: '"JetBrains Mono", Consolas, monospace',
+  sans: '"Inter", "Segoe UI", sans-serif',
+  zh: '"Noto Sans SC", "Microsoft YaHei", sans-serif',
+};
+
+// Injected by render.mjs from results/latest.json; defaults keep the page previewable.
+window.DATA = window.DATA || {
+  catalogue: 458, excluded: { alias: 18, 'platform router': 6, 'meta-router (variable pricing)': 2, 'non-text output': 14 },
+  afterExclusion: 418, evaluated: 332, callable: 332, snapshot: '2026-10-10', velocity: 0.451,
+  champions: [
+    { name: 'Pareto 26.10 Preview', vendor: 'unbiased', gi: 26.1, raw: '26.10' },
+    { name: 'GPT-6.1 Sol Pro', vendor: 'OpenAI', gi: 6.1, raw: '6.1' },
+    { name: 'Claude Haiku 5.5', vendor: 'Anthropic', gi: 5.5, raw: '5.5' },
+    { name: 'GLM 5.3 Prime', vendor: 'Z.ai', gi: 5.3, raw: '5.3' },
+    { name: 'Palmyra X5', vendor: 'Writer', gi: 5, raw: '5' },
+    { name: 'Step 5 Preview', vendor: 'StepFun', gi: 5, raw: '5' },
+    { name: 'Grok 4.7', vendor: 'SpaceXAI', gi: 4.7, raw: '4.7' },
+  ],
+};
+
+// ---------------------------------------------------------------- timeline
+const SCENES = [
+  { id: 'premise',    t0: 0,    t1: 6.5,  tag: '§0  PREMISE' },
+  { id: 'title',      t0: 6.5,  t1: 12,   tag: '§1  INTRODUCTION' },
+  { id: 'population', t0: 12,   t1: 21,   tag: '§2  POPULATION' },
+  { id: 'trackA',     t0: 21,   t1: 34,   tag: '§4  TRACK A' },
+  { id: 'trackB',     t0: 34,   t1: 42,   tag: '§5  TRACK B' },
+  { id: 'results',    t0: 42,   t1: 54,   tag: '§7  RESULTS' },
+  { id: 'findings',   t0: 54,   t1: 63,   tag: '§8  FINDINGS' },
+  { id: 'closing',    t0: 63,   t1: 71,   tag: '§9  CONCLUSION' },
+];
+const DURATION = 71;
+
+const SUBS = [
+  [0.4, 3.3,  '每个基准测试，都在衡量模型能做什么。', 'Every benchmark measures what a model can do.'],
+  [3.5, 6.3,  '我们只衡量它叫什么。', 'We measure what it is called.'],
+  [6.8, 11.8, 'BenchMaxx：以命名为中心的大语言模型评测基准', 'BenchMaxx: a nomenclature-centric evaluation of large language models'],
+  [12.3, 16.2, '数据来自 OpenRouter：458 个条目，排除别名、路由器与非文本模型。', 'Source: OpenRouter. 458 entries; aliases, routers and non-text models excluded.'],
+  [16.4, 20.8, '合并 :free / :batch 变体，并逐一验证可调用：332 个模型。', 'Variants merged, every endpoint verified: 332 callable models.'],
+  [21.5, 26.8, '赛道 A · 代际指数：取名称中的第一个代际数字。', 'Track A · Generation Index: the first generation number in the name.'],
+  [27.0, 30.5, '参数量、日期、构建号，一律跳过。', 'Parameter counts, dates and build stamps are skipped.'],
+  [30.7, 33.8, '按十进制解读：Grok 4.20 记为 4.2。', 'Read as a decimal: Grok 4.20 scores 4.2.'],
+  [34.3, 38.5, '赛道 B · 名称长度：每一个字符都算数。', 'Track B · Nomenclature Length: every character counts.'],
+  [38.7, 41.8, '空格、连字符、括号，一视同仁。', 'Spaces, hyphens and parentheses included.'],
+  [42.4, 46.0, '各厂商最佳模型，按代际指数排名。', 'Best model per vendor, ranked by Generation Index.'],
+  [46.2, 50.0, '冠军 Pareto 26.10 Preview：以年月为版本号，GI 是亚军的 4.3 倍。', 'Champion: Pareto 26.10 Preview. Calendar versioning, 4.3× the runner-up.'],
+  [50.2, 53.8, '赛道 B 冠军：Gemini 3.1 Pro Preview Custom Tools，35 个字符。', 'Track B champion: Gemini 3.1 Pro Preview Custom Tools, 35 characters.'],
+  [54.4, 57.1, '命名效率之王 o3：两个字符，三代。', 'Most efficient name: o3. Three generations, two characters.'],
+  [57.3, 59.9, '全行业版本号，每年膨胀 0.45 代。', 'Industry-wide, version numbers inflate 0.45 generations per year.'],
+  [60.1, 62.9, 'Meta 出现代际倒退：Llama 4 → Muse Spark 1.x。', 'Meta regressed: Llama 4 → Muse Spark 1.x.'],
+  [63.3, 65.8, '零推理，零污染，零 token。', 'Zero inference. Zero contamination. Zero tokens.'],
+  [66.2, 70.5, '只看名字。已在 GitHub 开源。', 'Names only. Open source on GitHub.'],
+];
+window.TIMELINE = { DURATION, SUBS };
+
+// ---------------------------------------------------------------- helpers
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const easeOut = x => 1 - Math.pow(1 - x, 3);
+const easeInOut = x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const easeBack = x => { const c1 = 1.4, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+const lerp = (a, b, x) => a + (b - a) * x;
+// Fade a scene in over its first `fi` seconds and out over its last `fo` seconds.
+const sceneAlpha = (t, s, fi = 0.45, fo = 0.45) => Math.min(prog(t, s.t0, s.t0 + fi), 1 - prog(t, s.t1 - fo, s.t1));
+
+function text(str, x, y, { font, size, color = C.ink, align = 'left', base = 'alphabetic', alpha = 1, weight = '', italic = false, spacing = 0 }) {
+  ctx.save();
+  ctx.globalAlpha *= alpha;
+  ctx.font = `${italic ? 'italic ' : ''}${weight} ${size}px ${font}`.trim();
+  ctx.fillStyle = color; ctx.textAlign = align; ctx.textBaseline = base;
+  if (spacing) ctx.letterSpacing = `${spacing}px`;
+  ctx.fillText(str, x, y);
+  ctx.restore();
+}
+function measure(str, font, size, weight = '', italic = false) {
+  ctx.save(); ctx.font = `${italic ? 'italic ' : ''}${weight} ${size}px ${font}`.trim();
+  const w = ctx.measureText(str).width; ctx.restore(); return w;
+}
+function line(x1, y1, x2, y2, color, width = 2, alpha = 1, dash = null) {
+  ctx.save(); ctx.globalAlpha *= alpha; ctx.strokeStyle = color; ctx.lineWidth = width; ctx.lineCap = 'round';
+  if (dash) ctx.setLineDash(dash);
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke(); ctx.restore();
+}
+function rect(x, y, w, h, color, alpha = 1, r = 0) {
+  ctx.save(); ctx.globalAlpha *= alpha; ctx.fillStyle = color;
+  ctx.beginPath(); ctx.roundRect(x, y, w, h, r); ctx.fill(); ctx.restore();
+}
+// A hand-drawn-ish ellipse that draws itself as p goes 0 -> 1.
+function circleDraw(cx, cy, rx, ry, p, color, width = 4) {
+  if (p <= 0) return;
+  ctx.save(); ctx.strokeStyle = color; ctx.lineWidth = width; ctx.lineCap = 'round';
+  ctx.beginPath();
+  const start = -Math.PI * 0.62, sweep = Math.PI * 2.12 * p;
+  for (let i = 0; i <= 80; i++) {
+    const a = start + sweep * i / 80;
+    const wobble = 1 + 0.035 * Math.sin(a * 3 + 1.3);
+    const x = cx + Math.cos(a) * rx * wobble, y = cy + Math.sin(a) * ry * wobble;
+    i ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+  }
+  ctx.stroke(); ctx.restore();
+}
+function typed(str, t, a, cps) { return str.slice(0, Math.floor(clamp((t - a) * cps, 0, str.length))); }
+function caret(x, y, h, t, color = C.accent) { if (Math.floor(t * 2.2) % 2 === 0) rect(x + 4, y - h * 0.82, 4, h, color); }
+function countTo(n, p, decimals = 0) { return (n * easeOut(p)).toFixed(decimals); }
+
+// ---------------------------------------------------------------- persistent chrome
+function background(t) {
+  ctx.fillStyle = C.paper; ctx.fillRect(0, 0, W, H);
+  // faint lab-notebook grid
+  ctx.save(); ctx.strokeStyle = C.rule; ctx.globalAlpha = 0.35; ctx.lineWidth = 1;
+  for (let x = 120; x < W; x += 120) { ctx.beginPath(); ctx.moveTo(x + 0.5, 0); ctx.lineTo(x + 0.5, H); ctx.stroke(); }
+  for (let y = 120; y < H; y += 120) { ctx.beginPath(); ctx.moveTo(0, y + 0.5); ctx.lineTo(W, y + 0.5); ctx.stroke(); }
+  ctx.restore();
+  // soft vignette
+  const g = ctx.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, H * 1.05);
+  g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(60,40,20,0.10)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+}
+
+function chrome(t) {
+  const s = SCENES.find(s => t >= s.t0 && t < s.t1) || SCENES[SCENES.length - 1];
+  const a = Math.min(prog(t, 0.2, 1.0), 1 - prog(t, DURATION - 1.2, DURATION - 0.4));
+  text(s.tag, 96, 84, { font: F.mono, size: 20, color: C.accent, weight: 500, spacing: 3, alpha: a * sceneAlpha(t, s, 0.3, 0.3) });
+  text('BENCHMAXX  ·  PROTOCOL v1.0', W - 96, 84, { font: F.mono, size: 20, color: C.ink3, align: 'right', spacing: 3, alpha: a });
+  line(96, 106, W - 96, 106, C.rule, 1.5, a);
+  // progress rule
+  line(96, H - 40, W - 96, H - 40, C.rule, 2, a);
+  line(96, H - 40, lerp(96, W - 96, t / DURATION), H - 40, C.accent, 2, a);
+  text(`${String(Math.floor(t)).padStart(2, '0')}s / ${DURATION}s`, W - 96, H - 54, { font: F.mono, size: 16, color: C.ink3, align: 'right', alpha: a });
+}
+
+function subtitles(t) {
+  const cue = SUBS.find(([a, b]) => t >= a && t <= b);
+  if (!cue) return;
+  const [a, b, zh, en] = cue;
+  const alpha = Math.min(prog(t, a, a + 0.25), 1 - prog(t, b - 0.25, b));
+  const y = H - 150;
+  const wz = measure(zh, F.zh, 40, 500), we = measure(en, F.serif, 34, '', true);
+  const bw = Math.max(wz, we) + 80;
+  rect(W / 2 - bw / 2, y - 52, bw, 122, 'rgba(28,26,23,0.86)', alpha, 10);
+  text(zh, W / 2, y, { font: F.zh, size: 40, color: '#F7F3EC', align: 'center', weight: 500, alpha });
+  text(en, W / 2, y + 48, { font: F.serif, size: 34, color: '#D8CFC0', align: 'center', italic: true, alpha });
+}
+
+// ---------------------------------------------------------------- scenes
+function premise(t, s) {
+  const A = sceneAlpha(t, s, 0.01, 0.5);
+  ctx.save(); ctx.globalAlpha = A;
+  const l1 = 'Every benchmark measures', l2a = 'what a model ', l2b = 'can do.';
+  const size = 104, y1 = 430, y2 = 560;
+  const t1 = typed(l1, t, 0.3, 22), t2 = typed(l2a + l2b, t, 1.55, 22);
+  const w1 = measure(l1, F.serif, size), w2 = measure(l2a + l2b, F.serif, size);
+  const x1 = W / 2 - w1 / 2, x2 = W / 2 - w2 / 2;
+  text(t1, x1, y1, { font: F.serif, size });
+  text(t2, x2, y2, { font: F.serif, size });
+  const typing2Done = t > 1.55 + (l2a + l2b).length / 22;
+  if (t < 1.55) caret(x1 + measure(t1, F.serif, size), y1, size * 0.9, t);
+  else if (!typing2Done || t < 3.4) caret(x2 + measure(t2, F.serif, size), y2, size * 0.9, t);
+  // strike "can do." and replace with "is called."
+  const sx = x2 + measure(l2a, F.serif, size), sw = measure(l2b, F.serif, size);
+  const ps = easeInOut(prog(t, 3.3, 3.85));
+  if (ps > 0) line(sx - 6, y2 - 34, sx - 6 + (sw + 12) * ps, y2 - 34, C.accent, 7);
+  const repl = typed('is called.', t, 4.0, 16);
+  if (repl) {
+    text(repl, sx, y2 + 128, { font: F.serif, size, color: C.accent, italic: true });
+    // little editor's mark connecting strike to replacement
+    line(sx + 18, y2 + 10, sx + 18, y2 + 44, C.accent, 3, prog(t, 3.95, 4.2));
+    caret(sx + measure(repl, F.serif, size, '', true), y2 + 128, size * 0.9, t);
+  }
+  ctx.restore();
+}
+
+function title(t, s) {
+  const A = sceneAlpha(t, s, 0.5, 0.55);
+  ctx.save(); ctx.globalAlpha = A;
+  const p = easeOut(prog(t, 6.6, 7.6));
+  text('BenchMaxx', W / 2, 520 + (1 - p) * 30, { font: F.serif, size: 250, align: 'center', alpha: p });
+  const lw = 760 * easeInOut(prog(t, 7.4, 8.3));
+  line(W / 2 - lw / 2, 580, W / 2 + lw / 2, 580, C.accent, 4);
+  text('A Nomenclature-Centric Evaluation of Large Language Models', W / 2, 650,
+       { font: F.serif, size: 50, align: 'center', italic: true, color: C.ink2, alpha: easeOut(prog(t, 8.0, 8.8)) });
+  const tags = ['protocol v1.0', '0 dependencies', '0 tokens spent', '332 models'];
+  const gap = 28, tw = tags.map(x => measure(x, F.mono, 22) + 44);
+  let x = W / 2 - (tw.reduce((a, b) => a + b) + gap * (tags.length - 1)) / 2;
+  tags.forEach((tag, i) => {
+    const q = easeBack(prog(t, 8.9 + i * 0.22, 9.4 + i * 0.22));
+    ctx.save(); ctx.globalAlpha *= clamp(q);
+    ctx.strokeStyle = i === 2 ? C.accent : C.ink3; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.roundRect(x, 712 + (1 - q) * 14, tw[i], 48, 24); ctx.stroke();
+    text(tag, x + tw[i] / 2, 744 + (1 - q) * 14, { font: F.mono, size: 22, align: 'center', color: i === 2 ? C.accent : C.ink2 });
+    ctx.restore();
+    x += tw[i] + gap;
+  });
+  ctx.restore();
+}
+
+function population(t, s) {
+  const A = sceneAlpha(t, s);
+  ctx.save(); ctx.globalAlpha = A;
+  const D = window.DATA;
+  text('Who gets evaluated', 160, 230, { font: F.serif, size: 64 });
+  text('openrouter.ai/api/v1/models', 160, 276, { font: F.mono, size: 22, color: C.ink3 });
+  const ex = D.excluded;
+  const rows = [
+    { at: 12.3, label: 'catalogue entries', val: `${D.catalogue}`, kind: 'base' },
+    { at: 13.9, label: 'aliases  (~vendor/…-latest)', val: `− ${ex['alias'] || 0}`, kind: 'minus' },
+    { at: 14.4, label: 'platform routers', val: `− ${ex['platform router'] || 0}`, kind: 'minus' },
+    { at: 14.9, label: 'meta-routers  (variable pricing)', val: `− ${ex['meta-router (variable pricing)'] || 0}`, kind: 'minus' },
+    { at: 15.4, label: 'non-text output', val: `− ${ex['non-text output'] || 0}`, kind: 'minus' },
+    { at: 16.6, label: 'collapse :free / :batch variants', val: `→ ${D.evaluated}`, kind: 'merge' },
+    { at: 18.0, label: 'live endpoint check', val: `${D.callable} / ${D.evaluated}  ✓`, kind: 'check' },
+  ];
+  rows.forEach((r, i) => {
+    const q = easeOut(prog(t, r.at, r.at + 0.45));
+    const y = 370 + i * 66;
+    const col = r.kind === 'minus' ? C.ink2 : r.kind === 'check' ? C.accent : C.ink;
+    text(r.label, 160 + (1 - q) * 20, y, { font: F.mono, size: 28, color: col, alpha: q });
+    text(r.val, 1000, y, { font: F.mono, size: 28, color: col, align: 'right', alpha: q, weight: r.kind === 'base' ? 700 : 500 });
+    if (i === 0 || i === 4 || i === 5) line(160, y + 24, 1000, y + 24, C.rule, 1.5, q);
+  });
+  // big running total
+  let n = D.catalogue * easeOut(prog(t, 12.3, 13.4));
+  const minus = D.catalogue - D.afterExclusion;
+  n -= minus * easeInOut(prog(t, 13.9, 15.8));
+  n -= (D.afterExclusion - D.evaluated) * easeInOut(prog(t, 16.6, 17.6));
+  const big = Math.round(n);
+  text(String(big), 1560, 610, { font: F.serif, size: 300, align: 'center', color: t > 17.6 ? C.accent : C.ink });
+  text(t > 17.6 ? 'models evaluated' : 'in the population', 1560, 680, { font: F.mono, size: 26, align: 'center', color: C.ink2 });
+  // endpoint check dots
+  const pc = prog(t, 18.0, 19.6);
+  if (pc > 0) {
+    const cols = 42, size = 8, gap = 4, total = D.evaluated;
+    const gx = 1560 - (cols * (size + gap)) / 2, gy = 730;
+    for (let i = 0; i < total; i++) {
+      const on = i < total * pc;
+      rect(gx + (i % cols) * (size + gap), gy + Math.floor(i / cols) * (size + gap), size, size, on ? C.accent : C.rule, on ? 0.9 : 0.6, 2);
+    }
+  }
+  ctx.restore();
+}
+
+// Draw a model name as monospace tokens with per-token decorations.
+function tokenRow(tokens, x, y, size, t, opts = {}) {
+  const cw = measure('M', F.mono, size);
+  let cx = x;
+  const out = [];
+  for (const tk of tokens) {
+    const w = cw * tk.s.length;
+    out.push({ ...tk, x: cx, w });
+    cx += w;
+  }
+  for (const tk of out) {
+    const struck = tk.strikeAt != null ? easeInOut(prog(t, tk.strikeAt, tk.strikeAt + 0.4)) : 0;
+    const color = tk.strikeAt != null && struck > 0 ? (struck > 0.5 ? C.ink3 : C.ink) : (tk.hiAt != null && t > tk.hiAt ? C.accent : C.ink);
+    text(tk.s, tk.x, y, { font: F.mono, size, color, weight: 500 });
+    if (tk.markAt != null) {
+      const m = easeOut(prog(t, tk.markAt, tk.markAt + 0.35));
+      if (m > 0 && !(tk.strikeAt != null && struck >= 1)) line(tk.x + 4, y + size * 0.28, tk.x + 4 + (tk.w - 8) * m, y + size * 0.28, C.blue, 3, 0.7);
+    }
+    if (struck > 0) {
+      line(tk.x - 4, y - size * 0.32, tk.x - 4 + (tk.w + 8) * struck, y - size * 0.32, C.accent, Math.max(3, size / 22));
+      if (tk.note) text(tk.note, tk.x + tk.w / 2, y + size * 0.62, { font: F.mono, size: Math.max(18, size * 0.2), color: C.accent, align: 'center', alpha: prog(t, tk.strikeAt + 0.2, tk.strikeAt + 0.5) });
+    }
+    if (tk.circleAt != null) {
+      circleDraw(tk.x + tk.w / 2, y - size * 0.34, tk.w / 2 + size * 0.07, size * 0.6, easeInOut(prog(t, tk.circleAt, tk.circleAt + 0.6)), C.accent, Math.max(3, size / 26));
+    }
+  }
+  return out;
+}
+
+function trackA(t, s) {
+  const A = sceneAlpha(t, s);
+  ctx.save(); ctx.globalAlpha = A;
+  text('Track A', 160, 230, { font: F.serif, size: 64 });
+  text('Generation Index (GI): the first generation number in the name', 400, 228, { font: F.serif, size: 38, italic: true, color: C.ink2 });
+
+  // Part 1: dissection of one name (21–27s), then it shrinks up.
+  const shrink = easeInOut(prog(t, 26.7, 27.4));
+  const size = 132;
+  const a1 = 1 - shrink;
+  if (a1 > 0) {
+    ctx.save(); ctx.globalAlpha *= a1 * easeOut(prog(t, 21.6, 22.2));
+    const toks = [
+      { s: 'Qwen' }, { s: '3.8', markAt: 22.8, circleAt: 25.5, hiAt: 25.5 }, { s: ' ' },
+      { s: '2.4T', markAt: 23.0, strikeAt: 24.0, note: 'parameters' }, { s: ' ' },
+      { s: 'A95B', markAt: 23.2, strikeAt: 24.5, note: 'active params' },
+    ];
+    const cw = measure('M', F.mono, size);
+    const total = toks.reduce((n, k) => n + k.s.length, 0) * cw;
+    tokenRow(toks, W / 2 - total / 2, 560, size, t);
+    const g = easeBack(prog(t, 26.0, 26.5));
+    text('GI = 3.8', W / 2, 800, { font: F.serif, size: 110, color: C.accent, align: 'center', alpha: clamp(g) });
+    ctx.restore();
+  }
+
+  // Part 2: rule table (27–34s)
+  const rows = [
+    { at: 27.3, toks: [{ s: 'Kimi K' }, { s: '2', circleAt: 27.9, hiAt: 27.9 }, { s: ' ' }, { s: '0905', strikeAt: 27.6, note: 'build stamp' }], gi: '2', rule: 'snapshot rule' },
+    { at: 28.4, toks: [{ s: 'GPT-' }, { s: '4', circleAt: 29.0, hiAt: 29.0 }, { s: 'o ' }, { s: '(2024-11-20)', strikeAt: 28.7, note: 'date' }], gi: '4', rule: 'parenthetical' },
+    { at: 29.5, toks: [{ s: 'WizardLM-' }, { s: '2', circleAt: 30.1, hiAt: 30.1 }, { s: ' ' }, { s: '8x22B', strikeAt: 29.8, note: 'MoE' }], gi: '2', rule: 'magnitude rule' },
+    { at: 30.8, toks: [{ s: 'Grok ' }, { s: '4.20', circleAt: 31.1, hiAt: 31.1 }], gi: '4.2', rule: 'decimal interpretation' },
+    { at: 32.0, toks: [{ s: 'gpt-oss-' }, { s: '120b', strikeAt: 32.3, note: 'parameters' }], gi: 'DNQ', rule: 'did not qualify' },
+  ];
+  rows.forEach((r, i) => {
+    const q = easeOut(prog(t, r.at, r.at + 0.4));
+    if (q <= 0) return;
+    const y = 360 + i * 116;
+    ctx.save(); ctx.globalAlpha *= q;
+    tokenRow(r.toks, 200 + (1 - q) * 24, y, 50, t);
+    const done = prog(t, r.at + 0.7, r.at + 1.0);
+    text('→', 1060, y, { font: F.mono, size: 44, color: C.ink3, alpha: done });
+    text(r.gi, 1250, y, { font: F.serif, size: 72, color: r.gi === 'DNQ' ? C.ink3 : C.accent, align: 'right', alpha: done });
+    text(r.rule, 1330, y - 6, { font: F.mono, size: 24, color: C.ink2, alpha: done });
+    ctx.restore();
+  });
+  ctx.restore();
+}
+
+function trackB(t, s) {
+  const A = sceneAlpha(t, s);
+  ctx.save(); ctx.globalAlpha = A;
+  text('Track B', 160, 230, { font: F.serif, size: 64 });
+  text('Nomenclature Length (NL): every character counts', 400, 228, { font: F.serif, size: 38, italic: true, color: C.ink2 });
+  const name = 'Gemini 3.1 Pro Preview Custom Tools';
+  const size = 66, cw = measure('M', F.mono, size);
+  const x0 = W / 2 - (name.length * cw) / 2, y = 520;
+  const n = Math.floor(clamp((t - 34.9) / 3.3) * name.length + (t >= 38.2 ? 1 : 0));
+  const count = Math.min(name.length, n);
+  for (let i = 0; i < name.length; i++) {
+    const x = x0 + i * cw;
+    const on = i < count;
+    if (on) rect(x + 2, y + 22, cw - 4, 6, name[i] === ' ' ? C.blue : C.accent, name[i] === ' ' ? 0.55 : 0.85, 2);
+    text(name[i], x, y, { font: F.mono, size, color: on ? C.ink : C.ink3, weight: 500, alpha: easeOut(prog(t, 34.5, 35.0)) });
+    if (on && name[i] === ' ') text('␣', x + cw / 2, y - 6, { font: F.mono, size: 30, color: C.blue, align: 'center', alpha: 0.55 });
+  }
+  text(`NL = ${count}`, W / 2, 680, { font: F.serif, size: 120, align: 'center', color: count === name.length ? C.accent : C.ink });
+  // contrast: the shortest names
+  const q = easeOut(prog(t, 39.0, 39.6));
+  if (q > 0) {
+    const items = [['o3', 2], ['R1', 2], ['Hy3', 3]];
+    items.forEach(([nm, v], i) => {
+      const x = W / 2 - 360 + i * 360;
+      const qi = easeOut(prog(t, 39.0 + i * 0.3, 39.6 + i * 0.3));
+      text(nm, x, 800, { font: F.mono, size: 46, align: 'center', alpha: qi, weight: 500 });
+      text(`NL = ${v}`, x, 840, { font: F.mono, size: 24, align: 'center', color: C.ink2, alpha: qi });
+    });
+    text('the other end of the scale', W / 2, 750, { font: F.serif, size: 32, italic: true, align: 'center', color: C.ink3, alpha: q });
+  }
+  ctx.restore();
+}
+
+function results(t, s) {
+  const A = sceneAlpha(t, s);
+  ctx.save(); ctx.globalAlpha = A;
+  text('Results', 160, 230, { font: F.serif, size: 64 });
+  text(`Track A, best model per vendor  ·  snapshot ${window.DATA.snapshot}`, 400, 228, { font: F.serif, size: 38, italic: true, color: C.ink2 });
+  const champs = window.DATA.champions.slice(0, 7);
+  const x0 = 700, maxW = 900, scale = 7.2, rowH = 64, y0 = 320;
+  // axis
+  for (let v = 0; v <= 7; v++) {
+    const x = x0 + (v / scale) * maxW;
+    line(x, y0 - 30, x, y0 + rowH * champs.length - 20, C.rule, 1, 0.8);
+    text(String(v), x, y0 + rowH * champs.length + 10, { font: F.mono, size: 20, color: C.ink3, align: 'center', alpha: 1 - prog(t, 50.0, 50.4) });
+  }
+  champs.forEach((c, i) => {
+    const y = y0 + i * rowH;
+    const isTop = i === 0;
+    const start = isTop ? 46.0 : 42.6 + (champs.length - 1 - i) * 0.32;
+    const p = easeOut(prog(t, start, start + (isTop ? 1.6 : 0.8)));
+    const la = easeOut(prog(t, Math.min(start, 42.6 + i * 0.12), Math.min(start, 42.6 + i * 0.12) + 0.4));
+    text(c.name, x0 - 26, y + 4, { font: F.sans, size: 28, align: 'right', weight: 500, alpha: la });
+    text(c.vendor, x0 - 26, y + 26, { font: F.sans, size: 17, align: 'right', color: C.ink3, alpha: la });
+    const val = c.gi * p;
+    let bw = (val / scale) * maxW;
+    const overflow = isTop && val > scale * 0.95;
+    const limit = W - x0 - 60;
+    if (overflow) bw = Math.min(bw, limit + 200);
+    rect(x0, y - 16, Math.max(0, Math.min(bw, limit)), 32, isTop ? C.accent : C.blue, isTop ? 1 : 0.8, 4);
+    if (overflow && p > 0.7) {
+      // axis break: the bar runs off the scale
+      const bx = x0 + maxW * 0.86;
+      ctx.save(); ctx.strokeStyle = C.paper; ctx.lineWidth = 7;
+      [0, 18].forEach(d => { ctx.beginPath(); ctx.moveTo(bx + d - 8, y + 22); ctx.lineTo(bx + d + 8, y - 22); ctx.stroke(); });
+      ctx.restore();
+    }
+    const label = isTop ? (p < 1 ? val.toFixed(2) : c.raw) : c.raw;
+    if (p > 0) {
+      const lx = isTop ? Math.min(x0 + bw, limit + x0) - 14 : x0 + bw + 16;
+      text(label, lx, y + 10, { font: F.mono, size: 27, weight: 700, color: isTop ? '#FFFFFF' : C.ink, align: isTop ? 'right' : 'left', alpha: clamp(p * 3) });
+    }
+  });
+  const nq = easeBack(prog(t, 47.8, 48.3));
+  if (nq > 0) {
+    ctx.save(); ctx.globalAlpha *= clamp(nq);
+    text('calendar versioning (YY.MM)  ·  4.3× the runner-up  ·  not to scale', x0 + 10, y0 - 46, { font: F.mono, size: 22, color: C.accent });
+    ctx.restore();
+  }
+  // Track B card
+  const bq = easeOut(prog(t, 50.2, 50.8));
+  if (bq > 0) {
+    ctx.save(); ctx.globalAlpha *= bq;
+    const cy = 832 - (1 - bq) * 20;
+    rect(160, cy - 42, 1600, 72, C.paperDeep, 1, 10);
+    rect(160, cy - 42, 8, 72, C.accent, 1, 2);
+    text('TRACK B CHAMPION', 200, cy - 2, { font: F.mono, size: 20, color: C.accent, spacing: 3 });
+    text('Gemini 3.1 Pro Preview Custom Tools', 520, cy + 6, { font: F.sans, size: 34, weight: 600 });
+    text('NL = 35', 1720, cy + 8, { font: F.serif, size: 46, align: 'right', color: C.accent });
+    ctx.restore();
+  }
+  ctx.restore();
+}
+
+function findings(t, s) {
+  const A = sceneAlpha(t, s);
+  ctx.save(); ctx.globalAlpha = A;
+  text('Findings', 160, 230, { font: F.serif, size: 64 });
+  const cards = [
+    { at: 54.5, big: 'o3', unit: 'NE = 1.50', line1: 'Nomenclatural Efficiency', line2: 'three generations, two characters' },
+    { at: 57.3, big: `+${(window.DATA.velocity).toFixed(2)}`, unit: 'generations / year', line1: 'Industry Generational Velocity', line2: 'OLS fit of GI against listing date' },
+    { at: 60.1, big: '−1.13', unit: 'generations / year', line1: 'Meta: generational regression', line2: 'Llama 4  →  Muse Spark 1.x' },
+  ];
+  const cw = 500, gap = 50, x0 = W / 2 - (cw * 3 + gap * 2) / 2;
+  cards.forEach((c, i) => {
+    const q = easeOut(prog(t, c.at, c.at + 0.6));
+    if (q <= 0) return;
+    const x = x0 + i * (cw + gap), y = 330 + (1 - q) * 30;
+    ctx.save(); ctx.globalAlpha *= q;
+    rect(x, y, cw, 470, C.paperDeep, 1, 14);
+    line(x + 40, y + 70, x + cw - 40, y + 70, C.rule, 1.5);
+    text(`FINDING ${i + 1}`, x + 40, y + 50, { font: F.mono, size: 20, color: C.accent, spacing: 3 });
+    text(c.big, x + cw / 2, y + 250, { font: F.serif, size: 150, align: 'center', color: i === 2 ? C.blue : C.accent });
+    text(c.unit, x + cw / 2, y + 300, { font: F.mono, size: 24, align: 'center', color: C.ink2 });
+    text(c.line1, x + cw / 2, y + 380, { font: F.sans, size: 26, align: 'center', weight: 600 });
+    text(c.line2, x + cw / 2, y + 420, { font: F.serif, size: 28, align: 'center', italic: true, color: C.ink2 });
+    ctx.restore();
+  });
+  ctx.restore();
+}
+
+function closing(t, s) {
+  const A = sceneAlpha(t, s, 0.45, 0.9);
+  ctx.save(); ctx.globalAlpha = A;
+  const lines = ['Zero inference.', 'Zero contamination.', 'Zero tokens.'];
+  const out = 1 - easeInOut(prog(t, 65.7, 66.3));
+  lines.forEach((l, i) => {
+    const q = easeOut(prog(t, 63.3 + i * 0.7, 63.8 + i * 0.7));
+    text(l, W / 2, 420 + i * 110, { font: F.mono, size: 76, align: 'center', weight: 500, color: i === 2 ? C.accent : C.ink, alpha: q * out });
+  });
+  const q = easeOut(prog(t, 66.3, 67.2));
+  if (q > 0) {
+    ctx.save(); ctx.globalAlpha *= q;
+    text('Measuring what models are called,', W / 2, 400, { font: F.serif, size: 92, align: 'center' });
+    text('not what they can do.', W / 2, 510, { font: F.serif, size: 92, align: 'center', italic: true, color: C.accent });
+    const lw = 520 * easeInOut(prog(t, 67.0, 67.8));
+    line(W / 2 - lw / 2, 580, W / 2 + lw / 2, 580, C.rule, 2);
+    text('github.com/shuiyue-cmyk/benchmaxx', W / 2, 660, { font: F.mono, size: 40, align: 'center', weight: 500, alpha: easeOut(prog(t, 67.4, 68.0)) });
+    text('Recreational benchmark. Says nothing about model quality.', W / 2, 720, { font: F.serif, size: 30, italic: true, align: 'center', color: C.ink3, alpha: easeOut(prog(t, 67.8, 68.4)) });
+    ctx.restore();
+  }
+  ctx.restore();
+}
+
+const DRAW = { premise, title, population, trackA, trackB, results, findings, closing };
+
+window.renderAt = function (t) {
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.globalAlpha = 1;
+  background(t);
+  for (const s of SCENES) if (t >= s.t0 - 0.001 && t < s.t1 + 0.001) DRAW[s.id](t, s);
+  chrome(t);
+  subtitles(t);
+};
+
+window.ready = (async () => {
+  await document.fonts.ready;
+  await Promise.all([
+    document.fonts.load('104px "Instrument Serif"'), document.fonts.load('italic 104px "Instrument Serif"'),
+    document.fonts.load('500 40px "JetBrains Mono"'), document.fonts.load('700 40px "JetBrains Mono"'),
+    document.fonts.load('400 40px "JetBrains Mono"'),
+    document.fonts.load('500 40px "Noto Sans SC"', SUBS.map(s => s[2]).join('')),
+    document.fonts.load('500 30px "Inter"'), document.fonts.load('600 30px "Inter"'),
+  ]);
+  return true;
+})();
+
+// Preview mode: open scene.html directly to watch it play in real time.
+if (!window.__RENDERING__) {
+  window.ready.then(() => {
+    const t0 = performance.now();
+    const loop = () => { renderAt(((performance.now() - t0) / 1000) % DURATION); requestAnimationFrame(loop); };
+    loop();
+  });
+}
+</script>
+</body>
+</html>
