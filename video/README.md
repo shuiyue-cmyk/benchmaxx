@@ -13,3 +13,12 @@ node render.mjs --stills 25.8,48   # preview individual frames
 Requirements: Node 18+, ffmpeg on `PATH`, Python 3 with numpy (for the soundtrack), and Edge or Chrome (set `BROWSER_PATH` if they are not auto-detected).
 
 To preview the animation in real time, open `scene.html` directly in a browser.
+
+## Cover
+
+[`cover.html`](cover.html) is laid out on a 16:9 canvas. All essential content sits inside the centered 4:3 safe area (x 240–1680), so a single render produces both ratios:
+
+```bash
+node cover.mjs            # -> out/cover_16x9.png (3840x2160), out/cover_4x3.png (2880x2160)
+node cover.mjs --guides   # also writes out/cover_guides.png with the safe area outlined
+```

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>BenchMaxx Cover</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+SC:wght@700;900&display=block" rel="stylesheet">
+<style>
+  /*
+    1920x1080 canvas (16:9). Everything essential lives inside the centred 4:3 safe area
+    (x 240..1680, 1440x1080), so cropping the sides yields a complete 4:3 cover.
+    The side margins carry decoration only.
+  */
+  :root {
+    --paper: #F4EFE6; --paper-deep: #ECE5D8; --ink: #1C1A17; --ink2: #5E5A52; --ink3: #9A948A;
+    --rule: #D9D1C3; --accent: #C2583A; --blue: #3F5B73;
+    --serif: "Instrument Serif", Georgia, serif;
+    --mono: "JetBrains Mono", Consolas, monospace;
+    --zh: "Noto Serif SC", "Songti SC", serif;
+  }
+  html, body { margin: 0; padding: 0; }
+  body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); position: relative; color: var(--ink); }
+  .grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(to right, rgba(217,209,195,.38) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(217,209,195,.38) 1px, transparent 1px);
+    background-size: 120px 120px; background-position: 0 0;
+  }
+  .vignette { position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 45%, rgba(60,40,20,.11) 100%); }
+
+  /* ---- side decoration (cropped away in 4:3) ---- */
+  /* giant numerals set vertically inside each 240px side margin */
+  .ghost {
+    position: absolute; top: 50%; font-family: var(--serif); font-size: 230px; line-height: 1;
+    color: rgba(194,88,58,.09); white-space: nowrap;
+  }
+  .ghost.l { left: 132px; transform: translate(-50%, -50%) rotate(-90deg); }
+  .ghost.r { left: 1788px; transform: translate(-50%, -50%) rotate(90deg); color: rgba(63,91,115,.09); }
+  .margin-note {
+    position: absolute; font-family: var(--mono); font-size: 15px; letter-spacing: 3px; color: var(--ink3);
+    writing-mode: vertical-rl; top: 50%; transform: translateY(-50%);
+  }
+  .margin-note.l { left: 26px; transform: translateY(-50%) rotate(180deg); }
+  .margin-note.r { right: 26px; }
+
+  /* ---- safe area ---- */
+  .safe { position: absolute; left: 240px; top: 0; width: 1440px; height: 1080px; }
+  .safe-guide { position: absolute; inset: 0; outline: 2px dashed rgba(194,88,58,.5); display: none; }
+  body.guides .safe-guide { display: block; }
+
+  .masthead {
+    position: absolute; left: 90px; right: 90px; top: 72px; display: flex; justify-content: space-between;
+    font-family: var(--mono); font-size: 19px; letter-spacing: 4px; color: var(--ink3);
+    padding-bottom: 18px; border-bottom: 1.5px solid var(--rule);
+  }
+  .masthead .tag { color: var(--accent); font-weight: 500; }
+
+  .wordmark {
+    position: absolute; left: 0; right: 0; top: 168px; text-align: center;
+    font-family: var(--serif); font-size: 46px; color: var(--ink2);
+  }
+  .wordmark b { font-weight: 400; color: var(--ink); }
+
+  .title {
+    position: absolute; left: 0; right: 0; top: 248px; text-align: center;
+    font-family: var(--zh); font-weight: 900; font-size: 150px; line-height: 1.12; letter-spacing: 4px;
+  }
+  .title .useless { color: var(--accent); position: relative; display: inline-block; }
+  /* a hand-drawn editor's mark under 无用 */
+  .title .useless::after {
+    content: ""; position: absolute; left: -6px; right: -6px; bottom: 6px; height: 16px;
+    border-bottom: 6px solid var(--accent); border-radius: 0 0 50% 50% / 0 0 100% 100%; opacity: .55;
+  }
+  .rule { position: absolute; left: 50%; top: 620px; width: 520px; height: 0; border-top: 3px solid var(--accent); transform: translateX(-50%); }
+  .en {
+    position: absolute; left: 0; right: 0; top: 648px; text-align: center;
+    font-family: var(--serif); font-style: italic; font-size: 54px; color: var(--ink2);
+  }
+
+  .dissect {
+    position: absolute; left: 0; right: 0; top: 790px; display: flex; justify-content: center; align-items: baseline; gap: 26px;
+    font-family: var(--mono); font-weight: 500; font-size: 50px;
+  }
+  .dissect .circled { color: var(--accent); position: relative; margin-left: 12px; }
+  .dissect .circled::before {
+    content: ""; position: absolute; left: -10px; right: -10px; top: -6px; bottom: -8px;
+    border: 4px solid var(--accent); border-radius: 50%; transform: rotate(-4deg);
+  }
+  .dissect s { color: var(--ink3); text-decoration-color: var(--accent); text-decoration-thickness: 5px; }
+  .dissect .arrow { color: var(--ink3); font-size: 40px; }
+  .dissect .gi { font-family: var(--serif); font-weight: 400; font-size: 66px; color: var(--accent); }
+
+  .chips {
+    position: absolute; left: 0; right: 0; top: 900px; display: flex; justify-content: center; gap: 18px;
+    font-family: var(--mono); font-size: 21px;
+  }
+  .chips span { padding: 9px 22px; border: 1.5px solid var(--ink3); border-radius: 999px; color: var(--ink2); }
+  .chips span.hot { border-color: var(--accent); color: var(--accent); }
+
+  .footer {
+    position: absolute; left: 90px; right: 90px; bottom: 44px; display: flex; justify-content: space-between;
+    font-family: var(--mono); font-size: 18px; color: var(--ink3); letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="vignette"></div>
+
+  <!-- decoration outside the 4:3 safe area -->
+  <div class="ghost l">26.10</div>
+  <div class="ghost r">4.20</div>
+  <div class="margin-note l">FIG. 0 · COVER</div>
+  <div class="margin-note r">NL = 35 · GI = 26.1</div>
+
+  <div class="safe">
+    <div class="safe-guide"></div>
+    <div class="masthead"><span class="tag">§0&nbsp;&nbsp;BENCHMAXX</span><span>PROTOCOL v1.0 · 2026</span></div>
+    <div class="wordmark"><b>BenchMaxx</b> · A Nomenclature-Centric Evaluation of LLMs</div>
+    <div class="title">全球最严谨的<br><span class="useless">无用</span> AI 评测</div>
+    <div class="rule"></div>
+    <div class="en">The World’s Most Rigorous Useless LLM Benchmark</div>
+    <div class="dissect">
+      <span>Qwen<span class="circled">3.8</span></span><s>2.4T</s><s>A95B</s>
+      <span class="arrow">→</span><span class="gi">GI = 3.8</span>
+    </div>
+    <div class="chips">
+      <span>332 models</span><span>0 inference</span><span class="hot">0 tokens</span><span>0 contamination</span>
+    </div>
+    <div class="footer"><span>github.com/shuiyue-cmyk/benchmaxx</span><span>Says nothing about model quality.</span></div>
+  </div>
+</body>
+</html>
