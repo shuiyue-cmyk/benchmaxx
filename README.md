@@ -108,6 +108,20 @@ Complete rankings of all models: [`results/LEADERBOARD.md`](results/LEADERBOARD.
 7. **Conscientious objectors.** 40 of 332 models (12%) carry no generation number. Cohere and
    Perplexity have 0% GI coverage.
 
+## Update: 2026-10-17
+
+1. **The decimal trap, reversed.** *Pareto 26.10 Preview* was delisted and replaced by
+   *Pareto 26.9*. Under the Decimal Interpretation Principle, going from 26.10 to 26.9 is an
+   *upgrade*: GI rises from 26.1 to 26.9 and the vendor keeps Track A. The new lead is
+   **4.4×** the runner-up (*GPT-6.1 Sol*, GI 6.1).
+2. **Brevity pays twice.** Dropping "Preview" cut the name from 20 to 11 characters. With it,
+   *Pareto 26.9* takes the Nomenclatural Efficiency crown from *o3* (NE **2.45** vs. 1.50).
+3. **Google reaches generation 4.** *Gemini 4 Argon* is Google's first model with a GI of 4.
+4. **Meta stops numbering.** *Muse Spark Open* and *Muse Wonder* arrived with no generation
+   number. Meta's GI coverage fell to 81%, and its velocity stays at −1.13 generations/year.
+5. **Population:** 340 callable models (+14 new, −6 delisted, including *Claude Sonnet 4*).
+   All 14 new names parsed under protocol v1.0 without any rule changes.
+
 ## Methodology at a Glance
 
 ```
