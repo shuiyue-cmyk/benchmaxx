@@ -24,50 +24,50 @@
 </style>
 <rect class="bg" width="1200" height="675"/>
 <text class="title" x="48" y="56">BenchMaxx · Vendor Champions</text>
-<text class="subtitle" x="48" y="82">Best model per vendor among 332 callable OpenRouter text models · snapshot 2026-10-10 · protocol v1.0</text>
+<text class="subtitle" x="48" y="82">Best model per vendor among 340 callable OpenRouter text models · snapshot 2026-10-17 · protocol v1.0</text>
 <line class="rule" x1="48" x2="1152" y1="102" y2="102"/>
 <text class="panel" x="48" y="134">Track A · Generation Index (GI) ↑</text>
 <text class="panel-note" x="48" y="152">The generation number in the name</text>
-<text class="name" x="286" y="186.0" text-anchor="end">Pareto 26.10 Preview</text>
+<text class="name" x="286" y="186.0" text-anchor="end">Pareto 26.9</text>
 <text class="vendor" x="286" y="201.0" text-anchor="end">unbiased</text>
 <rect class="bar-a" x="298" y="178.0" width="218.0" height="20" rx="3" fill-opacity="1"/>
-<text class="value" x="524.0" y="192.5">26.10</text>
+<text class="value" x="524.0" y="192.5">26.9</text>
 <text class="name" x="286" y="230.0" text-anchor="end">GPT-6.1 Sol Pro</text>
 <text class="vendor" x="286" y="245.0" text-anchor="end">OpenAI</text>
-<rect class="bar-a" x="298" y="222.0" width="51.0" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="357.0" y="236.5">6.1</text>
+<rect class="bar-a" x="298" y="222.0" width="49.4" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="355.4" y="236.5">6.1</text>
 <text class="name" x="286" y="274.0" text-anchor="end">Claude Haiku 5.5</text>
 <text class="vendor" x="286" y="289.0" text-anchor="end">Anthropic</text>
-<rect class="bar-a" x="298" y="266.0" width="45.9" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="351.9" y="280.5">5.5</text>
+<rect class="bar-a" x="298" y="266.0" width="44.6" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="350.6" y="280.5">5.5</text>
 <text class="name" x="286" y="318.0" text-anchor="end">GLM 5.3 Prime</text>
 <text class="vendor" x="286" y="333.0" text-anchor="end">Z.ai</text>
-<rect class="bar-a" x="298" y="310.0" width="44.3" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="350.3" y="324.5">5.3</text>
+<rect class="bar-a" x="298" y="310.0" width="43.0" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="349.0" y="324.5">5.3</text>
 <text class="name" x="286" y="362.0" text-anchor="end">Palmyra X5</text>
 <text class="vendor" x="286" y="377.0" text-anchor="end">Writer</text>
-<rect class="bar-a" x="298" y="354.0" width="41.8" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="347.8" y="368.5">5</text>
+<rect class="bar-a" x="298" y="354.0" width="40.5" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="346.5" y="368.5">5</text>
 <text class="name" x="286" y="406.0" text-anchor="end">Step 5 Preview</text>
 <text class="vendor" x="286" y="421.0" text-anchor="end">StepFun</text>
-<rect class="bar-a" x="298" y="398.0" width="41.8" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="347.8" y="412.5">5</text>
+<rect class="bar-a" x="298" y="398.0" width="40.5" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="346.5" y="412.5">5</text>
 <text class="name" x="286" y="450.0" text-anchor="end">Grok 4.7</text>
 <text class="vendor" x="286" y="465.0" text-anchor="end">SpaceXAI</text>
-<rect class="bar-a" x="298" y="442.0" width="39.3" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="345.3" y="456.5">4.7</text>
+<rect class="bar-a" x="298" y="442.0" width="38.1" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="344.1" y="456.5">4.7</text>
 <text class="name" x="286" y="494.0" text-anchor="end">Granite 4.2 8B</text>
 <text class="vendor" x="286" y="509.0" text-anchor="end">IBM</text>
-<rect class="bar-a" x="298" y="486.0" width="35.1" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="341.1" y="500.5">4.2</text>
+<rect class="bar-a" x="298" y="486.0" width="34.0" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="340.0" y="500.5">4.2</text>
 <text class="name" x="286" y="538.0" text-anchor="end">Cydonia 24B V4.1</text>
 <text class="vendor" x="286" y="553.0" text-anchor="end">TheDrummer</text>
-<rect class="bar-a" x="298" y="530.0" width="34.2" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="340.2" y="544.5">4.1</text>
-<text class="name" x="286" y="582.0" text-anchor="end">DeepSeek V4.1 Flash</text>
+<rect class="bar-a" x="298" y="530.0" width="33.2" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="339.2" y="544.5">4.1</text>
+<text class="name" x="286" y="582.0" text-anchor="end">DeepSeek V4.1 Flash 1017</text>
 <text class="vendor" x="286" y="597.0" text-anchor="end">DeepSeek</text>
-<rect class="bar-a" x="298" y="574.0" width="34.2" height="20" rx="3" fill-opacity="0.72"/>
-<text class="value" x="340.2" y="588.5">4.1</text>
+<rect class="bar-a" x="298" y="574.0" width="33.2" height="20" rx="3" fill-opacity="0.72"/>
+<text class="value" x="339.2" y="588.5">4.1</text>
 <text class="panel" x="628.0" y="134">Track B · Nomenclature Length (NL) ↑</text>
 <text class="panel-note" x="628.0" y="152">Characters in the name</text>
 <text class="name" x="866.0" y="186.0" text-anchor="end">Gemini 3.1 Pro Preview Custom Tools</text>

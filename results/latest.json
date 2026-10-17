@@ -2,30 +2,30 @@
   "meta": {
     "benchmaxx_version": "1.0.0",
     "protocol_version": "1.0",
-    "snapshot_date": "2026-10-10",
-    "retrieved_at": "2026-10-10T16:28:34+00:00",
+    "snapshot_date": "2026-10-17",
+    "retrieved_at": "2026-10-17T16:25:23+00:00",
     "callability_verified": true
   },
   "census": {
-    "catalogue_size": 458,
+    "catalogue_size": 470,
     "excluded": {
-      "alias": 18,
+      "alias": 19,
       "meta-router (variable pricing)": 2,
       "non-text output": 14,
       "platform router": 6
     },
-    "eligible_models": 332,
+    "eligible_models": 340,
     "uncallable": [],
-    "evaluated_models": 332,
-    "gi_qualified": 292,
-    "dnq": 40
+    "evaluated_models": 340,
+    "gi_qualified": 296,
+    "dnq": 44
   },
   "statistics": {
-    "gi_mean": 3.537,
-    "gi_median": 3.4,
-    "nl_mean": 14.54,
+    "gi_mean": 3.54,
+    "gi_median": 3.5,
+    "nl_mean": 14.51,
     "nl_median": 14.0,
-    "velocity": 0.451
+    "velocity": 0.452
   },
   "vendors": [
     {
@@ -45,12 +45,12 @@
       "vendor_slugs": [
         "anthropic"
       ],
-      "models": 16,
+      "models": 15,
       "gi_coverage": 1.0,
       "gi_max": 5.5,
-      "gi_median": 4.75,
-      "nl_mean": 15.38,
-      "velocity": 0.995
+      "gi_median": 4.8,
+      "nl_mean": 15.4,
+      "velocity": 1.009
     },
     {
       "vendor": "Z.ai",
@@ -93,12 +93,12 @@
       "vendor_slugs": [
         "deepseek"
       ],
-      "models": 14,
+      "models": 15,
       "gi_coverage": 1.0,
       "gi_max": 4.1,
       "gi_median": 3.2,
-      "nl_mean": 16.57,
-      "velocity": 1.317
+      "nl_mean": 17.07,
+      "velocity": 1.281
     },
     {
       "vendor": "TheDrummer",
@@ -117,12 +117,12 @@
       "vendor_slugs": [
         "google"
       ],
-      "models": 20,
+      "models": 21,
       "gi_coverage": 1.0,
       "gi_max": 4.0,
       "gi_median": 3.1,
-      "nl_mean": 18.1,
-      "velocity": 0.738
+      "nl_mean": 17.9,
+      "velocity": 0.763
     },
     {
       "vendor": "Mistral",
@@ -142,11 +142,11 @@
         "meta",
         "meta-llama"
       ],
-      "models": 14,
-      "gi_coverage": 0.929,
+      "models": 16,
+      "gi_coverage": 0.812,
       "gi_max": 4.0,
       "gi_median": 3.1,
-      "nl_mean": 18.79,
+      "nl_mean": 18.06,
       "velocity": -1.131
     },
     {
@@ -202,12 +202,12 @@
       "vendor_slugs": [
         "nvidia"
       ],
-      "models": 6,
+      "models": 7,
       "gi_coverage": 1.0,
       "gi_max": 3.5,
       "gi_median": 3.0,
-      "nl_mean": 20.67,
-      "velocity": 0.763
+      "nl_mean": 20.71,
+      "velocity": 0.742
     },
     {
       "vendor": "AionLabs",
@@ -238,11 +238,11 @@
       "vendor_slugs": [
         "inclusionai"
       ],
-      "models": 5,
+      "models": 3,
       "gi_coverage": 1.0,
       "gi_max": 3.1,
       "gi_median": 3.0,
-      "nl_mean": 16.6,
+      "nl_mean": 15,
       "velocity": 0.428
     },
     {
@@ -344,23 +344,23 @@
   ],
   "models": [
     {
-      "model_id": "unbiased/pareto-26.10-preview",
-      "display_name": "Pareto 26.10 Preview",
-      "canonical_name": "Pareto 26.10 Preview",
+      "model_id": "unbiased/pareto-26.9",
+      "display_name": "Pareto 26.9",
+      "canonical_name": "Pareto 26.9",
       "vendor": "unbiased",
       "vendor_slug": "unbiased",
-      "released": "2026-10-01",
+      "released": "2026-10-13",
       "slugs": [
-        "unbiased/pareto-26.10-preview"
+        "unbiased/pareto-26.9"
       ],
       "endpoints": 1,
-      "gi_raw": "26.10",
-      "gi": 26.1,
-      "nl": 20,
-      "ne": 1.305,
+      "gi_raw": "26.9",
+      "gi": 26.9,
+      "nl": 11,
+      "ne": 2.4455,
       "rank_gi": 1,
-      "rank_nl": 54,
-      "rank_ne": 2
+      "rank_nl": 238,
+      "rank_ne": 1
     },
     {
       "model_id": "openai/gpt-6.1-sol-pro",
@@ -379,7 +379,7 @@
       "nl": 15,
       "ne": 0.4067,
       "rank_gi": 2,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 59
     },
     {
@@ -399,7 +399,7 @@
       "nl": 11,
       "ne": 0.5545,
       "rank_gi": 2,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": 29
     },
     {
@@ -419,7 +419,7 @@
       "nl": 15,
       "ne": 0.4,
       "rank_gi": 4,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 60
     },
     {
@@ -439,7 +439,7 @@
       "nl": 14,
       "ne": 0.4286,
       "rank_gi": 4,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": 51
     },
     {
@@ -459,7 +459,7 @@
       "nl": 13,
       "ne": 0.4615,
       "rank_gi": 4,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 44
     },
     {
@@ -479,7 +479,7 @@
       "nl": 11,
       "ne": 0.5455,
       "rank_gi": 4,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": 30
     },
     {
@@ -499,7 +499,7 @@
       "nl": 10,
       "ne": 0.6,
       "rank_gi": 4,
-      "rank_nl": 263,
+      "rank_nl": 269,
       "rank_ne": 20
     },
     {
@@ -519,7 +519,7 @@
       "nl": 9,
       "ne": 0.6667,
       "rank_gi": 4,
-      "rank_nl": 277,
+      "rank_nl": 283,
       "rank_ne": 16
     },
     {
@@ -539,7 +539,7 @@
       "nl": 17,
       "ne": 0.3294,
       "rank_gi": 10,
-      "rank_nl": 86,
+      "rank_nl": 87,
       "rank_ne": 88
     },
     {
@@ -559,7 +559,7 @@
       "nl": 16,
       "ne": 0.35,
       "rank_gi": 10,
-      "rank_nl": 101,
+      "rank_nl": 102,
       "rank_ne": 76
     },
     {
@@ -579,7 +579,7 @@
       "nl": 15,
       "ne": 0.3733,
       "rank_gi": 10,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 66
     },
     {
@@ -599,7 +599,7 @@
       "nl": 13,
       "ne": 0.4308,
       "rank_gi": 10,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 50
     },
     {
@@ -619,7 +619,7 @@
       "nl": 12,
       "ne": 0.4667,
       "rank_gi": 10,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": 42
     },
     {
@@ -639,7 +639,7 @@
       "nl": 11,
       "ne": 0.5091,
       "rank_gi": 10,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": 32
     },
     {
@@ -659,7 +659,7 @@
       "nl": 17,
       "ne": 0.3235,
       "rank_gi": 16,
-      "rank_nl": 86,
+      "rank_nl": 87,
       "rank_ne": 90
     },
     {
@@ -679,7 +679,7 @@
       "nl": 16,
       "ne": 0.3438,
       "rank_gi": 16,
-      "rank_nl": 101,
+      "rank_nl": 102,
       "rank_ne": 79
     },
     {
@@ -699,7 +699,7 @@
       "nl": 15,
       "ne": 0.3667,
       "rank_gi": 16,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 67
     },
     {
@@ -719,7 +719,7 @@
       "nl": 11,
       "ne": 0.5,
       "rank_gi": 16,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": 33
     },
     {
@@ -739,7 +739,7 @@
       "nl": 7,
       "ne": 0.7857,
       "rank_gi": 16,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 8
     },
     {
@@ -759,7 +759,7 @@
       "nl": 12,
       "ne": 0.45,
       "rank_gi": 21,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": 46
     },
     {
@@ -779,7 +779,7 @@
       "nl": 12,
       "ne": 0.45,
       "rank_gi": 21,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": 46
     },
     {
@@ -799,7 +799,7 @@
       "nl": 11,
       "ne": 0.4909,
       "rank_gi": 21,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": 40
     },
     {
@@ -819,7 +819,7 @@
       "nl": 7,
       "ne": 0.7714,
       "rank_gi": 21,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 9
     },
     {
@@ -838,7 +838,7 @@
       "nl": 14,
       "ne": 0.3786,
       "rank_gi": 25,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": 64
     },
     {
@@ -857,7 +857,7 @@
       "nl": 13,
       "ne": 0.4077,
       "rank_gi": 25,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 56
     },
     {
@@ -871,13 +871,13 @@
         "z-ai/glm-5.3-flash",
         "z-ai/glm-5.3-flash:batch"
       ],
-      "endpoints": 34,
+      "endpoints": 36,
       "gi_raw": "5.3",
       "gi": 5.3,
       "nl": 13,
       "ne": 0.4077,
       "rank_gi": 25,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 56
     },
     {
@@ -896,7 +896,7 @@
       "nl": 13,
       "ne": 0.4077,
       "rank_gi": 25,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 56
     },
     {
@@ -910,13 +910,13 @@
         "z-ai/glm-5.3",
         "z-ai/glm-5.3:batch"
       ],
-      "endpoints": 41,
+      "endpoints": 47,
       "gi_raw": "5.3",
       "gi": 5.3,
       "nl": 7,
       "ne": 0.7571,
       "rank_gi": 25,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 10
     },
     {
@@ -935,7 +935,7 @@
       "nl": 13,
       "ne": 0.4,
       "rank_gi": 30,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 60
     },
     {
@@ -954,7 +954,7 @@
       "nl": 12,
       "ne": 0.4333,
       "rank_gi": 30,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": 49
     },
     {
@@ -974,7 +974,7 @@
       "nl": 11,
       "ne": 0.4727,
       "rank_gi": 30,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": 41
     },
     {
@@ -994,7 +994,7 @@
       "nl": 7,
       "ne": 0.7429,
       "rank_gi": 30,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 11
     },
     {
@@ -1013,7 +1013,7 @@
       "nl": 7,
       "ne": 0.7429,
       "rank_gi": 30,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 11
     },
     {
@@ -1032,8 +1032,8 @@
       "nl": 18,
       "ne": 0.2833,
       "rank_gi": 35,
-      "rank_nl": 77,
-      "rank_ne": 109
+      "rank_nl": 78,
+      "rank_ne": 110
     },
     {
       "model_id": "openai/gpt-5.1-codex-max",
@@ -1051,7 +1051,7 @@
       "nl": 17,
       "ne": 0.3,
       "rank_gi": 35,
-      "rank_nl": 86,
+      "rank_nl": 87,
       "rank_ne": 100
     },
     {
@@ -1071,7 +1071,7 @@
       "nl": 16,
       "ne": 0.3187,
       "rank_gi": 35,
-      "rank_nl": 101,
+      "rank_nl": 102,
       "rank_ne": 92
     },
     {
@@ -1090,7 +1090,7 @@
       "nl": 13,
       "ne": 0.3923,
       "rank_gi": 35,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 62
     },
     {
@@ -1110,7 +1110,7 @@
       "nl": 7,
       "ne": 0.7286,
       "rank_gi": 35,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 13
     },
     {
@@ -1129,7 +1129,7 @@
       "nl": 7,
       "ne": 0.7286,
       "rank_gi": 35,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 13
     },
     {
@@ -1149,7 +1149,7 @@
       "nl": 15,
       "ne": 0.3333,
       "rank_gi": 41,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 83
     },
     {
@@ -1169,7 +1169,7 @@
       "nl": 14,
       "ne": 0.3571,
       "rank_gi": 41,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": 74
     },
     {
@@ -1182,13 +1182,13 @@
       "slugs": [
         "stepfun/step-5-preview"
       ],
-      "endpoints": 1,
+      "endpoints": 4,
       "gi_raw": "5",
       "gi": 5.0,
       "nl": 14,
       "ne": 0.3571,
       "rank_gi": 41,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": 74
     },
     {
@@ -1208,7 +1208,7 @@
       "nl": 13,
       "ne": 0.3846,
       "rank_gi": 41,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 63
     },
     {
@@ -1227,7 +1227,7 @@
       "nl": 12,
       "ne": 0.4167,
       "rank_gi": 41,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": 54
     },
     {
@@ -1246,7 +1246,7 @@
       "nl": 11,
       "ne": 0.4545,
       "rank_gi": 41,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": 45
     },
     {
@@ -1266,7 +1266,7 @@
       "nl": 10,
       "ne": 0.5,
       "rank_gi": 41,
-      "rank_nl": 263,
+      "rank_nl": 269,
       "rank_ne": 33
     },
     {
@@ -1286,7 +1286,7 @@
       "nl": 10,
       "ne": 0.5,
       "rank_gi": 41,
-      "rank_nl": 263,
+      "rank_nl": 269,
       "rank_ne": 33
     },
     {
@@ -1305,7 +1305,7 @@
       "nl": 10,
       "ne": 0.5,
       "rank_gi": 41,
-      "rank_nl": 263,
+      "rank_nl": 269,
       "rank_ne": 33
     },
     {
@@ -1325,7 +1325,7 @@
       "nl": 9,
       "ne": 0.5556,
       "rank_gi": 41,
-      "rank_nl": 277,
+      "rank_nl": 283,
       "rank_ne": 28
     },
     {
@@ -1345,7 +1345,7 @@
       "nl": 5,
       "ne": 1.0,
       "rank_gi": 41,
-      "rank_nl": 323,
+      "rank_nl": 331,
       "rank_ne": 3
     },
     {
@@ -1364,7 +1364,7 @@
       "nl": 5,
       "ne": 1.0,
       "rank_gi": 41,
-      "rank_nl": 323,
+      "rank_nl": 331,
       "rank_ne": 3
     },
     {
@@ -1384,7 +1384,7 @@
       "nl": 15,
       "ne": 0.32,
       "rank_gi": 53,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 91
     },
     {
@@ -1404,7 +1404,7 @@
       "nl": 15,
       "ne": 0.3133,
       "rank_gi": 54,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 94
     },
     {
@@ -1423,7 +1423,7 @@
       "nl": 13,
       "ne": 0.3615,
       "rank_gi": 54,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": 73
     },
     {
@@ -1442,7 +1442,7 @@
       "nl": 8,
       "ne": 0.5875,
       "rank_gi": 54,
-      "rank_nl": 291,
+      "rank_nl": 298,
       "rank_ne": 21
     },
     {
@@ -1455,13 +1455,13 @@
       "slugs": [
         "z-ai/glm-4.7"
       ],
-      "endpoints": 6,
+      "endpoints": 7,
       "gi_raw": "4.7",
       "gi": 4.7,
       "nl": 7,
       "ne": 0.6714,
       "rank_gi": 54,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 15
     },
     {
@@ -1481,8 +1481,8 @@
       "nl": 17,
       "ne": 0.2706,
       "rank_gi": 58,
-      "rank_nl": 86,
-      "rank_ne": 120
+      "rank_nl": 87,
+      "rank_ne": 121
     },
     {
       "model_id": "anthropic/claude-opus-4.6",
@@ -1501,7 +1501,7 @@
       "nl": 15,
       "ne": 0.3067,
       "rank_gi": 58,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 99
     },
     {
@@ -1520,7 +1520,7 @@
       "nl": 8,
       "ne": 0.575,
       "rank_gi": 58,
-      "rank_nl": 291,
+      "rank_nl": 298,
       "rank_ne": 23
     },
     {
@@ -1539,7 +1539,7 @@
       "nl": 8,
       "ne": 0.575,
       "rank_gi": 58,
-      "rank_nl": 291,
+      "rank_nl": 298,
       "rank_ne": 23
     },
     {
@@ -1552,13 +1552,13 @@
       "slugs": [
         "z-ai/glm-4.6"
       ],
-      "endpoints": 4,
+      "endpoints": 5,
       "gi_raw": "4.6",
       "gi": 4.6,
       "nl": 7,
       "ne": 0.6571,
       "rank_gi": 58,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 18
     },
     {
@@ -1578,8 +1578,8 @@
       "nl": 17,
       "ne": 0.2647,
       "rank_gi": 63,
-      "rank_nl": 86,
-      "rank_ne": 128
+      "rank_nl": 87,
+      "rank_ne": 129
     },
     {
       "model_id": "anthropic/claude-haiku-4.5",
@@ -1598,8 +1598,8 @@
       "nl": 16,
       "ne": 0.2812,
       "rank_gi": 63,
-      "rank_nl": 101,
-      "rank_ne": 110
+      "rank_nl": 102,
+      "rank_ne": 111
     },
     {
       "model_id": "anthropic/claude-opus-4.5",
@@ -1618,7 +1618,7 @@
       "nl": 15,
       "ne": 0.3,
       "rank_gi": 63,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": 100
     },
     {
@@ -1637,7 +1637,7 @@
       "nl": 11,
       "ne": 0.4091,
       "rank_gi": 63,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": 55
     },
     {
@@ -1656,7 +1656,7 @@
       "nl": 8,
       "ne": 0.5625,
       "rank_gi": 63,
-      "rank_nl": 291,
+      "rank_nl": 298,
       "rank_ne": 26
     },
     {
@@ -1675,7 +1675,7 @@
       "nl": 8,
       "ne": 0.5625,
       "rank_gi": 63,
-      "rank_nl": 291,
+      "rank_nl": 298,
       "rank_ne": 26
     },
     {
@@ -1694,7 +1694,7 @@
       "nl": 7,
       "ne": 0.6429,
       "rank_gi": 63,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 19
     },
     {
@@ -1714,7 +1714,7 @@
       "nl": 8,
       "ne": 0.5375,
       "rank_gi": 70,
-      "rank_nl": 291,
+      "rank_nl": 298,
       "rank_ne": 31
     },
     {
@@ -1733,8 +1733,8 @@
       "nl": 21,
       "ne": 0.2,
       "rank_gi": 71,
-      "rank_nl": 39,
-      "rank_ne": 171
+      "rank_nl": 40,
+      "rank_ne": 173
     },
     {
       "model_id": "ibm-granite/granite-4.2-8b",
@@ -1752,7 +1752,7 @@
       "nl": 14,
       "ne": 0.3,
       "rank_gi": 71,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": 100
     },
     {
@@ -1771,8 +1771,27 @@
       "nl": 9,
       "ne": 0.4667,
       "rank_gi": 71,
-      "rank_nl": 277,
+      "rank_nl": 283,
       "rank_ne": 42
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash-1017",
+      "display_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "canonical_name": "DeepSeek V4.1 Flash 1017",
+      "vendor": "DeepSeek",
+      "vendor_slug": "deepseek",
+      "released": "2026-10-17",
+      "slugs": [
+        "deepseek/deepseek-v4.1-flash-1017"
+      ],
+      "endpoints": 8,
+      "gi_raw": "4.1",
+      "gi": 4.1,
+      "nl": 24,
+      "ne": 0.1708,
+      "rank_gi": 74,
+      "rank_nl": 20,
+      "rank_ne": 204
     },
     {
       "model_id": "deepseek/deepseek-v4.1-flash",
@@ -1785,14 +1804,14 @@
         "deepseek/deepseek-v4.1-flash",
         "deepseek/deepseek-v4.1-flash:batch"
       ],
-      "endpoints": 33,
+      "endpoints": 37,
       "gi_raw": "4.1",
       "gi": 4.1,
       "nl": 19,
       "ne": 0.2158,
       "rank_gi": 74,
       "rank_nl": 65,
-      "rank_ne": 157
+      "rank_ne": 159
     },
     {
       "model_id": "thedrummer/cydonia-24b-v4.1",
@@ -1810,8 +1829,8 @@
       "nl": 16,
       "ne": 0.2562,
       "rank_gi": 74,
-      "rank_nl": 101,
-      "rank_ne": 130
+      "rank_nl": 102,
+      "rank_ne": 131
     },
     {
       "model_id": "anthropic/claude-opus-4.1",
@@ -1830,8 +1849,8 @@
       "nl": 15,
       "ne": 0.2733,
       "rank_gi": 74,
-      "rank_nl": 124,
-      "rank_ne": 114
+      "rank_nl": 125,
+      "rank_ne": 115
     },
     {
       "model_id": "openai/gpt-4.1-mini",
@@ -1850,7 +1869,7 @@
       "nl": 12,
       "ne": 0.3417,
       "rank_gi": 74,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": 80
     },
     {
@@ -1870,7 +1889,7 @@
       "nl": 12,
       "ne": 0.3417,
       "rank_gi": 74,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": 80
     },
     {
@@ -1890,7 +1909,7 @@
       "nl": 7,
       "ne": 0.5857,
       "rank_gi": 74,
-      "rank_nl": 302,
+      "rank_nl": 309,
       "rank_ne": 22
     },
     {
@@ -1908,9 +1927,9 @@
       "gi": 4.0,
       "nl": 28,
       "ne": 0.1429,
-      "rank_gi": 80,
+      "rank_gi": 81,
       "rank_nl": 5,
-      "rank_ne": 235
+      "rank_ne": 239
     },
     {
       "model_id": "openai/gpt-4o-mini-2024-07-18",
@@ -1927,9 +1946,9 @@
       "gi": 4.0,
       "nl": 24,
       "ne": 0.1667,
-      "rank_gi": 80,
+      "rank_gi": 81,
       "rank_nl": 20,
-      "rank_ne": 201
+      "rank_ne": 205
     },
     {
       "model_id": "deepseek/deepseek-v4-flash",
@@ -1946,9 +1965,9 @@
       "gi": 4.0,
       "nl": 22,
       "ne": 0.1818,
-      "rank_gi": 80,
-      "rank_nl": 26,
-      "rank_ne": 188
+      "rank_gi": 81,
+      "rank_nl": 27,
+      "rank_ne": 190
     },
     {
       "model_id": "deepseek/deepseek-v4-flash-0731",
@@ -1965,9 +1984,9 @@
       "gi": 4.0,
       "nl": 22,
       "ne": 0.1818,
-      "rank_gi": 80,
-      "rank_nl": 26,
-      "rank_ne": 188
+      "rank_gi": 81,
+      "rank_nl": 27,
+      "rank_ne": 190
     },
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -1984,9 +2003,9 @@
       "gi": 4.0,
       "nl": 20,
       "ne": 0.2,
-      "rank_gi": 80,
-      "rank_nl": 54,
-      "rank_ne": 171
+      "rank_gi": 81,
+      "rank_nl": 56,
+      "rank_ne": 173
     },
     {
       "model_id": "deepseek/deepseek-v4-pro-0813",
@@ -1998,14 +2017,14 @@
       "slugs": [
         "deepseek/deepseek-v4-pro-0813"
       ],
-      "endpoints": 21,
+      "endpoints": 23,
       "gi_raw": "4",
       "gi": 4.0,
       "nl": 20,
       "ne": 0.2,
-      "rank_gi": 80,
-      "rank_nl": 54,
-      "rank_ne": 171
+      "rank_gi": 81,
+      "rank_nl": 56,
+      "rank_ne": 173
     },
     {
       "model_id": "openai/gpt-4o-2024-05-13",
@@ -2022,9 +2041,9 @@
       "gi": 4.0,
       "nl": 19,
       "ne": 0.2105,
-      "rank_gi": 80,
+      "rank_gi": 81,
       "rank_nl": 65,
-      "rank_ne": 163
+      "rank_ne": 165
     },
     {
       "model_id": "openai/gpt-4o-2024-08-06",
@@ -2041,9 +2060,9 @@
       "gi": 4.0,
       "nl": 19,
       "ne": 0.2105,
-      "rank_gi": 80,
+      "rank_gi": 81,
       "rank_nl": 65,
-      "rank_ne": 163
+      "rank_ne": 165
     },
     {
       "model_id": "openai/gpt-4o-2024-11-20",
@@ -2060,9 +2079,9 @@
       "gi": 4.0,
       "nl": 19,
       "ne": 0.2105,
-      "rank_gi": 80,
+      "rank_gi": 81,
       "rank_nl": 65,
-      "rank_ne": 163
+      "rank_ne": 165
     },
     {
       "model_id": "ibm-granite/granite-4.0-h-micro",
@@ -2079,9 +2098,9 @@
       "gi": 4.0,
       "nl": 17,
       "ne": 0.2353,
-      "rank_gi": 80,
-      "rank_nl": 86,
-      "rank_ne": 140
+      "rank_gi": 81,
+      "rank_nl": 87,
+      "rank_ne": 142
     },
     {
       "model_id": "meta-llama/llama-guard-4-12b",
@@ -2093,14 +2112,14 @@
       "slugs": [
         "meta-llama/llama-guard-4-12b"
       ],
-      "endpoints": 1,
+      "endpoints": 3,
       "gi_raw": "4",
       "gi": 4.0,
       "nl": 17,
       "ne": 0.2353,
-      "rank_gi": 80,
-      "rank_nl": 86,
-      "rank_ne": 140
+      "rank_gi": 81,
+      "rank_nl": 87,
+      "rank_ne": 142
     },
     {
       "model_id": "meta-llama/llama-4-maverick",
@@ -2117,28 +2136,9 @@
       "gi": 4.0,
       "nl": 16,
       "ne": 0.25,
-      "rank_gi": 80,
-      "rank_nl": 101,
-      "rank_ne": 131
-    },
-    {
-      "model_id": "anthropic/claude-sonnet-4",
-      "display_name": "Anthropic: Claude Sonnet 4",
-      "canonical_name": "Claude Sonnet 4",
-      "vendor": "Anthropic",
-      "vendor_slug": "anthropic",
-      "released": "2025-05-22",
-      "slugs": [
-        "anthropic/claude-sonnet-4"
-      ],
-      "endpoints": 2,
-      "gi_raw": "4",
-      "gi": 4.0,
-      "nl": 15,
-      "ne": 0.2667,
-      "rank_gi": 80,
-      "rank_nl": 124,
-      "rank_ne": 124
+      "rank_gi": 81,
+      "rank_nl": 102,
+      "rank_ne": 132
     },
     {
       "model_id": "google/gemma-4-26b-a4b-it",
@@ -2156,9 +2156,9 @@
       "gi": 4.0,
       "nl": 15,
       "ne": 0.2667,
-      "rank_gi": 80,
-      "rank_nl": 124,
-      "rank_ne": 124
+      "rank_gi": 81,
+      "rank_nl": 125,
+      "rank_ne": 125
     },
     {
       "model_id": "mistralai/mistral-large-4-0",
@@ -2175,9 +2175,9 @@
       "gi": 4.0,
       "nl": 15,
       "ne": 0.2667,
-      "rank_gi": 80,
-      "rank_nl": 124,
-      "rank_ne": 124
+      "rank_gi": 81,
+      "rank_nl": 125,
+      "rank_ne": 125
     },
     {
       "model_id": "mistralai/mistral-small-2603",
@@ -2195,9 +2195,48 @@
       "gi": 4.0,
       "nl": 15,
       "ne": 0.2667,
-      "rank_gi": 80,
-      "rank_nl": 124,
-      "rank_ne": 124
+      "rank_gi": 81,
+      "rank_nl": 125,
+      "rank_ne": 125
+    },
+    {
+      "model_id": "xingchen-agi/xing4.0-29b-a4b",
+      "display_name": "XingChen: Xing4.0 29B A4B (free)",
+      "canonical_name": "Xing4.0 29B A4B",
+      "vendor": "XingChen",
+      "vendor_slug": "xingchen-agi",
+      "released": "2026-10-16",
+      "slugs": [
+        "xingchen-agi/xing4.0-29b-a4b:free"
+      ],
+      "endpoints": 1,
+      "gi_raw": "4.0",
+      "gi": 4.0,
+      "nl": 15,
+      "ne": 0.2667,
+      "rank_gi": 81,
+      "rank_nl": 125,
+      "rank_ne": 125
+    },
+    {
+      "model_id": "google/gemini-4-argon",
+      "display_name": "Google: Gemini 4 Argon",
+      "canonical_name": "Gemini 4 Argon",
+      "vendor": "Google",
+      "vendor_slug": "google",
+      "released": "2026-10-13",
+      "slugs": [
+        "google/gemini-4-argon",
+        "google/gemini-4-argon:batch"
+      ],
+      "endpoints": 7,
+      "gi_raw": "4",
+      "gi": 4.0,
+      "nl": 14,
+      "ne": 0.2857,
+      "rank_gi": 81,
+      "rank_nl": 147,
+      "rank_ne": 108
     },
     {
       "model_id": "anthracite-org/magnum-v4-72b",
@@ -2214,8 +2253,8 @@
       "gi": 4.0,
       "nl": 13,
       "ne": 0.3077,
-      "rank_gi": 80,
-      "rank_nl": 174,
+      "rank_gi": 81,
+      "rank_nl": 177,
       "rank_ne": 96
     },
     {
@@ -2228,13 +2267,13 @@
       "slugs": [
         "meta-llama/llama-4-scout"
       ],
-      "endpoints": 3,
+      "endpoints": 5,
       "gi_raw": "4",
       "gi": 4.0,
       "nl": 13,
       "ne": 0.3077,
-      "rank_gi": 80,
-      "rank_nl": 174,
+      "rank_gi": 81,
+      "rank_nl": 177,
       "rank_ne": 96
     },
     {
@@ -2252,8 +2291,8 @@
       "gi": 4.0,
       "nl": 13,
       "ne": 0.3077,
-      "rank_gi": 80,
-      "rank_nl": 174,
+      "rank_gi": 81,
+      "rank_nl": 177,
       "rank_ne": 96
     },
     {
@@ -2271,8 +2310,8 @@
       "gi": 4.0,
       "nl": 12,
       "ne": 0.3333,
-      "rank_gi": 80,
-      "rank_nl": 210,
+      "rank_gi": 81,
+      "rank_nl": 214,
       "rank_ne": 83
     },
     {
@@ -2290,8 +2329,8 @@
       "gi": 4.0,
       "nl": 12,
       "ne": 0.3333,
-      "rank_gi": 80,
-      "rank_nl": 210,
+      "rank_gi": 81,
+      "rank_nl": 214,
       "rank_ne": 83
     },
     {
@@ -2305,13 +2344,13 @@
         "google/gemma-4-31b-it",
         "google/gemma-4-31b-it:free"
       ],
-      "endpoints": 14,
+      "endpoints": 16,
       "gi_raw": "4",
       "gi": 4.0,
       "nl": 11,
       "ne": 0.3636,
-      "rank_gi": 80,
-      "rank_nl": 234,
+      "rank_gi": 81,
+      "rank_nl": 238,
       "rank_ne": 68
     },
     {
@@ -2330,8 +2369,8 @@
       "gi": 4.0,
       "nl": 11,
       "ne": 0.3636,
-      "rank_gi": 80,
-      "rank_nl": 234,
+      "rank_gi": 81,
+      "rank_nl": 238,
       "rank_ne": 68
     },
     {
@@ -2350,8 +2389,8 @@
       "gi": 4.0,
       "nl": 11,
       "ne": 0.3636,
-      "rank_gi": 80,
-      "rank_nl": 234,
+      "rank_gi": 81,
+      "rank_nl": 238,
       "rank_ne": 68
     },
     {
@@ -2369,8 +2408,8 @@
       "gi": 4.0,
       "nl": 11,
       "ne": 0.3636,
-      "rank_gi": 80,
-      "rank_nl": 234,
+      "rank_gi": 81,
+      "rank_nl": 238,
       "rank_ne": 68
     },
     {
@@ -2388,8 +2427,8 @@
       "gi": 4.0,
       "nl": 11,
       "ne": 0.3636,
-      "rank_gi": 80,
-      "rank_nl": 234,
+      "rank_gi": 81,
+      "rank_nl": 238,
       "rank_ne": 68
     },
     {
@@ -2408,8 +2447,8 @@
       "gi": 4.0,
       "nl": 7,
       "ne": 0.5714,
-      "rank_gi": 80,
-      "rank_nl": 302,
+      "rank_gi": 81,
+      "rank_nl": 309,
       "rank_ne": 25
     },
     {
@@ -2428,8 +2467,8 @@
       "gi": 4.0,
       "nl": 6,
       "ne": 0.6667,
-      "rank_gi": 80,
-      "rank_nl": 319,
+      "rank_gi": 81,
+      "rank_nl": 328,
       "rank_ne": 16
     },
     {
@@ -2442,13 +2481,13 @@
       "slugs": [
         "microsoft/phi-4"
       ],
-      "endpoints": 1,
+      "endpoints": 2,
       "gi_raw": "4",
       "gi": 4.0,
       "nl": 5,
       "ne": 0.8,
-      "rank_gi": 80,
-      "rank_nl": 323,
+      "rank_gi": 81,
+      "rank_nl": 331,
       "rank_ne": 6
     },
     {
@@ -2466,8 +2505,8 @@
       "gi": 4.0,
       "nl": 5,
       "ne": 0.8,
-      "rank_gi": 80,
-      "rank_nl": 323,
+      "rank_gi": 81,
+      "rank_nl": 331,
       "rank_ne": 6
     },
     {
@@ -2485,9 +2524,9 @@
       "gi": 3.8,
       "nl": 18,
       "ne": 0.2111,
-      "rank_gi": 110,
-      "rank_nl": 77,
-      "rank_ne": 161
+      "rank_gi": 112,
+      "rank_nl": 78,
+      "rank_ne": 163
     },
     {
       "model_id": "qwen/qwen3.8-omni-flash",
@@ -2504,9 +2543,9 @@
       "gi": 3.8,
       "nl": 18,
       "ne": 0.2111,
-      "rank_gi": 110,
-      "rank_nl": 77,
-      "rank_ne": 161
+      "rank_gi": 112,
+      "rank_nl": 78,
+      "rank_ne": 163
     },
     {
       "model_id": "qwen/qwen3.8-2.4t-a95b",
@@ -2518,14 +2557,14 @@
       "slugs": [
         "qwen/qwen3.8-2.4t-a95b"
       ],
-      "endpoints": 7,
+      "endpoints": 5,
       "gi_raw": "3.8",
       "gi": 3.8,
       "nl": 17,
       "ne": 0.2235,
-      "rank_gi": 110,
-      "rank_nl": 86,
-      "rank_ne": 151
+      "rank_gi": 112,
+      "rank_nl": 87,
+      "rank_ne": 153
     },
     {
       "model_id": "qwen/qwen3.8-max-prime",
@@ -2542,9 +2581,9 @@
       "gi": 3.8,
       "nl": 17,
       "ne": 0.2235,
-      "rank_gi": 110,
-      "rank_nl": 86,
-      "rank_ne": 151
+      "rank_gi": 112,
+      "rank_nl": 87,
+      "rank_ne": 153
     },
     {
       "model_id": "google/gemini-3.8-flash",
@@ -2557,14 +2596,14 @@
         "google/gemini-3.8-flash",
         "google/gemini-3.8-flash:batch"
       ],
-      "endpoints": 7,
+      "endpoints": 8,
       "gi_raw": "3.8",
       "gi": 3.8,
       "nl": 16,
       "ne": 0.2375,
-      "rank_gi": 110,
-      "rank_nl": 101,
-      "rank_ne": 139
+      "rank_gi": 112,
+      "rank_nl": 102,
+      "rank_ne": 141
     },
     {
       "model_id": "qwen/qwen3.8-flash",
@@ -2581,8 +2620,8 @@
       "gi": 3.8,
       "nl": 13,
       "ne": 0.2923,
-      "rank_gi": 110,
-      "rank_nl": 174,
+      "rank_gi": 112,
+      "rank_nl": 177,
       "rank_ne": 106
     },
     {
@@ -2595,13 +2634,13 @@
       "slugs": [
         "qwen/qwen3.8-27b"
       ],
-      "endpoints": 19,
+      "endpoints": 20,
       "gi_raw": "3.8",
       "gi": 3.8,
       "nl": 11,
       "ne": 0.3455,
-      "rank_gi": 110,
-      "rank_nl": 234,
+      "rank_gi": 112,
+      "rank_nl": 238,
       "rank_ne": 78
     },
     {
@@ -2615,14 +2654,14 @@
         "google/gemini-3.7-flash",
         "google/gemini-3.7-flash:batch"
       ],
-      "endpoints": 7,
+      "endpoints": 8,
       "gi_raw": "3.7",
       "gi": 3.7,
       "nl": 16,
       "ne": 0.2313,
-      "rank_gi": 117,
-      "rank_nl": 101,
-      "rank_ne": 143
+      "rank_gi": 119,
+      "rank_nl": 102,
+      "rank_ne": 145
     },
     {
       "model_id": "stepfun/step-3.7-flash",
@@ -2639,9 +2678,9 @@
       "gi": 3.7,
       "nl": 14,
       "ne": 0.2643,
-      "rank_gi": 117,
-      "rank_nl": 146,
-      "rank_ne": 129
+      "rank_gi": 119,
+      "rank_nl": 147,
+      "rank_ne": 130
     },
     {
       "model_id": "qwen/qwen3.7-flash",
@@ -2658,9 +2697,9 @@
       "gi": 3.7,
       "nl": 13,
       "ne": 0.2846,
-      "rank_gi": 117,
-      "rank_nl": 174,
-      "rank_ne": 108
+      "rank_gi": 119,
+      "rank_nl": 177,
+      "rank_ne": 109
     },
     {
       "model_id": "qwen/qwen3.7-plus",
@@ -2670,15 +2709,16 @@
       "vendor_slug": "qwen",
       "released": "2026-06-03",
       "slugs": [
-        "qwen/qwen3.7-plus"
+        "qwen/qwen3.7-plus",
+        "qwen/qwen3.7-plus:batch"
       ],
-      "endpoints": 2,
+      "endpoints": 3,
       "gi_raw": "3.7",
       "gi": 3.7,
       "nl": 12,
       "ne": 0.3083,
-      "rank_gi": 117,
-      "rank_nl": 210,
+      "rank_gi": 119,
+      "rank_nl": 214,
       "rank_ne": 95
     },
     {
@@ -2696,8 +2736,8 @@
       "gi": 3.7,
       "nl": 11,
       "ne": 0.3364,
-      "rank_gi": 117,
-      "rank_nl": 234,
+      "rank_gi": 119,
+      "rank_nl": 238,
       "rank_ne": 82
     },
     {
@@ -2716,9 +2756,9 @@
       "gi": 3.6,
       "nl": 16,
       "ne": 0.225,
-      "rank_gi": 122,
-      "rank_nl": 101,
-      "rank_ne": 149
+      "rank_gi": 124,
+      "rank_nl": 102,
+      "rank_ne": 151
     },
     {
       "model_id": "qwen/qwen3.6-35b-a3b",
@@ -2735,9 +2775,9 @@
       "gi": 3.6,
       "nl": 15,
       "ne": 0.24,
-      "rank_gi": 122,
-      "rank_nl": 124,
-      "rank_ne": 137
+      "rank_gi": 124,
+      "rank_nl": 125,
+      "rank_ne": 138
     },
     {
       "model_id": "qwen/qwen3.6-flash",
@@ -2754,9 +2794,9 @@
       "gi": 3.6,
       "nl": 13,
       "ne": 0.2769,
-      "rank_gi": 122,
-      "rank_nl": 174,
-      "rank_ne": 113
+      "rank_gi": 124,
+      "rank_nl": 177,
+      "rank_ne": 114
     },
     {
       "model_id": "qwen/qwen3.6-plus",
@@ -2773,8 +2813,8 @@
       "gi": 3.6,
       "nl": 12,
       "ne": 0.3,
-      "rank_gi": 122,
-      "rank_nl": 210,
+      "rank_gi": 124,
+      "rank_nl": 214,
       "rank_ne": 100
     },
     {
@@ -2792,8 +2832,8 @@
       "gi": 3.6,
       "nl": 11,
       "ne": 0.3273,
-      "rank_gi": 122,
-      "rank_nl": 234,
+      "rank_gi": 124,
+      "rank_nl": 238,
       "rank_ne": 89
     },
     {
@@ -2812,9 +2852,9 @@
       "gi": 3.5,
       "nl": 27,
       "ne": 0.1296,
-      "rank_gi": 127,
+      "rank_gi": 129,
       "rank_nl": 8,
-      "rank_ne": 251
+      "rank_ne": 255
     },
     {
       "model_id": "openai/gpt-3.5-turbo-0613",
@@ -2831,9 +2871,9 @@
       "gi": 3.5,
       "nl": 27,
       "ne": 0.1296,
-      "rank_gi": 127,
+      "rank_gi": 129,
       "rank_nl": 8,
-      "rank_ne": 251
+      "rank_ne": 255
     },
     {
       "model_id": "qwen/qwen3.5-plus-02-15",
@@ -2850,9 +2890,9 @@
       "gi": 3.5,
       "nl": 23,
       "ne": 0.1522,
-      "rank_gi": 127,
-      "rank_nl": 22,
-      "rank_ne": 223
+      "rank_gi": 129,
+      "rank_nl": 23,
+      "rank_ne": 228
     },
     {
       "model_id": "qwen/qwen3.5-plus-20260420",
@@ -2869,9 +2909,9 @@
       "gi": 3.5,
       "nl": 23,
       "ne": 0.1522,
-      "rank_gi": 127,
-      "rank_nl": 22,
-      "rank_ne": 223
+      "rank_gi": 129,
+      "rank_nl": 23,
+      "rank_ne": 228
     },
     {
       "model_id": "nvidia/nemotron-3.5-lightning",
@@ -2884,14 +2924,14 @@
         "nvidia/nemotron-3.5-lightning",
         "nvidia/nemotron-3.5-lightning:free"
       ],
-      "endpoints": 7,
+      "endpoints": 5,
       "gi_raw": "3.5",
       "gi": 3.5,
       "nl": 22,
       "ne": 0.1591,
-      "rank_gi": 127,
-      "rank_nl": 26,
-      "rank_ne": 210
+      "rank_gi": 129,
+      "rank_nl": 27,
+      "rank_ne": 214
     },
     {
       "model_id": "openai/gpt-3.5-turbo-instruct",
@@ -2908,9 +2948,9 @@
       "gi": 3.5,
       "nl": 22,
       "ne": 0.1591,
-      "rank_gi": 127,
-      "rank_nl": 26,
-      "rank_ne": 210
+      "rank_gi": 129,
+      "rank_nl": 27,
+      "rank_ne": 214
     },
     {
       "model_id": "google/gemini-3.5-flash-lite",
@@ -2928,9 +2968,29 @@
       "gi": 3.5,
       "nl": 21,
       "ne": 0.1667,
-      "rank_gi": 127,
-      "rank_nl": 39,
-      "rank_ne": 201
+      "rank_gi": 129,
+      "rank_nl": 40,
+      "rank_ne": 205
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-super-vl",
+      "display_name": "NVIDIA: Nemotron 3.5 Super VL",
+      "canonical_name": "Nemotron 3.5 Super VL",
+      "vendor": "NVIDIA",
+      "vendor_slug": "nvidia",
+      "released": "2026-10-15",
+      "slugs": [
+        "nvidia/nemotron-3.5-super-vl",
+        "nvidia/nemotron-3.5-super-vl:free"
+      ],
+      "endpoints": 6,
+      "gi_raw": "3.5",
+      "gi": 3.5,
+      "nl": 21,
+      "ne": 0.1667,
+      "rank_gi": 129,
+      "rank_nl": 40,
+      "rank_ne": 205
     },
     {
       "model_id": "mistralai/mistral-medium-3-5",
@@ -2948,9 +3008,9 @@
       "gi": 3.5,
       "nl": 18,
       "ne": 0.1944,
-      "rank_gi": 127,
-      "rank_nl": 77,
-      "rank_ne": 178
+      "rank_gi": 129,
+      "rank_nl": 78,
+      "rank_ne": 180
     },
     {
       "model_id": "openai/gpt-3.5-turbo-16k",
@@ -2967,9 +3027,9 @@
       "gi": 3.5,
       "nl": 17,
       "ne": 0.2059,
-      "rank_gi": 127,
-      "rank_nl": 86,
-      "rank_ne": 168
+      "rank_gi": 129,
+      "rank_nl": 87,
+      "rank_ne": 170
     },
     {
       "model_id": "qwen/qwen3.5-122b-a10b",
@@ -2986,9 +3046,9 @@
       "gi": 3.5,
       "nl": 17,
       "ne": 0.2059,
-      "rank_gi": 127,
-      "rank_nl": 86,
-      "rank_ne": 168
+      "rank_gi": 129,
+      "rank_nl": 87,
+      "rank_ne": 170
     },
     {
       "model_id": "qwen/qwen3.5-397b-a17b",
@@ -3005,9 +3065,9 @@
       "gi": 3.5,
       "nl": 17,
       "ne": 0.2059,
-      "rank_gi": 127,
-      "rank_nl": 86,
-      "rank_ne": 168
+      "rank_gi": 129,
+      "rank_nl": 87,
+      "rank_ne": 170
     },
     {
       "model_id": "google/gemini-3.5-flash",
@@ -3025,9 +3085,9 @@
       "gi": 3.5,
       "nl": 16,
       "ne": 0.2188,
-      "rank_gi": 127,
-      "rank_nl": 101,
-      "rank_ne": 156
+      "rank_gi": 129,
+      "rank_nl": 102,
+      "rank_ne": 158
     },
     {
       "model_id": "qwen/qwen3.5-35b-a3b",
@@ -3044,9 +3104,9 @@
       "gi": 3.5,
       "nl": 15,
       "ne": 0.2333,
-      "rank_gi": 127,
-      "rank_nl": 124,
-      "rank_ne": 142
+      "rank_gi": 129,
+      "rank_nl": 125,
+      "rank_ne": 144
     },
     {
       "model_id": "stepfun/step-3.5-flash",
@@ -3063,9 +3123,9 @@
       "gi": 3.5,
       "nl": 14,
       "ne": 0.25,
-      "rank_gi": 127,
-      "rank_nl": 146,
-      "rank_ne": 131
+      "rank_gi": 129,
+      "rank_nl": 147,
+      "rank_ne": 132
     },
     {
       "model_id": "aion-labs/aion-3.5-mini",
@@ -3082,9 +3142,9 @@
       "gi": 3.5,
       "nl": 13,
       "ne": 0.2692,
-      "rank_gi": 127,
-      "rank_nl": 174,
-      "rank_ne": 121
+      "rank_gi": 129,
+      "rank_nl": 177,
+      "rank_ne": 122
     },
     {
       "model_id": "openai/gpt-3.5-turbo",
@@ -3102,9 +3162,9 @@
       "gi": 3.5,
       "nl": 13,
       "ne": 0.2692,
-      "rank_gi": 127,
-      "rank_nl": 174,
-      "rank_ne": 121
+      "rank_gi": 129,
+      "rank_nl": 177,
+      "rank_ne": 122
     },
     {
       "model_id": "qwen/qwen3.5-flash-02-23",
@@ -3121,9 +3181,9 @@
       "gi": 3.5,
       "nl": 13,
       "ne": 0.2692,
-      "rank_gi": 127,
-      "rank_nl": 174,
-      "rank_ne": 121
+      "rank_gi": 129,
+      "rank_nl": 177,
+      "rank_ne": 122
     },
     {
       "model_id": "qwen/qwen3.5-27b",
@@ -3135,13 +3195,13 @@
       "slugs": [
         "qwen/qwen3.5-27b"
       ],
-      "endpoints": 6,
+      "endpoints": 7,
       "gi_raw": "3.5",
       "gi": 3.5,
       "nl": 11,
       "ne": 0.3182,
-      "rank_gi": 127,
-      "rank_nl": 234,
+      "rank_gi": 129,
+      "rank_nl": 238,
       "rank_ne": 93
     },
     {
@@ -3159,8 +3219,8 @@
       "gi": 3.5,
       "nl": 10,
       "ne": 0.35,
-      "rank_gi": 127,
-      "rank_nl": 263,
+      "rank_gi": 129,
+      "rank_nl": 269,
       "rank_ne": 76
     },
     {
@@ -3178,8 +3238,8 @@
       "gi": 3.5,
       "nl": 8,
       "ne": 0.4375,
-      "rank_gi": 127,
-      "rank_nl": 291,
+      "rank_gi": 129,
+      "rank_nl": 298,
       "rank_ne": 48
     },
     {
@@ -3197,9 +3257,9 @@
       "gi": 3.3,
       "nl": 22,
       "ne": 0.15,
-      "rank_gi": 147,
-      "rank_nl": 26,
-      "rank_ne": 225
+      "rank_gi": 150,
+      "rank_nl": 27,
+      "rank_ne": 230
     },
     {
       "model_id": "sao10k/l3.3-euryale-70b",
@@ -3216,9 +3276,9 @@
       "gi": 3.3,
       "nl": 21,
       "ne": 0.1571,
-      "rank_gi": 147,
-      "rank_nl": 39,
-      "rank_ne": 214
+      "rank_gi": 150,
+      "rank_nl": 40,
+      "rank_ne": 219
     },
     {
       "model_id": "meta-llama/llama-3.2-1b-instruct",
@@ -3235,9 +3295,9 @@
       "gi": 3.2,
       "nl": 21,
       "ne": 0.1524,
-      "rank_gi": 149,
-      "rank_nl": 39,
-      "rank_ne": 220
+      "rank_gi": 152,
+      "rank_nl": 40,
+      "rank_ne": 225
     },
     {
       "model_id": "meta-llama/llama-3.2-3b-instruct",
@@ -3254,9 +3314,9 @@
       "gi": 3.2,
       "nl": 21,
       "ne": 0.1524,
-      "rank_gi": 149,
-      "rank_nl": 39,
-      "rank_ne": 220
+      "rank_gi": 152,
+      "rank_nl": 40,
+      "rank_ne": 225
     },
     {
       "model_id": "mistralai/mistral-small-3.2-24b-instruct",
@@ -3273,9 +3333,9 @@
       "gi": 3.2,
       "nl": 21,
       "ne": 0.1524,
-      "rank_gi": 149,
-      "rank_nl": 39,
-      "rank_ne": 220
+      "rank_gi": 152,
+      "rank_nl": 40,
+      "rank_ne": 225
     },
     {
       "model_id": "deepseek/deepseek-v3.2-exp",
@@ -3292,9 +3352,9 @@
       "gi": 3.2,
       "nl": 17,
       "ne": 0.1882,
-      "rank_gi": 149,
-      "rank_nl": 86,
-      "rank_ne": 182
+      "rank_gi": 152,
+      "rank_nl": 87,
+      "rank_ne": 184
     },
     {
       "model_id": "deepseek/deepseek-v3.2",
@@ -3311,9 +3371,9 @@
       "gi": 3.2,
       "nl": 13,
       "ne": 0.2462,
-      "rank_gi": 149,
-      "rank_nl": 174,
-      "rank_ne": 136
+      "rank_gi": 152,
+      "rank_nl": 177,
+      "rank_ne": 137
     },
     {
       "model_id": "google/gemini-3.1-pro-preview-customtools",
@@ -3330,9 +3390,9 @@
       "gi": 3.1,
       "nl": 35,
       "ne": 0.0886,
-      "rank_gi": 154,
+      "rank_gi": 157,
       "rank_nl": 1,
-      "rank_ne": 280
+      "rank_ne": 284
     },
     {
       "model_id": "google/gemini-3.1-flash-lite-preview",
@@ -3349,9 +3409,9 @@
       "gi": 3.1,
       "nl": 29,
       "ne": 0.1069,
-      "rank_gi": 154,
+      "rank_gi": 157,
       "rank_nl": 2,
-      "rank_ne": 268
+      "rank_ne": 272
     },
     {
       "model_id": "sao10k/l3.1-euryale-70b",
@@ -3368,9 +3428,9 @@
       "gi": 3.1,
       "nl": 26,
       "ne": 0.1192,
-      "rank_gi": 154,
+      "rank_gi": 157,
       "rank_nl": 14,
-      "rank_ne": 258
+      "rank_ne": 262
     },
     {
       "model_id": "deepseek/deepseek-v3.1-terminus",
@@ -3387,9 +3447,9 @@
       "gi": 3.1,
       "nl": 22,
       "ne": 0.1409,
-      "rank_gi": 154,
-      "rank_nl": 26,
-      "rank_ne": 243
+      "rank_gi": 157,
+      "rank_nl": 27,
+      "rank_ne": 247
     },
     {
       "model_id": "google/gemini-3.1-pro-preview",
@@ -3407,9 +3467,9 @@
       "gi": 3.1,
       "nl": 22,
       "ne": 0.1409,
-      "rank_gi": 154,
-      "rank_nl": 26,
-      "rank_ne": 243
+      "rank_gi": 157,
+      "rank_nl": 27,
+      "rank_ne": 247
     },
     {
       "model_id": "meta-llama/llama-3.1-70b-instruct",
@@ -3426,9 +3486,9 @@
       "gi": 3.1,
       "nl": 22,
       "ne": 0.1409,
-      "rank_gi": 154,
-      "rank_nl": 26,
-      "rank_ne": 243
+      "rank_gi": 157,
+      "rank_nl": 27,
+      "rank_ne": 247
     },
     {
       "model_id": "google/gemini-3.1-flash-lite",
@@ -3446,9 +3506,9 @@
       "gi": 3.1,
       "nl": 21,
       "ne": 0.1476,
-      "rank_gi": 154,
-      "rank_nl": 39,
-      "rank_ne": 232
+      "rank_gi": 157,
+      "rank_nl": 40,
+      "rank_ne": 236
     },
     {
       "model_id": "meta-llama/llama-3.1-8b-instruct",
@@ -3465,9 +3525,9 @@
       "gi": 3.1,
       "nl": 21,
       "ne": 0.1476,
-      "rank_gi": 154,
-      "rank_nl": 39,
-      "rank_ne": 232
+      "rank_gi": 157,
+      "rank_nl": 40,
+      "rank_ne": 236
     },
     {
       "model_id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -3484,9 +3544,9 @@
       "gi": 3.1,
       "nl": 21,
       "ne": 0.1476,
-      "rank_gi": 154,
-      "rank_nl": 39,
-      "rank_ne": 232
+      "rank_gi": 157,
+      "rank_nl": 40,
+      "rank_ne": 236
     },
     {
       "model_id": "mistralai/mistral-medium-3.1",
@@ -3504,9 +3564,9 @@
       "gi": 3.1,
       "nl": 18,
       "ne": 0.1722,
-      "rank_gi": 154,
-      "rank_nl": 77,
-      "rank_ne": 200
+      "rank_gi": 157,
+      "rank_nl": 78,
+      "rank_ne": 203
     },
     {
       "model_id": "inclusionai/ling-3.1-flash",
@@ -3518,14 +3578,14 @@
       "slugs": [
         "inclusionai/ling-3.1-flash"
       ],
-      "endpoints": 1,
+      "endpoints": 2,
       "gi_raw": "3.1",
       "gi": 3.1,
       "nl": 14,
       "ne": 0.2214,
-      "rank_gi": 154,
-      "rank_nl": 146,
-      "rank_ne": 155
+      "rank_gi": 157,
+      "rank_nl": 147,
+      "rank_ne": 157
     },
     {
       "model_id": "deepseek/deepseek-chat-v3.1",
@@ -3542,9 +3602,28 @@
       "gi": 3.1,
       "nl": 13,
       "ne": 0.2385,
-      "rank_gi": 154,
-      "rank_nl": 174,
-      "rank_ne": 138
+      "rank_gi": 157,
+      "rank_nl": 177,
+      "rank_ne": 139
+    },
+    {
+      "model_id": "moondream/moondream3.1-9b-a2b",
+      "display_name": "Moondream: Moondream 3.1",
+      "canonical_name": "Moondream 3.1",
+      "vendor": "Moondream",
+      "vendor_slug": "moondream",
+      "released": "2026-10-15",
+      "slugs": [
+        "moondream/moondream3.1-9b-a2b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3.1",
+      "gi": 3.1,
+      "nl": 13,
+      "ne": 0.2385,
+      "rank_gi": 157,
+      "rank_nl": 177,
+      "rank_ne": 139
     },
     {
       "model_id": "qwen/qwen3-235b-a22b-2507",
@@ -3561,9 +3640,9 @@
       "gi": 3.0,
       "nl": 29,
       "ne": 0.1034,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 2,
-      "rank_ne": 271
+      "rank_ne": 275
     },
     {
       "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -3580,9 +3659,9 @@
       "gi": 3.0,
       "nl": 29,
       "ne": 0.1034,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 2,
-      "rank_ne": 271
+      "rank_ne": 275
     },
     {
       "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -3599,9 +3678,9 @@
       "gi": 3.0,
       "nl": 28,
       "ne": 0.1071,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 5,
-      "rank_ne": 267
+      "rank_ne": 271
     },
     {
       "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
@@ -3618,9 +3697,9 @@
       "gi": 3.0,
       "nl": 27,
       "ne": 0.1111,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 8,
-      "rank_ne": 261
+      "rank_ne": 265
     },
     {
       "model_id": "qwen/qwen3-next-80b-a3b-instruct",
@@ -3632,14 +3711,14 @@
       "slugs": [
         "qwen/qwen3-next-80b-a3b-instruct"
       ],
-      "endpoints": 3,
+      "endpoints": 5,
       "gi_raw": "3",
       "gi": 3.0,
       "nl": 27,
       "ne": 0.1111,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 8,
-      "rank_ne": 261
+      "rank_ne": 265
     },
     {
       "model_id": "qwen/qwen3-next-80b-a3b-thinking",
@@ -3656,9 +3735,9 @@
       "gi": 3.0,
       "nl": 27,
       "ne": 0.1111,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 8,
-      "rank_ne": 261
+      "rank_ne": 265
     },
     {
       "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -3675,9 +3754,9 @@
       "gi": 3.0,
       "nl": 27,
       "ne": 0.1111,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 8,
-      "rank_ne": 261
+      "rank_ne": 265
     },
     {
       "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
@@ -3694,9 +3773,9 @@
       "gi": 3.0,
       "nl": 25,
       "ne": 0.12,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 18,
-      "rank_ne": 256
+      "rank_ne": 260
     },
     {
       "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
@@ -3713,9 +3792,9 @@
       "gi": 3.0,
       "nl": 25,
       "ne": 0.12,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 18,
-      "rank_ne": 256
+      "rank_ne": 260
     },
     {
       "model_id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -3732,9 +3811,9 @@
       "gi": 3.0,
       "nl": 23,
       "ne": 0.1304,
-      "rank_gi": 166,
-      "rank_nl": 22,
-      "rank_ne": 250
+      "rank_gi": 170,
+      "rank_nl": 23,
+      "rank_ne": 254
     },
     {
       "model_id": "google/gemini-3-flash-preview",
@@ -3752,9 +3831,9 @@
       "gi": 3.0,
       "nl": 22,
       "ne": 0.1364,
-      "rank_gi": 166,
-      "rank_nl": 26,
-      "rank_ne": 246
+      "rank_gi": 170,
+      "rank_nl": 27,
+      "rank_ne": 250
     },
     {
       "model_id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -3771,9 +3850,9 @@
       "gi": 3.0,
       "nl": 22,
       "ne": 0.1364,
-      "rank_gi": 166,
-      "rank_nl": 26,
-      "rank_ne": 246
+      "rank_gi": 170,
+      "rank_nl": 27,
+      "rank_ne": 250
     },
     {
       "model_id": "nousresearch/hermes-3-llama-3.1-70b",
@@ -3790,9 +3869,9 @@
       "gi": 3.0,
       "nl": 21,
       "ne": 0.1429,
-      "rank_gi": 166,
-      "rank_nl": 39,
-      "rank_ne": 235
+      "rank_gi": 170,
+      "rank_nl": 40,
+      "rank_ne": 239
     },
     {
       "model_id": "qwen/qwen3-coder",
@@ -3809,28 +3888,9 @@
       "gi": 3.0,
       "nl": 21,
       "ne": 0.1429,
-      "rank_gi": 166,
-      "rank_nl": 39,
-      "rank_ne": 235
-    },
-    {
-      "model_id": "inclusionai/ling-3.0-flash-sante",
-      "display_name": "inclusionAI: Ling 3.0 Flash Sante",
-      "canonical_name": "Ling 3.0 Flash Sante",
-      "vendor": "inclusionAI",
-      "vendor_slug": "inclusionai",
-      "released": "2026-09-04",
-      "slugs": [
-        "inclusionai/ling-3.0-flash-sante"
-      ],
-      "endpoints": 1,
-      "gi_raw": "3.0",
-      "gi": 3.0,
-      "nl": 20,
-      "ne": 0.15,
-      "rank_gi": 166,
-      "rank_nl": 54,
-      "rank_ne": 225
+      "rank_gi": 170,
+      "rank_nl": 40,
+      "rank_ne": 239
     },
     {
       "model_id": "mistralai/ministral-14b-2512",
@@ -3847,9 +3907,9 @@
       "gi": 3.0,
       "nl": 20,
       "ne": 0.15,
-      "rank_gi": 166,
-      "rank_nl": 54,
-      "rank_ne": 225
+      "rank_gi": 170,
+      "rank_nl": 56,
+      "rank_ne": 230
     },
     {
       "model_id": "mistralai/mistral-large-2512",
@@ -3867,9 +3927,9 @@
       "gi": 3.0,
       "nl": 20,
       "ne": 0.15,
-      "rank_gi": 166,
-      "rank_nl": 54,
-      "rank_ne": 225
+      "rank_gi": 170,
+      "rank_nl": 56,
+      "rank_ne": 230
     },
     {
       "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
@@ -3886,9 +3946,9 @@
       "gi": 3.0,
       "nl": 20,
       "ne": 0.15,
-      "rank_gi": 166,
-      "rank_nl": 54,
-      "rank_ne": 225
+      "rank_gi": 170,
+      "rank_nl": 56,
+      "rank_ne": 230
     },
     {
       "model_id": "qwen/qwen3-vl-8b-instruct",
@@ -3905,9 +3965,9 @@
       "gi": 3.0,
       "nl": 20,
       "ne": 0.15,
-      "rank_gi": 166,
-      "rank_nl": 54,
-      "rank_ne": 225
+      "rank_gi": 170,
+      "rank_nl": 56,
+      "rank_ne": 230
     },
     {
       "model_id": "mistralai/ministral-3b-2512",
@@ -3924,9 +3984,9 @@
       "gi": 3.0,
       "nl": 19,
       "ne": 0.1579,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 65,
-      "rank_ne": 212
+      "rank_ne": 216
     },
     {
       "model_id": "mistralai/ministral-8b-2512",
@@ -3944,9 +4004,28 @@
       "gi": 3.0,
       "nl": 19,
       "ne": 0.1579,
-      "rank_gi": 166,
+      "rank_gi": 170,
       "rank_nl": 65,
-      "rank_ne": 212
+      "rank_ne": 216
+    },
+    {
+      "model_id": "moondream/moondream3-preview",
+      "display_name": "Moondream: Moondream 3 Preview",
+      "canonical_name": "Moondream 3 Preview",
+      "vendor": "Moondream",
+      "vendor_slug": "moondream",
+      "released": "2026-10-15",
+      "slugs": [
+        "moondream/moondream3-preview"
+      ],
+      "endpoints": 1,
+      "gi_raw": "3",
+      "gi": 3.0,
+      "nl": 19,
+      "ne": 0.1579,
+      "rank_gi": 170,
+      "rank_nl": 65,
+      "rank_ne": 216
     },
     {
       "model_id": "dots-studio/dots-3-note-preview",
@@ -3963,28 +4042,9 @@
       "gi": 3.0,
       "nl": 18,
       "ne": 0.1667,
-      "rank_gi": 166,
-      "rank_nl": 77,
-      "rank_ne": 201
-    },
-    {
-      "model_id": "inclusionai/ling-3.0-flash-fin",
-      "display_name": "inclusionAI: Ling 3.0 Flash Fin",
-      "canonical_name": "Ling 3.0 Flash Fin",
-      "vendor": "inclusionAI",
-      "vendor_slug": "inclusionai",
-      "released": "2026-08-27",
-      "slugs": [
-        "inclusionai/ling-3.0-flash-fin"
-      ],
-      "endpoints": 1,
-      "gi_raw": "3.0",
-      "gi": 3.0,
-      "nl": 18,
-      "ne": 0.1667,
-      "rank_gi": 166,
-      "rank_nl": 77,
-      "rank_ne": 201
+      "rank_gi": 170,
+      "rank_nl": 78,
+      "rank_ne": 205
     },
     {
       "model_id": "sao10k/l3-lunaris-8b",
@@ -4001,9 +4061,9 @@
       "gi": 3.0,
       "nl": 18,
       "ne": 0.1667,
-      "rank_gi": 166,
-      "rank_nl": 77,
-      "rank_ne": 201
+      "rank_gi": 170,
+      "rank_nl": 78,
+      "rank_ne": 205
     },
     {
       "model_id": "inclusionai/ling-3.0-flash-vl",
@@ -4015,14 +4075,14 @@
       "slugs": [
         "inclusionai/ling-3.0-flash-vl"
       ],
-      "endpoints": 2,
+      "endpoints": 1,
       "gi_raw": "3.0",
       "gi": 3.0,
       "nl": 17,
       "ne": 0.1765,
-      "rank_gi": 166,
-      "rank_nl": 86,
-      "rank_ne": 195
+      "rank_gi": 170,
+      "rank_nl": 87,
+      "rank_ne": 198
     },
     {
       "model_id": "qwen/qwen3-coder-flash",
@@ -4039,9 +4099,9 @@
       "gi": 3.0,
       "nl": 17,
       "ne": 0.1765,
-      "rank_gi": 166,
-      "rank_nl": 86,
-      "rank_ne": 195
+      "rank_gi": 170,
+      "rank_nl": 87,
+      "rank_ne": 198
     },
     {
       "model_id": "deepseek/deepseek-chat-v3-0324",
@@ -4058,9 +4118,9 @@
       "gi": 3.0,
       "nl": 16,
       "ne": 0.1875,
-      "rank_gi": 166,
-      "rank_nl": 101,
-      "rank_ne": 183
+      "rank_gi": 170,
+      "rank_nl": 102,
+      "rank_ne": 185
     },
     {
       "model_id": "mistralai/mistral-medium-3",
@@ -4077,9 +4137,9 @@
       "gi": 3.0,
       "nl": 16,
       "ne": 0.1875,
-      "rank_gi": 166,
-      "rank_nl": 101,
-      "rank_ne": 183
+      "rank_gi": 170,
+      "rank_nl": 102,
+      "rank_ne": 185
     },
     {
       "model_id": "nvidia/nemotron-3-super-120b-a12b",
@@ -4092,14 +4152,14 @@
         "nvidia/nemotron-3-super-120b-a12b",
         "nvidia/nemotron-3-super-120b-a12b:free"
       ],
-      "endpoints": 3,
+      "endpoints": 4,
       "gi_raw": "3",
       "gi": 3.0,
       "nl": 16,
       "ne": 0.1875,
-      "rank_gi": 166,
-      "rank_nl": 101,
-      "rank_ne": 183
+      "rank_gi": 170,
+      "rank_nl": 102,
+      "rank_ne": 185
     },
     {
       "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -4112,14 +4172,14 @@
         "nvidia/nemotron-3-ultra-550b-a55b",
         "nvidia/nemotron-3-ultra-550b-a55b:free"
       ],
-      "endpoints": 5,
+      "endpoints": 6,
       "gi_raw": "3",
       "gi": 3.0,
       "nl": 16,
       "ne": 0.1875,
-      "rank_gi": 166,
-      "rank_nl": 101,
-      "rank_ne": 183
+      "rank_gi": 170,
+      "rank_nl": 102,
+      "rank_ne": 185
     },
     {
       "model_id": "qwen/qwen3-coder-next",
@@ -4136,9 +4196,9 @@
       "gi": 3.0,
       "nl": 16,
       "ne": 0.1875,
-      "rank_gi": 166,
-      "rank_nl": 101,
-      "rank_ne": 183
+      "rank_gi": 170,
+      "rank_nl": 102,
+      "rank_ne": 185
     },
     {
       "model_id": "mistralai/mistral-small-24b-instruct-2501",
@@ -4155,9 +4215,9 @@
       "gi": 3.0,
       "nl": 15,
       "ne": 0.2,
-      "rank_gi": 166,
-      "rank_nl": 124,
-      "rank_ne": 171
+      "rank_gi": 170,
+      "rank_nl": 125,
+      "rank_ne": 173
     },
     {
       "model_id": "inclusionai/ling-3.0-flash",
@@ -4174,9 +4234,9 @@
       "gi": 3.0,
       "nl": 14,
       "ne": 0.2143,
-      "rank_gi": 166,
-      "rank_nl": 146,
-      "rank_ne": 158
+      "rank_gi": 170,
+      "rank_nl": 147,
+      "rank_ne": 160
     },
     {
       "model_id": "morph/morph-v3-large",
@@ -4193,9 +4253,9 @@
       "gi": 3.0,
       "nl": 14,
       "ne": 0.2143,
-      "rank_gi": 166,
-      "rank_nl": 146,
-      "rank_ne": 158
+      "rank_gi": 170,
+      "rank_nl": 147,
+      "rank_ne": 160
     },
     {
       "model_id": "relace/relace-apply-3",
@@ -4212,9 +4272,9 @@
       "gi": 3.0,
       "nl": 14,
       "ne": 0.2143,
-      "rank_gi": 166,
-      "rank_nl": 146,
-      "rank_ne": 158
+      "rank_gi": 170,
+      "rank_nl": 147,
+      "rank_ne": 160
     },
     {
       "model_id": "aion-labs/aion-3.0-mini",
@@ -4231,9 +4291,9 @@
       "gi": 3.0,
       "nl": 13,
       "ne": 0.2308,
-      "rank_gi": 166,
-      "rank_nl": 174,
-      "rank_ne": 144
+      "rank_gi": 170,
+      "rank_nl": 177,
+      "rank_ne": 146
     },
     {
       "model_id": "morph/morph-v3-fast",
@@ -4250,9 +4310,9 @@
       "gi": 3.0,
       "nl": 13,
       "ne": 0.2308,
-      "rank_gi": 166,
-      "rank_nl": 174,
-      "rank_ne": 144
+      "rank_gi": 170,
+      "rank_nl": 177,
+      "rank_ne": 146
     },
     {
       "model_id": "qwen/qwen3-30b-a3b",
@@ -4269,9 +4329,9 @@
       "gi": 3.0,
       "nl": 13,
       "ne": 0.2308,
-      "rank_gi": 166,
-      "rank_nl": 174,
-      "rank_ne": 144
+      "rank_gi": 170,
+      "rank_nl": 177,
+      "rank_ne": 146
     },
     {
       "model_id": "openai/o3-mini-high",
@@ -4288,9 +4348,9 @@
       "gi": 3.0,
       "nl": 12,
       "ne": 0.25,
-      "rank_gi": 166,
-      "rank_nl": 210,
-      "rank_ne": 131
+      "rank_gi": 170,
+      "rank_nl": 214,
+      "rank_ne": 132
     },
     {
       "model_id": "rekaai/reka-flash-3",
@@ -4307,9 +4367,9 @@
       "gi": 3.0,
       "nl": 12,
       "ne": 0.25,
-      "rank_gi": 166,
-      "rank_nl": 210,
-      "rank_ne": 131
+      "rank_gi": 170,
+      "rank_nl": 214,
+      "rank_ne": 132
     },
     {
       "model_id": "deepseek/deepseek-chat",
@@ -4321,14 +4381,14 @@
       "slugs": [
         "deepseek/deepseek-chat"
       ],
-      "endpoints": 2,
+      "endpoints": 3,
       "gi_raw": "3",
       "gi": 3.0,
       "nl": 11,
       "ne": 0.2727,
-      "rank_gi": 166,
-      "rank_nl": 234,
-      "rank_ne": 115
+      "rank_gi": 170,
+      "rank_nl": 238,
+      "rank_ne": 116
     },
     {
       "model_id": "google/gemma-3-12b-it",
@@ -4340,14 +4400,14 @@
       "slugs": [
         "google/gemma-3-12b-it"
       ],
-      "endpoints": 2,
+      "endpoints": 4,
       "gi_raw": "3",
       "gi": 3.0,
       "nl": 11,
       "ne": 0.2727,
-      "rank_gi": 166,
-      "rank_nl": 234,
-      "rank_ne": 115
+      "rank_gi": 170,
+      "rank_nl": 238,
+      "rank_ne": 116
     },
     {
       "model_id": "google/gemma-3-27b-it",
@@ -4364,9 +4424,9 @@
       "gi": 3.0,
       "nl": 11,
       "ne": 0.2727,
-      "rank_gi": 166,
-      "rank_nl": 234,
-      "rank_ne": 115
+      "rank_gi": 170,
+      "rank_nl": 238,
+      "rank_ne": 116
     },
     {
       "model_id": "tencent/hy3-preview",
@@ -4383,9 +4443,9 @@
       "gi": 3.0,
       "nl": 11,
       "ne": 0.2727,
-      "rank_gi": 166,
-      "rank_nl": 234,
-      "rank_ne": 115
+      "rank_gi": 170,
+      "rank_nl": 238,
+      "rank_ne": 116
     },
     {
       "model_id": "upstage/solar-pro-3",
@@ -4402,9 +4462,9 @@
       "gi": 3.0,
       "nl": 11,
       "ne": 0.2727,
-      "rank_gi": 166,
-      "rank_nl": 234,
-      "rank_ne": 115
+      "rank_gi": 170,
+      "rank_nl": 238,
+      "rank_ne": 116
     },
     {
       "model_id": "google/gemma-3-4b-it",
@@ -4416,13 +4476,13 @@
       "slugs": [
         "google/gemma-3-4b-it"
       ],
-      "endpoints": 1,
+      "endpoints": 2,
       "gi_raw": "3",
       "gi": 3.0,
       "nl": 10,
       "ne": 0.3,
-      "rank_gi": 166,
-      "rank_nl": 263,
+      "rank_gi": 170,
+      "rank_nl": 269,
       "rank_ne": 100
     },
     {
@@ -4435,13 +4495,13 @@
       "slugs": [
         "minimax/minimax-m3"
       ],
-      "endpoints": 13,
+      "endpoints": 14,
       "gi_raw": "3",
       "gi": 3.0,
       "nl": 10,
       "ne": 0.3,
-      "rank_gi": 166,
-      "rank_nl": 263,
+      "rank_gi": 170,
+      "rank_nl": 269,
       "rank_ne": 100
     },
     {
@@ -4459,8 +4519,8 @@
       "gi": 3.0,
       "nl": 9,
       "ne": 0.3333,
-      "rank_gi": 166,
-      "rank_nl": 277,
+      "rank_gi": 170,
+      "rank_nl": 283,
       "rank_ne": 83
     },
     {
@@ -4478,8 +4538,8 @@
       "gi": 3.0,
       "nl": 9,
       "ne": 0.3333,
-      "rank_gi": 166,
-      "rank_nl": 277,
+      "rank_gi": 170,
+      "rank_nl": 283,
       "rank_ne": 83
     },
     {
@@ -4497,8 +4557,8 @@
       "gi": 3.0,
       "nl": 8,
       "ne": 0.375,
-      "rank_gi": 166,
-      "rank_nl": 291,
+      "rank_gi": 170,
+      "rank_nl": 298,
       "rank_ne": 65
     },
     {
@@ -4512,13 +4572,13 @@
         "moonshotai/kimi-k3",
         "moonshotai/kimi-k3:batch"
       ],
-      "endpoints": 26,
+      "endpoints": 27,
       "gi_raw": "3",
       "gi": 3.0,
       "nl": 7,
       "ne": 0.4286,
-      "rank_gi": 166,
-      "rank_nl": 302,
+      "rank_gi": 170,
+      "rank_nl": 309,
       "rank_ne": 51
     },
     {
@@ -4537,8 +4597,8 @@
       "gi": 3.0,
       "nl": 7,
       "ne": 0.4286,
-      "rank_gi": 166,
-      "rank_nl": 302,
+      "rank_gi": 170,
+      "rank_nl": 309,
       "rank_ne": 51
     },
     {
@@ -4556,8 +4616,8 @@
       "gi": 3.0,
       "nl": 6,
       "ne": 0.5,
-      "rank_gi": 166,
-      "rank_nl": 319,
+      "rank_gi": 170,
+      "rank_nl": 328,
       "rank_ne": 33
     },
     {
@@ -4575,8 +4635,8 @@
       "gi": 3.0,
       "nl": 3,
       "ne": 1.0,
-      "rank_gi": 166,
-      "rank_nl": 329,
+      "rank_gi": 170,
+      "rank_nl": 337,
       "rank_ne": 3
     },
     {
@@ -4595,9 +4655,9 @@
       "gi": 3.0,
       "nl": 2,
       "ne": 1.5,
-      "rank_gi": 166,
-      "rank_nl": 330,
-      "rank_ne": 1
+      "rank_gi": 170,
+      "rank_nl": 338,
+      "rank_ne": 2
     },
     {
       "model_id": "moonshotai/kimi-k2.7-code",
@@ -4609,14 +4669,14 @@
       "slugs": [
         "moonshotai/kimi-k2.7-code"
       ],
-      "endpoints": 12,
+      "endpoints": 13,
       "gi_raw": "2.7",
       "gi": 2.7,
       "nl": 14,
       "ne": 0.1929,
-      "rank_gi": 221,
-      "rank_nl": 146,
-      "rank_ne": 179
+      "rank_gi": 224,
+      "rank_nl": 147,
+      "rank_ne": 181
     },
     {
       "model_id": "minimax/minimax-m2.7",
@@ -4633,9 +4693,9 @@
       "gi": 2.7,
       "nl": 12,
       "ne": 0.225,
-      "rank_gi": 221,
-      "rank_nl": 210,
-      "rank_ne": 149
+      "rank_gi": 224,
+      "rank_nl": 214,
+      "rank_ne": 151
     },
     {
       "model_id": "xiaomi/mimo-v2.6-pro-ultraspeed",
@@ -4652,9 +4712,9 @@
       "gi": 2.6,
       "nl": 24,
       "ne": 0.1083,
-      "rank_gi": 223,
+      "rank_gi": 226,
       "rank_nl": 20,
-      "rank_ne": 266
+      "rank_ne": 270
     },
     {
       "model_id": "xiaomi/mimo-v2.6-flash",
@@ -4671,9 +4731,9 @@
       "gi": 2.6,
       "nl": 15,
       "ne": 0.1733,
-      "rank_gi": 223,
-      "rank_nl": 124,
-      "rank_ne": 199
+      "rank_gi": 226,
+      "rank_nl": 125,
+      "rank_ne": 202
     },
     {
       "model_id": "xiaomi/mimo-v2.6-pro",
@@ -4690,9 +4750,9 @@
       "gi": 2.6,
       "nl": 13,
       "ne": 0.2,
-      "rank_gi": 223,
-      "rank_nl": 174,
-      "rank_ne": 171
+      "rank_gi": 226,
+      "rank_nl": 177,
+      "rank_ne": 173
     },
     {
       "model_id": "moonshotai/kimi-k2.6",
@@ -4709,8 +4769,8 @@
       "gi": 2.6,
       "nl": 9,
       "ne": 0.2889,
-      "rank_gi": 223,
-      "rank_nl": 277,
+      "rank_gi": 226,
+      "rank_nl": 283,
       "rank_ne": 107
     },
     {
@@ -4728,9 +4788,9 @@
       "gi": 2.5,
       "nl": 28,
       "ne": 0.0893,
-      "rank_gi": 227,
+      "rank_gi": 230,
       "rank_nl": 5,
-      "rank_ne": 279
+      "rank_ne": 283
     },
     {
       "model_id": "qwen/qwen-2.5-coder-32b-instruct",
@@ -4747,9 +4807,9 @@
       "gi": 2.5,
       "nl": 26,
       "ne": 0.0962,
-      "rank_gi": 227,
+      "rank_gi": 230,
       "rank_nl": 14,
-      "rank_ne": 276
+      "rank_ne": 280
     },
     {
       "model_id": "qwen/qwen2.5-vl-72b-instruct",
@@ -4766,9 +4826,9 @@
       "gi": 2.5,
       "nl": 23,
       "ne": 0.1087,
-      "rank_gi": 227,
-      "rank_nl": 22,
-      "rank_ne": 265
+      "rank_gi": 230,
+      "rank_nl": 23,
+      "rank_ne": 269
     },
     {
       "model_id": "google/gemini-2.5-flash-lite",
@@ -4786,9 +4846,9 @@
       "gi": 2.5,
       "nl": 21,
       "ne": 0.119,
-      "rank_gi": 227,
-      "rank_nl": 39,
-      "rank_ne": 259
+      "rank_gi": 230,
+      "rank_nl": 40,
+      "rank_ne": 263
     },
     {
       "model_id": "qwen/qwen-2.5-72b-instruct",
@@ -4805,9 +4865,9 @@
       "gi": 2.5,
       "nl": 20,
       "ne": 0.125,
-      "rank_gi": 227,
-      "rank_nl": 54,
-      "rank_ne": 253
+      "rank_gi": 230,
+      "rank_nl": 56,
+      "rank_ne": 257
     },
     {
       "model_id": "qwen/qwen-2.5-7b-instruct",
@@ -4824,9 +4884,9 @@
       "gi": 2.5,
       "nl": 19,
       "ne": 0.1316,
-      "rank_gi": 227,
+      "rank_gi": 230,
       "rank_nl": 65,
-      "rank_ne": 249
+      "rank_ne": 253
     },
     {
       "model_id": "google/gemini-2.5-flash",
@@ -4844,9 +4904,9 @@
       "gi": 2.5,
       "nl": 16,
       "ne": 0.1562,
-      "rank_gi": 227,
-      "rank_nl": 101,
-      "rank_ne": 215
+      "rank_gi": 230,
+      "rank_nl": 102,
+      "rank_ne": 220
     },
     {
       "model_id": "google/gemini-2.5-pro",
@@ -4864,9 +4924,28 @@
       "gi": 2.5,
       "nl": 14,
       "ne": 0.1786,
-      "rank_gi": 227,
-      "rank_nl": 146,
-      "rank_ne": 194
+      "rank_gi": 230,
+      "rank_nl": 147,
+      "rank_ne": 196
+    },
+    {
+      "model_id": "liquid/lfm-2.5-24b-a2b",
+      "display_name": "LiquidAI: LFM2.5-24B-A2B",
+      "canonical_name": "LFM2.5-24B-A2B",
+      "vendor": "LiquidAI",
+      "vendor_slug": "liquid",
+      "released": "2026-10-13",
+      "slugs": [
+        "liquid/lfm-2.5-24b-a2b"
+      ],
+      "endpoints": 1,
+      "gi_raw": "2.5",
+      "gi": 2.5,
+      "nl": 14,
+      "ne": 0.1786,
+      "rank_gi": 230,
+      "rank_nl": 147,
+      "rank_ne": 196
     },
     {
       "model_id": "nex-agi/nex-n2.5-mini",
@@ -4883,9 +4962,9 @@
       "gi": 2.5,
       "nl": 13,
       "ne": 0.1923,
-      "rank_gi": 227,
-      "rank_nl": 174,
-      "rank_ne": 180
+      "rank_gi": 230,
+      "rank_nl": 177,
+      "rank_ne": 182
     },
     {
       "model_id": "xiaomi/mimo-v2.5-pro",
@@ -4902,9 +4981,9 @@
       "gi": 2.5,
       "nl": 13,
       "ne": 0.1923,
-      "rank_gi": 227,
-      "rank_nl": 174,
-      "rank_ne": 180
+      "rank_gi": 230,
+      "rank_nl": 177,
+      "rank_ne": 182
     },
     {
       "model_id": "minimax/minimax-m2.5",
@@ -4921,9 +5000,9 @@
       "gi": 2.5,
       "nl": 12,
       "ne": 0.2083,
-      "rank_gi": 227,
-      "rank_nl": 210,
-      "rank_ne": 166
+      "rank_gi": 230,
+      "rank_nl": 214,
+      "rank_ne": 168
     },
     {
       "model_id": "nex-agi/nex-n2.5-pro",
@@ -4940,9 +5019,9 @@
       "gi": 2.5,
       "nl": 12,
       "ne": 0.2083,
-      "rank_gi": 227,
-      "rank_nl": 210,
-      "rank_ne": 166
+      "rank_gi": 230,
+      "rank_nl": 214,
+      "rank_ne": 168
     },
     {
       "model_id": "inception/mercury-2.5",
@@ -4959,9 +5038,9 @@
       "gi": 2.5,
       "nl": 11,
       "ne": 0.2273,
-      "rank_gi": 227,
-      "rank_nl": 234,
-      "rank_ne": 147
+      "rank_gi": 230,
+      "rank_nl": 238,
+      "rank_ne": 149
     },
     {
       "model_id": "liquid/lfm-2.5-2.6b",
@@ -4978,9 +5057,9 @@
       "gi": 2.5,
       "nl": 11,
       "ne": 0.2273,
-      "rank_gi": 227,
-      "rank_nl": 234,
-      "rank_ne": 147
+      "rank_gi": 230,
+      "rank_nl": 238,
+      "rank_ne": 149
     },
     {
       "model_id": "moonshotai/kimi-k2.5",
@@ -4997,9 +5076,9 @@
       "gi": 2.5,
       "nl": 9,
       "ne": 0.2778,
-      "rank_gi": 227,
-      "rank_nl": 277,
-      "rank_ne": 111
+      "rank_gi": 230,
+      "rank_nl": 283,
+      "rank_ne": 112
     },
     {
       "model_id": "xiaomi/mimo-v2.5",
@@ -5016,9 +5095,9 @@
       "gi": 2.5,
       "nl": 9,
       "ne": 0.2778,
-      "rank_gi": 227,
-      "rank_nl": 277,
-      "rank_ne": 111
+      "rank_gi": 230,
+      "rank_nl": 283,
+      "rank_ne": 112
     },
     {
       "model_id": "bytedance-seed/seed-2-1-turbo",
@@ -5035,9 +5114,9 @@
       "gi": 2.1,
       "nl": 14,
       "ne": 0.15,
-      "rank_gi": 243,
-      "rank_nl": 146,
-      "rank_ne": 225
+      "rank_gi": 247,
+      "rank_nl": 147,
+      "rank_ne": 230
     },
     {
       "model_id": "poolside/laguna-xs-2.1",
@@ -5055,9 +5134,9 @@
       "gi": 2.1,
       "nl": 13,
       "ne": 0.1615,
-      "rank_gi": 243,
-      "rank_nl": 174,
-      "rank_ne": 209
+      "rank_gi": 247,
+      "rank_nl": 177,
+      "rank_ne": 213
     },
     {
       "model_id": "minimax/minimax-m2.1",
@@ -5074,9 +5153,9 @@
       "gi": 2.1,
       "nl": 12,
       "ne": 0.175,
-      "rank_gi": 243,
-      "rank_nl": 210,
-      "rank_ne": 197
+      "rank_gi": 247,
+      "rank_nl": 214,
+      "rank_ne": 200
     },
     {
       "model_id": "poolside/laguna-s-2.1",
@@ -5094,9 +5173,9 @@
       "gi": 2.1,
       "nl": 12,
       "ne": 0.175,
-      "rank_gi": 243,
-      "rank_nl": 210,
-      "rank_ne": 197
+      "rank_gi": 247,
+      "rank_nl": 214,
+      "rank_ne": 200
     },
     {
       "model_id": "prism-ml/ternary-bonsai-2-27b",
@@ -5113,9 +5192,9 @@
       "gi": 2.0,
       "nl": 20,
       "ne": 0.1,
-      "rank_gi": 247,
-      "rank_nl": 54,
-      "rank_ne": 273
+      "rank_gi": 251,
+      "rank_nl": 56,
+      "rank_ne": 277
     },
     {
       "model_id": "inference-net/schematron-v2-small",
@@ -5132,9 +5211,9 @@
       "gi": 2.0,
       "nl": 19,
       "ne": 0.1053,
-      "rank_gi": 247,
+      "rank_gi": 251,
       "rank_nl": 65,
-      "rank_ne": 269
+      "rank_ne": 273
     },
     {
       "model_id": "inference-net/schematron-v2-turbo",
@@ -5151,9 +5230,9 @@
       "gi": 2.0,
       "nl": 19,
       "ne": 0.1053,
-      "rank_gi": 247,
+      "rank_gi": 251,
       "rank_nl": 65,
-      "rank_ne": 269
+      "rank_ne": 273
     },
     {
       "model_id": "microsoft/wizardlm-2-8x22b",
@@ -5170,9 +5249,9 @@
       "gi": 2.0,
       "nl": 16,
       "ne": 0.125,
-      "rank_gi": 247,
-      "rank_nl": 101,
-      "rank_ne": 253
+      "rank_gi": 251,
+      "rank_nl": 102,
+      "rank_ne": 257
     },
     {
       "model_id": "moonshotai/kimi-k2-thinking",
@@ -5189,9 +5268,9 @@
       "gi": 2.0,
       "nl": 16,
       "ne": 0.125,
-      "rank_gi": 247,
-      "rank_nl": 101,
-      "rank_ne": 253
+      "rank_gi": 251,
+      "rank_nl": 102,
+      "rank_ne": 257
     },
     {
       "model_id": "mistralai/devstral-2512",
@@ -5208,9 +5287,9 @@
       "gi": 2.0,
       "nl": 15,
       "ne": 0.1333,
-      "rank_gi": 247,
-      "rank_nl": 124,
-      "rank_ne": 248
+      "rank_gi": 251,
+      "rank_nl": 125,
+      "rank_ne": 252
     },
     {
       "model_id": "minimax/minimax-m2-her",
@@ -5227,9 +5306,9 @@
       "gi": 2.0,
       "nl": 14,
       "ne": 0.1429,
-      "rank_gi": 247,
-      "rank_nl": 146,
-      "rank_ne": 235
+      "rank_gi": 251,
+      "rank_nl": 147,
+      "rank_ne": 239
     },
     {
       "model_id": "tencent/hy-mt2-30b-a3b",
@@ -5246,9 +5325,9 @@
       "gi": 2.0,
       "nl": 14,
       "ne": 0.1429,
-      "rank_gi": 247,
-      "rank_nl": 146,
-      "rank_ne": 235
+      "rank_gi": 251,
+      "rank_nl": 147,
+      "rank_ne": 239
     },
     {
       "model_id": "thedrummer/skyfall-36b-v2",
@@ -5265,9 +5344,9 @@
       "gi": 2.0,
       "nl": 14,
       "ne": 0.1429,
-      "rank_gi": 247,
-      "rank_nl": 146,
-      "rank_ne": 235
+      "rank_gi": 251,
+      "rank_nl": 147,
+      "rank_ne": 239
     },
     {
       "model_id": "bytedance-seed/seed-2.0-code",
@@ -5284,9 +5363,9 @@
       "gi": 2.0,
       "nl": 13,
       "ne": 0.1538,
-      "rank_gi": 247,
-      "rank_nl": 174,
-      "rank_ne": 216
+      "rank_gi": 251,
+      "rank_nl": 177,
+      "rank_ne": 221
     },
     {
       "model_id": "bytedance-seed/seed-2.0-lite",
@@ -5303,9 +5382,9 @@
       "gi": 2.0,
       "nl": 13,
       "ne": 0.1538,
-      "rank_gi": 247,
-      "rank_nl": 174,
-      "rank_ne": 216
+      "rank_gi": 251,
+      "rank_nl": 177,
+      "rank_ne": 221
     },
     {
       "model_id": "bytedance-seed/seed-2.0-mini",
@@ -5322,9 +5401,9 @@
       "gi": 2.0,
       "nl": 13,
       "ne": 0.1538,
-      "rank_gi": 247,
-      "rank_nl": 174,
-      "rank_ne": 216
+      "rank_gi": 251,
+      "rank_nl": 177,
+      "rank_ne": 221
     },
     {
       "model_id": "sakana/fugu-ultra-v2",
@@ -5341,9 +5420,9 @@
       "gi": 2.0,
       "nl": 13,
       "ne": 0.1538,
-      "rank_gi": 247,
-      "rank_nl": 174,
-      "rank_ne": 216
+      "rank_gi": 251,
+      "rank_nl": 177,
+      "rank_ne": 221
     },
     {
       "model_id": "moonshotai/kimi-k2",
@@ -5360,9 +5439,9 @@
       "gi": 2.0,
       "nl": 12,
       "ne": 0.1667,
-      "rank_gi": 247,
-      "rank_nl": 210,
-      "rank_ne": 201
+      "rank_gi": 251,
+      "rank_nl": 214,
+      "rank_ne": 205
     },
     {
       "model_id": "moonshotai/kimi-k2-0905",
@@ -5379,9 +5458,9 @@
       "gi": 2.0,
       "nl": 12,
       "ne": 0.1667,
-      "rank_gi": 247,
-      "rank_nl": 210,
-      "rank_ne": 201
+      "rank_gi": 251,
+      "rank_nl": 214,
+      "rank_ne": 205
     },
     {
       "model_id": "amazon/nova-2-lite-v1",
@@ -5398,9 +5477,9 @@
       "gi": 2.0,
       "nl": 11,
       "ne": 0.1818,
-      "rank_gi": 247,
-      "rank_nl": 234,
-      "rank_ne": 188
+      "rank_gi": 251,
+      "rank_nl": 238,
+      "rank_ne": 190
     },
     {
       "model_id": "google/gemma-2-27b-it",
@@ -5417,9 +5496,9 @@
       "gi": 2.0,
       "nl": 11,
       "ne": 0.1818,
-      "rank_gi": 247,
-      "rank_nl": 234,
-      "rank_ne": 188
+      "rank_gi": 251,
+      "rank_nl": 238,
+      "rank_ne": 190
     },
     {
       "model_id": "meituan/longcat-2.0",
@@ -5436,9 +5515,9 @@
       "gi": 2.0,
       "nl": 11,
       "ne": 0.1818,
-      "rank_gi": 247,
-      "rank_nl": 234,
-      "rank_ne": 188
+      "rank_gi": 251,
+      "rank_nl": 238,
+      "rank_ne": 190
     },
     {
       "model_id": "tencent/hy-mt2-1.8b",
@@ -5455,9 +5534,9 @@
       "gi": 2.0,
       "nl": 11,
       "ne": 0.1818,
-      "rank_gi": 247,
-      "rank_nl": 234,
-      "rank_ne": 188
+      "rank_gi": 251,
+      "rank_nl": 238,
+      "rank_ne": 190
     },
     {
       "model_id": "minimax/minimax-m2",
@@ -5474,9 +5553,9 @@
       "gi": 2.0,
       "nl": 10,
       "ne": 0.2,
-      "rank_gi": 247,
-      "rank_nl": 263,
-      "rank_ne": 171
+      "rank_gi": 251,
+      "rank_nl": 269,
+      "rank_ne": 173
     },
     {
       "model_id": "inception/mercury-2",
@@ -5493,9 +5572,9 @@
       "gi": 2.0,
       "nl": 9,
       "ne": 0.2222,
-      "rank_gi": 247,
-      "rank_nl": 277,
-      "rank_ne": 153
+      "rank_gi": 251,
+      "rank_nl": 283,
+      "rank_ne": 155
     },
     {
       "model_id": "tencent/hy-mt2-7b",
@@ -5512,9 +5591,9 @@
       "gi": 2.0,
       "nl": 9,
       "ne": 0.2222,
-      "rank_gi": 247,
-      "rank_nl": 277,
-      "rank_ne": 153
+      "rank_gi": 251,
+      "rank_nl": 283,
+      "rank_ne": 155
     },
     {
       "model_id": "aion-labs/aion-2.0",
@@ -5531,9 +5610,9 @@
       "gi": 2.0,
       "nl": 8,
       "ne": 0.25,
-      "rank_gi": 247,
-      "rank_nl": 291,
-      "rank_ne": 131
+      "rank_gi": 251,
+      "rank_nl": 298,
+      "rank_ne": 132
     },
     {
       "model_id": "bytedance-seed/seed-1.6-flash",
@@ -5550,9 +5629,9 @@
       "gi": 1.6,
       "nl": 14,
       "ne": 0.1143,
-      "rank_gi": 270,
-      "rank_nl": 146,
-      "rank_ne": 260
+      "rank_gi": 274,
+      "rank_nl": 147,
+      "rank_ne": 264
     },
     {
       "model_id": "bytedance-seed/seed-1.6",
@@ -5569,9 +5648,9 @@
       "gi": 1.6,
       "nl": 8,
       "ne": 0.2,
-      "rank_gi": 270,
-      "rank_nl": 291,
-      "rank_ne": 171
+      "rank_gi": 274,
+      "rank_nl": 298,
+      "rank_ne": 173
     },
     {
       "model_id": "perceptron/perceptron-mk1.5",
@@ -5588,9 +5667,9 @@
       "gi": 1.5,
       "nl": 16,
       "ne": 0.0938,
-      "rank_gi": 272,
-      "rank_nl": 101,
-      "rank_ne": 277
+      "rank_gi": 276,
+      "rank_nl": 102,
+      "rank_ne": 281
     },
     {
       "model_id": "meta/muse-spark-1.3-contributor",
@@ -5607,9 +5686,9 @@
       "gi": 1.3,
       "nl": 26,
       "ne": 0.05,
-      "rank_gi": 273,
+      "rank_gi": 277,
       "rank_nl": 14,
-      "rank_ne": 290
+      "rank_ne": 294
     },
     {
       "model_id": "meta/muse-spark-1.3",
@@ -5626,9 +5705,9 @@
       "gi": 1.3,
       "nl": 14,
       "ne": 0.0929,
-      "rank_gi": 273,
-      "rank_nl": 146,
-      "rank_ne": 278
+      "rank_gi": 277,
+      "rank_nl": 147,
+      "rank_ne": 282
     },
     {
       "model_id": "meta/muse-spark-1.2-contributor",
@@ -5645,9 +5724,9 @@
       "gi": 1.2,
       "nl": 26,
       "ne": 0.0462,
-      "rank_gi": 275,
+      "rank_gi": 279,
       "rank_nl": 14,
-      "rank_ne": 291
+      "rank_ne": 295
     },
     {
       "model_id": "meta/muse-spark-1.2",
@@ -5664,27 +5743,8 @@
       "gi": 1.2,
       "nl": 14,
       "ne": 0.0857,
-      "rank_gi": 275,
-      "rank_nl": 146,
-      "rank_ne": 281
-    },
-    {
-      "model_id": "apodex/apodex-1.1-mini",
-      "display_name": "Apodex: Apodex 1.1 Mini (free)",
-      "canonical_name": "Apodex 1.1 Mini",
-      "vendor": "Apodex",
-      "vendor_slug": "apodex",
-      "released": "2026-10-01",
-      "slugs": [
-        "apodex/apodex-1.1-mini:free"
-      ],
-      "endpoints": 1,
-      "gi_raw": "1.1",
-      "gi": 1.1,
-      "nl": 15,
-      "ne": 0.0733,
-      "rank_gi": 277,
-      "rank_nl": 124,
+      "rank_gi": 279,
+      "rank_nl": 147,
       "rank_ne": 285
     },
     {
@@ -5702,9 +5762,28 @@
       "gi": 1.1,
       "nl": 14,
       "ne": 0.0786,
-      "rank_gi": 277,
-      "rank_nl": 146,
-      "rank_ne": 283
+      "rank_gi": 281,
+      "rank_nl": 147,
+      "rank_ne": 287
+    },
+    {
+      "model_id": "reflection/beam-1.0-501b-a23b",
+      "display_name": "Reflection: Beam 1.0 501B A23B",
+      "canonical_name": "Beam 1.0 501B A23B",
+      "vendor": "Reflection",
+      "vendor_slug": "reflection",
+      "released": "2026-10-16",
+      "slugs": [
+        "reflection/beam-1.0-501b-a23b"
+      ],
+      "endpoints": 4,
+      "gi_raw": "1.0",
+      "gi": 1.0,
+      "nl": 18,
+      "ne": 0.0556,
+      "rank_gi": 282,
+      "rank_nl": 78,
+      "rank_ne": 293
     },
     {
       "model_id": "aion-labs/aion-rp-llama-3.1-8b",
@@ -5721,9 +5800,9 @@
       "gi": 1.0,
       "nl": 16,
       "ne": 0.0625,
-      "rank_gi": 279,
-      "rank_nl": 101,
-      "rank_ne": 288
+      "rank_gi": 282,
+      "rank_nl": 102,
+      "rank_ne": 291
     },
     {
       "model_id": "amazon/nova-premier-v1",
@@ -5740,9 +5819,9 @@
       "gi": 1.0,
       "nl": 16,
       "ne": 0.0625,
-      "rank_gi": 279,
-      "rank_nl": 101,
-      "rank_ne": 288
+      "rank_gi": 282,
+      "rank_nl": 102,
+      "rank_ne": 291
     },
     {
       "model_id": "amazon/nova-micro-v1",
@@ -5759,9 +5838,9 @@
       "gi": 1.0,
       "nl": 14,
       "ne": 0.0714,
-      "rank_gi": 279,
-      "rank_nl": 146,
-      "rank_ne": 286
+      "rank_gi": 282,
+      "rank_nl": 147,
+      "rank_ne": 289
     },
     {
       "model_id": "perceptron/perceptron-mk1",
@@ -5778,9 +5857,9 @@
       "gi": 1.0,
       "nl": 14,
       "ne": 0.0714,
-      "rank_gi": 279,
-      "rank_nl": 146,
-      "rank_ne": 286
+      "rank_gi": 282,
+      "rank_nl": 147,
+      "rank_ne": 289
     },
     {
       "model_id": "amazon/nova-lite-v1",
@@ -5797,9 +5876,9 @@
       "gi": 1.0,
       "nl": 13,
       "ne": 0.0769,
-      "rank_gi": 279,
-      "rank_nl": 174,
-      "rank_ne": 284
+      "rank_gi": 282,
+      "rank_nl": 177,
+      "rank_ne": 288
     },
     {
       "model_id": "amazon/nova-pro-v1",
@@ -5816,9 +5895,9 @@
       "gi": 1.0,
       "nl": 12,
       "ne": 0.0833,
-      "rank_gi": 279,
-      "rank_nl": 210,
-      "rank_ne": 282
+      "rank_gi": 282,
+      "rank_nl": 214,
+      "rank_ne": 286
     },
     {
       "model_id": "minimax/minimax-01",
@@ -5835,9 +5914,9 @@
       "gi": 1.0,
       "nl": 10,
       "ne": 0.1,
-      "rank_gi": 279,
-      "rank_nl": 263,
-      "rank_ne": 273
+      "rank_gi": 282,
+      "rank_nl": 269,
+      "rank_ne": 277
     },
     {
       "model_id": "minimax/minimax-m1",
@@ -5854,9 +5933,9 @@
       "gi": 1.0,
       "nl": 10,
       "ne": 0.1,
-      "rank_gi": 279,
-      "rank_nl": 263,
-      "rank_ne": 273
+      "rank_gi": 282,
+      "rank_nl": 269,
+      "rank_ne": 277
     },
     {
       "model_id": "deepseek/deepseek-r1-0528",
@@ -5873,9 +5952,9 @@
       "gi": 1.0,
       "nl": 7,
       "ne": 0.1429,
-      "rank_gi": 279,
-      "rank_nl": 302,
-      "rank_ne": 235
+      "rank_gi": 282,
+      "rank_nl": 309,
+      "rank_ne": 239
     },
     {
       "model_id": "fireworks/ember-1",
@@ -5892,9 +5971,9 @@
       "gi": 1.0,
       "nl": 7,
       "ne": 0.1429,
-      "rank_gi": 279,
-      "rank_nl": 302,
-      "rank_ne": 235
+      "rank_gi": 282,
+      "rank_nl": 309,
+      "rank_ne": 239
     },
     {
       "model_id": "openai/o1-pro",
@@ -5911,9 +5990,9 @@
       "gi": 1.0,
       "nl": 6,
       "ne": 0.1667,
-      "rank_gi": 279,
-      "rank_nl": 319,
-      "rank_ne": 201
+      "rank_gi": 282,
+      "rank_nl": 328,
+      "rank_ne": 205
     },
     {
       "model_id": "deepseek/deepseek-r1",
@@ -5930,8 +6009,8 @@
       "gi": 1.0,
       "nl": 2,
       "ne": 0.5,
-      "rank_gi": 279,
-      "rank_nl": 330,
+      "rank_gi": 282,
+      "rank_nl": 338,
       "rank_ne": 33
     },
     {
@@ -5949,8 +6028,8 @@
       "gi": 1.0,
       "nl": 2,
       "ne": 0.5,
-      "rank_gi": 279,
-      "rank_nl": 330,
+      "rank_gi": 282,
+      "rank_nl": 338,
       "rank_ne": 33
     },
     {
@@ -5968,9 +6047,9 @@
       "gi": 0.1,
       "nl": 14,
       "ne": 0.0071,
-      "rank_gi": 292,
-      "rank_nl": 146,
-      "rank_ne": 292
+      "rank_gi": 296,
+      "rank_nl": 147,
+      "rank_ne": 296
     },
     {
       "model_id": "arcee-ai/trinity-large-thinking",
@@ -5988,7 +6067,7 @@
       "nl": 22,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 26,
+      "rank_nl": 27,
       "rank_ne": null
     },
     {
@@ -6007,7 +6086,7 @@
       "nl": 22,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 26,
+      "rank_nl": 27,
       "rank_ne": null
     },
     {
@@ -6026,7 +6105,7 @@
       "nl": 22,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 26,
+      "rank_nl": 27,
       "rank_ne": null
     },
     {
@@ -6045,7 +6124,7 @@
       "nl": 21,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 39,
+      "rank_nl": 40,
       "rank_ne": null
     },
     {
@@ -6064,7 +6143,7 @@
       "nl": 21,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 39,
+      "rank_nl": 40,
       "rank_ne": null
     },
     {
@@ -6083,7 +6162,7 @@
       "nl": 21,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 39,
+      "rank_nl": 40,
       "rank_ne": null
     },
     {
@@ -6102,7 +6181,7 @@
       "nl": 20,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 54,
+      "rank_nl": 56,
       "rank_ne": null
     },
     {
@@ -6178,7 +6257,7 @@
       "nl": 18,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 77,
+      "rank_nl": 78,
       "rank_ne": null
     },
     {
@@ -6191,13 +6270,13 @@
       "slugs": [
         "meta/muse-glimmer-30b"
       ],
-      "endpoints": 3,
+      "endpoints": 2,
       "gi_raw": null,
       "gi": null,
       "nl": 16,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 101,
+      "rank_nl": 102,
       "rank_ne": null
     },
     {
@@ -6216,7 +6295,7 @@
       "nl": 16,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 101,
+      "rank_nl": 102,
       "rank_ne": null
     },
     {
@@ -6235,7 +6314,26 @@
       "nl": 15,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 124,
+      "rank_nl": 125,
+      "rank_ne": null
+    },
+    {
+      "model_id": "meta/muse-spark-open",
+      "display_name": "Meta: Muse Spark Open",
+      "canonical_name": "Muse Spark Open",
+      "vendor": "Meta",
+      "vendor_slug": "meta",
+      "released": "2026-10-15",
+      "slugs": [
+        "meta/muse-spark-open"
+      ],
+      "endpoints": 5,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 15,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 125,
       "rank_ne": null
     },
     {
@@ -6254,7 +6352,7 @@
       "nl": 15,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 124,
+      "rank_nl": 125,
       "rank_ne": null
     },
     {
@@ -6273,7 +6371,7 @@
       "nl": 14,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": null
     },
     {
@@ -6293,7 +6391,7 @@
       "nl": 14,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": null
     },
     {
@@ -6312,7 +6410,7 @@
       "nl": 14,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": null
     },
     {
@@ -6331,7 +6429,7 @@
       "nl": 14,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 146,
+      "rank_nl": 147,
       "rank_ne": null
     },
     {
@@ -6350,7 +6448,7 @@
       "nl": 13,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": null
     },
     {
@@ -6369,7 +6467,7 @@
       "nl": 13,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": null
     },
     {
@@ -6388,7 +6486,7 @@
       "nl": 13,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": null
     },
     {
@@ -6408,7 +6506,7 @@
       "nl": 13,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 174,
+      "rank_nl": 177,
       "rank_ne": null
     },
     {
@@ -6427,7 +6525,7 @@
       "nl": 12,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": null
     },
     {
@@ -6446,7 +6544,7 @@
       "nl": 12,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 210,
+      "rank_nl": 214,
       "rank_ne": null
     },
     {
@@ -6466,7 +6564,26 @@
       "nl": 12,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 210,
+      "rank_nl": 214,
+      "rank_ne": null
+    },
+    {
+      "model_id": "meta/muse-wonder",
+      "display_name": "Meta: Muse Wonder",
+      "canonical_name": "Muse Wonder",
+      "vendor": "Meta",
+      "vendor_slug": "meta",
+      "released": "2026-10-12",
+      "slugs": [
+        "meta/muse-wonder"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 11,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 238,
       "rank_ne": null
     },
     {
@@ -6486,7 +6603,7 @@
       "nl": 11,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 234,
+      "rank_nl": 238,
       "rank_ne": null
     },
     {
@@ -6505,7 +6622,7 @@
       "nl": 10,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 263,
+      "rank_nl": 269,
       "rank_ne": null
     },
     {
@@ -6524,7 +6641,7 @@
       "nl": 10,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 263,
+      "rank_nl": 269,
       "rank_ne": null
     },
     {
@@ -6543,7 +6660,7 @@
       "nl": 10,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 263,
+      "rank_nl": 269,
       "rank_ne": null
     },
     {
@@ -6562,7 +6679,7 @@
       "nl": 10,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 263,
+      "rank_nl": 269,
       "rank_ne": null
     },
     {
@@ -6581,7 +6698,7 @@
       "nl": 9,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 277,
+      "rank_nl": 283,
       "rank_ne": null
     },
     {
@@ -6600,7 +6717,7 @@
       "nl": 9,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 277,
+      "rank_nl": 283,
       "rank_ne": null
     },
     {
@@ -6619,7 +6736,7 @@
       "nl": 9,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 277,
+      "rank_nl": 283,
       "rank_ne": null
     },
     {
@@ -6638,7 +6755,26 @@
       "nl": 9,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 277,
+      "rank_nl": 283,
+      "rank_ne": null
+    },
+    {
+      "model_id": "scaledown/summarize",
+      "display_name": "ScaleDown: Summarize",
+      "canonical_name": "Summarize",
+      "vendor": "ScaleDown",
+      "vendor_slug": "scaledown",
+      "released": "2026-10-13",
+      "slugs": [
+        "scaledown/summarize"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 9,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 283,
       "rank_ne": null
     },
     {
@@ -6657,7 +6793,45 @@
       "nl": 8,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 291,
+      "rank_nl": 298,
+      "rank_ne": null
+    },
+    {
+      "model_id": "elorian/glimpse",
+      "display_name": "Elorian: Glimpse",
+      "canonical_name": "Glimpse",
+      "vendor": "Elorian",
+      "vendor_slug": "elorian",
+      "released": "2026-10-17",
+      "slugs": [
+        "elorian/glimpse"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 7,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 309,
+      "rank_ne": null
+    },
+    {
+      "model_id": "scaledown/extract",
+      "display_name": "ScaleDown: Extract",
+      "canonical_name": "Extract",
+      "vendor": "ScaleDown",
+      "vendor_slug": "scaledown",
+      "released": "2026-10-13",
+      "slugs": [
+        "scaledown/extract"
+      ],
+      "endpoints": 1,
+      "gi_raw": null,
+      "gi": null,
+      "nl": 7,
+      "ne": null,
+      "rank_gi": null,
+      "rank_nl": 309,
       "rank_ne": null
     },
     {
@@ -6677,26 +6851,7 @@
       "nl": 7,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 302,
-      "rank_ne": null
-    },
-    {
-      "model_id": "unbiased/pareto",
-      "display_name": "Pareto",
-      "canonical_name": "Pareto",
-      "vendor": "unbiased",
-      "vendor_slug": "unbiased",
-      "released": "2026-09-17",
-      "slugs": [
-        "unbiased/pareto"
-      ],
-      "endpoints": 1,
-      "gi_raw": null,
-      "gi": null,
-      "nl": 6,
-      "ne": null,
-      "rank_gi": null,
-      "rank_nl": 319,
+      "rank_nl": 309,
       "rank_ne": null
     },
     {
@@ -6715,7 +6870,7 @@
       "nl": 5,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 323,
+      "rank_nl": 331,
       "rank_ne": null
     },
     {
@@ -6734,7 +6889,7 @@
       "nl": 4,
       "ne": null,
       "rank_gi": null,
-      "rank_nl": 328,
+      "rank_nl": 336,
       "rank_ne": null
     }
   ]

@@ -37,13 +37,13 @@ leaderboard below is regenerated on each evaluation run, and every run is archiv
 ## Leaderboard
 
 <!-- BENCHMAXX:BEGIN -->
-**Snapshot: 2026-10-10** · **332** callable text models evaluated (292 GI-qualified) · Industry Generational Velocity **+0.45 generations/year**
+**Snapshot: 2026-10-17** · **340** callable text models evaluated (296 GI-qualified) · Industry Generational Velocity **+0.45 generations/year**
 
 #### Track A: Generation Index (GI), Top 10
 
 | Rank | Model | Vendor | GI | NL |
 | --: | :-- | :-- | --: | --: |
-| 🥇 1 | Pareto 26.10 Preview | unbiased | `26.10` | 20 |
+| 🥇 1 | Pareto 26.9 | unbiased | `26.9` | 11 |
 | 🥈 2 | GPT-6.1 Sol | OpenAI | `6.1` | 11 |
 | 🥈 2 | GPT-6.1 Sol Pro | OpenAI | `6.1` | 15 |
 | 4 | GPT-6 Astra | OpenAI | `6` | 11 |
